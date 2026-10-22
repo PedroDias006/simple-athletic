@@ -1,38 +1,14 @@
 # Relatório do bot de promoções
 
-Execução: 22/10/2026, 15:09:15 (horário de Brasília)
+Execução: 22/10/2026, 17:11:22 (horário de Brasília)
 
-**Medido nesta execução:** 71 ofertas ativas no site · 23 novas publicadas · 0 retiradas · 0 rejeitadas · 0 em observação · 71 produtos com histórico de preço.
+**Medido nesta execução:** 67 ofertas ativas no site · 0 novas publicadas · 0 retiradas · 0 rejeitadas · 0 em observação · 71 produtos com histórico de preço.
 
 Lojas ligadas: Mercado Livre.
 
 ## Publicadas agora
 
-| Nota | Confiança | Desconto | Produto | Preço |
-| --- | --- | --- | --- | --- |
-| 96 | 32% | anunciado | Mochila Notebook Ntesx Grande Expansível Mochila Masculina, Mochila Viagem Empresarial. Id | R$ 112,68 (de R$ 238,08) |
-| 92 | 32% | anunciado | Luva Boxe Muay Thai Tradicional 12oz Vermelho Fheras 000669 | R$ 152,12 (de R$ 239,90) |
-| 91 | 42% | anunciado | Meião Futebol Esporte Profissional Antiderrapante Algodão Branco Único | R$ 19,42 (de R$ 38,99) |
-| 91 | 42% | anunciado | Prende Camisa Masculina Edi Saraiva Segura Camisa Modeladora Preto Lisa | R$ 34,74 (de R$ 93,90) |
-| 91 | 42% | anunciado | Conjunto Feminino Blusa Manga Longa E Calça Conforto Casual Cor Preto | R$ 75,34 (de R$ 129,90) |
-| 91 | 32% | anunciado | Luva Boxe Pretorian Elite Alta Proteção Punho 10oz Prata | R$ 216,00 (de R$ 338,60) |
-| 91 | 42% | anunciado | Cinta Lombar Reforçada Suspensório Ergonômica Tamanho M | R$ 34,99 (de R$ 69,00) |
-| 91 | 42% | anunciado | Bola Vôlei Colorida Praia Quadra Volei | R$ 26,99 (de R$ 49,99) |
-| 91 | 42% | anunciado | Conjunto Camiseta adidas Disney Minnie Mouse adidas Cinza / Light Grey Heather / Semi Ice  | R$ 199,99 (de R$ 299,99) |
-| 89 | 32% | anunciado | Bola Beach Tennis Profissional Odissey 24 Unidades Amarelo e Rosa | R$ 197,90 (de R$ 299,90) |
-| 88 | 42% | anunciado | Meião Futebol Penalty Antiderrapante Adulto Profissional Cor Azul | R$ 39,51 (de R$ 61,28) |
-| 88 | 42% | anunciado | Garrafa Inox TéRmica Preto Fosco Vingadores 500ml Marvel Garrafa Termica Agua Garrafa Term | R$ 139,90 (de R$ 199,90) |
-| 86 | 42% | anunciado | Short Saia Fitness Ausare Feminino Azul P para Treino com Proteção UV50+ | R$ 142,17 (de R$ 195,98) |
-| 85 | 42% | anunciado | Conjunto Agasalho São Paulo Masculino Branco/preto/vermelho M | R$ 552,76 (de R$ 789,67) |
-| 83 | 42% | anunciado | Short Fitness Ausare Feminino com Bolsos para Treino e Corrida | R$ 229,24 (de R$ 300,00) |
-| 81 | 42% | anunciado | Moldura Caixa 70x90 Camisa Time Formatura Fundo Preto Vidro Cor Branco Lisa | R$ 535,66 (de R$ 714,20) |
-| 80 | 42% | anunciado | Conjunto Bebê Bata Calça Legging Ursinho Rosa Kukiê Rosa 1 | R$ 135,76 (de R$ 169,70) |
-| 73 | 32% | anunciado | Bola Volei Penalty 8.1 Pro Amarelo | R$ 454,00 (de R$ 599,99) |
-| 71 | 32% | anunciado | Bola Beach Tennis Profissional Odissey 120 Unidades Verde e Rosa | R$ 969,00 (de R$ 1249,00) |
-| 71 | 32% | anunciado | Luva Boxe Muay Thai Classic Black Maximum 12oz Branco | R$ 279,00 (de R$ 340,80) |
-| 70 | 32% | anunciado | munhequeira Ortopédica hx7621 | R$ 37,81 (de R$ 49,75) |
-| 69 | 32% | anunciado | Creatina Mastigavel 90 Pastilhas Sabor Framboesa Creatina Monohidratada | R$ 89,88 (de R$ 107,00) |
-| 65 | 32% | anunciado | Calçador De Meia De Compressão - Mordomo Udine | R$ 64,63 (de R$ 79,80) |
+Nenhuma.
 
 ## Retiradas do site
 
@@ -44,7 +20,113 @@ Nenhuma.
 
 ## Avisos
 
-Nenhum.
+- mercadolivre-p-MLB24737159: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB65929215: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB38809230: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB63620484: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB53893436: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB63866299: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB74440959: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB42928527: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB55444089: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB74330834: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB27988959: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB75825544: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB27390862: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB74861463: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB64424896: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB27171215: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB59371906: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB53594370: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB66837490: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB26788729: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB70057378: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB26677480: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB75357913: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB24782874: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB65579463: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB54635062: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB54539806: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB61681071: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB72736650: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB68988061: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB69351916: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB63556327: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB45584710: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB70446408: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB35668450: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB67203405: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB56072009: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB74667713: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB73416971: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB80596492: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB65098417: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB38805704: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB23825582: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB64401170: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB26142223: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB52697558: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB75027133: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB27711549: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB69092832: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB56105169: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB38430885: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB45626470: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB75075802: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB62970218: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB68314061: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB77813496: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB73220829: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB70318638: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB65327867: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB72990858: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB57559989: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB72987042: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB73082199: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB26373963: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB63760807: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB74089235: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- mercadolivre-p-MLB64404879: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
+- Mercado Livre, busca "chuteira campo": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camisa de time feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "caneleira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "short feminino corrida": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "jaqueta corta vento feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "short masculino corrida": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "jaqueta corta vento masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "relógio gps": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "raquete de padel": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "saia de tênis feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "legging com bolso": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "top nadador": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "blusa cropped academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "blusa manga longa feminina academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bermuda ciclista feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "conjunto fitness feminino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camiseta dry fit masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camisa de compressão masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bermuda academia masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "calça de compressão masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bolsa academia feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "halter": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tapete yoga": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "pré-treino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "munhequeira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bolsa de gelo": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "pistola massageadora": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "calça jogger feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "blusa de frio feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "calça moletom masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "agasalho esportivo masculino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camisa polo esportiva": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "legging adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camiseta nike dri-fit": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camiseta puma": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bermuda olympikus": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "short mizuno": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis casual feminino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "boné": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bola de basquete": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
 
 ## Limitações conhecidas
 
