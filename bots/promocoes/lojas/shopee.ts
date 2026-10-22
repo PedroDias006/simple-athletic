@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 import type { CategorySlug } from "../../../src/types/product";
-import { termosDe } from "../categorias";
+import { termosDaRodada, termosDe } from "../categorias";
 import { aviso, buscarJson, DESCONTO_MINIMO, type AdaptadorLoja, type Oferta, type Verificacao } from "../tipos";
 
 /**
@@ -73,7 +73,7 @@ export const shopee: AdaptadorLoja = {
 
   async buscarOfertas(categoria) {
     const ofertas: Oferta[] = [];
-    for (const termo of termosDe(categoria)) {
+    for (const termo of termosDaRodada(termosDe(categoria))) {
       try {
         // sortType 2 = mais vendidos
         const d = await graphql<{ productOfferV2: { nodes: NoShopee[] } }>(

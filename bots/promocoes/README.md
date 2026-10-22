@@ -27,8 +27,9 @@ o que é proibido pelos termos das lojas e pode cancelar sua conta de afiliado.
 | --- | --- | --- |
 | Mercado Livre | API oficial do Mercado Livre | **Pronto.** Só falta você criar as chaves. |
 | Amazon | Creators API (substituta da PA-API 5.0) | Pronto, mas não testado: a Amazon só libera a API após 10 vendas em 30 dias. |
-| Shopee | API do Shopee Afiliados | Pronto, mas não testado. |
-| Netshoes, Centauro, Decathlon, Magalu | Redes Awin / Lomadee | Esqueleto: liga com as chaves, mas ainda não busca nada. Implementamos depois que você for aprovado. |
+| Shopee | API do Shopee Afiliados (GraphQL) | Pronto, mas não testado com chaves reais. |
+| Netshoes, Centauro, Decathlon | Feeds de produtos da Awin | Pronto (testado com feed de exemplo). Liga com `AWIN_FEED_API_KEY` e só lê lojas em que você foi aprovado. |
+| Magalu e outras | Lomadee | Esqueleto: ainda não busca nada. |
 
 Cada loja só liga quando as chaves dela existem. Sem chaves, ela é ignorada e o bot avisa no log.
 
@@ -85,24 +86,36 @@ Busca de anúncios, `/items`, avaliações e estoque ficam bloqueados; o bot tra
 - Até lá, o site mostra só **links de busca** da Amazon com a sua tag (sem preço). **Não** copie preços da Amazon
   "na mão" ou por robô lendo a página: o contrato de associados só permite preços vindos da API.
 
-### 3. Shopee Afiliados
+### 3. Shopee Afiliados (bom para roupas: catálogo enorme e aceita pessoa física)
 
-1. Cadastre-se em <https://affiliate.shopee.com.br> com sua conta Shopee.
-2. Depois de aprovado, procure **Open API** no painel e peça acesso.
-3. Você recebe um **AppID** (`SHOPEE_APP_ID`) e um **Secret** (`SHOPEE_APP_SECRET`).
+1. Cadastre-se em <https://affiliate.shopee.com.br> com a sua conta Shopee (CPF serve). Informe o site
+   `https://simpleathletic.com.br` e as redes sociais onde vai divulgar.
+2. Depois de aprovado, no painel de afiliados procure **Open API** e peça acesso (a Shopee analisa o pedido).
+3. Liberado, a tela mostra um **AppID** (`SHOPEE_APP_ID`) e uma **Secret** (`SHOPEE_APP_SECRET`). Coloque os dois nos
+   GitHub Secrets. O adaptador (`lojas/shopee.ts`) busca por palavra-chave e usa o `offerLink` (já com a sua comissão).
+4. A Shopee só informa o preço atual e o % de desconto; o bot calcula o preço "de" a partir deles.
 
-### 4. Netshoes, Centauro, Decathlon e Magalu (redes de afiliados)
+### 4. Netshoes e Centauro (rede Awin)
 
-Essas lojas não têm programa próprio aberto ao público: elas ficam dentro de **redes de afiliados**.
-Você se cadastra na rede e depois pede para participar do programa de cada loja.
+Netshoes, Centauro e Decathlon não têm programa próprio aberto: ficam na rede de afiliados **Awin**.
+Você se cadastra na Awin e depois pede para participar do programa de cada loja.
 
-- **Awin** — <https://www.awin.com/br>. Cadastre-se como **publisher** (afiliado). Pode haver um pequeno depósito, que costuma voltar depois.
-  Depois procure as lojas em **Anunciantes > Ingressar em programas**.
-  Chaves: **Publisher ID** (`AWIN_PUBLISHER_ID`, no canto da tela) e **token da API** (`AWIN_API_TOKEN`, em <https://ui.awin.com/awin-api>).
-- **Lomadee** — <https://www.lomadee.com>. Cadastro grátis. Chaves: **App Token** (`LOMADEE_APP_TOKEN`) e **Source ID** (`LOMADEE_SOURCE_ID`), na área de ferramentas/API.
+1. Cadastre-se em <https://www.awin.com/br> como **publisher** (afiliado), informando o site. A Awin pode cobrar um
+   pequeno depósito de cadastro, que volta junto com o primeiro pagamento de comissão.
+2. No painel, vá em **Anunciantes → Ingressar em programas**, procure **Netshoes**, **Centauro** e **Decathlon** e
+   peça para participar de cada um. Cada loja aprova (ou não) separadamente.
+3. **Atenção:** a página da Centauro na Awin diz que **não aceita afiliado pessoa física**. Para ela, você
+   vai precisar de um CNPJ (um MEI resolve). Confira as regras atuais de cada programa antes de pedir.
+4. Depois de aprovado em pelo menos uma loja, vá em **Toolbox → Create-a-Feed** (ou **Feeds de produtos**) e copie a
+   **chave de API de feeds** que aparece nos links de download. Ela é diferente do token da API do publisher.
+   Coloque nos GitHub Secrets como `AWIN_FEED_API_KEY`.
+5. Pronto: o bot (`lojas/awin.ts`) lê o feed de produtos oficial de cada loja em que você foi aprovado, procura os
+   mesmos termos (legging, camiseta dry fit, tênis...) e só publica o que tem preço "de" e desconto real.
+   O link usado é o `aw_deep_link`, que já leva a sua comissão. Lojas não aprovadas aparecem só como aviso no relatório.
+
+- **Lomadee** — <https://www.lomadee.com>. Outra rede brasileira; o adaptador (`lojas/redes.ts`) ainda é um esqueleto.
 
 Quais lojas estão em cada rede muda com o tempo. Olhe no painel da rede antes de escolher.
-Quando for aprovado em alguma loja, o adaptador (`bots/promocoes/lojas/redes.ts`) precisa ser terminado.
 
 ---
 
@@ -122,7 +135,7 @@ Quando for aprovado em alguma loja, o adaptador (`bots/promocoes/lojas/redes.ts`
 | `AMAZON_PARTNER_TAG` | Opcional: troca a tag padrão `simpleathleti-20` |
 | `AMAZON_CLIENT_ID` / `AMAZON_CLIENT_SECRET` | Creators API da Amazon (após 10 vendas em 30 dias) |
 | `SHOPEE_APP_ID` / `SHOPEE_APP_SECRET` | Open API do Shopee Afiliados |
-| `AWIN_API_TOKEN` / `AWIN_PUBLISHER_ID` | Awin |
+| `AWIN_FEED_API_KEY` | Chave de feeds de produtos da Awin (Netshoes, Centauro, Decathlon) |
 | `LOMADEE_APP_TOKEN` / `LOMADEE_SOURCE_ID` | Lomadee |
 
 Só preencha as que você já tem. As outras lojas ficam desligadas.
@@ -175,7 +188,7 @@ npm run dev
 - `index.ts` — o "cérebro": rechecagem, regras de desconto, limite de 200, limpeza e gravação.
 - `categorias.ts` — o que buscar em cada categoria do site.
 - `tipos.ts` — a interface comum das lojas (`buscarOfertas` e `verificarOferta`) e funções de apoio.
-- `lojas/mercadolivre.ts`, `lojas/amazon.ts`, `lojas/shopee.ts`, `lojas/redes.ts` — um adaptador por loja.
+- `lojas/mercadolivre.ts`, `lojas/amazon.ts`, `lojas/shopee.ts`, `lojas/awin.ts`, `lojas/redes.ts` — um adaptador por loja ou rede.
 
 Para adicionar uma loja nova: crie um arquivo em `lojas/` seguindo a interface `AdaptadorLoja` e coloque-o na lista
 `TODOS_ADAPTADORES` em `index.ts`. O formato de `products.json` (tipo `Product` em `src/types/product.ts`) não deve mudar.

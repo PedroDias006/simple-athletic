@@ -40,8 +40,8 @@ jobs:
           AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG || 'simpleathleti-20' }}
           SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
           SHOPEE_APP_SECRET: ${{ secrets.SHOPEE_APP_SECRET }}
-          AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}
-          AWIN_PUBLISHER_ID: ${{ secrets.AWIN_PUBLISHER_ID }}
+          # Awin (Netshoes, Centauro, Decathlon): chave de feeds de produtos, em Toolbox > Create-a-Feed.
+          AWIN_FEED_API_KEY: ${{ secrets.AWIN_FEED_API_KEY }}
           LOMADEE_APP_TOKEN: ${{ secrets.LOMADEE_APP_TOKEN }}
           LOMADEE_SOURCE_ID: ${{ secrets.LOMADEE_SOURCE_ID }}
 
