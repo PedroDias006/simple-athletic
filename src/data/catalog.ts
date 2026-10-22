@@ -122,8 +122,8 @@ export const topicsMasc: Topic[] = [
 /** Textos da home em cada modo. */
 export const homeCopy = {
   todos: { title: "Preço de atleta", text: "Descontos reais em tênis, chuteiras, suplementos e equipamentos, garimpados de hora em hora nas lojas que você já conhece.", heroAlt: "Atleta correndo na pista" },
-  feminino: { title: "Feito pra ela", text: "Leggings, tops, croppeds, tênis e acessórios femininos com desconto real, garimpados de hora em hora nas lojas que você já conhece.", heroAlt: "Mulher treinando em um tapete de yoga" },
-  masculino: { title: "Feito pra ele", text: "Camisetas, bermudas, compressão, tênis e equipamentos masculinos com desconto real, garimpados de hora em hora.", heroAlt: "Homem treinando com barra na academia" },
+  feminino: { title: "Feito pra ela", text: "Leggings, tops, croppeds, tênis e acessórios femininos, com as promoções primeiro, nas lojas que você já conhece.", heroAlt: "Mulher treinando em um tapete de yoga" },
+  masculino: { title: "Feito pra ele", text: "Camisetas, bermudas, compressão, chuteiras, tênis e equipamentos masculinos, com as promoções primeiro.", heroAlt: "Homem treinando com barra na academia" },
 } as const;
 
 /** Faixas de preço usadas na home e no filtro de /ofertas (?preco=). */

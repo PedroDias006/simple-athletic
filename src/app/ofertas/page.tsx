@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Container from "@/components/layout/Container";
-import { EmptyState, FilterGroup, ListingLayout, PageHeader, ProductGrid } from "@/components/ui/Sections";
+import { EmptyState, FilterGroup, ListingLayout, LoadMore, PageHeader, paginaAtual, POR_PAGINA, ProductGrid } from "@/components/ui/Sections";
 import { priceRanges, stores, type PriceRangeSlug } from "@/data/catalog";
 import { getMode } from "@/lib/mode";
-import { getActiveProducts, sortByDiscount } from "@/lib/products";
+import { discountOf, getActiveProducts, sortByDiscount } from "@/lib/products";
 import type { StoreId } from "@/types/product";
 
 export const metadata: Metadata = { title: "Todas as ofertas", description: "Todas as promoções esportivas ativas, atualizadas o dia todo." };
@@ -16,7 +16,7 @@ const orders = {
 } as const;
 type Order = keyof typeof orders;
 
-type Params = { ordem?: string; loja?: string; preco?: string; frete?: string; cupom?: string };
+type Params = { ordem?: string; loja?: string; preco?: string; frete?: string; cupom?: string; pagina?: string };
 type Props = { searchParams: Promise<Params> };
 
 export default async function OffersPage({ searchParams }: Props) {
@@ -28,7 +28,8 @@ export default async function OffersPage({ searchParams }: Props) {
   const withCoupon = sp.cupom === "1";
 
   const mode = await getMode();
-  let list = getActiveProducts(mode);
+  // Esta página é só de promoções; o catálogo completo fica nos departamentos.
+  let list = getActiveProducts(mode).filter((p) => discountOf(p) > 0);
   if (store) list = list.filter((p) => p.store === store);
   if (range) list = list.filter((p) => p.price >= range.min && p.price <= range.max);
   if (freeShipping) list = list.filter((p) => p.freeShipping);
@@ -38,9 +39,12 @@ export default async function OffersPage({ searchParams }: Props) {
   if (order === "maior") list = [...list].sort((a, b) => b.price - a.price);
   if (order === "expira") list = [...list].sort((a, b) => (a.expiresAt ? Date.parse(a.expiresAt) : Infinity) - (b.expiresAt ? Date.parse(b.expiresAt) : Infinity));
 
+  const page = paginaAtual(sp.pagina);
+  const shown = Math.min(list.length, page * POR_PAGINA);
+
   /** Monta o link mantendo os filtros atuais; null remove o filtro. */
   const href = (next: { [K in keyof Params]?: string | null }) => {
-    const current: Params = { ordem: order === "desconto" ? undefined : order, loja: store, preco: range?.slug, frete: freeShipping ? "1" : undefined, cupom: withCoupon ? "1" : undefined };
+    const current: Params = { ordem: order === "desconto" ? undefined : order, loja: store, preco: range?.slug, frete: freeShipping ? "1" : undefined, cupom: withCoupon ? "1" : undefined, pagina: undefined };
     const q = new URLSearchParams();
     for (const key of Object.keys(current) as (keyof Params)[]) {
       const v = key in next ? next[key] : current[key];
@@ -84,7 +88,10 @@ export default async function OffersPage({ searchParams }: Props) {
         }
       >
         {list.length ? (
-          <ProductGrid products={list} />
+          <>
+            <ProductGrid products={list.slice(0, shown)} />
+            <LoadMore shown={shown} total={list.length} href={href({ pagina: String(page + 1) })} />
+          </>
         ) : (
           <EmptyState title="Nenhuma oferta com esses filtros">Tente tirar um filtro ou escolher outra faixa de preço.</EmptyState>
         )}

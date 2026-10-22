@@ -48,38 +48,64 @@ const marcas = [
 
 const termosPorCategoria: Record<CategorySlug, string[]> = {
   futebol: [
-    "chuteira society", "chuteira futsal", "chuteira campo", "bola de futebol", "camisa de time", "camisa de time feminina",
-    "calção de futebol", "meião de futebol", "caneleira", "luva de goleiro",
+    // chuteiras: tipo de campo x marca
+    "chuteira society", "chuteira futsal", "chuteira campo", "chuteira society nike", "chuteira society adidas",
+    "chuteira society puma", "chuteira society umbro", "chuteira society penalty", "chuteira society mizuno",
+    "chuteira futsal nike", "chuteira futsal adidas", "chuteira futsal umbro", "chuteira futsal penalty", "chuteira futsal joma",
+    "chuteira campo nike", "chuteira campo adidas", "chuteira campo puma", "chuteira campo mizuno", "chuteira campo umbro",
+    "chuteira mercurial", "chuteira phantom", "chuteira predator", "chuteira feminina",
+    // bolas, roupas e acessórios
+    "bola de futebol", "bola futsal", "bola society", "bola de futebol nike", "bola de futebol adidas", "bola de futebol penalty",
+    "camisa de time", "camisa de time feminina", "camisa seleção brasileira", "calção de futebol", "meião de futebol",
+    "caneleira", "luva de goleiro", "bolsa para chuteira",
   ],
   corrida: [
-    // calçados
-    "tênis feminino corrida", "tênis masculino corrida",
+    // tênis de corrida: gênero x marca
+    "tênis feminino corrida", "tênis masculino corrida", "tênis de corrida nike", "tênis de corrida adidas",
+    "tênis de corrida asics", "tênis de corrida mizuno", "tênis de corrida olympikus", "tênis de corrida fila",
+    "tênis de corrida new balance", "tênis de corrida under armour", "tênis de corrida puma", "tênis de corrida hoka",
+    "tênis de corrida saucony", "tênis de corrida brooks", "tênis de corrida diadora", "tênis de corrida kalenji",
+    "tênis nike pegasus", "tênis asics gel", "tênis mizuno wave", "tênis olympikus corre", "tênis adidas ultraboost",
+    "tênis de caminhada feminino", "tênis de caminhada masculino", "tênis trail running",
     // roupas
-    ...femininoCorrida, ...masculinoCorrida, "meia esportiva cano curto",
+    ...femininoCorrida, ...masculinoCorrida, "meia esportiva cano curto", "meia de corrida",
     // acessórios
-    "relógio gps", "cinto de hidratação", "viseira corrida",
+    "relógio gps", "relógio garmin", "smartwatch esportivo", "cinto de hidratação", "pochete de corrida",
+    "braçadeira celular corrida", "viseira corrida", "boné de corrida", "óculos de sol esportivo", "garrafa squeeze",
   ],
-  raquetes: ["raquete de tênis", "raquete de beach tennis", "raquete de padel", "bola de beach tennis", "bola de tênis", "saia de tênis feminina"],
+  raquetes: [
+    "raquete de tênis", "raquete de tênis wilson", "raquete de tênis babolat", "raquete de tênis head",
+    "raquete de beach tennis", "raquete beach tennis drop shot", "raquete beach tennis heroes", "raquete beach tennis camewin",
+    "raquete de padel", "raquete de tênis de mesa", "bola de beach tennis", "bola de tênis", "bola de padel",
+    "raqueteira", "overgrip", "tênis para quadra", "saia de tênis feminina",
+  ],
   musculacao: [
     ...femininoAcademia, ...masculinoAcademia,
-    "tênis feminino academia", "tênis masculino academia",
+    "tênis feminino academia", "tênis masculino academia", "tênis de treino cross",
     // acessórios e equipamentos
-    "bolsa academia feminina", "garrafa térmica", "luva de academia", "halter", "kettlebell", "elástico extensor treino", "tapete yoga",
+    "bolsa academia feminina", "mochila academia", "garrafa térmica", "coqueteleira", "luva de academia", "strap musculação",
+    "cinto de musculação", "munhequeira academia", "faixa de cabelo esportiva", "toalha academia",
+    "halter", "anilha", "kettlebell", "caneleira de peso", "elástico extensor treino", "mini band", "tapete yoga",
+    "corda de pular", "roda abdominal", "bola de pilates",
     // lutas e natação (sem categoria própria no site; o departamento vem do tipo do produto)
-    "luva de boxe", "óculos de natação",
+    "luva de boxe", "bandagem boxe", "óculos de natação", "touca de natação",
   ],
-  suplementos: ["whey protein", "creatina", "pré-treino", "coqueteleira"],
+  suplementos: ["whey protein", "creatina", "pré-treino", "coqueteleira", "albumina", "bcaa", "colágeno", "multivitamínico"],
   recuperacao: [
     // lesão e suportes
-    "joelheira", "tornozeleira", "munhequeira", "fita kinesio", "cinta lombar",
+    "joelheira", "joelheira ortopédica", "tornozeleira", "tornozeleira ortopédica", "munhequeira", "cotoveleira",
+    "fita kinesio", "cinta lombar", "corretor postural",
     // alívio e compressão
-    "bolsa de gelo", "meia de compressão", "rolo liberação miofascial", "pistola massageadora",
+    "bolsa de gelo", "bolsa térmica gel", "meia de compressão", "manguito de compressão", "rolo liberação miofascial",
+    "pistola massageadora", "bola de massagem",
   ],
   casual: [
     ...femininoCasual, ...masculinoCasual, ...marcas,
-    "tênis casual feminino", "tênis casual masculino", "chinelo slide", "boné", "mochila",
+    "tênis casual feminino", "tênis casual masculino", "tênis branco feminino", "tênis branco masculino",
+    "tênis nike air force", "tênis adidas", "tênis puma", "tênis fila", "tênis new balance", "tênis vans", "tênis all star",
+    "chinelo slide", "chinelo nike", "chinelo adidas", "boné", "boné nike", "boné aba curva", "mochila", "mochila nike",
     // vôlei e basquete (sem categoria própria no site)
-    "bola de vôlei", "bola de basquete",
+    "bola de vôlei", "bola de basquete", "tênis de basquete", "tênis de vôlei",
   ],
 };
 

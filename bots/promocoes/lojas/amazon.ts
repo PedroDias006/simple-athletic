@@ -1,6 +1,6 @@
 import type { CategorySlug } from "../../../src/types/product";
 import { termosDaRodada, termosDe } from "../categorias";
-import { aviso, buscarJson, DESCONTO_MINIMO, type AdaptadorLoja, type Oferta, type Verificacao } from "../tipos";
+import { aviso, buscarJson, type AdaptadorLoja, type Oferta, type Verificacao } from "../tipos";
 
 /**
  * Amazon Brasil — Creators API (substituta da PA-API 5.0 no Programa de Associados).
@@ -99,7 +99,7 @@ function itemParaOferta(item: ItemAmazon, categoria: CategorySlug): Oferta | nul
   const precoDe = oferta?.price?.savingBasis?.money?.amount;
   const imageUrl = item.images?.primary?.large?.url;
   const title = item.itemInfo?.title?.displayValue;
-  if (!preco || !precoDe || precoDe <= preco || !imageUrl || !title) return null;
+  if (!preco || !imageUrl || !title) return null;
   if (oferta?.availability?.type && oferta.availability.type !== "IN_STOCK") return null;
   return {
     id: PREFIXO + item.asin,
@@ -108,7 +108,7 @@ function itemParaOferta(item: ItemAmazon, categoria: CategorySlug): Oferta | nul
     category: categoria,
     store: "amazon",
     price: preco,
-    oldPrice: precoDe,
+    oldPrice: precoDe && precoDe > preco ? precoDe : undefined,
     imageUrl,
     // detailPageURL já vem com a sua partnerTag.
     affiliateUrl: item.detailPageURL,
@@ -133,7 +133,6 @@ export const amazon: AdaptadorLoja = {
         const r = await chamar<{ searchResult?: { items?: ItemAmazon[] } }>("searchItems", {
           keywords: termo,
           searchIndex: "All",
-          minSavingPercent: DESCONTO_MINIMO,
           condition: "New",
           availability: "Available",
           itemCount: 10,

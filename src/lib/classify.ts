@@ -48,6 +48,8 @@ const kindRules: [KindSlug, RegExp][] = [
 
   // "saia de tênis" é roupa, não calçado
   ["short-saia", /\bshort.?saia\b|\bsaia\b/],
+  // "bolsa para chuteira", "porta tênis": é bolsa, não calçado
+  ["mochila", /^(bolsa|porta|sacola|mochila|bag)\b|\b(porta|bolsa (para|de)) (chuteira|tenis|calcados?)\b/],
 
   // calçados
   ["chuteira-futsal", /\bchuteira\b.*\b(futsal|salao|indoor|ic)\b/],

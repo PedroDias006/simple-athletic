@@ -18,7 +18,7 @@ const links: { href: string; label: string; short?: string; dept?: DepartmentSlu
 ];
 
 const messages = [
-  { text: "Desconto real de no mínimo 15%. Se não for, não entra.", cta: "Ver ofertas", href: "/ofertas" },
+  { text: "Promoções primeiro: o que está com desconto aparece no topo de cada página.", cta: "Ver ofertas", href: "/ofertas" },
   { text: "Preços checados de hora em hora nas maiores lojas do Brasil.", cta: "Como funciona", href: "/#como-funciona" },
   { text: "Receba as quedas de preço antes de todo mundo.", cta: "Entrar no canal", href: TELEGRAM_URL },
 ];

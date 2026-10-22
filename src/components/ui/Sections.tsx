@@ -28,6 +28,27 @@ export function CategoryTile({ category, sizes = "(max-width: 640px) 72vw, 33vw"
   );
 }
 
+export const POR_PAGINA = 48;
+
+/** Quantos produtos mostrar para ?pagina=N (a página N mostra os N*48 primeiros). */
+export function paginaAtual(valor?: string) {
+  const n = Math.floor(Number(valor));
+  return Number.isFinite(n) && n > 1 ? Math.min(n, 100) : 1;
+}
+
+/** Botão "Ver mais" que carrega a próxima leva sem perder os filtros. */
+export function LoadMore({ shown, total, href }: { shown: number; total: number; href: string }) {
+  if (shown >= total) return null;
+  return (
+    <div className="mt-12 flex flex-col items-center gap-3">
+      <p className="text-sm text-muted">Mostrando {shown} de {total}</p>
+      <Link href={href} scroll={false} className="rounded-full border border-ink px-8 py-3 font-medium transition hover:bg-ink hover:text-white">
+        Ver mais {Math.min(POR_PAGINA, total - shown)}
+      </Link>
+    </div>
+  );
+}
+
 /** Atalho para a busca da Amazon com a nossa tag de associado (sem preço, só o link). */
 export function AmazonSearch({ term, label }: { term: string; label: string }) {
   return (

@@ -30,10 +30,12 @@ const ARQUIVO = resolve(RAIZ, "src/data/products.json");
 const NEXT_CONFIG = resolve(RAIZ, "next.config.ts");
 const DADOS = resolve(__dirname, "dados");
 
-const MAX_ATIVAS = 600;
-const MAX_NOVAS_POR_CATEGORIA = 80;
+const MAX_ATIVAS = 2500;
+const MAX_NOVAS_POR_CATEGORIA = 500;
 /** Quantas candidatas por categoria recebem a análise completa (cada uma custa chamadas extras à API). */
-const MAX_ANALISES_POR_CATEGORIA = 120;
+const MAX_ANALISES_POR_CATEGORIA = 700;
+/** Produtos sem desconto podem ser no máximo isso vezes o número de promoções (0,8 => ~55% do site em promoção). */
+const PROPORCAO_SEM_DESCONTO = 0.8;
 const DIA = 24 * 60 * 60 * 1000;
 /** Inativas há mais que isso saem do arquivo. */
 const APAGAR_INATIVAS_APOS = 30 * DIA;
@@ -109,20 +111,13 @@ async function main() {
       desativar(p, v.motivo, log);
       continue;
     }
-    if (v.price > p.price) {
-      desativar(p, `preço subiu de ${p.price} para ${v.price}`, log);
-      continue;
-    }
-    const oldPrice = v.oldPrice ?? p.oldPrice;
+    // O site mostra também produtos sem promoção: preço que sobe ou promoção que acaba só atualiza o card.
+    let oldPrice = v.oldPrice && v.oldPrice > v.price ? v.oldPrice : undefined;
     historico.registrar(p.id, v.price, oldPrice, agora);
-    if (descontoPercentual(v.price, oldPrice) < DESCONTO_MINIMO) {
-      desativar(p, "desconto abaixo de 15%", log);
-      continue;
-    }
     const analise = historico.analisar(p.id, v.price, oldPrice, agora);
     if (analise.inflado) {
-      desativar(p, `desconto suspeito: ${analise.motivoInflado}`, log);
-      continue;
+      log.push(`  ~ ${p.id} desconto suspeito removido (${analise.motivoInflado})`);
+      oldPrice = undefined;
     }
     atualizar(p, { price: v.price, oldPrice, freeShipping: v.freeShipping || undefined, affiliateUrl: v.affiliateUrl ?? p.affiliateUrl });
   }
@@ -134,14 +129,18 @@ async function main() {
   let novas = 0;
 
   for (const adaptador of ativos) {
-    for (const categoria of categoriasDoSite) {
+    // BOT_CATEGORIAS=futebol,corrida busca só essas (útil para testar); sem ela, todas.
+    const soEstas = process.env.BOT_CATEGORIAS?.split(",").map((c) => c.trim());
+    for (const categoria of categoriasDoSite.filter((c) => !soEstas || soEstas.includes(c))) {
       const encontradas = await adaptador.buscarOfertas(categoria).catch((e: Error): Oferta[] => {
         aviso(`${adaptador.nome}/${categoria}: ${e.message}`);
         return [];
       });
+      // Todas entram na fila; as promoções (maior desconto) são analisadas primeiro.
       const boas = encontradas
-        .filter((o) => ehCategoriaDoSite(o.category) && descontoPercentual(o.price, o.oldPrice) >= DESCONTO_MINIMO)
+        .filter((o) => ehCategoriaDoSite(o.category))
         .sort((a, b) => descontoPercentual(b.price, b.oldPrice) - descontoPercentual(a.price, a.oldPrice));
+      const emPromocao = boas.filter((o) => descontoPercentual(o.price, o.oldPrice) >= DESCONTO_MINIMO).length;
 
       let nestaCategoria = 0;
       let analisadas = 0;
@@ -162,7 +161,9 @@ async function main() {
           memoria.registrar(o.id, o.title, "rejeitada", extra);
           continue;
         }
-        if (av.prioridade === "baixa") {
+        // Promoção com nota baixa fica em observação; produto de catálogo (sem promoção) entra se não foi rejeitado.
+        const promocao = descontoPercentual(o.price, o.oldPrice) >= DESCONTO_MINIMO;
+        if (promocao && av.prioridade === "baixa") {
           memoria.registrar(o.id, o.title, "observacao", extra);
           continue;
         }
@@ -185,7 +186,7 @@ async function main() {
         nestaCategoria++;
         novas++;
       }
-      console.log(`  ${adaptador.nome}/${categoria}: ${encontradas.length} encontradas, ${boas.length} com ≥${DESCONTO_MINIMO}%, ${analisadas} analisadas, ${nestaCategoria} entraram`);
+      console.log(`  ${adaptador.nome}/${categoria}: ${encontradas.length} encontradas, ${emPromocao} com ≥${DESCONTO_MINIMO}%, ${analisadas} analisadas, ${nestaCategoria} entraram`);
     }
   }
 
@@ -199,6 +200,32 @@ async function main() {
   // 3. Limite de ativas (ficam as de maior desconto) e limpeza das antigas.
   const ativasOrdenadas = produtos.filter((p) => p.active).sort((a, b) => descontoPercentual(b.price, b.oldPrice) - descontoPercentual(a.price, a.oldPrice));
   for (const p of ativasOrdenadas.slice(MAX_ATIVAS)) desativar(p, `passou do limite de ${MAX_ATIVAS}`, log);
+
+  // A maior parte do site precisa estar em promoção: produtos sem desconto ficam em no máximo 80% do número
+  // de promoções (~55% do site em promoção). Os que ficam são escolhidos alternando entre os tipos
+  // (tênis, bola, legging...), para manter a variedade.
+  const ativas = produtos.filter((p) => p.active && !ehDemo(p));
+  const comDesconto = Math.floor(ativas.filter((p) => descontoPercentual(p.price, p.oldPrice) > 0).length * PROPORCAO_SEM_DESCONTO);
+  const semDesconto = ativas.filter((p) => descontoPercentual(p.price, p.oldPrice) === 0);
+  if (semDesconto.length > comDesconto) {
+    const porTipo = new Map<string, Product[]>();
+    for (const p of semDesconto) {
+      const tipo = p.kind ?? "outro";
+      if (!porTipo.has(tipo)) porTipo.set(tipo, []);
+      porTipo.get(tipo)!.push(p);
+    }
+    // Dentro de cada tipo, os mais recentes primeiro.
+    for (const lista of porTipo.values()) lista.sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt));
+    const ficam = new Set<Product>();
+    for (let rodada = 0; ficam.size < comDesconto; rodada++) {
+      let pegou = false;
+      for (const lista of porTipo.values()) {
+        if (lista[rodada] && ficam.size < comDesconto) (ficam.add(lista[rodada]), (pegou = true));
+      }
+      if (!pegou) break;
+    }
+    for (const p of semDesconto) if (!ficam.has(p)) desativar(p, "equilíbrio: a maioria do site precisa ser promoção", log);
+  }
 
   const finais = produtos.filter((p) => p.active || agora - Date.parse(p.updatedAt) <= APAGAR_INATIVAS_APOS);
   const apagadas = produtos.length - finais.length;

@@ -11,7 +11,7 @@ import { countBy, departmentOf, discountOf, filterProducts, getActiveProducts, g
 
 const steps = [
   { n: "01", title: "A gente vigia os preços", text: "Um robô confere as maiores lojas de esporte do Brasil de hora em hora." },
-  { n: "02", title: "Só entra desconto real", text: "Mínimo de 15% abaixo do preço normal. Se o preço sobe, a oferta sai do ar." },
+  { n: "02", title: "Promoções em primeiro lugar", text: "O que está com desconto aparece no topo, com a etiqueta de quanto você economiza. Preço atualizado pelo robô." },
   { n: "03", title: "Você compra na loja", text: "O clique leva direto para a loja oficial. Mesmo preço, mesma garantia." },
 ];
 

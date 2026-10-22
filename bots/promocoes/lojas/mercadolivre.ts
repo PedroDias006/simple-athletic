@@ -17,7 +17,9 @@ const API = "https://api.mercadolibre.com";
 const PREFIXO = "mercadolivre-";
 const PREFIXO_PRODUTO = "mercadolivre-p-";
 /** Produtos do catálogo analisados por termo de busca (cada um custa 1 chamada de preço). */
-const PRODUTOS_POR_TERMO = 25;
+const PRODUTOS_POR_TERMO = 50;
+/** Páginas do catálogo lidas por termo (cada uma com PRODUTOS_POR_TERMO produtos). */
+const PAGINAS_POR_TERMO = 3;
 
 interface ProdutoCatalogo {
   id: string;
@@ -50,8 +52,8 @@ const vendedorDe = new Map<string, number>();
 const reputacaoCache = new Map<number, UsuarioML["seller_reputation"] | null>();
 /** Famílias de produto já usadas nesta execução (cores/tamanhos do mesmo modelo não viram ofertas repetidas). */
 const familiasVistas = new Set<string>();
-/** Variações consultadas por produto "pai" (cada uma custa 1 chamada). */
-const VARIACOES_POR_PRODUTO = 2;
+/** Variações (tamanho/cor) testadas por modelo até achar uma à venda (cada uma custa 1 chamada). */
+const VARIACOES_POR_PRODUTO = 8;
 
 const normalizar = normalize;
 
@@ -168,43 +170,77 @@ async function reputacao(sellerId: number) {
 }
 
 /**
- * Melhor oferta de um produto: a mais barata entre as novas que informam preço "de".
- * Sem preço "de" não há como calcular desconto, então a oferta não serve.
+ * Melhor oferta de um produto: a mais barata entre as novas em promoção (com preço "de");
+ * se nenhuma estiver em promoção, a nova mais barata. O site mostra as duas, promoções primeiro.
  */
 async function melhorOferta(produtoId: string): Promise<OfertaVendedor | null> {
   const r = await api<{ results: OfertaVendedor[] }>(`/products/${produtoId}/items?limit=20`);
-  const novas = r.results.filter((o) => (o.condition ?? "new") === "new" && o.original_price && o.original_price > o.price);
-  return novas.sort((a, b) => a.price - b.price)[0] ?? null;
+  const novas = r.results.filter((o) => (o.condition ?? "new") === "new" && o.price > 0);
+  const porPreco = (a: OfertaVendedor, b: OfertaVendedor) => a.price - b.price;
+  const emPromocao = novas.filter((o) => o.original_price && o.original_price > o.price).sort(porPreco);
+  return emPromocao[0] ?? novas.sort(porPreco)[0] ?? null;
+}
+
+/** Roda tarefas com no máximo N ao mesmo tempo (a API do ML aguenta bem 5 em paralelo). */
+async function emParalelo<T, R>(itens: T[], n: number, fn: (item: T) => Promise<R>): Promise<R[]> {
+  const saida: R[] = new Array(itens.length);
+  let proximo = 0;
+  await Promise.all(
+    Array.from({ length: Math.min(n, itens.length) }, async () => {
+      while (proximo < itens.length) {
+        const i = proximo++;
+        saida[i] = await fn(itens[i]);
+      }
+    }),
+  );
+  return saida;
 }
 
 async function buscarPorTermo(termo: string, categoria: CategorySlug): Promise<Oferta[]> {
-  const params = new URLSearchParams({ status: "active", site_id: "MLB", q: termo, limit: String(PRODUTOS_POR_TERMO) });
-  const busca = await api<{ results: ProdutoCatalogo[] }>(`/products/search?${params}`);
-  const ofertas: Oferta[] = [];
+  // Duas páginas do catálogo por termo.
+  const resultados: ProdutoCatalogo[] = [];
+  for (let pagina = 0; pagina < PAGINAS_POR_TERMO; pagina++) {
+    const params = new URLSearchParams({ status: "active", site_id: "MLB", q: termo, limit: String(PRODUTOS_POR_TERMO), offset: String(pagina * PRODUTOS_POR_TERMO) });
+    const busca = await api<{ results: ProdutoCatalogo[] }>(`/products/search?${params}`);
+    resultados.push(...busca.results);
+    if (busca.results.length < PRODUTOS_POR_TERMO) break;
+  }
+
   const generoPedido = generoDoTermo(termo);
-  for (const p of busca.results) {
+  // Calçados e roupas vêm do catálogo com cada tamanho/cor como um produto separado (mesmo nome),
+  // e a maioria dessas variações não tem oferta. Por isso agrupamos por modelo e testamos várias.
+  const modelos = new Map<string, { p: ProdutoCatalogo; imagem: string; kind: KindSlug; gender: Gender; ids: string[] }>();
+  for (const p of resultados) {
     const imagem = p.pictures?.[0]?.url?.replace(/^http:/, "https:");
     const kind = inferKind(p.name);
     if (!imagem || !relevante(p.name, termo, p.domain_id, kind)) continue;
-    const familia = p.parent_id || p.id;
+    const familia = p.parent_id || normalizar(p.name);
     if (familiasVistas.has(familia)) continue;
     // Gênero: atributo do catálogo primeiro, título como reserva. Busca "feminina" não aceita produto masculino.
     const gender = generoML(p.attributes) ?? inferGender(p.name, kind);
     if (generoPedido && gender !== "unissex" && gender !== generoPedido) continue;
+    const ids = p.children_ids?.length ? p.children_ids : [p.id];
+    const m = modelos.get(familia);
+    if (m) m.ids.push(...ids);
+    else modelos.set(familia, { p, imagem, kind, gender, ids: [...ids] });
+  }
 
-    // Produto "pai" não tem ofertas: os preços ficam nas variações (cor/tamanho).
-    const candidatos = p.children_ids?.length ? p.children_ids.slice(0, VARIACOES_POR_PRODUTO) : [p.id];
+  const ofertas = await emParalelo([...modelos.entries()], 4, async ([familia, { p, imagem, kind, gender, ids }]): Promise<Oferta | null> => {
     let melhor: { produtoId: string; oferta: OfertaVendedor } | null = null;
-    for (const produtoId of candidatos) {
+    const promo = (x: OfertaVendedor) => (x.original_price ?? 0) > x.price;
+    for (const produtoId of [...new Set(ids)].slice(0, VARIACOES_POR_PRODUTO)) {
       const o = await melhorOferta(produtoId).catch(() => null);
-      if (o && (!melhor || o.price < melhor.oferta.price)) melhor = { produtoId, oferta: o };
+      if (!o) continue;
+      // Promoção vence; entre iguais, o menor preço.
+      if (!melhor || (promo(o) && !promo(melhor.oferta)) || (promo(o) === promo(melhor.oferta) && o.price < melhor.oferta.price)) melhor = { produtoId, oferta: o };
+      if (promo(melhor.oferta)) break; // achou uma variação em promoção: basta
     }
-    if (!melhor) continue;
+    if (!melhor) return null;
     familiasVistas.add(familia);
     const o = melhor.oferta;
     const id = PREFIXO_PRODUTO + melhor.produtoId;
     vendedorDe.set(id, o.seller_id);
-    ofertas.push({
+    return {
       id,
       title: p.name,
       brand: marca(p.attributes),
@@ -214,14 +250,14 @@ async function buscarPorTermo(termo: string, categoria: CategorySlug): Promise<O
       colors: coresML(p.attributes) ?? inferColors(p.name),
       store: "mercadolivre",
       price: o.price,
-      oldPrice: o.original_price!,
+      oldPrice: o.original_price && o.original_price > o.price ? o.original_price : undefined,
       imageUrl: imagem,
       affiliateUrl: linkProduto(melhor.produtoId, o.item_id),
       freeShipping: o.shipping?.free_shipping || undefined,
       sinais: { condicao: o.condition ?? "new", lojaOficial: o.official_store_id ? true : undefined },
-    });
-  }
-  return ofertas;
+    };
+  });
+  return ofertas.filter((o): o is Oferta => o !== null);
 }
 
 export const mercadoLivre: AdaptadorLoja = {
@@ -259,7 +295,7 @@ export const mercadoLivre: AdaptadorLoja = {
     const produtoId = id.slice(PREFIXO_PRODUTO.length);
     try {
       const o = await melhorOferta(produtoId);
-      if (!o) return { status: "indisponivel", motivo: "nenhuma oferta nova com desconto" };
+      if (!o) return { status: "indisponivel", motivo: "nenhuma oferta nova à venda" };
       vendedorDe.set(id, o.seller_id);
       return { status: "ok", price: o.price, oldPrice: o.original_price ?? undefined, freeShipping: o.shipping?.free_shipping, affiliateUrl: linkProduto(produtoId, o.item_id) };
     } catch (e) {

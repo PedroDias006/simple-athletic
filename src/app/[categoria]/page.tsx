@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Container from "@/components/layout/Container";
-import { AmazonSearch, EmptyState, FilterGroup, ListingLayout, PageHeader, ProductGrid } from "@/components/ui/Sections";
+import { AmazonSearch, EmptyState, FilterGroup, ListingLayout, LoadMore, PageHeader, paginaAtual, POR_PAGINA, ProductGrid } from "@/components/ui/Sections";
 import { categories, categoryBySlug, colors, departmentBySlug, departmentLook, departments, kindInfo, styles, TELEGRAM_URL } from "@/data/catalog";
 import { groupsOf, infoOf } from "@/data/taxonomy";
 import { getMode, modeLabel } from "@/lib/mode";
-import { countBy, departmentOf, filterProducts, getActiveProducts, groupOf, sortByDiscount } from "@/lib/products";
+import { countBy, departmentOf, discountOf, filterProducts, getActiveProducts, groupOf, sortByDiscount } from "@/lib/products";
 import type { CategorySlug, ColorSlug, DepartmentSlug, GroupSlug, KindSlug, StyleSlug } from "@/types/product";
 
 /**
@@ -14,7 +14,7 @@ import type { CategorySlug, ColorSlug, DepartmentSlug, GroupSlug, KindSlug, Styl
  * - departamentos (/calcados, /roupas, /equipamentos, /lesao-e-recuperacao...) com grupo, tipo, estilo e cor;
  * - esportes (/futebol, /corrida...) com os mesmos filtros e mais o de departamento.
  */
-type Params = { depto?: string; grupo?: string; tipo?: string; estilo?: string; cor?: string; ordem?: string };
+type Params = { depto?: string; grupo?: string; tipo?: string; estilo?: string; cor?: string; ordem?: string; pagina?: string };
 type Props = { params: Promise<{ categoria: string }>; searchParams: Promise<Params> };
 
 export const dynamicParams = false;
@@ -22,14 +22,14 @@ export const generateStaticParams = () => [...departments.map((d) => d.slug), ..
 
 const orders = { desconto: "Maior desconto", menor: "Menor preço", maior: "Maior preço" } as const;
 type Order = keyof typeof orders;
-const keys = ["depto", "grupo", "tipo", "estilo", "cor", "ordem"] as const;
+const keys = ["depto", "grupo", "tipo", "estilo", "cor", "ordem", "pagina"] as const;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const slug = (await params).categoria;
   const d = departmentBySlug[slug as DepartmentSlug];
-  if (d) return { title: `${d.label} em promoção`, description: d.description };
+  if (d) return { title: `${d.label} esportivos com desconto`, description: d.description };
   const c = categoryBySlug[slug as CategorySlug];
-  return c ? { title: `Promoções de ${c.label}`, description: c.description } : {};
+  return c ? { title: `${c.label}: produtos e promoções`, description: c.description } : {};
 }
 
 export default async function ListingPage({ params, searchParams }: Props) {
@@ -63,6 +63,9 @@ export default async function ListingPage({ params, searchParams }: Props) {
 
   let list = filterProducts(l4, { color });
   list = order === "menor" ? [...list].sort((a, b) => a.price - b.price) : order === "maior" ? [...list].sort((a, b) => b.price - a.price) : sortByDiscount(list);
+  const page = paginaAtual(sp.pagina);
+  const shown = Math.min(list.length, page * POR_PAGINA);
+  const promoCount = list.filter((p) => discountOf(p) > 0).length;
 
   // Contagens para mostrar só opções que têm oferta.
   const deptCounts = countBy(base, departmentOf);
@@ -94,7 +97,7 @@ export default async function ListingPage({ params, searchParams }: Props) {
   const label = department?.label ?? category!.label;
   const suffix = genderWord ? ` · ${genderWord}` : "";
   const groupLabel = group && tree.find((g) => g.slug === group)?.label;
-  const title = kind ? infoOf(kind).label + suffix : groupLabel ? groupLabel + suffix : department ? `${label} em promoção${suffix}` : `Promoções de ${label}${suffix}`;
+  const title = kind ? infoOf(kind).label + suffix : groupLabel ? groupLabel + suffix : `${label}${suffix}`;
   const description = kind || group ? undefined : department ? departmentLook(department, mode).description : category!.description;
   const crumb = [label, groupLabel, kind && infoOf(kind).label].filter(Boolean).join(" / ");
   /** O que buscar na Amazon: o nível mais específico que a pessoa escolheu. */
@@ -165,9 +168,13 @@ export default async function ListingPage({ params, searchParams }: Props) {
         }
       >
         {list.length ? (
-          <ProductGrid products={list} />
+          <>
+            {promoCount > 0 && <p className="mb-4 text-sm text-muted">{promoCount} em promoção, mostradas primeiro</p>}
+            <ProductGrid products={list.slice(0, shown)} />
+            <LoadMore shown={shown} total={list.length} href={href({ pagina: String(page + 1) })} />
+          </>
         ) : (
-          <EmptyState title={genderWord ? `Nenhuma oferta ${fem ? "feminina" : "masculina"} aqui agora` : "Nenhuma promoção ativa agora"}>
+          <EmptyState title={genderWord ? `Nenhum produto ${fem ? "feminino" : "masculino"} aqui agora` : "Nenhum produto aqui agora"}>
             {genderWord ? `O robô procura novas ofertas ${fem ? "femininas" : "masculinas"} de hora em hora. ` : ""}
             Assim que um preço cair, avisamos no <a href={TELEGRAM_URL} target="_blank" rel="noopener" className="text-ink underline">canal do Telegram</a>.
           </EmptyState>
