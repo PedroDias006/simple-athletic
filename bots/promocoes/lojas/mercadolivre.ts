@@ -1,4 +1,5 @@
-import type { CategorySlug } from "../../../src/types/product";
+﻿import { departmentOf, inferColors, inferGender, inferKind, normalize } from "../../../src/lib/classify";
+import type { CategorySlug, ColorSlug, Gender, KindSlug } from "../../../src/types/product";
 import { termosDe } from "../categorias";
 import { aviso, buscarJson, ErroHttp, type AdaptadorLoja, type Oferta, type Verificacao } from "../tipos";
 
@@ -16,7 +17,7 @@ const API = "https://api.mercadolibre.com";
 const PREFIXO = "mercadolivre-";
 const PREFIXO_PRODUTO = "mercadolivre-p-";
 /** Produtos do catálogo analisados por termo de busca (cada um custa 1 chamada de preço). */
-const PRODUTOS_POR_TERMO = 20;
+const PRODUTOS_POR_TERMO = 12;
 
 interface ProdutoCatalogo {
   id: string;
@@ -50,24 +51,28 @@ const reputacaoCache = new Map<number, UsuarioML["seller_reputation"] | null>();
 /** Famílias de produto já usadas nesta execução (cores/tamanhos do mesmo modelo não viram ofertas repetidas). */
 const familiasVistas = new Set<string>();
 /** Variações consultadas por produto "pai" (cada uma custa 1 chamada). */
-const VARIACOES_POR_PRODUTO = 3;
+const VARIACOES_POR_PRODUTO = 2;
 
-const normalizar = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const normalizar = normalize;
 
-/**
- * Relevância simples: a palavra principal do termo precisa aparecer entre as primeiras palavras do nome.
- * Evita "Chaveiro Camisa Time" na busca "camisa de time".
- */
 /** Tipos de produto que não são artigo esportivo, mesmo aparecendo nas buscas (lembrancinhas, decoração...). */
 const NAO_ESPORTIVOS = ["chaveiro", "miniatura", "adesivo", "caneca", "quadro", "poster", "capinha", "boneco", "brinquedo", "imã", "ima", "chaveirinho", "pelucia", "bolo", "topo"];
 
 /** Tipos de produto do catálogo do ML (domain_id) que nunca entram. */
-const DOMINIOS_BLOQUEADOS = /BOOK|KEYCHAIN|STICKER|MUG|POSTER|PAINTING|TOY|DOLL|CELLPHONE|PHONE_CASE|MAGNET|PARTY|CAKE/;
+const DOMINIOS_BLOQUEADOS = /BOOK|KEYCHAIN|STICKER|MUG|POSTER|PAINTING|TOY|DOLL|CELLPHONE|PHONE_CASE|MAGNET|PARTY|CAKE|BODY_SHAPER|HANGER|UNDERWEAR|LINGERIE/;
 
-function relevante(nome: string, termo: string, dominio?: string): boolean {
+/**
+ * Relevância: a palavra principal do termo precisa aparecer entre as primeiras palavras do nome
+ * (evita "Chaveiro Camisa Time" na busca "camisa de time"), e o produto precisa ser do mesmo
+ * departamento do que foi pedido (evita kit de whey na busca "camiseta dry fit").
+ * O tipo vem sempre do classify() do site, para o bot e o site concordarem.
+ */
+function relevante(nome: string, termo: string, dominio: string | undefined, tipo: KindSlug): boolean {
   if (dominio && DOMINIOS_BLOQUEADOS.test(dominio)) return false;
   const primeiras = normalizar(nome).split(/[^a-z0-9]+/).filter(Boolean).slice(0, 2);
   if (primeiras.some((p) => NAO_ESPORTIVOS.includes(p))) return false;
+  const tipoPedido = inferKind(termo);
+  if (tipoPedido !== "outro" && tipo !== "outro" && departmentOf({ kind: tipoPedido, title: termo }) !== departmentOf({ kind: tipo, title: nome })) return false;
   const principal = normalizar(termo).split(/[^a-z0-9]+/).filter(Boolean)[0] ?? "";
   const inicio = normalizar(nome).split(/[^a-z0-9]+/).filter(Boolean).slice(0, 4);
   return inicio.some((p) => p.startsWith(principal.slice(0, Math.max(4, principal.length - 1))));
@@ -112,8 +117,36 @@ function linkProduto(produtoId: string, itemId: string) {
   return linkAfiliadoML(`https://www.mercadolivre.com.br/p/${produtoId}?pdp_filters=item_id:${itemId}`);
 }
 
-function marca(attrs?: { id: string; value_name?: string | null }[]): string | undefined {
-  return attrs?.find((a) => a.id === "BRAND")?.value_name ?? undefined;
+type Atributos = { id: string; value_name?: string | null }[];
+
+const atributo = (attrs: Atributos | undefined, ...ids: string[]) =>
+  attrs?.find((a) => ids.includes(a.id) && a.value_name)?.value_name ?? undefined;
+
+function marca(attrs?: Atributos): string | undefined {
+  return atributo(attrs, "BRAND");
+}
+
+/** Gênero informado pelo vendedor no catálogo (atributo GENDER). Mais confiável que o título. */
+function generoML(attrs?: Atributos): Gender | undefined {
+  const g = normalize(atributo(attrs, "GENDER") ?? "");
+  if (!g) return undefined;
+  if (/femin|mulher|menina/.test(g)) return "feminino";
+  if (/mascul|homem|menino/.test(g)) return "masculino";
+  if (/unissex|sem genero|neutro/.test(g)) return "unissex";
+  return undefined;
+}
+
+/** Cores do atributo COLOR/MAIN_COLOR (ex.: "Azul-marinho" -> azul). */
+function coresML(attrs?: Atributos): ColorSlug[] | undefined {
+  const c = atributo(attrs, "COLOR", "MAIN_COLOR");
+  const cores = c ? inferColors(c) : [];
+  return cores.length ? cores : undefined;
+}
+
+/** Gênero pedido no próprio termo de busca ("legging feminina" -> feminino). */
+function generoDoTermo(termo: string): Gender | undefined {
+  const g = inferGender(termo, "outro");
+  return g === "unissex" ? undefined : g;
 }
 
 /** "5_green" -> 5 ... "1_red" -> 1. */
@@ -144,11 +177,16 @@ async function buscarPorTermo(termo: string, categoria: CategorySlug): Promise<O
   const params = new URLSearchParams({ status: "active", site_id: "MLB", q: termo, limit: String(PRODUTOS_POR_TERMO) });
   const busca = await api<{ results: ProdutoCatalogo[] }>(`/products/search?${params}`);
   const ofertas: Oferta[] = [];
+  const generoPedido = generoDoTermo(termo);
   for (const p of busca.results) {
     const imagem = p.pictures?.[0]?.url?.replace(/^http:/, "https:");
-    if (!imagem || !relevante(p.name, termo, p.domain_id)) continue;
+    const kind = inferKind(p.name);
+    if (!imagem || !relevante(p.name, termo, p.domain_id, kind)) continue;
     const familia = p.parent_id || p.id;
     if (familiasVistas.has(familia)) continue;
+    // Gênero: atributo do catálogo primeiro, título como reserva. Busca "feminina" não aceita produto masculino.
+    const gender = generoML(p.attributes) ?? inferGender(p.name, kind);
+    if (generoPedido && gender !== "unissex" && gender !== generoPedido) continue;
 
     // Produto "pai" não tem ofertas: os preços ficam nas variações (cor/tamanho).
     const candidatos = p.children_ids?.length ? p.children_ids.slice(0, VARIACOES_POR_PRODUTO) : [p.id];
@@ -167,6 +205,9 @@ async function buscarPorTermo(termo: string, categoria: CategorySlug): Promise<O
       title: p.name,
       brand: marca(p.attributes),
       category: categoria,
+      gender,
+      kind,
+      colors: coresML(p.attributes) ?? inferColors(p.name),
       store: "mercadolivre",
       price: o.price,
       oldPrice: o.original_price!,

@@ -12,6 +12,7 @@
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { classify } from "../../src/lib/classify";
 import type { Product } from "../../src/types/product";
 import { avaliar } from "./avaliacao";
 import { categoriasDoSite, ehCategoriaDoSite } from "./categorias";
@@ -165,16 +166,18 @@ async function main() {
           continue;
         }
 
-        const { sinais: _sinais, ...dadosDoSite } = o;
+        // Gênero, tipo e cores: o que a loja informou vale; o resto vem do título (src/lib/classify.ts).
+        const { sinais: _sinais, ...semSinais } = o;
+        const dadosDoSite = classify({ ...semSinais, updatedAt: agoraIso, active: true });
         if (existente) {
           // Voltou a ficar em promoção: reaproveita o registro.
           Object.assign(existente, dadosDoSite, { active: true, updatedAt: agoraIso });
           log.push(`  ↺ ${o.id} voltou (${descontoPercentual(o.price, o.oldPrice)}% off, nota ${av.nota})`);
         } else {
-          const novo: Product = { ...semIndefinidos(dadosDoSite), updatedAt: agoraIso, active: true };
+          const novo: Product = semIndefinidos(dadosDoSite);
           produtos.push(novo);
           porId.set(novo.id, novo);
-          log.push(`  + ${o.id} ${o.title.slice(0, 50)} (${descontoPercentual(o.price, o.oldPrice)}% off, nota ${av.nota}, ${av.prioridade})`);
+          log.push(`  + ${o.id} ${o.title.slice(0, 50)} (${descontoPercentual(o.price, o.oldPrice)}% off, nota ${av.nota}, ${av.prioridade}) [${novo.kind}/${novo.gender}/${novo.colors?.join(",") || "-"}]`);
         }
         memoria.registrar(o.id, o.title, "publicada", extra);
         titulosAtivos.add(chaveTitulo);
@@ -184,6 +187,9 @@ async function main() {
       console.log(`  ${adaptador.nome}/${categoria}: ${encontradas.length} encontradas, ${boas.length} com ≥${DESCONTO_MINIMO}%, ${analisadas} analisadas, ${nestaCategoria} entraram`);
     }
   }
+
+  // Gênero, tipo, cores e estilo de todas as ofertas passam pelo classify() do site (mantém o que já veio da loja).
+  for (let i = 0; i < produtos.length; i++) produtos[i] = semIndefinidos(classify(produtos[i]));
 
   // Ofertas de exemplo saem do ar assim que existem ofertas reais.
   const reais = produtos.filter((p) => p.active && !ehDemo(p)).length;
@@ -243,7 +249,7 @@ function semIndefinidos<T extends object>(o: T): T {
 }
 
 /** Mesmo estilo do arquivo original: uma oferta por linha, campos na ordem do tipo Product. */
-const ORDEM: (keyof Product)[] = ["id", "title", "brand", "category", "store", "price", "oldPrice", "imageUrl", "affiliateUrl", "rating", "reviews", "coupon", "freeShipping", "expiresAt", "updatedAt", "active"];
+const ORDEM: (keyof Product)[] = ["id", "title", "brand", "category", "gender", "kind", "colors", "style", "store", "price", "oldPrice", "imageUrl", "affiliateUrl", "rating", "reviews", "coupon", "freeShipping", "expiresAt", "updatedAt", "active"];
 function serializar(lista: Product[]) {
   const linhas = lista.map((p) => {
     const campos = ORDEM.filter((k) => p[k] !== undefined).map((k) => `${JSON.stringify(k)}: ${JSON.stringify(p[k])}`);

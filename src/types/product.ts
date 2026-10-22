@@ -16,6 +16,16 @@ export type StoreId =
   | "decathlon"
   | "magalu";
 
+export type Gender = "feminino" | "masculino" | "unissex";
+
+// Departamentos, tipos e estilos vivem na árvore do catálogo (src/data/taxonomy.ts).
+export type { DepartmentSlug, GroupSlug, KindSlug, StyleSlug } from "../data/taxonomy";
+import type { KindSlug, StyleSlug } from "../data/taxonomy";
+
+export type ColorSlug =
+  | "preto" | "branco" | "cinza" | "azul" | "vermelho" | "verde" | "amarelo"
+  | "laranja" | "rosa" | "roxo" | "bege" | "marrom" | "colorido";
+
 /**
  * Formato de uma oferta em src/data/products.json.
  * O bot de promoções lê e reescreve esse arquivo; mantenha os campos estáveis.
@@ -25,6 +35,12 @@ export interface Product {
   title: string;
   brand?: string;
   category: CategorySlug;
+  /** Opcionais: quando faltam, o site deduz pelo título (src/lib/classify.ts). */
+  gender?: Gender;
+  kind?: KindSlug;
+  colors?: ColorSlug[];
+  /** Só para roupas: treino, corrida, casual... */
+  style?: StyleSlug;
   store: StoreId;
   /** Preço atual em reais. */
   price: number;

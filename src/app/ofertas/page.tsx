@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Container from "@/components/layout/Container";
 import { EmptyState, FilterGroup, ListingLayout, PageHeader, ProductGrid } from "@/components/ui/Sections";
 import { priceRanges, stores, type PriceRangeSlug } from "@/data/catalog";
+import { getMode } from "@/lib/mode";
 import { getActiveProducts, sortByDiscount } from "@/lib/products";
 import type { StoreId } from "@/types/product";
 
@@ -26,7 +27,8 @@ export default async function OffersPage({ searchParams }: Props) {
   const freeShipping = sp.frete === "1";
   const withCoupon = sp.cupom === "1";
 
-  let list = getActiveProducts();
+  const mode = await getMode();
+  let list = getActiveProducts(mode);
   if (store) list = list.filter((p) => p.store === store);
   if (range) list = list.filter((p) => p.price >= range.min && p.price <= range.max);
   if (freeShipping) list = list.filter((p) => p.freeShipping);

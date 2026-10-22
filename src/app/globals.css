@@ -12,6 +12,17 @@
   --color-hot: #d43f21;
 }
 
+/* Modo feminino: fundo rosa bem clarinho e destaque rosa no lugar do laranja. */
+html[data-modo="feminino"] {
+  --color-white: #fff5f8;
+  --color-snow: #fde6ee;
+  --color-line: #f5cfdc;
+  --color-muted: #7d6870;
+  --color-hot: #e0457b;
+  --color-ink: #2a1520;
+}
+html[data-modo="feminino"] body { transition: background-color 0.3s; }
+
 html { scroll-behavior: smooth; -webkit-tap-highlight-color: transparent; }
 :focus-visible { outline: 2px solid var(--color-ink); outline-offset: 3px; }
 

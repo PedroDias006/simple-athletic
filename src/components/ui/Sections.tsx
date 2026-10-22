@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
-import type { Category, Topic } from "@/data/catalog";
+import type { Category, Department, Topic } from "@/data/catalog";
 import type { Product } from "@/types/product";
 import ProductCard from "./ProductCard";
 
@@ -27,10 +27,23 @@ export function CategoryTile({ category, sizes = "(max-width: 640px) 72vw, 33vw"
   );
 }
 
+/** Bloco grande de departamento (Calçados, Roupas...), com a foto feminina no modo feminino. */
+export function DepartmentTile({ department, feminine, count, className = "aspect-[4/5]" }: { department: Department; feminine: boolean; count?: number; className?: string }) {
+  return (
+    <Link href={`/${department.slug}`} className={`group relative block overflow-hidden bg-snow ${className}`}>
+      <Image src={feminine ? department.imageFem : department.image} alt="" fill sizes="(max-width: 640px) 72vw, 25vw" className="object-cover transition duration-700 group-hover:scale-[1.03]" />
+      <span className="absolute bottom-5 left-5 flex items-baseline gap-2 rounded-full bg-white px-5 py-2 text-base font-medium transition group-hover:bg-snow sm:bottom-7 sm:left-7">
+        {department.label}
+        {count ? <span className="text-sm font-normal text-muted">{count}</span> : null}
+      </span>
+    </Link>
+  );
+}
+
 /** Card de tipo de produto: foto, título e um texto curto explicando o que tem ali. */
 export function TopicCard({ topic, count }: { topic: Topic; count?: number }) {
   return (
-    <Link href={`/busca?tipo=${topic.slug}`} className="group block">
+    <Link href={topic.href} className="group block">
       <div className="relative aspect-[3/4] overflow-hidden bg-snow">
         <Image src={topic.image} alt="" fill sizes="(max-width: 640px) 60vw, (max-width: 1024px) 35vw, 22vw" className="object-cover transition duration-700 group-hover:scale-[1.04]" />
       </div>
@@ -73,10 +86,20 @@ export function PageHeader({ crumb, title, count, description }: { crumb?: strin
 }
 
 /** Lista lateral de filtros (desktop) que vira uma fileira de pílulas no celular. */
-export function FilterGroup({ title, items }: { title: string; items: { href: string; label: string; active: boolean }[] }) {
+export interface FilterItem {
+  href: string;
+  label: string;
+  active: boolean;
+  /** Cor (ou gradiente) da bolinha mostrada antes do nome, nos filtros de cor. */
+  swatch?: string;
+  count?: number;
+}
+
+export function FilterGroup({ title, items }: { title: string; items: FilterItem[] }) {
+  if (items.length < 2) return null;
   return (
     <div className="border-line lg:border-b lg:py-5 lg:first:pt-0">
-      <p className="mb-3 hidden font-medium lg:block">{title}</p>
+      <p className="mb-2 text-xs font-medium uppercase tracking-wider text-muted lg:mb-3 lg:text-base lg:normal-case lg:tracking-normal lg:text-ink">{title}</p>
       <ul className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 sm:-mx-6 sm:px-6 lg:mx-0 lg:flex-col lg:gap-2.5 lg:px-0">
         {items.map((it) => (
           <li key={it.href} className="shrink-0">
@@ -84,11 +107,19 @@ export function FilterGroup({ title, items }: { title: string; items: { href: st
               href={it.href}
               scroll={false}
               aria-current={it.active ? "page" : undefined}
-              className={`block rounded-full border px-4 py-2 text-sm transition lg:rounded-none lg:border-0 lg:p-0 lg:text-base ${
+              className={`flex items-center gap-2 rounded-full border px-4 py-2 text-sm transition lg:rounded-none lg:border-0 lg:p-0 lg:text-base ${
                 it.active ? "border-ink bg-ink text-white lg:bg-transparent lg:font-medium lg:text-ink" : "border-line hover:border-ink lg:text-ink lg:hover:text-muted"
               }`}
             >
+              {it.swatch && (
+                <span
+                  aria-hidden
+                  className={`h-4 w-4 shrink-0 rounded-full border border-black/15 ${it.active ? "ring-2 ring-hot ring-offset-1" : ""}`}
+                  style={{ background: it.swatch }}
+                />
+              )}
               {it.label}
+              {it.count !== undefined && <span className={`text-xs ${it.active ? "opacity-70" : "text-muted"}`}>{it.count}</span>}
             </Link>
           </li>
         ))}
@@ -97,11 +128,22 @@ export function FilterGroup({ title, items }: { title: string; items: { href: st
   );
 }
 
-/** Layout de listagem: filtros à esquerda (fixos ao rolar) e grade à direita. */
-export function ListingLayout({ filters, children }: { filters: ReactNode; children: ReactNode }) {
+/**
+ * Layout de listagem: no PC, filtros à esquerda (fixos ao rolar) e grade à direita.
+ * No celular, os filtros ficam recolhidos num botão "Filtrar e ordenar", como na Nike.
+ */
+export function ListingLayout({ filters, children, activeFilters = 0 }: { filters: ReactNode; children: ReactNode; activeFilters?: number }) {
   return (
     <div className="lg:grid lg:grid-cols-[220px_1fr] lg:gap-12">
-      <aside className="mb-6 space-y-3 lg:sticky lg:top-24 lg:mb-0 lg:max-h-[calc(100vh-7rem)] lg:space-y-0 lg:self-start lg:overflow-y-auto">
+      <details className="group mb-6 lg:hidden">
+        <summary className="flex w-fit cursor-pointer list-none items-center gap-2 rounded-full border border-line px-5 py-2.5 font-medium transition hover:border-ink [&::-webkit-details-marker]:hidden">
+          Filtrar e ordenar
+          {activeFilters > 0 && <span className="grid h-5 min-w-5 place-items-center rounded-full bg-ink px-1 text-xs text-white">{activeFilters}</span>}
+          <span aria-hidden className="text-muted transition group-open:rotate-180">▾</span>
+        </summary>
+        <div className="mt-4 space-y-4 border-b border-line pb-6">{filters}</div>
+      </details>
+      <aside className="hidden lg:sticky lg:top-24 lg:block lg:max-h-[calc(100vh-7rem)] lg:self-start lg:overflow-y-auto">
         {filters}
       </aside>
       <div>{children}</div>

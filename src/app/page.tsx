@@ -4,9 +4,10 @@ import Container from "@/components/layout/Container";
 import { BrandStrip, DealOfTheDay, PopularSearches, PriceRangeGrid, PriceTicker } from "@/components/ui/HomeBlocks";
 import ProductCard, { DiscountTag } from "@/components/ui/ProductCard";
 import Rail from "@/components/ui/Rail";
-import { CategoryTile, EmptyState, TopicCard } from "@/components/ui/Sections";
-import { campaign, categories, stores, TELEGRAM_URL, topics } from "@/data/catalog";
-import { discountOf, getActiveProducts, getBrands, searchAny, sortByDiscount } from "@/lib/products";
+import { CategoryTile, DepartmentTile, EmptyState, TopicCard } from "@/components/ui/Sections";
+import { campaign, campaignFem, categories, departments, stores, TELEGRAM_URL, topics, topicsFem } from "@/data/catalog";
+import { getMode } from "@/lib/mode";
+import { countBy, departmentOf, discountOf, filterProducts, getActiveProducts, getBrands, sortByDiscount } from "@/lib/products";
 
 const steps = [
   { n: "01", title: "A gente vigia os preços", text: "Um robô confere as maiores lojas de esporte do Brasil de hora em hora." },
@@ -14,9 +15,15 @@ const steps = [
   { n: "03", title: "Você compra na loja", text: "O clique leva direto para a loja oficial. Mesmo preço, mesma garantia." },
 ];
 
-export default function Home() {
-  const active = getActiveProducts();
+export default async function Home() {
+  const mode = await getMode();
+  const fem = mode === "feminino";
+  const active = getActiveProducts(mode);
   const byDiscount = sortByDiscount(active);
+  const photos = fem ? campaignFem : campaign;
+  const deptCounts = countBy(active, departmentOf);
+  const topicCount = (t: (typeof topics)[number]) =>
+    t.kinds ? t.kinds.reduce((n, k) => n + filterProducts(active, { kind: k }).length, 0) : filterProducts(active, { department: t.department, group: t.group }).length;
   const maxDiscount = byDiscount[0] ? discountOf(byDiscount[0]) : 0;
   const endingSoon = active
     .filter((p) => p.expiresAt)
@@ -29,7 +36,7 @@ export default function Home() {
       <section>
         <Container className="pt-2 sm:pt-4">
           <Link href="/ofertas" className="relative block aspect-[4/5] overflow-hidden bg-snow sm:aspect-[16/9] lg:aspect-[21/9]">
-            <Image src={campaign.hero} alt="Atleta correndo na pista" fill priority sizes="100vw" className="object-cover object-[50%_40%]" />
+            <Image src={photos.hero} alt={fem ? "Mulher treinando em um tapete de yoga" : "Atleta correndo na pista"} fill priority sizes="100vw" className="object-cover object-[50%_40%]" />
           </Link>
         </Container>
         <div className="mx-auto max-w-4xl px-4 pt-8 text-center sm:pt-12">
@@ -41,10 +48,12 @@ export default function Home() {
             <p className="font-medium">Promoções de esporte, conferidas de hora em hora</p>
           )}
           <h1 className="mt-4 font-display text-[3.25rem] uppercase leading-[0.9] sm:text-7xl lg:text-[6.5rem]">
-            Preço de atleta
+            {fem ? "Feito pra ela" : "Preço de atleta"}
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-base sm:text-lg">
-            Descontos reais em tênis, chuteiras, suplementos e equipamentos, garimpados de hora em hora nas lojas que você já conhece.
+            {fem
+              ? "Leggings, tops, tênis e acessórios femininos com desconto real, garimpados de hora em hora nas lojas que você já conhece."
+              : "Descontos reais em tênis, chuteiras, suplementos e equipamentos, garimpados de hora em hora nas lojas que você já conhece."}
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link href="/ofertas" className="rounded-full bg-ink px-6 py-2.5 font-medium text-white transition hover:bg-black/70">Ver ofertas</Link>
@@ -58,8 +67,14 @@ export default function Home() {
       </div>
 
       <Container className="mt-16 sm:mt-20">
-        <Rail title="Compre por tipo" itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-36px)/4)]">
-          {topics.map((t) => <TopicCard key={t.slug} topic={t} count={searchAny(t.terms, t.excludeCategories).length} />)}
+        <Rail title={fem ? "Departamentos femininos" : "Compre por departamento"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-48px)/5)]">
+          {departments.map((d) => <DepartmentTile key={d.slug} department={d} feminine={fem} count={deptCounts.get(d.slug)} />)}
+        </Rail>
+      </Container>
+
+      <Container className="mt-16 sm:mt-20">
+        <Rail title={fem ? "Compre por tipo, pra ela" : "Compre por tipo"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-36px)/4)]">
+          {(fem ? topicsFem : topics).map((t) => <TopicCard key={t.href} topic={t} count={topicCount(t)} />)}
         </Rail>
       </Container>
 
@@ -101,7 +116,7 @@ export default function Home() {
       <section className="mt-20 sm:mt-24">
         <Container>
           <div className="relative overflow-hidden bg-ink text-white">
-            <Image src={campaign.banner} alt="" fill sizes="100vw" className="object-cover opacity-75 grayscale" />
+            <Image src={photos.banner} alt="" fill sizes="100vw" className="object-cover opacity-75 grayscale" />
             <div className="relative flex min-h-[460px] flex-col justify-end p-6 sm:min-h-[520px] sm:p-12">
               <h2 className="max-w-3xl font-display text-5xl uppercase leading-[0.9] sm:text-7xl">Não perca a próxima queda</h2>
               <p className="mt-4 max-w-md text-base sm:text-lg">O canal avisa no instante em que um preço despenca. Grátis e sem spam.</p>
