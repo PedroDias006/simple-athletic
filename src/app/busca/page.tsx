@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import Container from "@/components/layout/Container";
-import { DepartmentTile, EmptyState, PageHeader, ProductGrid } from "@/components/ui/Sections";
+import { AmazonSearch, DepartmentTile, EmptyState, PageHeader, ProductGrid } from "@/components/ui/Sections";
 import { SearchIcon } from "@/components/ui/Icons";
 import { departments } from "@/data/catalog";
 import { getMode } from "@/lib/mode";
@@ -64,6 +64,7 @@ export default async function SearchPage({ searchParams }: Props) {
               {fem ? "No modo feminino só aparecem produtos para ela. " : ""}Tente outro termo ou navegue pelos departamentos abaixo.
             </EmptyState>
           )}
+          <AmazonSearch term={q} label={`"${q}"`} />
         </>
       )}
 

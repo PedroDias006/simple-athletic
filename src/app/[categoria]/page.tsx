@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Container from "@/components/layout/Container";
-import { EmptyState, FilterGroup, ListingLayout, PageHeader, ProductGrid } from "@/components/ui/Sections";
+import { AmazonSearch, EmptyState, FilterGroup, ListingLayout, PageHeader, ProductGrid } from "@/components/ui/Sections";
 import { categories, categoryBySlug, colors, departmentBySlug, departments, kindInfo, styles, TELEGRAM_URL } from "@/data/catalog";
 import { groupsOf, infoOf } from "@/data/taxonomy";
 import { getMode } from "@/lib/mode";
@@ -96,6 +96,8 @@ export default async function ListingPage({ params, searchParams }: Props) {
   const title = kind ? infoOf(kind).label + suffix : groupLabel ? groupLabel + suffix : department ? `${label} em promoção${suffix}` : `Promoções de ${label}${suffix}`;
   const description = kind || group ? undefined : department ? (fem ? department.descriptionFem : department.description) : category!.description;
   const crumb = [label, groupLabel, kind && infoOf(kind).label].filter(Boolean).join(" / ");
+  /** O que buscar na Amazon: o nível mais específico que a pessoa escolheu. */
+  const amazonTerm = kind ? infoOf(kind).label : groupLabel ?? label;
 
   return (
     <Container>
@@ -169,6 +171,7 @@ export default async function ListingPage({ params, searchParams }: Props) {
             Assim que um preço cair, avisamos no <a href={TELEGRAM_URL} target="_blank" rel="noopener" className="text-ink underline">canal do Telegram</a>.
           </EmptyState>
         )}
+        <AmazonSearch term={`${amazonTerm}${fem ? " feminino" : ""}`} label={amazonTerm.toLowerCase()} />
       </ListingLayout>
     </Container>
   );

@@ -136,5 +136,15 @@ export const stores: Record<StoreId, { name: string; color: string; logo?: strin
   magalu: { name: "Magalu", color: "#0086FF", logo: "/lojas/magalu.svg" },
 };
 
+/** Tag de associado da Amazon (pública: vai em todo link). */
+export const AMAZON_TAG = "simpleathleti-20";
+
+/**
+ * Link para a busca da Amazon com a nossa tag. Enquanto a Creators API não é liberada, é assim que
+ * a Amazon aparece no site: sem preço, só o atalho para a busca (permitido pelo programa de associados).
+ */
+export const amazonSearchUrl = (termo: string) =>
+  `https://www.amazon.com.br/s?${new URLSearchParams({ k: termo, i: "sporting", tag: AMAZON_TAG })}`;
+
 /** Link do canal de ofertas. Troque quando criar o canal. */
 export const TELEGRAM_URL = "https://t.me/";

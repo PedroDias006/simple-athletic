@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
-import type { Category, Department, Topic } from "@/data/catalog";
+import { amazonSearchUrl, type Category, type Department, type Topic } from "@/data/catalog";
 import type { Product } from "@/types/product";
 import ProductCard from "./ProductCard";
 
@@ -24,6 +24,27 @@ export function CategoryTile({ category, sizes = "(max-width: 640px) 72vw, 33vw"
         {category.label}
       </span>
     </Link>
+  );
+}
+
+/** Atalho para a busca da Amazon com a nossa tag de associado (sem preço, só o link). */
+export function AmazonSearch({ term, label }: { term: string; label: string }) {
+  return (
+    <a
+      href={amazonSearchUrl(term)}
+      target="_blank"
+      rel="sponsored noopener"
+      className="group mt-12 flex flex-col gap-4 rounded-2xl border border-line bg-snow p-6 transition hover:border-ink sm:flex-row sm:items-center sm:justify-between sm:p-8"
+    >
+      <span>
+        <span className="block text-sm text-muted">Não achou o que queria?</span>
+        <span className="mt-1 block text-lg font-medium sm:text-xl">Veja mais {label} na Amazon</span>
+        <span className="mt-1 block text-sm text-muted">Abre a busca da Amazon. Os preços e descontos aparecem lá.</span>
+      </span>
+      <span className="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-[#ff9900] px-6 py-3 font-medium text-black transition group-hover:bg-[#f08804]">
+        Procurar na Amazon →
+      </span>
+    </a>
   );
 }
 

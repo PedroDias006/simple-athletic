@@ -33,9 +33,11 @@ jobs:
           ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
           ML_AFFILIATE_TAG: ${{ secrets.ML_AFFILIATE_TAG }}
           ML_AFFILIATE_TOOL: ${{ secrets.ML_AFFILIATE_TOOL }}
-          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
-          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
-          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+          # Amazon Creators API: credenciais liberadas após 10 vendas qualificadas em 30 dias.
+          AMAZON_CLIENT_ID: ${{ secrets.AMAZON_CLIENT_ID }}
+          AMAZON_CLIENT_SECRET: ${{ secrets.AMAZON_CLIENT_SECRET }}
+          # A tag de associado é pública (aparece em todo link); o secret só serve para trocá-la.
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG || 'simpleathleti-20' }}
           SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
           SHOPEE_APP_SECRET: ${{ secrets.SHOPEE_APP_SECRET }}
           AWIN_API_TOKEN: ${{ secrets.AWIN_API_TOKEN }}

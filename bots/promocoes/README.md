@@ -26,7 +26,7 @@ o que é proibido pelos termos das lojas e pode cancelar sua conta de afiliado.
 | Loja | Como o bot fala com ela | Situação |
 | --- | --- | --- |
 | Mercado Livre | API oficial do Mercado Livre | **Pronto.** Só falta você criar as chaves. |
-| Amazon | Product Advertising API 5.0 | Pronto, mas não testado (a Amazon só libera a API depois das primeiras vendas). |
+| Amazon | Creators API (substituta da PA-API 5.0) | Pronto, mas não testado: a Amazon só libera a API após 10 vendas em 30 dias. |
 | Shopee | API do Shopee Afiliados | Pronto, mas não testado. |
 | Netshoes, Centauro, Decathlon, Magalu | Redes Awin / Lomadee | Esqueleto: liga com as chaves, mas ainda não busca nada. Implementamos depois que você for aprovado. |
 
@@ -70,11 +70,20 @@ Busca de anúncios, `/items`, avaliações e estoque ficam bloqueados; o bot tra
 ### 2. Amazon Associados
 
 1. Cadastre-se em <https://associados.amazon.com.br>. Você recebe uma **tag de associado** parecida com `seunome-20` → **`AMAZON_PARTNER_TAG`**.
-2. A Amazon exige **3 vendas nos primeiros 180 dias** para manter a conta e liberar a API.
-   No começo, gere links manualmente pelo painel (barra "SiteStripe" no site da Amazon).
-3. Depois das vendas, vá em **Ferramentas > Product Advertising API** e crie as credenciais:
-   **Access Key** (`AMAZON_ACCESS_KEY`) e **Secret Key** (`AMAZON_SECRET_KEY`). A Secret só aparece uma vez — guarde.
-4. A Amazon vem mudando a API dos associados. Se o painel oferecer outra API no lugar da Product Advertising API 5.0, avise que o adaptador precisa ser ajustado.
+2. A Amazon exige **3 vendas nos primeiros 180 dias** para aprovar a conta.
+3. A busca automática usa a **Creators API** (Ferramentas → API de criadores), que substituiu a PA-API 5.0.
+   Ela só libera credenciais para **conta aprovada** e com **10 vendas qualificadas nos últimos 30 dias**.
+4. Quando liberar: em **API de criadores → Aplicativos**, crie um aplicativo e copie o **Client ID** (`AMAZON_CLIENT_ID`)
+   e o **Client Secret** (`AMAZON_CLIENT_SECRET`). Coloque os dois nos GitHub Secrets. Pode levar até 48 h para a
+   Amazon ativar; até lá a API responde "AssociateNotEligible".
+
+**Situação em 22/10/2026 (conferido no painel):**
+
+- Tag de associado: **`simpleathleti-20`** (já configurada no bot e nos botões "Procurar na Amazon" do site).
+- Conta ainda **não aprovada** → a Creators API ainda não pode ser ativada. O bot (`lojas/amazon.ts`, já escrito para a
+  Creators API) fica desligado e liga sozinho quando os dois secrets existirem.
+- Até lá, o site mostra só **links de busca** da Amazon com a sua tag (sem preço). **Não** copie preços da Amazon
+  "na mão" ou por robô lendo a página: o contrato de associados só permite preços vindos da API.
 
 ### 3. Shopee Afiliados
 
@@ -110,8 +119,8 @@ Quando for aprovado em alguma loja, o adaptador (`bots/promocoes/lojas/redes.ts`
 | `ML_CLIENT_SECRET` | App de desenvolvedor do Mercado Livre |
 | `ML_AFFILIATE_TAG` | `matt_word` do link de afiliado do Mercado Livre |
 | `ML_AFFILIATE_TOOL` | `matt_tool` do link de afiliado do Mercado Livre |
-| `AMAZON_PARTNER_TAG` | Sua tag de associado (`seunome-20`) |
-| `AMAZON_ACCESS_KEY` / `AMAZON_SECRET_KEY` | Product Advertising API |
+| `AMAZON_PARTNER_TAG` | Opcional: troca a tag padrão `simpleathleti-20` |
+| `AMAZON_CLIENT_ID` / `AMAZON_CLIENT_SECRET` | Creators API da Amazon (após 10 vendas em 30 dias) |
 | `SHOPEE_APP_ID` / `SHOPEE_APP_SECRET` | Open API do Shopee Afiliados |
 | `AWIN_API_TOKEN` / `AWIN_PUBLISHER_ID` | Awin |
 | `LOMADEE_APP_TOKEN` / `LOMADEE_SOURCE_ID` | Lomadee |
