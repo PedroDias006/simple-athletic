@@ -1,5 +1,5 @@
 import type { CategorySlug } from "../../../src/types/product";
-import { termosDe } from "../categorias";
+import { termosDaRodada, termosDe } from "../categorias";
 import { aviso, buscarJson, DESCONTO_MINIMO, type AdaptadorLoja, type Oferta, type Verificacao } from "../tipos";
 
 /**
@@ -128,7 +128,7 @@ export const amazon: AdaptadorLoja = {
 
   async buscarOfertas(categoria) {
     const ofertas: Oferta[] = [];
-    for (const termo of termosDe(categoria)) {
+    for (const termo of termosDaRodada(termosDe(categoria))) {
       try {
         const r = await chamar<{ searchResult?: { items?: ItemAmazon[] } }>("searchItems", {
           keywords: termo,

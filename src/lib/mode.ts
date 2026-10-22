@@ -1,10 +1,19 @@
 import { cookies } from "next/headers";
 
-/** "feminino" quando a pessoa ligou o botão do modo feminino; o site inteiro muda de catálogo e de cor. */
-export type Mode = "todos" | "feminino";
+/**
+ * Modo do site, escolhido no botão do topo e guardado num cookie: o catálogo inteiro e as cores mudam.
+ * "feminino" = fundo rosa e só itens para ela; "masculino" = tons azulados e só itens para ele.
+ */
+export type Mode = "todos" | "feminino" | "masculino";
 
 export const MODE_COOKIE = "modo";
 
+export const modeLabel: Record<Mode, string> = { todos: "Todos", feminino: "Feminino", masculino: "Masculino" };
+
+export function parseMode(value: string | undefined): Mode {
+  return value === "feminino" || value === "masculino" ? value : "todos";
+}
+
 export async function getMode(): Promise<Mode> {
-  return (await cookies()).get(MODE_COOKIE)?.value === "feminino" ? "feminino" : "todos";
+  return parseMode((await cookies()).get(MODE_COOKIE)?.value);
 }

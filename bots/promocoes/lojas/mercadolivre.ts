@@ -1,6 +1,6 @@
 ﻿import { departmentOf, inferColors, inferGender, inferKind, normalize } from "../../../src/lib/classify";
 import type { CategorySlug, ColorSlug, Gender, KindSlug } from "../../../src/types/product";
-import { termosDe } from "../categorias";
+import { termosDaRodada, termosDe } from "../categorias";
 import { aviso, buscarJson, ErroHttp, type AdaptadorLoja, type Oferta, type Verificacao } from "../tipos";
 
 /**
@@ -17,7 +17,7 @@ const API = "https://api.mercadolibre.com";
 const PREFIXO = "mercadolivre-";
 const PREFIXO_PRODUTO = "mercadolivre-p-";
 /** Produtos do catálogo analisados por termo de busca (cada um custa 1 chamada de preço). */
-const PRODUTOS_POR_TERMO = 12;
+const PRODUTOS_POR_TERMO = 25;
 
 interface ProdutoCatalogo {
   id: string;
@@ -56,7 +56,10 @@ const VARIACOES_POR_PRODUTO = 2;
 const normalizar = normalize;
 
 /** Tipos de produto que não são artigo esportivo, mesmo aparecendo nas buscas (lembrancinhas, decoração...). */
-const NAO_ESPORTIVOS = ["chaveiro", "miniatura", "adesivo", "caneca", "quadro", "poster", "capinha", "boneco", "brinquedo", "imã", "ima", "chaveirinho", "pelucia", "bolo", "topo"];
+const NAO_ESPORTIVOS = ["chaveiro", "miniatura", "adesivo", "caneca", "quadro", "poster", "capinha", "boneco", "brinquedo", "imã", "ima", "chaveirinho", "pelucia", "bolo", "topo", "moldura", "prende", "calcador", "cabide"];
+
+/** Em qualquer lugar do nome: produtos infantis/bebê e acessórios de roupa social não entram (o site é de esporte adulto). */
+const PALAVRAS_PROIBIDAS = /\b(bebe|bebes|baby|infantil|recem nascido|menina|menino|kids|juvenil|social|moldura|prende camisa|calcador)\b/;
 
 /** Tipos de produto do catálogo do ML (domain_id) que nunca entram. */
 const DOMINIOS_BLOQUEADOS = /BOOK|KEYCHAIN|STICKER|MUG|POSTER|PAINTING|TOY|DOLL|CELLPHONE|PHONE_CASE|MAGNET|PARTY|CAKE|BODY_SHAPER|HANGER|UNDERWEAR|LINGERIE/;
@@ -71,6 +74,7 @@ function relevante(nome: string, termo: string, dominio: string | undefined, tip
   if (dominio && DOMINIOS_BLOQUEADOS.test(dominio)) return false;
   const primeiras = normalizar(nome).split(/[^a-z0-9]+/).filter(Boolean).slice(0, 2);
   if (primeiras.some((p) => NAO_ESPORTIVOS.includes(p))) return false;
+  if (PALAVRAS_PROIBIDAS.test(normalizar(nome))) return false;
   const tipoPedido = inferKind(termo);
   if (tipoPedido !== "outro" && tipo !== "outro" && departmentOf({ kind: tipoPedido, title: termo }) !== departmentOf({ kind: tipo, title: nome })) return false;
   const principal = normalizar(termo).split(/[^a-z0-9]+/).filter(Boolean)[0] ?? "";
@@ -231,7 +235,7 @@ export const mercadoLivre: AdaptadorLoja = {
 
   async buscarOfertas(categoria) {
     const todas: Oferta[] = [];
-    for (const termo of termosDe(categoria)) {
+    for (const termo of termosDaRodada(termosDe(categoria))) {
       try {
         todas.push(...(await buscarPorTermo(termo, categoria)));
       } catch (e) {

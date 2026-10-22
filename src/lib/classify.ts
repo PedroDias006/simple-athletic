@@ -46,6 +46,9 @@ const kindRules: [KindSlug, RegExp][] = [
   ["treino-futebol", /\b(cones?|colete de treino|rede (de|para) gol|escada de agilidade|apito|bomba (de ar|de encher|para bola))\b/],
   ["luva-luta", /\bluvas?\b.*\b(boxe|muay|mma|kickboxing|bate saco)\b/],
 
+  // "saia de tênis" é roupa, não calçado
+  ["short-saia", /\bshort.?saia\b|\bsaia\b/],
+
   // calçados
   ["chuteira-futsal", /\bchuteira\b.*\b(futsal|salao|indoor|ic)\b/],
   ["chuteira-society", /\bchuteira\b.*\b(society|tf)\b/],
@@ -63,14 +66,22 @@ const kindRules: [KindSlug, RegExp][] = [
   ["macaquinho", /\b(macaquinho|macacao|body)\b/],
   ["top", /\b(top|sutia|bra)\b/],
   ["legging", /\b(legging|leggings|leg)\b/],
+  ["short-saia", /\bshort.?saia\b|\bsaia\b/],
+  ["compressao-baixo", /\b(short|shorts|bermuda|calca)\b.*\b(compressao|termica|segunda pele)\b/],
   ["bermuda", /\bbermuda\b/],
-  ["shorts", /\b(short|shorts|saia|calcao)\b/],
-  ["calca", /\b(calca|jogger)\b/],
+  ["shorts", /\b(short|shorts|calcao)\b/],
+  ["jogger", /\bjogger\b/],
+  ["calca", /\bcalca\b/],
   ["camisa-time", /\bcamisa\b.*\b(time|clube|selecao|oficial|torcedor|jogo)\b|\bcamisa (do |da )?(flamengo|corinthians|palmeiras|sao paulo|santos|vasco|gremio|internacional|cruzeiro|atletico|botafogo|fluminense|brasil|real madrid|barcelona)\b|\buniforme\b/],
+  ["corta-vento", /\b(corta.?vento|windbreaker|anorak)\b/],
   ["moletom", /\b(moletom|agasalho|blusao|blusa de frio|fleece)\b/],
-  ["jaqueta", /\b(jaqueta|corta.?vento|casaco|windbreaker|anorak)\b/],
+  ["jaqueta", /\b(jaqueta|casaco)\b/],
+  ["compressao-cima", /\b(camisa|camiseta|blusa)\b.*\b(compressao|segunda pele|termica)\b|\bsegunda pele\b/],
   ["regata", /\bregata\b/],
-  ["camiseta", /\b(camiseta|camisa|blusa|cropped|baby.?look|t.?shirt|polo)\b/],
+  ["cropped", /\bcropped\b/],
+  ["polo", /\bpolo\b/],
+  ["manga-longa", /\bmanga longa\b/],
+  ["camiseta", /\b(camiseta|camisa|blusa|baby.?look|t.?shirt)\b/],
   ["meia", /\b(meia|meias|meiao|meioes)\b/],
 
   // acessórios
@@ -113,7 +124,7 @@ const colorRules: [ColorSlug, RegExp][] = [
 
 const feminine = /\b(feminin[oa]s?|mulher(es)?|women|womens|wmns|dela|gestante|menina)\b/;
 const masculine = /\b(masculin[oa]s?|homem|homens|men|mens|menino)\b/;
-const feminineKinds: KindSlug[] = ["top", "macaquinho"];
+const feminineKinds: KindSlug[] = ["top", "macaquinho", "cropped", "short-saia"];
 
 export function normalize(s: string) {
   return s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
@@ -168,6 +179,14 @@ export function classify<T extends Product>(p: T): T & Required<Pick<Product, "g
 
 export function departmentOf(p: Pick<Product, "kind" | "title">): DepartmentSlug {
   return infoOf(p.kind && isKnownKind(p.kind) ? p.kind : inferKind(p.title)).department;
+}
+
+/**
+ * O que aparece no modo masculino: tudo que não é feminino. Muitas roupas esportivas masculinas
+ * não dizem "masculino" no título, então peças sem gênero entram aqui (no feminino, não).
+ */
+export function isForMen(p: Product): boolean {
+  return classify(p).gender !== "feminino";
 }
 
 /**

@@ -29,10 +29,10 @@ const ARQUIVO = resolve(RAIZ, "src/data/products.json");
 const NEXT_CONFIG = resolve(RAIZ, "next.config.ts");
 const DADOS = resolve(__dirname, "dados");
 
-const MAX_ATIVAS = 200;
-const MAX_NOVAS_POR_CATEGORIA = 30;
+const MAX_ATIVAS = 600;
+const MAX_NOVAS_POR_CATEGORIA = 80;
 /** Quantas candidatas por categoria recebem a análise completa (cada uma custa chamadas extras à API). */
-const MAX_ANALISES_POR_CATEGORIA = 40;
+const MAX_ANALISES_POR_CATEGORIA = 120;
 const DIA = 24 * 60 * 60 * 1000;
 /** Inativas há mais que isso saem do arquivo. */
 const APAGAR_INATIVAS_APOS = 30 * DIA;

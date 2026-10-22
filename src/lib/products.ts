@@ -1,7 +1,7 @@
 import rawProducts from "@/data/products.json";
 import { infoOf } from "@/data/taxonomy";
 import type { CategorySlug, ColorSlug, DepartmentSlug, GroupSlug, KindSlug, Product, StyleSlug } from "@/types/product";
-import { classify, isForWomen, normalize } from "./classify";
+import { classify, isForMen, isForWomen, normalize } from "./classify";
 import type { Mode } from "./mode";
 
 export type ShopProduct = ReturnType<typeof classify<Product>>;
@@ -10,7 +10,8 @@ const all: ShopProduct[] = (rawProducts as Product[]).map(classify);
 
 /** Ofertas que ainda valem (ativas e não expiradas), já filtradas pelo modo do site. */
 export function getActiveProducts(mode: Mode = "todos", now = Date.now()): ShopProduct[] {
-  return all.filter((p) => p.active && (!p.expiresAt || Date.parse(p.expiresAt) > now) && (mode === "todos" || isForWomen(p)));
+  const fitsMode = mode === "feminino" ? isForWomen : mode === "masculino" ? isForMen : () => true;
+  return all.filter((p) => p.active && (!p.expiresAt || Date.parse(p.expiresAt) > now) && fitsMode(p));
 }
 
 export function getProductById(id: string): Product | undefined {

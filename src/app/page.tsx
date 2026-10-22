@@ -5,7 +5,7 @@ import { BrandStrip, DealOfTheDay, PopularSearches, PriceRangeGrid, PriceTicker 
 import ProductCard, { DiscountTag } from "@/components/ui/ProductCard";
 import Rail from "@/components/ui/Rail";
 import { CategoryTile, DepartmentTile, EmptyState, TopicCard } from "@/components/ui/Sections";
-import { campaign, campaignFem, categories, departments, stores, TELEGRAM_URL, topics, topicsFem } from "@/data/catalog";
+import { campaign, campaignFem, campaignMasc, categories, departments, homeCopy, stores, TELEGRAM_URL, topics, topicsFem, topicsMasc } from "@/data/catalog";
 import { getMode } from "@/lib/mode";
 import { countBy, departmentOf, discountOf, filterProducts, getActiveProducts, getBrands, sortByDiscount } from "@/lib/products";
 
@@ -18,9 +18,11 @@ const steps = [
 export default async function Home() {
   const mode = await getMode();
   const fem = mode === "feminino";
+  const masc = mode === "masculino";
   const active = getActiveProducts(mode);
   const byDiscount = sortByDiscount(active);
-  const photos = fem ? campaignFem : campaign;
+  const photos = fem ? campaignFem : masc ? campaignMasc : campaign;
+  const copy = homeCopy[mode];
   const deptCounts = countBy(active, departmentOf);
   const topicCount = (t: (typeof topics)[number]) =>
     t.kinds ? t.kinds.reduce((n, k) => n + filterProducts(active, { kind: k }).length, 0) : filterProducts(active, { department: t.department, group: t.group }).length;
@@ -36,7 +38,7 @@ export default async function Home() {
       <section>
         <Container className="pt-2 sm:pt-4">
           <Link href="/ofertas" className="relative block aspect-[4/5] overflow-hidden bg-snow sm:aspect-[16/9] lg:aspect-[21/9]">
-            <Image src={photos.hero} alt={fem ? "Mulher treinando em um tapete de yoga" : "Atleta correndo na pista"} fill priority sizes="100vw" className="object-cover object-[50%_40%]" />
+            <Image src={photos.hero} alt={copy.heroAlt} fill priority sizes="100vw" className="object-cover object-[50%_40%]" />
           </Link>
         </Container>
         <div className="mx-auto max-w-4xl px-4 pt-8 text-center sm:pt-12">
@@ -48,13 +50,9 @@ export default async function Home() {
             <p className="font-medium">Promoções de esporte, conferidas de hora em hora</p>
           )}
           <h1 className="mt-4 font-display text-[3.25rem] uppercase leading-[0.9] sm:text-7xl lg:text-[6.5rem]">
-            {fem ? "Feito pra ela" : "Preço de atleta"}
+            {copy.title}
           </h1>
-          <p className="mx-auto mt-4 max-w-xl text-base sm:text-lg">
-            {fem
-              ? "Leggings, tops, tênis e acessórios femininos com desconto real, garimpados de hora em hora nas lojas que você já conhece."
-              : "Descontos reais em tênis, chuteiras, suplementos e equipamentos, garimpados de hora em hora nas lojas que você já conhece."}
-          </p>
+          <p className="mx-auto mt-4 max-w-xl text-base sm:text-lg">{copy.text}</p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link href="/ofertas" className="rounded-full bg-ink px-6 py-2.5 font-medium text-white transition hover:bg-black/70">Ver ofertas</Link>
             <Link href="/ofertas?ordem=desconto" className="rounded-full border border-line px-6 py-2.5 font-medium transition hover:border-ink">Maiores descontos</Link>
@@ -67,14 +65,14 @@ export default async function Home() {
       </div>
 
       <Container className="mt-16 sm:mt-20">
-        <Rail title={fem ? "Departamentos femininos" : "Compre por departamento"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-48px)/5)]">
-          {departments.map((d) => <DepartmentTile key={d.slug} department={d} feminine={fem} count={deptCounts.get(d.slug)} />)}
+        <Rail title={fem ? "Departamentos femininos" : masc ? "Departamentos masculinos" : "Compre por departamento"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-48px)/5)]">
+          {departments.map((d) => <DepartmentTile key={d.slug} department={d} mode={mode} count={deptCounts.get(d.slug)} />)}
         </Rail>
       </Container>
 
       <Container className="mt-16 sm:mt-20">
-        <Rail title={fem ? "Compre por tipo, pra ela" : "Compre por tipo"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-36px)/4)]">
-          {(fem ? topicsFem : topics).map((t) => <TopicCard key={t.href} topic={t} count={topicCount(t)} />)}
+        <Rail title={fem ? "Compre por tipo, pra ela" : masc ? "Compre por tipo, pra ele" : "Compre por tipo"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-36px)/4)]">
+          {(fem ? topicsFem : masc ? topicsMasc : topics).map((t) => <TopicCard key={t.href + t.label} topic={t} count={topicCount(t)} />)}
         </Rail>
       </Container>
 

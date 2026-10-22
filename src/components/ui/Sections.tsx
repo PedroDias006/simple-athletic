@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { amazonSearchUrl, type Category, type Department, type Topic } from "@/data/catalog";
+import { amazonSearchUrl, departmentLook, type Category, type Department, type Topic } from "@/data/catalog";
+import type { Mode } from "@/lib/mode";
 import type { Product } from "@/types/product";
 import ProductCard from "./ProductCard";
 
@@ -48,11 +49,11 @@ export function AmazonSearch({ term, label }: { term: string; label: string }) {
   );
 }
 
-/** Bloco grande de departamento (Calçados, Roupas...), com a foto feminina no modo feminino. */
-export function DepartmentTile({ department, feminine, count, className = "aspect-[4/5]" }: { department: Department; feminine: boolean; count?: number; className?: string }) {
+/** Bloco grande de departamento (Calçados, Roupas...), com a foto do modo feminino/masculino. */
+export function DepartmentTile({ department, mode, count, className = "aspect-[4/5]" }: { department: Department; mode: Mode; count?: number; className?: string }) {
   return (
     <Link href={`/${department.slug}`} className={`group relative block overflow-hidden bg-snow ${className}`}>
-      <Image src={feminine ? department.imageFem : department.image} alt="" fill sizes="(max-width: 640px) 72vw, 25vw" className="object-cover transition duration-700 group-hover:scale-[1.03]" />
+      <Image src={departmentLook(department, mode).image} alt="" fill sizes="(max-width: 640px) 72vw, 25vw" className="object-cover transition duration-700 group-hover:scale-[1.03]" />
       <span className="absolute bottom-5 left-5 flex items-baseline gap-2 rounded-full bg-white px-5 py-2 text-base font-medium transition group-hover:bg-snow sm:bottom-7 sm:left-7">
         {department.label}
         {count ? <span className="text-sm font-normal text-muted">{count}</span> : null}

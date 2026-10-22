@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { categories, departmentBySlug, departments, TELEGRAM_URL } from "@/data/catalog";
+import { categories, departmentBySlug, departmentLook, departments, TELEGRAM_URL } from "@/data/catalog";
 import { groupsOf, type DepartmentSlug } from "@/data/taxonomy";
 import type { Mode } from "@/lib/mode";
 import { ChevronLeft, ChevronRight, CloseIcon, MenuIcon, SearchIcon } from "./Icons";
@@ -23,7 +23,7 @@ const messages = [
   { text: "Receba as quedas de preço antes de todo mundo.", cta: "Entrar no canal", href: TELEGRAM_URL },
 ];
 
-export function Logo({ className = "", feminine = false }: { className?: string; feminine?: boolean }) {
+export function Logo({ className = "", badge }: { className?: string; badge?: string }) {
   return (
     <Link href="/" aria-label="Simple Athletic, início" className={`flex items-center gap-2 whitespace-nowrap font-display text-[22px] uppercase leading-none tracking-tight ${className}`}>
       <span aria-hidden className="flex gap-[3px]">
@@ -32,7 +32,7 @@ export function Logo({ className = "", feminine = false }: { className?: string;
       </span>
       <span className="hidden min-[380px]:inline">Simple Athletic</span>
       <span className="min-[380px]:hidden">SA</span>
-      {feminine && <span className="font-sans text-xs font-semibold normal-case tracking-normal text-hot">Feminino</span>}
+      {badge && <span className="hidden font-sans text-xs font-semibold normal-case tracking-normal text-hot min-[420px]:inline">{badge}</span>}
     </Link>
   );
 }
@@ -95,7 +95,7 @@ export default function Navbar({ mode }: { mode: Mode }) {
 
       <header className="sticky top-0 z-50 bg-white">
         <div className="mx-auto grid h-16 max-w-[1440px] grid-cols-[1fr_auto] items-center px-4 sm:px-6 lg:px-12 xl:grid-cols-[1fr_auto_1fr]">
-          <Logo className="justify-self-start" feminine={mode === "feminino"} />
+          <Logo className="justify-self-start" badge={mode === "feminino" ? "Feminino" : mode === "masculino" ? "Masculino" : undefined} />
 
           <nav aria-label="Principal" className="hidden xl:block" onMouseLeave={() => setMega(null)} onClick={closeOnLink(() => setMega(null))}>
             <ul className="flex items-center gap-0.5">
@@ -132,7 +132,7 @@ export default function Navbar({ mode }: { mode: Mode }) {
                     ))}
                   </div>
                   <Link href={`/${megaDept.slug}`} className="group relative block aspect-[4/5] w-60 shrink-0 overflow-hidden bg-snow">
-                    <Image src={mode === "feminino" ? megaDept.imageFem : megaDept.image} alt="" fill sizes="240px" className="object-cover transition duration-700 group-hover:scale-105" />
+                    <Image src={departmentLook(megaDept, mode).image} alt="" fill sizes="240px" className="object-cover transition duration-700 group-hover:scale-105" />
                     <span className="absolute bottom-4 left-4 rounded-full bg-white px-4 py-1.5 text-sm font-medium">Ver tudo em {megaDept.label}</span>
                   </Link>
                 </div>
@@ -177,7 +177,11 @@ export default function Navbar({ mode }: { mode: Mode }) {
           <div className="mb-6 rounded-2xl bg-snow p-4">
             <ModeToggle mode={mode} />
             <p className="mt-2 text-sm text-muted">
-              {mode === "feminino" ? "Mostrando só produtos femininos e acessórios para ela." : "Ligue para ver só produtos femininos."}
+              {mode === "feminino"
+                ? "Mostrando só produtos femininos e acessórios para ela."
+                : mode === "masculino"
+                  ? "Mostrando só produtos masculinos e acessórios para ele."
+                  : "Escolha Feminino ou Masculino para ver só produtos para você."}
             </p>
           </div>
           <ul>

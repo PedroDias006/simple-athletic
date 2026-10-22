@@ -33,11 +33,19 @@ export interface Department {
   descriptionFem: string;
   image: string;
   imageFem: string;
+  /** Foto do modo masculino; sem ela, usa a padrão. */
+  imageMasc?: string;
+}
+
+/** Foto e texto do departamento conforme o modo do site. */
+export function departmentLook(d: Department, mode: "todos" | "feminino" | "masculino") {
+  if (mode === "feminino") return { image: d.imageFem, description: d.descriptionFem };
+  return { image: (mode === "masculino" && d.imageMasc) || d.image, description: d.description };
 }
 
 const departmentPhotos: Record<DepartmentSlug, Omit<Department, "slug" | "label">> = {
   calcados: { description: "Tênis de corrida, de academia, casuais e de quadra, chuteiras e chinelos.", descriptionFem: "Tênis femininos para correr, treinar, jogar e usar no dia a dia.", image: unsplash("1556906781-9a412961c28c", 900), imageFem: unsplash("1560769629-975ec94e6a86", 900) },
-  roupas: { description: "Camisetas, regatas, shorts, calças, jaquetas e camisas de time.", descriptionFem: "Leggings, tops, shorts, conjuntos e jaquetas pensados para o corpo feminino.", image: unsplash("1521572163474-6864f9cf17ab", 900), imageFem: unsplash("1594381898411-846e7d193883", 900) },
+  roupas: { description: "Camisetas, regatas, shorts, calças, jaquetas e camisas de time.", descriptionFem: "Leggings, tops, shorts, conjuntos e jaquetas pensados para o corpo feminino.", image: unsplash("1521572163474-6864f9cf17ab", 900), imageFem: unsplash("1594381898411-846e7d193883", 900), imageMasc: unsplash("1581009146145-b5ef050c2e1e", 900) },
   acessorios: { description: "Bonés, óculos, mochilas, garrafas, relógios e luvas para o dia a dia do treino.", descriptionFem: "Bolsas, garrafas, faixas de cabelo, óculos e relógios para o seu treino.", image: unsplash("1616066753769-b46d9d825331", 900), imageFem: unsplash("1599058917212-d750089bc07e", 900) },
   equipamentos: { description: "Raquetes de tênis, beach tennis e padel, bolas, pesos e equipamentos de cada esporte.", descriptionFem: "Raquetes, tapetes, elásticos, pesos e equipamentos para o seu esporte.", image: unsplash("1576678927484-cc907957088c", 900), imageFem: unsplash("1434596922112-19c563067271", 900) },
   "lesao-e-recuperacao": { description: "Joelheiras, tornozeleiras, bolsas de gelo, rolos de massagem e compressão para tratar e prevenir lesões.", descriptionFem: "Joelheiras, tornozeleiras, bolsas de gelo, rolos de massagem e compressão para tratar e prevenir lesões.", image: unsplash("1593431763017-c689a61b729a", 900), imageFem: unsplash("1609899537878-88d5ba429bdb", 900) },
@@ -80,10 +88,10 @@ export interface Topic {
 export const topics: Topic[] = [
   { label: "Tênis", description: "Corrida, academia, quadra e casual com preço de outlet.", image: unsplash("1542291026-7eec264c27ff", 800), href: "/calcados?grupo=tenis", department: "calcados", group: "tenis" },
   { label: "Raquetes", description: "Tênis, beach tennis, padel e tênis de mesa.", image: unsplash("1554068865-24cecd4e34b8", 800), href: "/equipamentos?grupo=raquetes", department: "equipamentos", group: "raquetes" },
-  { label: "Camisetas e regatas", description: "Dry-fit para treinar e básicas para o dia a dia.", image: unsplash("1521572163474-6864f9cf17ab", 800), href: "/roupas?grupo=parte-de-cima", department: "roupas", kinds: ["camiseta", "regata"] },
+  { label: "Camisetas e blusas", description: "Dry-fit, regatas, manga longa, compressão e polo.", image: unsplash("1521572163474-6864f9cf17ab", 800), href: "/roupas?grupo=parte-de-cima", department: "roupas", group: "parte-de-cima" },
   { label: "Lesão e recuperação", description: "Joelheiras, bolsas de gelo, rolos e compressão.", image: unsplash("1593431763017-c689a61b729a", 800), href: "/lesao-e-recuperacao", department: "lesao-e-recuperacao" },
   { label: "Chuteiras", description: "Campo, society e futsal das marcas dos profissionais.", image: unsplash("1529900748604-07564a03e7a6", 800), href: "/calcados?grupo=chuteiras", department: "calcados", group: "chuteiras" },
-  { label: "Shorts e bermudas", description: "Leves para correr e de compressão para treinar.", image: unsplash("1554139844-af2fc8ad3a3a", 800), href: "/roupas?grupo=parte-de-baixo", department: "roupas", kinds: ["shorts", "bermuda"] },
+  { label: "Shorts, calças e leggings", description: "Leves para correr, de compressão para treinar e joggers.", image: unsplash("1554139844-af2fc8ad3a3a", 800), href: "/roupas?grupo=parte-de-baixo", department: "roupas", group: "parte-de-baixo" },
   { label: "Musculação", description: "Halteres, elásticos, tapetes e acessórios de treino.", image: unsplash("1517836357463-d25dfeac3438", 800), href: "/equipamentos?grupo=musculacao", department: "equipamentos", group: "musculacao" },
   { label: "Acessórios", description: "Bonés, óculos, mochilas, garrafas e relógios.", image: unsplash("1616066753769-b46d9d825331", 800), href: "/acessorios", department: "acessorios" },
 ];
@@ -92,12 +100,31 @@ export const topicsFem: Topic[] = [
   { label: "Leggings", description: "Que não ficam transparentes no agachamento.", image: unsplash("1518611012118-696072aa579a", 800), href: "/roupas?tipo=legging", department: "roupas", kinds: ["legging"] },
   { label: "Tops", description: "Sustentação para cada tipo de treino.", image: unsplash("1541534741688-6078c6bfb5c5", 800), href: "/roupas?tipo=top", department: "roupas", kinds: ["top"] },
   { label: "Tênis femininos", description: "Corrida, academia, quadra e casual.", image: unsplash("1560769629-975ec94e6a86", 800), href: "/calcados?grupo=tenis", department: "calcados", group: "tenis" },
-  { label: "Shorts e saias", description: "Leves, com bermuda interna e bolso.", image: unsplash("1571019614242-c5c5dee9f50b", 800), href: "/roupas?tipo=shorts", department: "roupas", kinds: ["shorts"] },
+  { label: "Shorts e saias", description: "Leves, com bermuda interna e bolso.", image: unsplash("1571019614242-c5c5dee9f50b", 800), href: "/roupas?grupo=parte-de-baixo", department: "roupas", kinds: ["shorts", "short-saia", "bermuda"] },
+  { label: "Blusas e croppeds", description: "Regatas, croppeds, manga longa e dry-fit.", image: unsplash("1517438322307-e67111335449", 800), href: "/roupas?grupo=parte-de-cima", department: "roupas", kinds: ["camiseta", "regata", "cropped", "manga-longa", "compressao-cima"] },
   { label: "Conjuntos", description: "Top e legging combinando, prontos para o treino.", image: unsplash("1594381898411-846e7d193883", 800), href: "/roupas?grupo=conjuntos", department: "roupas", group: "conjuntos" },
   { label: "Raquetes", description: "Beach tennis, tênis e padel.", image: unsplash("1554068865-24cecd4e34b8", 800), href: "/equipamentos?grupo=raquetes", department: "equipamentos", group: "raquetes" },
   { label: "Lesão e recuperação", description: "Joelheiras, bolsas de gelo e massagem.", image: unsplash("1609899537878-88d5ba429bdb", 800), href: "/lesao-e-recuperacao", department: "lesao-e-recuperacao" },
   { label: "Acessórios para ela", description: "Bolsas, garrafas, faixas e relógios.", image: unsplash("1599058917212-d750089bc07e", 800), href: "/acessorios", department: "acessorios" },
 ];
+
+export const topicsMasc: Topic[] = [
+  { label: "Camisetas e regatas", description: "Dry-fit, regata cavada, manga longa e polo.", image: unsplash("1521572163474-6864f9cf17ab", 800), href: "/roupas?grupo=parte-de-cima", department: "roupas", kinds: ["camiseta", "regata", "manga-longa", "polo"] },
+  { label: "Compressão", description: "Camisas segunda pele, bermudas e calças de compressão.", image: unsplash("1583454110551-21f2fa2afe61", 800), href: "/roupas?tipo=compressao-cima", department: "roupas", kinds: ["compressao-cima", "compressao-baixo"] },
+  { label: "Bermudas e shorts", description: "Para correr, treinar e jogar.", image: unsplash("1554139844-af2fc8ad3a3a", 800), href: "/roupas?grupo=parte-de-baixo", department: "roupas", kinds: ["shorts", "bermuda"] },
+  { label: "Tênis masculinos", description: "Corrida, academia, quadra e casual.", image: unsplash("1542291026-7eec264c27ff", 800), href: "/calcados?grupo=tenis", department: "calcados", group: "tenis" },
+  { label: "Jaquetas e moletons", description: "Corta-vento, moletom e agasalho.", image: unsplash("1586791400644-b04429f7d808", 800), href: "/roupas?grupo=agasalhos", department: "roupas", group: "agasalhos" },
+  { label: "Chuteiras", description: "Campo, society e futsal.", image: unsplash("1529900748604-07564a03e7a6", 800), href: "/calcados?grupo=chuteiras", department: "calcados", group: "chuteiras" },
+  { label: "Musculação", description: "Halteres, elásticos e acessórios de treino.", image: unsplash("1517836357463-d25dfeac3438", 800), href: "/equipamentos?grupo=musculacao", department: "equipamentos", group: "musculacao" },
+  { label: "Lesão e recuperação", description: "Joelheiras, bolsas de gelo e massagem.", image: unsplash("1593431763017-c689a61b729a", 800), href: "/lesao-e-recuperacao", department: "lesao-e-recuperacao" },
+];
+
+/** Textos da home em cada modo. */
+export const homeCopy = {
+  todos: { title: "Preço de atleta", text: "Descontos reais em tênis, chuteiras, suplementos e equipamentos, garimpados de hora em hora nas lojas que você já conhece.", heroAlt: "Atleta correndo na pista" },
+  feminino: { title: "Feito pra ela", text: "Leggings, tops, croppeds, tênis e acessórios femininos com desconto real, garimpados de hora em hora nas lojas que você já conhece.", heroAlt: "Mulher treinando em um tapete de yoga" },
+  masculino: { title: "Feito pra ele", text: "Camisetas, bermudas, compressão, tênis e equipamentos masculinos com desconto real, garimpados de hora em hora.", heroAlt: "Homem treinando com barra na academia" },
+} as const;
 
 /** Faixas de preço usadas na home e no filtro de /ofertas (?preco=). */
 export const priceRanges = [
@@ -118,6 +145,12 @@ export const campaign = {
 export const campaignFem = {
   hero: unsplash("1518611012118-696072aa579a", 2400),
   banner: unsplash("1574680096145-d05b474e2155", 2400),
+};
+
+/** Fotos da home no modo masculino. */
+export const campaignMasc = {
+  hero: unsplash("1581009146145-b5ef050c2e1e", 2400),
+  banner: unsplash("1571019613454-1cb2f99b2d8b", 2400),
 };
 
 export const categoryBySlug = Object.fromEntries(categories.map((c) => [c.slug, c])) as Record<CategorySlug, Category>;

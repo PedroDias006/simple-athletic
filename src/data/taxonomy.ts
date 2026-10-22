@@ -17,8 +17,9 @@ export const taxonomy = [
     slug: "roupas",
     label: "Roupas",
     groups: [
-      { slug: "parte-de-cima", label: "Parte de cima", kinds: [["camiseta", "Camisetas e blusas"], ["regata", "Regatas"], ["top", "Tops e sutiãs esportivos"], ["camisa-time", "Camisas de time"], ["jaqueta", "Jaquetas e corta-ventos"], ["moletom", "Moletons e agasalhos"]] },
-      { slug: "parte-de-baixo", label: "Parte de baixo", kinds: [["legging", "Leggings"], ["shorts", "Shorts e saias"], ["bermuda", "Bermudas"], ["calca", "Calças e joggers"]] },
+      { slug: "parte-de-cima", label: "Camisetas e blusas", kinds: [["camiseta", "Camisetas"], ["regata", "Regatas"], ["top", "Tops e sutiãs esportivos"], ["cropped", "Croppeds"], ["manga-longa", "Blusas de manga longa"], ["compressao-cima", "Camisas de compressão e segunda pele"], ["polo", "Camisas polo"], ["camisa-time", "Camisas de time"]] },
+      { slug: "agasalhos", label: "Jaquetas e moletons", kinds: [["jaqueta", "Jaquetas"], ["corta-vento", "Corta-ventos"], ["moletom", "Moletons e agasalhos"]] },
+      { slug: "parte-de-baixo", label: "Shorts, calças e leggings", kinds: [["legging", "Leggings"], ["shorts", "Shorts"], ["short-saia", "Shorts-saia e saias"], ["bermuda", "Bermudas"], ["compressao-baixo", "Shorts e calças de compressão"], ["calca", "Calças"], ["jogger", "Calças jogger"]] },
       { slug: "conjuntos", label: "Conjuntos e macaquinhos", kinds: [["conjunto", "Conjuntos"], ["macaquinho", "Macaquinhos e bodies"]] },
       { slug: "praia", label: "Natação e praia", kinds: [["praia", "Maiôs, sungas e biquínis"]] },
       { slug: "meias", label: "Meias", kinds: [["meia", "Meias e meiões"]] },

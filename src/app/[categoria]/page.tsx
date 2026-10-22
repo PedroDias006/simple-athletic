@@ -3,9 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Container from "@/components/layout/Container";
 import { AmazonSearch, EmptyState, FilterGroup, ListingLayout, PageHeader, ProductGrid } from "@/components/ui/Sections";
-import { categories, categoryBySlug, colors, departmentBySlug, departments, kindInfo, styles, TELEGRAM_URL } from "@/data/catalog";
+import { categories, categoryBySlug, colors, departmentBySlug, departmentLook, departments, kindInfo, styles, TELEGRAM_URL } from "@/data/catalog";
 import { groupsOf, infoOf } from "@/data/taxonomy";
-import { getMode } from "@/lib/mode";
+import { getMode, modeLabel } from "@/lib/mode";
 import { countBy, departmentOf, filterProducts, getActiveProducts, groupOf, sortByDiscount } from "@/lib/products";
 import type { CategorySlug, ColorSlug, DepartmentSlug, GroupSlug, KindSlug, StyleSlug } from "@/types/product";
 
@@ -37,6 +37,7 @@ export default async function ListingPage({ params, searchParams }: Props) {
   const sp = await searchParams;
   const mode = await getMode();
   const fem = mode === "feminino";
+  const genderWord = mode === "todos" ? "" : modeLabel[mode];
 
   const department = departmentBySlug[slug as DepartmentSlug];
   const category = categoryBySlug[slug as CategorySlug];
@@ -91,10 +92,10 @@ export default async function ListingPage({ params, searchParams }: Props) {
   if (kindCounts.has("outro")) kindItems.push("outro");
 
   const label = department?.label ?? category!.label;
-  const suffix = fem ? " · Feminino" : "";
+  const suffix = genderWord ? ` · ${genderWord}` : "";
   const groupLabel = group && tree.find((g) => g.slug === group)?.label;
   const title = kind ? infoOf(kind).label + suffix : groupLabel ? groupLabel + suffix : department ? `${label} em promoção${suffix}` : `Promoções de ${label}${suffix}`;
-  const description = kind || group ? undefined : department ? (fem ? department.descriptionFem : department.description) : category!.description;
+  const description = kind || group ? undefined : department ? departmentLook(department, mode).description : category!.description;
   const crumb = [label, groupLabel, kind && infoOf(kind).label].filter(Boolean).join(" / ");
   /** O que buscar na Amazon: o nível mais específico que a pessoa escolheu. */
   const amazonTerm = kind ? infoOf(kind).label : groupLabel ?? label;
@@ -166,12 +167,12 @@ export default async function ListingPage({ params, searchParams }: Props) {
         {list.length ? (
           <ProductGrid products={list} />
         ) : (
-          <EmptyState title={fem ? "Nenhuma oferta feminina aqui agora" : "Nenhuma promoção ativa agora"}>
-            {fem ? "O robô procura novas ofertas femininas de hora em hora. " : ""}
+          <EmptyState title={genderWord ? `Nenhuma oferta ${fem ? "feminina" : "masculina"} aqui agora` : "Nenhuma promoção ativa agora"}>
+            {genderWord ? `O robô procura novas ofertas ${fem ? "femininas" : "masculinas"} de hora em hora. ` : ""}
             Assim que um preço cair, avisamos no <a href={TELEGRAM_URL} target="_blank" rel="noopener" className="text-ink underline">canal do Telegram</a>.
           </EmptyState>
         )}
-        <AmazonSearch term={`${amazonTerm}${fem ? " feminino" : ""}`} label={amazonTerm.toLowerCase()} />
+        <AmazonSearch term={`${amazonTerm}${genderWord ? ` ${genderWord.toLowerCase()}` : ""}`} label={amazonTerm.toLowerCase()} />
       </ListingLayout>
     </Container>
   );
