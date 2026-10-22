@@ -1,0 +1,6 @@
+# Prévias geradas pelo --dry-run
+.preview/
+# Suas chaves locais (nunca suba isso para o GitHub)
+.env
+# O .gitignore da raiz ignora ".env*"; o modelo sem chaves precisa ir para o GitHub
+!.env.example

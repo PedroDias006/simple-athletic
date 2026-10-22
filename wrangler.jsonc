@@ -1,0 +1,21 @@
+// Hospedagem na Cloudflare (Workers, plano grátis, uso comercial permitido, sem selo).
+// Publicar: npm run cf:deploy
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "simpleathletic",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  // O site responde só no domínio próprio (sem endereço *.workers.dev).
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "simpleathletic.com.br", "custom_domain": true },
+    { "pattern": "www.simpleathletic.com.br", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}
