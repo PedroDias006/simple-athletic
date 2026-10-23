@@ -1,6 +1,6 @@
 # Relatório do bot de promoções
 
-Execução: 23/10/2026, 12:09:18 (horário de Brasília)
+Execução: 23/10/2026, 16:19:01 (horário de Brasília)
 
 **Medido nesta execução:** 1152 ofertas ativas no site · 0 novas publicadas · 0 retiradas · 0 rejeitadas · 0 em observação · 1292 produtos com histórico de preço.
 
@@ -1172,88 +1172,85 @@ Nenhuma.
 - mercadolivre-p-MLB26848061: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
 - mercadolivre-p-MLB38105097: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
 - mercadolivre-p-MLB26253972: não deu para rechecar (400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]})
-- Mercado Livre, busca "chuteira society": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "chuteira society nike": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "chuteira society umbro": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "chuteira futsal nike": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "chuteira futsal penalty": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "chuteira campo adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "chuteira campo umbro": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "chuteira predator": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bola futsal": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bola de futebol adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "camisa de time feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "meião de futebol": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bolsa para chuteira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis feminino corrida": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis de corrida adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis de corrida olympikus": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis de corrida under armour": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis de corrida saucony": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis de corrida kalenji": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis mizuno wave": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis de caminhada feminino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "short feminino corrida": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "jaqueta corta vento feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "short masculino corrida": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "jaqueta corta vento masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "meia de corrida": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "smartwatch esportivo": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "braçadeira celular corrida": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "óculos de sol esportivo": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "raquete de tênis": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "raquete de tênis head": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "raquete beach tennis heroes": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "raquete de tênis de mesa": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bola de padel": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis para quadra": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "legging": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "calça legging fitness": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "sutiã esportivo": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "regata fitness feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "short fitness feminino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "macaquinho fitness": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "conjunto legging e top": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "regata masculina academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "camisa segunda pele masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bermuda de compressão masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis feminino academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bolsa academia feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "coqueteleira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "cinto de musculação": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "toalha academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "kettlebell": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "mini band": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "roda abdominal": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bandagem boxe": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "whey protein": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "coqueteleira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "colágeno": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "joelheira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tornozeleira ortopédica": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "fita kinesio": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bolsa de gelo": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "manguito de compressão": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bola de massagem": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "moletom feminino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "jaqueta esportiva feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "camiseta oversized feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "calça jogger masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "conjunto agasalho masculino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "camiseta oversized masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "legging live": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "camiseta adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "short nike": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "camiseta olympikus": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "jaqueta adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis casual masculino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis nike air force": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis fila": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis all star": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "chinelo adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "boné aba curva": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "bola de vôlei": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
-- Mercado Livre, busca "tênis de vôlei": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "chuteira futsal": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "chuteira society adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "chuteira society penalty": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "chuteira futsal adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "chuteira futsal joma": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "chuteira campo puma": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "chuteira mercurial": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "chuteira feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bola society": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bola de futebol penalty": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camisa seleção brasileira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "caneleira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis masculino corrida": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis de corrida asics": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis de corrida fila": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis de corrida puma": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis de corrida brooks": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis nike pegasus": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis olympikus corre": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis de caminhada masculino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "regata feminina dry fit": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "calça legging de compressão feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "short 2 em 1 masculino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "regata corrida masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "relógio gps": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "cinto de hidratação": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "viseira corrida": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "garrafa squeeze": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "raquete de tênis wilson": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "raquete de beach tennis": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "raquete beach tennis camewin": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bola de beach tennis": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "raqueteira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "saia de tênis feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "legging cintura alta": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "top fitness": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "cropped fitness": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camiseta feminina academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "short saia fitness": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "macacão fitness": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camiseta masculina academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "regata cavada masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camiseta manga longa masculina academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "short masculino academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis masculino academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "mochila academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "luva de academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "munhequeira academia": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "halter": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "caneleira de peso": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tapete yoga": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bola de pilates": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "óculos de natação": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "creatina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "albumina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "multivitamínico": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "joelheira ortopédica": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "munhequeira": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "cinta lombar": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bolsa térmica gel": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "rolo liberação miofascial": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "calça moletom feminina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "conjunto moletom feminino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "moletom masculino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bermuda moletom masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "jaqueta esportiva masculina": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "legging nike": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "top nike": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camiseta under armour": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "short adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "camiseta fila": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "moletom nike": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis branco feminino": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis adidas": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "tênis new balance": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "chinelo slide": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "boné": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "mochila": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
+- Mercado Livre, busca "bola de basquete": 400 em https://api.mercadolibre.com/oauth/token: {"message":"invalid client_id or client_secret","error":"invalid_client","status":400,"cause":[]}
 
 ## Limitações conhecidas
 
