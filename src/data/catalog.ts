@@ -243,7 +243,7 @@ export const slideOfertas: HeroSlide = {
   title: "Achados do dia",
   highlight: "do dia",
   text: "Preço e desconto conferidos pelo robô direto na loja. Clique e compre na loja oficial.",
-  ctas: [{ label: "Ver todas as ofertas", href: "/ofertas" }],
+  ctas: [{ label: "Ver todas", href: "/ofertas" }],
 };
 
 const slideCanal = (photo: string): HeroSlide => ({
