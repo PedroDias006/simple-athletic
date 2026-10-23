@@ -21,12 +21,11 @@ const tones: Record<Tone, { box: string; stripes: [string, string]; solid: strin
 
 /**
  * Carrossel da home: fotos cortadas na diagonal pelas listras da marca, troca automática
- * com barrinhas de progresso, pausa ao passar o mouse e botão de pausar (acessibilidade).
+ * com linha de progresso no pé do card, setas nos cantos e pausa ao passar o mouse ou focar.
  */
 export default function HeroCarousel({ slides, maxDiscount }: { slides: HeroSlide[]; maxDiscount: number }) {
   const [index, setIndex] = useState(0);
   const [hover, setHover] = useState(false);
-  const [stopped, setStopped] = useState(false);
   const [wipe, setWipe] = useState(0);
   const touchX = useRef<number | null>(null);
   const { choose } = useModeSwitch();
@@ -88,36 +87,32 @@ export default function HeroCarousel({ slides, maxDiscount }: { slides: HeroSlid
             </div>
           </div>
         )}
-      </div>
 
-      <div className="mt-3 flex items-center gap-4">
-        <div className="flex flex-1 gap-2">
+        {/* Setas nos dois cantos do card. */}
+        <button onClick={() => go(index - 1)} aria-label="Slide anterior" className="absolute left-3 top-[28%] z-30 sm:top-1/2 grid h-11 w-11 -translate-y-1/2 place-items-center rounded-full bg-white/85 text-ink shadow-sm transition hover:bg-white sm:left-4">
+          <ChevronLeft />
+        </button>
+        <button onClick={() => go(index + 1)} aria-label="Próximo slide" className="absolute right-3 top-[28%] z-30 sm:top-1/2 grid h-11 w-11 -translate-y-1/2 place-items-center rounded-full bg-white/85 text-ink shadow-sm transition hover:bg-white sm:right-4">
+          <ChevronRight />
+        </button>
+
+        {/* Linha de progresso contínua no pé do card: um trecho por slide, sem espaço entre eles. */}
+        <div className="absolute inset-x-0 bottom-0 z-30 flex">
           {slides.map((s, i) => (
-            <button key={i} onClick={() => go(i)} aria-label={`Ir para o slide ${i + 1}: ${s.title}`} aria-current={i === index} className="group h-6 flex-1">
-              <span className="block h-[3px] overflow-hidden bg-line transition group-hover:bg-muted/40">
+            <button key={i} onClick={() => go(i)} aria-label={`Ir para o slide ${i + 1}: ${s.title}`} aria-current={i === index} className="flex h-4 flex-1 items-end">
+              <span className="block h-1 w-full overflow-hidden bg-white/40">
                 {i < index && <span className="block h-full bg-ink" />}
                 {i === index && (
                   <span
                     key={wipe}
                     className="hero-progress block h-full origin-left bg-hot"
-                    style={{ animationDuration: `${DURACAO_MS}ms`, animationPlayState: hover || stopped ? "paused" : "running" }}
+                    style={{ animationDuration: `${DURACAO_MS}ms`, animationPlayState: hover ? "paused" : "running" }}
                     onAnimationEnd={next}
                   />
                 )}
               </span>
             </button>
           ))}
-        </div>
-        <div className="flex shrink-0 items-center gap-2">
-          <button onClick={() => setStopped((v) => !v)} aria-label={stopped ? "Continuar passando os slides" : "Pausar os slides"} className="grid h-10 w-10 place-items-center rounded-full bg-snow transition hover:bg-line">
-            {stopped ? (
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M7 4v16l13-8z" /></svg>
-            ) : (
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M6 4h4v16H6zM14 4h4v16h-4z" /></svg>
-            )}
-          </button>
-          <button onClick={() => go(index - 1)} aria-label="Slide anterior" className="grid h-10 w-10 place-items-center rounded-full bg-snow transition hover:bg-line"><ChevronLeft /></button>
-          <button onClick={() => go(index + 1)} aria-label="Próximo slide" className="grid h-10 w-10 place-items-center rounded-full bg-snow transition hover:bg-line"><ChevronRight /></button>
         </div>
       </div>
     </section>
@@ -153,7 +148,7 @@ function DiagonalSlide({ slide, first, active, maxDiscount, onMode }: SlideProps
           </div>
         </div>
       </div>
-      <div className="absolute inset-x-0 bottom-0 flex h-[44%] flex-col justify-center px-5 sm:h-[40%] sm:px-10 lg:inset-y-0 lg:left-auto lg:h-full lg:w-[38%] lg:px-10 xl:px-14">
+      <div className="absolute inset-x-0 bottom-0 flex h-[44%] flex-col justify-center px-5 sm:h-[40%] sm:px-10 lg:inset-y-0 lg:left-auto lg:h-full lg:w-[38%] lg:pl-10 lg:pr-20 xl:pl-14">
         <SlideText slide={slide} tone={tone} first={first} active={active} maxDiscount={maxDiscount} onMode={onMode} />
       </div>
     </div>
@@ -166,7 +161,7 @@ function PhotoSlide({ slide, first, active, maxDiscount, onMode }: SlideProps) {
     <div className="absolute inset-0 bg-ink text-white">
       <Image src={slide.photos[0]} alt={slide.alt} fill priority={first} sizes="100vw" className="object-cover object-[50%_35%]" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent lg:bg-gradient-to-r lg:from-black/80 lg:via-black/35" />
-      <div className="absolute inset-0 flex flex-col justify-end p-5 pb-8 sm:p-10 lg:w-[52%] lg:justify-center lg:p-14">
+      <div className="absolute inset-0 flex flex-col justify-end p-5 pb-8 sm:p-10 lg:w-[52%] lg:justify-center lg:p-14 lg:pl-24">
         <SlideText slide={slide} tone="ink" first={first} active={active} maxDiscount={maxDiscount} onMode={onMode} />
       </div>
     </div>
