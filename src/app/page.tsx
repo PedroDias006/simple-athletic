@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/layout/Container";
-import { SectionTitle, Stripes } from "@/components/ui/Brand";
+import { SectionTitle } from "@/components/ui/Brand";
 import HeroCarousel, { type HeroDeal } from "@/components/ui/HeroCarousel";
 import { BrandStrip, DealOfTheDay, PopularSearches, PriceRangeGrid, PriceTicker } from "@/components/ui/HomeBlocks";
 import ProductCard from "@/components/ui/ProductCard";
@@ -50,75 +50,20 @@ export default async function Home() {
         />
       </div>
 
-      {/* Manifesto: o que a marca faz e o que as duas listras querem dizer */}
-      <section id="manifesto" className="mt-16 scroll-mt-24 sm:mt-24">
-        <Container>
-          <div className="grid gap-10 lg:grid-cols-[1fr_1.15fr] lg:items-center lg:gap-16">
-            <div className="relative flex aspect-[5/4] items-center justify-center overflow-hidden bg-snow">
-              <div aria-hidden className="flex h-[78%] w-[46%] gap-[9%]">
-                <span className="flex-1 -skew-x-[18deg] bg-ink" />
-                <span className="flex-1 -skew-x-[18deg] bg-hot" />
-              </div>
-              <span className="absolute left-5 top-5 rounded-full bg-white px-4 py-1.5 text-sm font-medium sm:left-8 sm:top-8">pra ela</span>
-              <span className="absolute bottom-5 right-5 rounded-full bg-white px-4 py-1.5 text-sm font-medium sm:bottom-8 sm:right-8">pra ele</span>
-              <span className="absolute bottom-5 left-5 rounded-full bg-ink px-4 py-1.5 text-sm font-medium text-white sm:bottom-8 sm:left-8">pra todo mundo</span>
-            </div>
-            <div>
-              <p className="flex items-center gap-2.5 text-sm font-semibold uppercase tracking-[0.14em] text-hot">
-                <Stripes className="h-[1.1em]" /> Nossa ideia
-              </p>
-              <h2 className="mt-3 font-display text-5xl uppercase leading-[0.92] sm:text-6xl xl:text-7xl">Feito pra quem treina. Ou seja, todo mundo.</h2>
-              <p className="mt-5 max-w-xl text-base sm:text-lg">
-                A Simple Athletic nasceu de uma implicância: tênis bom, roupa boa e suplemento de qualidade parecem coisa de poucos. Não são.
-                Um robô confere as maiores lojas de esporte do Brasil de hora em hora e só mostra desconto que é de verdade. Você compra direto
-                na loja oficial, com a mesma garantia, pagando menos.
-              </p>
-              <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-line pt-6">
-                {[
-                  { label: "Todo mundo", color: "#d43f21" },
-                  { label: "Ela", color: "#e0457b" },
-                  { label: "Ele", color: "#1d5fd1" },
-                ].map((v) => (
-                  <span key={v.label} className="flex items-center gap-2 text-sm font-medium">
-                    <span aria-hidden className="flex h-5 gap-[3px]">
-                      <span className="w-[5px] -skew-x-[18deg] bg-[#111]" />
-                      <span className="w-[5px] -skew-x-[18deg]" style={{ background: v.color }} />
-                    </span>
-                    {v.label}
-                  </span>
-                ))}
-                <p className="w-full text-sm text-muted">
-                  A listra preta é a base que todo mundo divide. A colorida muda com você: laranja pra todo mundo, rosa no modo feminino, azul no masculino.
-                </p>
-              </div>
-              <dl className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
-                {[
-                  { n: active.length.toLocaleString("pt-BR"), t: "ofertas no ar agora" },
-                  { n: String(Object.keys(stores).length), t: "lojas oficiais" },
-                  { n: "1h", t: "entre cada conferida" },
-                  { n: maxDiscount > 0 ? `-${maxDiscount}%` : "0", t: "maior desconto hoje" },
-                ].map((s) => (
-                  <div key={s.t}>
-                    <dt className="sr-only">{s.t}</dt>
-                    <dd className="font-display text-4xl text-hot sm:text-5xl">{s.n}</dd>
-                    <dd className="mt-1 text-sm text-muted">{s.t}</dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-          </div>
-        </Container>
-      </section>
-
-      <div className="mt-14 sm:mt-16">
-        <PriceTicker products={byDiscount.slice(0, 10)} />
-      </div>
-
-      <Container className="mt-16 sm:mt-20">
+      {/* Logo abaixo do carrossel: departamentos e, colado, a escolha por preço */}
+      <Container className="mt-10 sm:mt-12">
         <Rail title={fem ? "Departamentos femininos" : masc ? "Departamentos masculinos" : "Compre por departamento"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-48px)/5)]">
           {departments.map((d) => <DepartmentTile key={d.slug} department={d} mode={mode} count={deptCounts.get(d.slug)} />)}
         </Rail>
       </Container>
+
+      <Container className="mt-8 sm:mt-10">
+        <PriceRangeGrid products={active} />
+      </Container>
+
+      <div className="mt-14 sm:mt-16">
+        <PriceTicker products={byDiscount.slice(0, 10)} />
+      </div>
 
       <Container className="mt-16 sm:mt-20">
         <Rail title={fem ? "Compre por tipo, pra ela" : masc ? "Compre por tipo, pra ele" : "Compre por tipo"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-36px)/4)]">
@@ -146,10 +91,6 @@ export default async function Home() {
         <Rail title="Compre por esporte" href="/categorias">
           {categories.map((c) => <CategoryTile key={c.slug} category={c} />)}
         </Rail>
-      </Container>
-
-      <Container className="mt-20 sm:mt-24">
-        <PriceRangeGrid products={active} />
       </Container>
 
       {endingSoon.length > 0 && (

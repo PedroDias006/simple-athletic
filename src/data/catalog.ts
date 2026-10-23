@@ -260,7 +260,7 @@ export const heroSlides: Record<"todos" | "feminino" | "masculino", HeroSlide[]>
       eyebrow: "Simple Athletic",
       title: "Coisa boa é pra todo mundo",
       text: "Garimpamos promoção de verdade nas maiores lojas de esporte do Brasil. Pra ela, pra ele, pra você.",
-      ctas: [{ label: "Ver ofertas", href: "/ofertas" }, { label: "Nossa ideia", href: "#manifesto" }],
+      ctas: [{ label: "Ver ofertas", href: "/ofertas" }, { label: "Como funciona", href: "#como-funciona" }],
     },
     {
       layout: "foto",

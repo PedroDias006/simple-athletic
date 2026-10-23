@@ -3,6 +3,7 @@ import Link from "next/link";
 import { categories, priceRanges, stores } from "@/data/catalog";
 import { discountOf, formatPrice, savingsOf } from "@/lib/products";
 import type { Product } from "@/types/product";
+import { SectionTitle } from "./Brand";
 import ExpiryBadge from "./ExpiryBadge";
 import { ArrowRight } from "./Icons";
 import { DiscountTag } from "./ProductCard";
@@ -79,7 +80,7 @@ export function DealOfTheDay({ product }: { product: Product }) {
 export function PriceRangeGrid({ products }: { products: Product[] }) {
   return (
     <section>
-      <h2 className="mb-4 text-xl font-medium sm:text-2xl">Quanto você quer gastar?</h2>
+      <SectionTitle className="mb-4">Quanto você quer gastar?</SectionTitle>
       <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-4">
         {priceRanges.map((r) => {
           const n = products.filter((p) => p.price >= r.min && p.price <= r.max).length;
@@ -102,7 +103,7 @@ export function BrandStrip({ brands }: { brands: { name: string; count: number }
   if (!brands.length) return null;
   return (
     <section>
-      <h2 className="mb-4 text-xl font-medium sm:text-2xl">Marcas em promoção</h2>
+      <SectionTitle className="mb-4">Marcas em promoção</SectionTitle>
       <ul className="flex flex-wrap gap-2">
         {brands.map((b) => (
           <li key={b.name}>
@@ -120,7 +121,7 @@ export function BrandStrip({ brands }: { brands: { name: string; count: number }
 export function PopularSearches() {
   return (
     <section>
-      <h2 className="text-xl font-medium sm:text-2xl">Mais buscados</h2>
+      <SectionTitle>Mais buscados</SectionTitle>
       <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-8 border-t border-line pt-8 sm:grid-cols-4 lg:grid-cols-7">
         {categories.map((c) => (
           <div key={c.slug}>
