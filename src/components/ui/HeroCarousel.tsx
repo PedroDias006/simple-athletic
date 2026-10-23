@@ -13,6 +13,20 @@ const DURACAO_MS = 7000;
 
 type Tone = "ink" | "hot" | "snow";
 
+/** Oferta real mostrada no slide "Achados do dia" (só os campos que o card usa). */
+export interface HeroDeal {
+  id: string;
+  title: string;
+  store: string;
+  price: number;
+  oldPrice: number;
+  imageUrl: string;
+  updatedAt: string;
+}
+
+const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
+const checkedAt = new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit", timeZone: "America/Sao_Paulo" });
+
 const tones: Record<Tone, { box: string; stripes: [string, string]; solid: string; outline: string; text: string }> = {
   ink: { box: "bg-ink text-white", stripes: ["bg-white", "bg-hot"], solid: "bg-white text-ink hover:bg-white/85", outline: "border-white/70 text-white hover:bg-white hover:text-ink", text: "text-white/80" },
   hot: { box: "bg-hot text-white", stripes: ["bg-ink", "bg-white"], solid: "bg-ink text-white hover:bg-black/75", outline: "border-white text-white hover:bg-white hover:text-ink", text: "text-white/90" },
@@ -23,7 +37,7 @@ const tones: Record<Tone, { box: string; stripes: [string, string]; solid: strin
  * Carrossel da home: fotos cortadas na diagonal pelas listras da marca, troca automática
  * com linha de progresso no pé do card, setas nos cantos e pausa ao passar o mouse ou focar.
  */
-export default function HeroCarousel({ slides, maxDiscount }: { slides: HeroSlide[]; maxDiscount: number }) {
+export default function HeroCarousel({ slides, deals, maxDiscount }: { slides: HeroSlide[]; deals: HeroDeal[]; maxDiscount: number }) {
   const [index, setIndex] = useState(0);
   const [hover, setHover] = useState(false);
   const [wipe, setWipe] = useState(0);
@@ -51,7 +65,7 @@ export default function HeroCarousel({ slides, maxDiscount }: { slides: HeroSlid
       onBlurCapture={() => setHover(false)}
     >
       <div
-        className="relative aspect-[9/14] overflow-hidden bg-ink sm:aspect-[5/4] lg:aspect-[2/1] xl:aspect-[21/9]"
+        className="relative aspect-[9/14] overflow-hidden bg-ink sm:aspect-[16/11] lg:aspect-auto lg:h-[420px] xl:h-[460px] 2xl:h-[500px]"
         onPointerDown={(e) => { if (e.pointerType === "touch") touchX.current = e.clientX; }}
         onPointerUp={(e) => {
           if (touchX.current === null) return;
@@ -70,7 +84,9 @@ export default function HeroCarousel({ slides, maxDiscount }: { slides: HeroSlid
             inert={i !== index}
             className={`absolute inset-0 transition-opacity duration-700 ${i === index ? "z-10 opacity-100" : "opacity-0"}`}
           >
-            {s.layout === "diagonal" ? (
+            {s.layout === "ofertas" ? (
+              <DealsSlide slide={s} deals={deals} first={i === 0} active={i === index} maxDiscount={maxDiscount} onMode={choose} />
+            ) : s.layout === "diagonal" ? (
               <DiagonalSlide slide={s} first={i === 0} active={i === index} maxDiscount={maxDiscount} onMode={choose} />
             ) : (
               <PhotoSlide slide={s} first={i === 0} active={i === index} maxDiscount={maxDiscount} onMode={choose} />
@@ -168,7 +184,51 @@ function PhotoSlide({ slide, first, active, maxDiscount, onMode }: SlideProps) {
   );
 }
 
-function SlideText({ slide, tone, first, active, maxDiscount, onMode }: SlideProps & { tone: Tone }) {
+/**
+ * Os maiores descontos do site, com a foto, o preço e a loja que o robô trouxe.
+ * Nada inventado: se não houver ofertas, o slide nem entra no carrossel.
+ */
+function DealsSlide({ slide, deals, first, active, maxDiscount, onMode }: SlideProps & { deals: HeroDeal[] }) {
+  const newest = deals.reduce((m, d) => (d.updatedAt > m ? d.updatedAt : m), "");
+  // Monta "dd/mm às hh:mm" pelas partes, para servidor e navegador escreverem igual.
+  const part = (type: string) => checkedAt.formatToParts(new Date(newest)).find((p) => p.type === type)?.value;
+  const note = newest ? `Preços conferidos em ${part("day")}/${part("month")} às ${part("hour")}:${part("minute")}.` : undefined;
+  return (
+    <div className="absolute inset-0 bg-snow">
+      <div className="absolute inset-x-0 bottom-0 h-[42%] bg-ink lg:inset-y-0 lg:right-auto lg:h-full lg:w-[36%] lg:[clip-path:polygon(0_0,100%_0,88%_100%,0_100%)]" />
+      {/* As listras acompanham o corte diagonal do painel (que vai de 36% no topo a ~32% embaixo). */}
+      <div aria-hidden className="absolute inset-y-0 hidden lg:block" style={{ left: "30%", width: "10%" }}>
+        <div className="absolute inset-0 bg-ink" style={{ clipPath: "polygon(64% 0, 76% 0, 33% 100%, 21% 100%)" }} />
+        <div className="absolute inset-0 bg-hot" style={{ clipPath: "polygon(82% 0, 94% 0, 51% 100%, 39% 100%)" }} />
+      </div>
+      <div className="absolute inset-x-0 bottom-0 flex h-[42%] flex-col justify-center px-5 text-white sm:px-10 lg:inset-y-0 lg:right-auto lg:h-full lg:w-[33%] lg:pl-24 lg:pr-6">
+        <SlideText slide={slide} tone="ink" first={first} active={active} maxDiscount={maxDiscount} onMode={onMode} note={note} />
+      </div>
+      <ul className="absolute inset-x-0 top-0 grid h-[58%] grid-cols-2 gap-2 p-3 sm:gap-3 sm:p-5 lg:inset-y-0 lg:left-[41%] lg:right-0 lg:h-full lg:grid-cols-4 lg:gap-4 lg:py-10 lg:pl-0 lg:pr-20">
+        {deals.map((d, i) => (
+          <li key={d.id} className="min-h-0">
+            <a href={`/ir/${d.id}`} target="_blank" rel="sponsored noopener" className="group flex h-full flex-col bg-white p-2 transition hover:shadow-lg sm:p-3 lg:p-4">
+              <div className="relative min-h-0 flex-1">
+                <Image src={d.imageUrl} alt={d.title} fill priority={first || i < 2} sizes="(max-width: 1024px) 45vw, 15vw" className="object-contain mix-blend-multiply transition duration-500 group-hover:scale-[1.04]" />
+                <span className="absolute left-0 top-0 inline-block -skew-x-12 bg-hot px-2 py-0.5 text-white">
+                  <span className="block skew-x-12 font-display text-sm leading-none sm:text-lg">-{Math.round((1 - d.price / d.oldPrice) * 100)}%</span>
+                </span>
+              </div>
+              <p className="mt-2 line-clamp-1 text-xs font-medium leading-snug sm:line-clamp-2 sm:text-sm">{d.title}</p>
+              <p className="mt-1 flex flex-wrap items-baseline gap-x-2">
+                <span className="text-sm font-semibold sm:text-lg">{brl.format(d.price)}</span>
+                <span className="text-[11px] text-muted line-through sm:text-xs">{brl.format(d.oldPrice)}</span>
+              </p>
+              <p className="text-[11px] text-muted sm:text-xs">{d.store}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function SlideText({ slide, tone, first, active, maxDiscount, onMode, note }: SlideProps & { tone: Tone; note?: string }) {
   const t = tones[tone];
   const Title = first ? "h1" : "h2";
   const eyebrow = slide.eyebrow === "desconto" ? (maxDiscount > 0 ? `Até -${maxDiscount}% hoje` : "Conferido de hora em hora") : slide.eyebrow;
@@ -180,8 +240,9 @@ function SlideText({ slide, tone, first, active, maxDiscount, onMode }: SlidePro
         <Stripes className="h-[1.1em]" a={t.stripes[0]} b={t.stripes[1]} />
         {eyebrow}
       </p>
-      <Title className="mt-3 font-display text-[2.6rem] uppercase leading-[0.92] sm:text-6xl lg:text-[3.6rem] xl:text-7xl">{slide.title}</Title>
+      <Title className="mt-3 font-display text-[2.6rem] uppercase leading-[0.92] sm:text-6xl lg:text-[3.4rem] xl:text-[4.2rem]">{slide.title}</Title>
       <p className={`mt-3 line-clamp-3 max-w-md text-sm sm:text-base ${t.text}`}>{slide.text}</p>
+      {note && <p className={`mt-2 text-xs ${t.text}`}>{note}</p>}
       <div className="mt-5 flex flex-wrap gap-2.5">
         {slide.ctas.map((c, i) => {
           const cls = `${btn} ${i === 0 ? t.solid : `border ${t.outline}`}`;

@@ -184,8 +184,11 @@ export const TELEGRAM_URL = "https://t.me/";
 
 /** Slide do carrossel da home. */
 export interface HeroSlide {
-  /** "diagonal": duas fotos cortadas pelas listras da marca + painel de texto; "foto": uma foto cheia. */
-  layout: "diagonal" | "foto";
+  /**
+   * "diagonal": duas fotos cortadas pelas listras da marca + painel de texto; "foto": uma foto cheia;
+   * "ofertas": os produtos de maior desconto do site, com foto, preço e loja reais.
+   */
+  layout: "diagonal" | "foto" | "ofertas";
   photos: string[];
   alt: string;
   /** Cor do painel de texto no layout diagonal. */
@@ -224,6 +227,17 @@ const slidePreco = (photos: string[]): HeroSlide => ({
   text: "Tênis, chuteiras, roupas e suplementos com desconto conferido de hora em hora. Se o preço não caiu de verdade, não entra.",
   ctas: [{ label: "Maiores descontos", href: "/ofertas?ordem=desconto" }],
 });
+
+/** Entra como 2º slide em todos os modos, quando há ofertas com desconto. */
+export const slideOfertas: HeroSlide = {
+  layout: "ofertas",
+  photos: [],
+  alt: "Produtos com os maiores descontos de agora",
+  eyebrow: "Ofertas reais de agora",
+  title: "Achados do dia",
+  text: "Preço e desconto conferidos pelo robô direto na loja. Clique e compre na loja oficial.",
+  ctas: [{ label: "Ver todas as ofertas", href: "/ofertas" }],
+};
 
 const slideCanal = (photo: string): HeroSlide => ({
   layout: "foto",

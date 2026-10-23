@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/layout/Container";
 import { SectionTitle, Stripes } from "@/components/ui/Brand";
-import HeroCarousel from "@/components/ui/HeroCarousel";
+import HeroCarousel, { type HeroDeal } from "@/components/ui/HeroCarousel";
 import { BrandStrip, DealOfTheDay, PopularSearches, PriceRangeGrid, PriceTicker } from "@/components/ui/HomeBlocks";
 import ProductCard from "@/components/ui/ProductCard";
 import Rail from "@/components/ui/Rail";
 import { CategoryTile, DepartmentTile, EmptyState, TopicCard } from "@/components/ui/Sections";
-import { campaign, campaignFem, campaignMasc, categories, departments, heroSlides, stores, TELEGRAM_URL, topics, topicsFem, topicsMasc } from "@/data/catalog";
+import { campaign, campaignFem, campaignMasc, categories, departments, heroSlides, slideOfertas, stores, TELEGRAM_URL, topics, topicsFem, topicsMasc } from "@/data/catalog";
 import { getMode } from "@/lib/mode";
 import { countBy, departmentOf, discountOf, filterProducts, getActiveProducts, getBrands, sortByDiscount } from "@/lib/products";
 
@@ -28,6 +28,12 @@ export default async function Home() {
   const topicCount = (t: (typeof topics)[number]) =>
     t.kinds ? t.kinds.reduce((n, k) => n + filterProducts(active, { kind: k }).length, 0) : filterProducts(active, { department: t.department, group: t.group }).length;
   const maxDiscount = byDiscount[0] ? discountOf(byDiscount[0]) : 0;
+  // Slide "Achados do dia": os maiores descontos reais, no máximo um por tipo de produto.
+  const kindsSeen = new Set<string>();
+  const deals: HeroDeal[] = byDiscount
+    .filter((p) => discountOf(p) > 0 && p.price > 0 && p.imageUrl && !kindsSeen.has(p.kind) && kindsSeen.add(p.kind))
+    .slice(0, 4)
+    .map((p) => ({ id: p.id, title: p.title, store: stores[p.store].name, price: p.price, oldPrice: p.oldPrice!, imageUrl: p.imageUrl, updatedAt: p.updatedAt }));
   const endingSoon = active
     .filter((p) => p.expiresAt)
     .sort((a, b) => Date.parse(a.expiresAt!) - Date.parse(b.expiresAt!))
@@ -36,9 +42,13 @@ export default async function Home() {
   return (
     <>
       {/* Carrossel principal */}
-      <Container className="pt-2 sm:pt-4">
-        <HeroCarousel slides={heroSlides[mode]} maxDiscount={maxDiscount} />
-      </Container>
+      <div className="mx-auto w-full max-w-[1800px] pt-2 sm:px-4 sm:pt-4 lg:px-6">
+        <HeroCarousel
+          slides={deals.length >= 2 ? [heroSlides[mode][0], slideOfertas, ...heroSlides[mode].slice(1)] : heroSlides[mode]}
+          deals={deals}
+          maxDiscount={maxDiscount}
+        />
+      </div>
 
       {/* Manifesto: o que a marca faz e o que as duas listras querem dizer */}
       <section id="manifesto" className="mt-16 scroll-mt-24 sm:mt-24">
