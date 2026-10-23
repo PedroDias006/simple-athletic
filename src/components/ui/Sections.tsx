@@ -4,7 +4,9 @@ import type { ReactNode } from "react";
 import { amazonSearchUrl, departmentLook, type Category, type Department, type Topic } from "@/data/catalog";
 import type { Mode } from "@/lib/mode";
 import type { Product } from "@/types/product";
-import ProductCard from "./ProductCard";
+import { formatPrice } from "@/lib/products";
+import { ArrowRight } from "./Icons";
+import ProductCard, { DiscountTag } from "./ProductCard";
 
 export function ProductGrid({ products, wide = false }: { products: Product[]; wide?: boolean }) {
   return (
@@ -79,6 +81,87 @@ export function DepartmentTile({ department, mode, count, className = "aspect-[4
         {department.label}
         {count ? <span className="text-sm font-normal text-muted">{count}</span> : null}
       </span>
+    </Link>
+  );
+}
+
+/** Produto mostrado dentro do card de departamento (só o que o card precisa). */
+export interface DepartmentDeal {
+  id: string;
+  title: string;
+  imageUrl: string;
+  price: number;
+  discount: number;
+}
+
+/**
+ * Card de departamento "vitrine": em vez de foto de banco, mostra a maior oferta real do
+ * departamento em destaque, mais três ofertas em miniatura, o maior desconto e o menor preço.
+ * Sem ofertas, volta para a foto do departamento.
+ */
+export function DepartmentDealsTile({ department, mode, count = 0, deals, minPrice, maxDiscount }: {
+  department: Department;
+  mode: Mode;
+  count?: number;
+  deals: DepartmentDeal[];
+  minPrice?: number;
+  maxDiscount: number;
+}) {
+  if (!deals.length) return <DepartmentTile department={department} mode={mode} count={count} className="aspect-[3/4.2]" />;
+  const [main, ...rest] = deals;
+  return (
+    <Link href={`/${department.slug}`} className="group relative flex h-full flex-col overflow-hidden bg-snow transition hover:shadow-xl">
+      <div className="flex items-start justify-between gap-2 px-4 pt-4">
+        <div className="min-w-0">
+          <p className="truncate font-display text-[1.65rem] uppercase leading-none">{department.slug === "lesao-e-recuperacao" ? "Recuperação" : department.label}</p>
+          <p className="mt-1 text-xs text-muted">{count.toLocaleString("pt-BR")} {count === 1 ? "oferta" : "ofertas"}</p>
+        </div>
+        {maxDiscount > 0 && (
+          <span className="flex shrink-0 flex-col items-end">
+            <span className="text-[10px] font-semibold uppercase tracking-wider text-muted">até</span>
+            <DiscountTag value={maxDiscount} />
+          </span>
+        )}
+      </div>
+
+      {/* Destaque: a maior oferta do departamento, num "palco" branco inclinado como as listras. */}
+      <div className="relative mx-4 mt-3 h-40 sm:h-44">
+        <span aria-hidden className="absolute inset-y-1 left-[14%] right-[14%] -skew-x-[12deg] bg-white transition duration-500 group-hover:bg-hot/10" />
+        <Image src={main.imageUrl} alt={main.title} fill sizes="(max-width: 640px) 60vw, 20vw" className="object-contain p-3 mix-blend-multiply transition duration-500 group-hover:scale-[1.06]" />
+        <span className="absolute bottom-0 right-0 bg-ink px-2 py-1 text-xs font-semibold text-white">{formatPrice(main.price)}</span>
+      </div>
+
+      {rest.length > 0 && (
+        <ul className="mx-4 mt-3 grid grid-cols-3 gap-1.5">
+          {rest.map((d) => (
+            <li key={d.id} className="bg-white">
+              <div className="relative aspect-square">
+                <Image src={d.imageUrl} alt="" fill sizes="80px" className="object-contain p-1.5 mix-blend-multiply" />
+                <span className="absolute left-0 top-0 bg-hot px-1 text-[10px] font-semibold leading-4 text-white">-{d.discount}%</span>
+              </div>
+              <p className="truncate px-1 pb-1 text-center text-[11px] font-semibold">{formatPrice(d.price)}</p>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <div className="mt-auto pt-4">
+        <div className="flex items-center justify-between bg-ink px-4 py-3 text-white transition group-hover:bg-hot">
+          <span className="leading-tight">
+            {minPrice ? (
+              <>
+                <span className="block text-[11px] text-white/70">A partir de</span>
+                <span className="text-base font-semibold">{formatPrice(minPrice)}</span>
+              </>
+            ) : (
+              <span className="text-sm font-semibold">Ver ofertas</span>
+            )}
+          </span>
+          <span className="flex items-center gap-1.5 text-sm font-semibold">
+            Ver tudo <ArrowRight width={18} height={18} className="transition group-hover:translate-x-1" />
+          </span>
+        </div>
+      </div>
     </Link>
   );
 }

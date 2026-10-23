@@ -6,7 +6,7 @@ import HeroCarousel, { type HeroDeal } from "@/components/ui/HeroCarousel";
 import { BrandStrip, DealOfTheDay, PopularSearches, PriceRangeGrid, PriceTicker } from "@/components/ui/HomeBlocks";
 import ProductCard from "@/components/ui/ProductCard";
 import Rail from "@/components/ui/Rail";
-import { CategoryTile, DepartmentTile, EmptyState, TopicCard } from "@/components/ui/Sections";
+import { CategoryTile, DepartmentDealsTile, EmptyState, TopicCard, type DepartmentDeal } from "@/components/ui/Sections";
 import { campaign, campaignFem, campaignMasc, categories, departments, heroSlides, slideOfertas, stores, TELEGRAM_URL, topics, topicsFem, topicsMasc } from "@/data/catalog";
 import { getMode } from "@/lib/mode";
 import { countBy, departmentOf, discountOf, filterProducts, getActiveProducts, getBrands, sortByDiscount } from "@/lib/products";
@@ -34,6 +34,20 @@ export default async function Home() {
     .filter((p) => discountOf(p) > 0 && p.price > 0 && p.imageUrl && !kindsSeen.has(p.kind) && kindsSeen.add(p.kind))
     .slice(0, 4)
     .map((p) => ({ id: p.id, title: p.title, store: stores[p.store].name, price: p.price, oldPrice: p.oldPrice!, imageUrl: p.imageUrl, updatedAt: p.updatedAt }));
+  // Vitrine de cada departamento: as 4 maiores ofertas reais (tipos diferentes), o maior desconto e o menor preço.
+  const deptShowcase = (slug: string) => {
+    const list = active.filter((p) => departmentOf(p) === slug && p.price > 0);
+    const seen = new Set<string>();
+    const deals: DepartmentDeal[] = sortByDiscount(list)
+      .filter((p) => discountOf(p) > 0 && p.imageUrl && !seen.has(p.kind) && seen.add(p.kind))
+      .slice(0, 4)
+      .map((p) => ({ id: p.id, title: p.title, imageUrl: p.imageUrl, price: p.price, discount: discountOf(p) }));
+    return {
+      deals,
+      maxDiscount: deals[0]?.discount ?? 0,
+      minPrice: list.length ? Math.min(...list.map((p) => p.price)) : undefined,
+    };
+  };
   const endingSoon = active
     .filter((p) => p.expiresAt)
     .sort((a, b) => Date.parse(a.expiresAt!) - Date.parse(b.expiresAt!))
@@ -53,7 +67,7 @@ export default async function Home() {
       {/* Logo abaixo do carrossel: departamentos e, colado, a escolha por preço */}
       <Container className="mt-10 sm:mt-12">
         <Rail title={fem ? "Departamentos femininos" : masc ? "Departamentos masculinos" : "Compre por departamento"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-48px)/5)]">
-          {departments.map((d) => <DepartmentTile key={d.slug} department={d} mode={mode} count={deptCounts.get(d.slug)} />)}
+          {departments.map((d) => <DepartmentDealsTile key={d.slug} department={d} mode={mode} count={deptCounts.get(d.slug)} {...deptShowcase(d.slug)} />)}
         </Rail>
       </Container>
 
