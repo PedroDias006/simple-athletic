@@ -196,6 +196,10 @@ export interface HeroSlide {
   /** Texto pequeno acima do título; "desconto" mostra "Até -X% hoje" com o maior desconto do momento. */
   eyebrow: string;
   title: string;
+  /** Pedaço do título pintado na cor de destaque (precisa aparecer igual no título). */
+  highlight?: string;
+  /** Mostra a maior oferta real do momento flutuando sobre a foto. */
+  featureDeal?: boolean;
   text: string;
   /** `mode` troca o catálogo (Feminino/Masculino) em vez de abrir um link. */
   ctas: { label: string; href?: string; mode?: "feminino" | "masculino" }[];
@@ -224,6 +228,8 @@ const slidePreco = (photos: string[]): HeroSlide => ({
   panel: "hot",
   eyebrow: "desconto",
   title: "Preço de atleta",
+  highlight: "de atleta",
+  featureDeal: true,
   text: "Tênis, chuteiras, roupas e suplementos com desconto conferido de hora em hora. Se o preço não caiu de verdade, não entra.",
   ctas: [{ label: "Maiores descontos", href: "/ofertas?ordem=desconto" }],
 });
@@ -235,6 +241,7 @@ export const slideOfertas: HeroSlide = {
   alt: "Produtos com os maiores descontos de agora",
   eyebrow: "Ofertas reais de agora",
   title: "Achados do dia",
+  highlight: "do dia",
   text: "Preço e desconto conferidos pelo robô direto na loja. Clique e compre na loja oficial.",
   ctas: [{ label: "Ver todas as ofertas", href: "/ofertas" }],
 };
@@ -245,6 +252,7 @@ const slideCanal = (photo: string): HeroSlide => ({
   alt: "Pessoas treinando na academia",
   eyebrow: "Alerta de queda de preço",
   title: "O preço caiu? Você sabe primeiro",
+  highlight: "sabe primeiro",
   text: "Entre no canal grátis e receba as melhores quedas antes de todo mundo. Sem spam.",
   ctas: [{ label: "Entrar no canal", href: TELEGRAM_URL }],
 });
@@ -259,6 +267,7 @@ export const heroSlides: Record<"todos" | "feminino" | "masculino", HeroSlide[]>
       panel: "ink",
       eyebrow: "Simple Athletic",
       title: "Coisa boa é pra todo mundo",
+      highlight: "todo mundo",
       text: "Garimpamos promoção de verdade nas maiores lojas de esporte do Brasil. Pra ela, pra ele, pra você.",
       ctas: [{ label: "Ver ofertas", href: "/ofertas" }, { label: "Como funciona", href: "#como-funciona" }],
     },
@@ -268,6 +277,7 @@ export const heroSlides: Record<"todos" | "feminino" | "masculino", HeroSlide[]>
       alt: "Mulher e homem treinando juntos na academia",
       eyebrow: "Duas listras, lado a lado",
       title: "Ela e ele no mesmo time",
+      highlight: "mesmo time",
       text: "Nenhuma listra na frente da outra. Escolha o seu lado do catálogo ou veja tudo junto.",
       ctas: [{ label: "Pra ela", mode: "feminino" }, { label: "Pra ele", mode: "masculino" }],
     },
@@ -279,6 +289,7 @@ export const heroSlides: Record<"todos" | "feminino" | "masculino", HeroSlide[]>
       panel: "snow",
       eyebrow: "Do halter ao top",
       title: "Treino bom não é luxo",
+      highlight: "não é luxo",
       text: "Equipamento, roupa e suplemento de qualidade, sem pagar caro. Você compra direto na loja oficial.",
       ctas: [{ label: "Equipamentos", href: "/equipamentos" }, { label: "Roupas", href: "/roupas" }],
     },
@@ -292,6 +303,7 @@ export const heroSlides: Record<"todos" | "feminino" | "masculino", HeroSlide[]>
       panel: "ink",
       eyebrow: "Simple Athletic pra ela",
       title: "Força tem muitas formas",
+      highlight: "muitas formas",
       text: "Leggings, tops, tênis e acessórios com desconto de verdade. Treinar bem não é luxo.",
       ctas: [{ label: "Ver ofertas", href: "/ofertas" }, { label: "Roupas", href: "/roupas" }],
     },
@@ -301,6 +313,7 @@ export const heroSlides: Record<"todos" | "feminino" | "masculino", HeroSlide[]>
       alt: "Mulheres treinando no tapete",
       eyebrow: "No seu ritmo",
       title: "Do tapete à pista",
+      highlight: "à pista",
       text: "Conjuntos, tops e tênis femininos, com as promoções primeiro.",
       ctas: [{ label: "Calçados", href: "/calcados" }, { label: "Acessórios", href: "/acessorios" }],
     },
@@ -315,6 +328,7 @@ export const heroSlides: Record<"todos" | "feminino" | "masculino", HeroSlide[]>
       panel: "ink",
       eyebrow: "Simple Athletic pra ele",
       title: "Cada quilo conta. Cada real também",
+      highlight: "Cada real também",
       text: "Camisetas, bermudas, tênis e equipamentos masculinos, com desconto conferido.",
       ctas: [{ label: "Ver ofertas", href: "/ofertas" }, { label: "Calçados", href: "/calcados" }],
     },
@@ -324,6 +338,7 @@ export const heroSlides: Record<"todos" | "feminino" | "masculino", HeroSlide[]>
       alt: "Homem treinando com halteres",
       eyebrow: "Treino pesado",
       title: "Preço leve",
+      highlight: "leve",
       text: "Halteres, luvas, compressão e suplementos pelo menor preço que o robô encontrou.",
       ctas: [{ label: "Equipamentos", href: "/equipamentos" }, { label: "Suplementos", href: "/suplementos" }],
     },
