@@ -170,7 +170,7 @@ function DiagonalSlide({ slide, deals, first, active, maxDiscount, onMode }: Sli
   const feature = slide.featureDeal ? deals[0] : undefined;
   return (
     <div className={`absolute inset-0 overflow-hidden ${tones[tone].box}`}>
-      <div className="absolute inset-y-0 left-0 w-[56%] lg:w-[64%]">
+      <div className="absolute inset-y-0 left-0 w-[50%] sm:w-[56%] lg:w-[64%]">
         {/* Cada foto ocupa só a sua metade, para o recorte diagonal não esconder a pessoa. */}
         <div className="absolute inset-0 overflow-hidden [clip-path:polygon(0_0,52%_0,40%_100%,0_100%)]">
           <div className="absolute inset-y-0 left-0 w-[54%]">
@@ -215,7 +215,7 @@ function DiagonalSlide({ slide, deals, first, active, maxDiscount, onMode }: Sli
           </a>
         )}
       </div>
-      <div className="absolute inset-y-0 right-0 flex w-[50%] flex-col justify-center pl-2 pr-11 sm:w-[46%] sm:pl-6 sm:pr-16 lg:w-[38%] lg:pl-10 lg:pr-20 xl:pl-14">
+      <div className="absolute inset-y-0 right-0 flex w-[47%] flex-col justify-center pl-1 pr-10 sm:w-[46%] sm:pl-6 sm:pr-16 lg:w-[38%] lg:pl-10 lg:pr-20 xl:pl-14">
         <SlideText slide={slide} tone={tone} first={first} active={active} maxDiscount={maxDiscount} onMode={onMode} />
       </div>
     </div>
@@ -314,7 +314,7 @@ function SlideText({ slide, tone, first, active, maxDiscount, onMode, note }: Om
         <Stripes className="h-[1.1em]" a={t.stripes[0]} b={t.stripes[1]} />
         {eyebrow}
       </p>
-      <Title {...reveal(active, 1)} className={`${reveal(active, 1).className} mt-2 font-display text-[1.6rem] uppercase leading-[0.92] min-[400px]:text-[1.8rem] sm:mt-3 sm:text-5xl lg:text-[3.4rem] xl:text-[4.2rem]`}>
+      <Title {...reveal(active, 1)} className={`${reveal(active, 1).className} mt-2 font-display text-[1.5rem] uppercase leading-[0.92] min-[400px]:text-[1.7rem] sm:mt-3 sm:text-5xl lg:text-[3.4rem] xl:text-[4.2rem]`}>
         {before}
         {hl && <span className={tone === "hot" ? "" : "text-hot"} style={hlStyle}>{hl}</span>}
         {after}
