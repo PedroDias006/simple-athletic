@@ -8,7 +8,7 @@ import { categories, departmentBySlug, departmentLook, departments, TELEGRAM_URL
 import { groupsOf, type DepartmentSlug } from "@/data/taxonomy";
 import type { Mode } from "@/lib/mode";
 import { ChevronLeft, ChevronRight, CloseIcon, MenuIcon, SearchIcon } from "./Icons";
-import ModeToggle from "./ModeToggle";
+import ModeToggle, { ModeMenu } from "./ModeToggle";
 
 const shortLabels: Partial<Record<DepartmentSlug, string>> = { "lesao-e-recuperacao": "Recuperação" };
 
@@ -95,7 +95,7 @@ export default function Navbar({ mode }: { mode: Mode }) {
 
       <header className="sticky top-0 z-50 bg-white">
         <div className="mx-auto grid h-16 max-w-[1440px] grid-cols-[1fr_auto] items-center px-4 sm:px-6 lg:px-12 xl:grid-cols-[1fr_auto_1fr]">
-          <Logo className="justify-self-start" badge={mode === "feminino" ? "Feminino" : mode === "masculino" ? "Masculino" : undefined} />
+          <Logo className="justify-self-start" />
 
           <nav aria-label="Principal" className="hidden xl:block" onMouseLeave={() => setMega(null)} onClick={closeOnLink(() => setMega(null))}>
             <ul className="flex items-center gap-0.5">
@@ -141,7 +141,7 @@ export default function Navbar({ mode }: { mode: Mode }) {
           </nav>
 
           <div className="flex items-center justify-end gap-1">
-            <ModeToggle mode={mode} compact className="mr-1 sm:mr-2" />
+            <ModeMenu mode={mode} className="sm:mr-1" />
             <form action="/busca" role="search" className="relative hidden md:block">
               <label htmlFor="q" className="sr-only">Buscar ofertas</label>
               <SearchIcon className="pointer-events-none absolute left-2 top-1/2 h-9 w-9 -translate-y-1/2 rounded-full p-2" />
