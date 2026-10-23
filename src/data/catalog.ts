@@ -181,3 +181,139 @@ export const amazonSearchUrl = (termo: string) =>
 
 /** Link do canal de ofertas. Troque quando criar o canal. */
 export const TELEGRAM_URL = "https://t.me/";
+
+/** Slide do carrossel da home. */
+export interface HeroSlide {
+  /** "diagonal": duas fotos cortadas pelas listras da marca + painel de texto; "foto": uma foto cheia. */
+  layout: "diagonal" | "foto";
+  photos: string[];
+  alt: string;
+  /** Cor do painel de texto no layout diagonal. */
+  panel?: "ink" | "hot" | "snow";
+  /** Texto pequeno acima do título; "desconto" mostra "Até -X% hoje" com o maior desconto do momento. */
+  eyebrow: string;
+  title: string;
+  text: string;
+  /** `mode` troca o catálogo (Feminino/Masculino) em vez de abrir um link. */
+  ctas: { label: string; href?: string; mode?: "feminino" | "masculino" }[];
+}
+
+const foto = (id: string) => unsplash(id, 1600);
+const fotos = {
+  elaLaranja: foto("1571019613454-1cb2f99b2d8b"),
+  eleAcademia: foto("1581009146145-b5ef050c2e1e"),
+  elaEEle: foto("1571019614242-c5c5dee9f50b"),
+  corrida: foto("1590333748338-d629e4564ad9"),
+  futebol: foto("1574629810360-7efbbe195018"),
+  luta: foto("1517438322307-e67111335449"),
+  elaTop: foto("1594381898411-846e7d193883"),
+  eleHalter: foto("1583454110551-21f2fa2afe61"),
+  elaBarra: foto("1541534741688-6078c6bfb5c5"),
+  elaAgachamento: foto("1574680096145-d05b474e2155"),
+  elaTapete: foto("1518611012118-696072aa579a"),
+  eleCostas: foto("1526506118085-60ce8714f8c5"),
+};
+
+const slidePreco = (photos: string[]): HeroSlide => ({
+  layout: "diagonal",
+  photos,
+  alt: "Atletas correndo e jogando futebol",
+  panel: "hot",
+  eyebrow: "desconto",
+  title: "Preço de atleta",
+  text: "Tênis, chuteiras, roupas e suplementos com desconto conferido de hora em hora. Se o preço não caiu de verdade, não entra.",
+  ctas: [{ label: "Maiores descontos", href: "/ofertas?ordem=desconto" }],
+});
+
+const slideCanal = (photo: string): HeroSlide => ({
+  layout: "foto",
+  photos: [photo],
+  alt: "Pessoas treinando na academia",
+  eyebrow: "Alerta de queda de preço",
+  title: "O preço caiu? Você sabe primeiro",
+  text: "Entre no canal grátis e receba as melhores quedas antes de todo mundo. Sem spam.",
+  ctas: [{ label: "Entrar no canal", href: TELEGRAM_URL }],
+});
+
+/** Carrossel da home em cada modo. */
+export const heroSlides: Record<"todos" | "feminino" | "masculino", HeroSlide[]> = {
+  todos: [
+    {
+      layout: "diagonal",
+      photos: [fotos.elaLaranja, fotos.eleAcademia],
+      alt: "Uma mulher e um homem treinando",
+      panel: "ink",
+      eyebrow: "Simple Athletic",
+      title: "Coisa boa é pra todo mundo",
+      text: "Garimpamos promoção de verdade nas maiores lojas de esporte do Brasil. Pra ela, pra ele, pra você.",
+      ctas: [{ label: "Ver ofertas", href: "/ofertas" }, { label: "Nossa ideia", href: "#manifesto" }],
+    },
+    {
+      layout: "foto",
+      photos: [fotos.elaEEle],
+      alt: "Mulher e homem treinando juntos na academia",
+      eyebrow: "Duas listras, lado a lado",
+      title: "Ela e ele no mesmo time",
+      text: "Nenhuma listra na frente da outra. Escolha o seu lado do catálogo ou veja tudo junto.",
+      ctas: [{ label: "Pra ela", mode: "feminino" }, { label: "Pra ele", mode: "masculino" }],
+    },
+    slidePreco([fotos.corrida, fotos.futebol]),
+    {
+      layout: "diagonal",
+      photos: [fotos.elaTop, fotos.eleHalter],
+      alt: "Mulher e homem treinando força",
+      panel: "snow",
+      eyebrow: "Do halter ao top",
+      title: "Treino bom não é luxo",
+      text: "Equipamento, roupa e suplemento de qualidade, sem pagar caro. Você compra direto na loja oficial.",
+      ctas: [{ label: "Equipamentos", href: "/equipamentos" }, { label: "Roupas", href: "/roupas" }],
+    },
+    slideCanal(fotos.luta),
+  ],
+  feminino: [
+    {
+      layout: "diagonal",
+      photos: [fotos.elaBarra, fotos.elaTop],
+      alt: "Mulheres treinando força",
+      panel: "ink",
+      eyebrow: "Simple Athletic pra ela",
+      title: "Força tem muitas formas",
+      text: "Leggings, tops, tênis e acessórios com desconto de verdade. Treinar bem não é luxo.",
+      ctas: [{ label: "Ver ofertas", href: "/ofertas" }, { label: "Roupas", href: "/roupas" }],
+    },
+    {
+      layout: "foto",
+      photos: [fotos.elaTapete],
+      alt: "Mulheres treinando no tapete",
+      eyebrow: "No seu ritmo",
+      title: "Do tapete à pista",
+      text: "Conjuntos, tops e tênis femininos, com as promoções primeiro.",
+      ctas: [{ label: "Calçados", href: "/calcados" }, { label: "Acessórios", href: "/acessorios" }],
+    },
+    slidePreco([fotos.elaAgachamento, fotos.corrida]),
+    slideCanal(fotos.elaLaranja),
+  ],
+  masculino: [
+    {
+      layout: "diagonal",
+      photos: [fotos.eleAcademia, fotos.eleCostas],
+      alt: "Homens treinando na academia",
+      panel: "ink",
+      eyebrow: "Simple Athletic pra ele",
+      title: "Cada quilo conta. Cada real também",
+      text: "Camisetas, bermudas, tênis e equipamentos masculinos, com desconto conferido.",
+      ctas: [{ label: "Ver ofertas", href: "/ofertas" }, { label: "Calçados", href: "/calcados" }],
+    },
+    {
+      layout: "foto",
+      photos: [fotos.eleHalter],
+      alt: "Homem treinando com halteres",
+      eyebrow: "Treino pesado",
+      title: "Preço leve",
+      text: "Halteres, luvas, compressão e suplementos pelo menor preço que o robô encontrou.",
+      ctas: [{ label: "Equipamentos", href: "/equipamentos" }, { label: "Suplementos", href: "/suplementos" }],
+    },
+    slidePreco([fotos.corrida, fotos.futebol]),
+    slideCanal(fotos.luta),
+  ],
+};

@@ -10,17 +10,22 @@ const options: { mode: Mode; label: string; short: string; title: string }[] = [
   { mode: "masculino", label: "Masculino", short: "Masc", title: "Só produtos masculinos, com o site em azul" },
 ];
 
-/** Seletor Todos / Feminino / Masculino: guarda num cookie e recarrega o catálogo no servidor. */
-export default function ModeToggle({ mode, className = "", compact = false }: { mode: Mode; className?: string; compact?: boolean }) {
+/** Troca o modo: guarda num cookie, muda a cor na hora e recarrega o catálogo no servidor. */
+export function useModeSwitch() {
   const router = useRouter();
   const [pending, start] = useTransition();
-
   const choose = (next: Mode) => {
-    if (next === mode) return;
     document.cookie = next === "todos" ? "modo=; path=/; max-age=0; samesite=lax" : `modo=${next}; path=/; max-age=31536000; samesite=lax`;
     document.documentElement.dataset.modo = next; // a cor muda na hora, o catálogo chega em seguida
     start(() => router.refresh());
   };
+  return { pending, choose };
+}
+
+/** Seletor Todos / Feminino / Masculino. */
+export default function ModeToggle({ mode, className = "", compact = false }: { mode: Mode; className?: string; compact?: boolean }) {
+  const { pending, choose: switchTo } = useModeSwitch();
+  const choose = (next: Mode) => next !== mode && switchTo(next);
 
   return (
     <div role="radiogroup" aria-label="Catálogo" className={`inline-flex shrink-0 rounded-full border border-line bg-white p-0.5 text-sm font-medium ${pending ? "opacity-70" : ""} ${className}`}>

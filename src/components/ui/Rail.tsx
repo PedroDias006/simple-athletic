@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Children, useRef, type ReactNode } from "react";
+import { SectionTitle } from "./Brand";
 import { ChevronLeft, ChevronRight } from "./Icons";
 
 /** Carrossel horizontal no estilo das lojas de esporte: título, "Ver tudo" e setas. */
@@ -17,7 +18,7 @@ export default function Rail({ title, href, children, itemClassName = "w-[72%] s
   return (
     <section>
       <div className="mb-4 flex items-center justify-between gap-4">
-        <h2 className="text-xl font-medium sm:text-2xl">{title}</h2>
+        <SectionTitle>{title}</SectionTitle>
         <div className="flex items-center gap-3">
           {href && <Link href={href} className="text-base font-medium hover:text-muted">Ver tudo</Link>}
           <div className="hidden gap-3 sm:flex">

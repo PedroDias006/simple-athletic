@@ -40,6 +40,12 @@ html { scroll-behavior: smooth; -webkit-tap-highlight-color: transparent; }
 .marquee-track { animation: marquee 45s linear infinite; }
 .marquee:hover .marquee-track { animation-play-state: paused; }
 
+/* Carrossel da home: barrinha de progresso e as duas listras atravessando na troca */
+@keyframes hero-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.hero-progress { animation-name: hero-progress; animation-timing-function: linear; animation-fill-mode: forwards; }
+@keyframes hero-wipe { from { transform: translateX(0); visibility: visible; } to { transform: translateX(450%); visibility: hidden; } }
+.hero-wipe { animation: hero-wipe 0.85s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
+
 .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
 .no-scrollbar::-webkit-scrollbar { display: none; }
 

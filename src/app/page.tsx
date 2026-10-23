@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/layout/Container";
+import { SectionTitle, Stripes } from "@/components/ui/Brand";
+import HeroCarousel from "@/components/ui/HeroCarousel";
 import { BrandStrip, DealOfTheDay, PopularSearches, PriceRangeGrid, PriceTicker } from "@/components/ui/HomeBlocks";
-import ProductCard, { DiscountTag } from "@/components/ui/ProductCard";
+import ProductCard from "@/components/ui/ProductCard";
 import Rail from "@/components/ui/Rail";
 import { CategoryTile, DepartmentTile, EmptyState, TopicCard } from "@/components/ui/Sections";
-import { campaign, campaignFem, campaignMasc, categories, departments, homeCopy, stores, TELEGRAM_URL, topics, topicsFem, topicsMasc } from "@/data/catalog";
+import { campaign, campaignFem, campaignMasc, categories, departments, heroSlides, stores, TELEGRAM_URL, topics, topicsFem, topicsMasc } from "@/data/catalog";
 import { getMode } from "@/lib/mode";
 import { countBy, departmentOf, discountOf, filterProducts, getActiveProducts, getBrands, sortByDiscount } from "@/lib/products";
 
@@ -22,7 +24,6 @@ export default async function Home() {
   const active = getActiveProducts(mode);
   const byDiscount = sortByDiscount(active);
   const photos = fem ? campaignFem : masc ? campaignMasc : campaign;
-  const copy = homeCopy[mode];
   const deptCounts = countBy(active, departmentOf);
   const topicCount = (t: (typeof topics)[number]) =>
     t.kinds ? t.kinds.reduce((n, k) => n + filterProducts(active, { kind: k }).length, 0) : filterProducts(active, { department: t.department, group: t.group }).length;
@@ -34,30 +35,69 @@ export default async function Home() {
 
   return (
     <>
-      {/* Campanha principal */}
-      <section>
-        <Container className="pt-2 sm:pt-4">
-          <Link href="/ofertas" className="relative block aspect-[4/5] overflow-hidden bg-snow sm:aspect-[16/9] lg:aspect-[21/9]">
-            <Image src={photos.hero} alt={copy.heroAlt} fill priority sizes="100vw" className="object-cover object-[50%_40%]" />
-          </Link>
-        </Container>
-        <div className="mx-auto max-w-4xl px-4 pt-8 text-center sm:pt-12">
-          {maxDiscount > 0 ? (
-            <p className="flex items-center justify-center gap-3 font-medium">
-              Até <DiscountTag value={maxDiscount} /> hoje
-            </p>
-          ) : (
-            <p className="font-medium">Promoções de esporte, conferidas de hora em hora</p>
-          )}
-          <h1 className="mt-4 font-display text-[3.25rem] uppercase leading-[0.9] sm:text-7xl lg:text-[6.5rem]">
-            {copy.title}
-          </h1>
-          <p className="mx-auto mt-4 max-w-xl text-base sm:text-lg">{copy.text}</p>
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <Link href="/ofertas" className="rounded-full bg-ink px-6 py-2.5 font-medium text-white transition hover:bg-black/70">Ver ofertas</Link>
-            <Link href="/ofertas?ordem=desconto" className="rounded-full border border-line px-6 py-2.5 font-medium transition hover:border-ink">Maiores descontos</Link>
+      {/* Carrossel principal */}
+      <Container className="pt-2 sm:pt-4">
+        <HeroCarousel slides={heroSlides[mode]} maxDiscount={maxDiscount} />
+      </Container>
+
+      {/* Manifesto: o que a marca faz e o que as duas listras querem dizer */}
+      <section id="manifesto" className="mt-16 scroll-mt-24 sm:mt-24">
+        <Container>
+          <div className="grid gap-10 lg:grid-cols-[1fr_1.15fr] lg:items-center lg:gap-16">
+            <div className="relative flex aspect-[5/4] items-center justify-center overflow-hidden bg-snow">
+              <div aria-hidden className="flex h-[78%] w-[46%] gap-[9%]">
+                <span className="flex-1 -skew-x-[18deg] bg-ink" />
+                <span className="flex-1 -skew-x-[18deg] bg-hot" />
+              </div>
+              <span className="absolute left-5 top-5 rounded-full bg-white px-4 py-1.5 text-sm font-medium sm:left-8 sm:top-8">pra ela</span>
+              <span className="absolute bottom-5 right-5 rounded-full bg-white px-4 py-1.5 text-sm font-medium sm:bottom-8 sm:right-8">pra ele</span>
+              <span className="absolute bottom-5 left-5 rounded-full bg-ink px-4 py-1.5 text-sm font-medium text-white sm:bottom-8 sm:left-8">pra todo mundo</span>
+            </div>
+            <div>
+              <p className="flex items-center gap-2.5 text-sm font-semibold uppercase tracking-[0.14em] text-hot">
+                <Stripes className="h-[1.1em]" /> Nossa ideia
+              </p>
+              <h2 className="mt-3 font-display text-5xl uppercase leading-[0.92] sm:text-6xl xl:text-7xl">Feito pra quem treina. Ou seja, todo mundo.</h2>
+              <p className="mt-5 max-w-xl text-base sm:text-lg">
+                A Simple Athletic nasceu de uma implicância: tênis bom, roupa boa e suplemento de qualidade parecem coisa de poucos. Não são.
+                Um robô confere as maiores lojas de esporte do Brasil de hora em hora e só mostra desconto que é de verdade. Você compra direto
+                na loja oficial, com a mesma garantia, pagando menos.
+              </p>
+              <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-line pt-6">
+                {[
+                  { label: "Todo mundo", color: "#d43f21" },
+                  { label: "Ela", color: "#e0457b" },
+                  { label: "Ele", color: "#1d5fd1" },
+                ].map((v) => (
+                  <span key={v.label} className="flex items-center gap-2 text-sm font-medium">
+                    <span aria-hidden className="flex h-5 gap-[3px]">
+                      <span className="w-[5px] -skew-x-[18deg] bg-[#111]" />
+                      <span className="w-[5px] -skew-x-[18deg]" style={{ background: v.color }} />
+                    </span>
+                    {v.label}
+                  </span>
+                ))}
+                <p className="w-full text-sm text-muted">
+                  A listra preta é a base que todo mundo divide. A colorida muda com você: laranja pra todo mundo, rosa no modo feminino, azul no masculino.
+                </p>
+              </div>
+              <dl className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
+                {[
+                  { n: active.length.toLocaleString("pt-BR"), t: "ofertas no ar agora" },
+                  { n: String(Object.keys(stores).length), t: "lojas oficiais" },
+                  { n: "1h", t: "entre cada conferida" },
+                  { n: maxDiscount > 0 ? `-${maxDiscount}%` : "0", t: "maior desconto hoje" },
+                ].map((s) => (
+                  <div key={s.t}>
+                    <dt className="sr-only">{s.t}</dt>
+                    <dd className="font-display text-4xl text-hot sm:text-5xl">{s.n}</dd>
+                    <dd className="mt-1 text-sm text-muted">{s.t}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
           </div>
-        </div>
+        </Container>
       </section>
 
       <div className="mt-14 sm:mt-16">
@@ -133,7 +173,7 @@ export default async function Home() {
       {/* Como funciona */}
       <Container className="mt-20 sm:mt-24">
         <div id="como-funciona" className="scroll-mt-24">
-          <h2 className="text-xl font-medium sm:text-2xl">Como funciona</h2>
+          <SectionTitle>Como funciona</SectionTitle>
           <ol className="mt-6 grid gap-8 border-t border-line pt-8 sm:grid-cols-3 sm:gap-12">
             {steps.map((s) => (
               <li key={s.n}>
@@ -149,7 +189,7 @@ export default async function Home() {
       {/* Lojas */}
       <Container className="mt-20 sm:mt-24">
         <div id="lojas" className="scroll-mt-24">
-          <h2 className="text-xl font-medium sm:text-2xl">Lojas parceiras</h2>
+          <SectionTitle>Lojas parceiras</SectionTitle>
           <ul className="mt-6 grid grid-cols-2 border-l border-t border-line sm:grid-cols-4 lg:grid-cols-7">
             {Object.entries(stores).map(([id, s]) => (
               <li key={id}>
