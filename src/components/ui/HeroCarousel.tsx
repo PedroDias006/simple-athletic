@@ -85,7 +85,7 @@ export default function HeroCarousel({ slides, deals, maxDiscount }: { slides: H
             className={`absolute inset-0 transition-opacity duration-700 ${i === index ? "z-10 opacity-100" : "opacity-0"}`}
           >
             {(() => {
-              const props = { slide: s, deals, number: i + 1, first: i === 0, active: i === index, maxDiscount, onMode: choose };
+              const props = { slide: s, deals, first: i === 0, active: i === index, maxDiscount, onMode: choose };
               return s.layout === "ofertas" ? <DealsSlide {...props} /> : s.layout === "diagonal" ? <DiagonalSlide {...props} /> : <PhotoSlide {...props} />;
             })()}
           </div>
@@ -135,8 +135,6 @@ export default function HeroCarousel({ slides, deals, maxDiscount }: { slides: H
 interface SlideProps {
   slide: HeroSlide;
   deals: HeroDeal[];
-  /** Posição do slide (1, 2, 3...), desenhada em número gigante vazado. */
-  number: number;
   first: boolean;
   active: boolean;
   maxDiscount: number;
@@ -165,29 +163,13 @@ function SlowZoom({ active, children }: { active: boolean; children: ReactNode }
   );
 }
 
-/** Número do slide gigante e vazado, no fundo do painel. */
-function BigNumber({ number, color }: { number: number; color: string }) {
-  return (
-    <span
-      aria-hidden
-      className="pointer-events-none absolute -bottom-[0.12em] right-6 hidden select-none font-display leading-none text-transparent lg:block"
-      style={{ fontSize: "clamp(9rem, 15vw, 16rem)", WebkitTextStroke: `1.5px ${color}` }}
-    >
-      {String(number).padStart(2, "0")}
-    </span>
-  );
-}
-
-const numberColor: Record<Tone, string> = { ink: "rgba(255,255,255,.13)", hot: "rgba(255,255,255,.22)", snow: "rgba(17,17,17,.1)" };
-
 /** Duas fotos separadas pelas listras preta e laranja, com o painel de texto ao lado (ou embaixo, no celular). */
-function DiagonalSlide({ slide, deals, number, first, active, maxDiscount, onMode }: SlideProps) {
+function DiagonalSlide({ slide, deals, first, active, maxDiscount, onMode }: SlideProps) {
   const tone = slide.panel ?? "ink";
   const [a, b = a] = slide.photos;
   const feature = slide.featureDeal ? deals[0] : undefined;
   return (
     <div className={`absolute inset-0 overflow-hidden ${tones[tone].box}`}>
-      <BigNumber number={number} color={numberColor[tone]} />
       <div className="absolute inset-x-0 top-0 h-[56%] sm:h-[60%] lg:inset-y-0 lg:right-auto lg:h-full lg:w-[64%]">
         {/* Cada foto ocupa só a sua metade, para o recorte diagonal não esconder a pessoa. */}
         <div className="absolute inset-0 overflow-hidden [clip-path:polygon(0_0,52%_0,40%_100%,0_100%)]">
@@ -241,7 +223,7 @@ function DiagonalSlide({ slide, deals, number, first, active, maxDiscount, onMod
 }
 
 /** Uma foto cheia com o texto por cima, escurecida do lado do texto, e as listras da marca à direita. */
-function PhotoSlide({ slide, number, first, active, maxDiscount, onMode }: SlideProps) {
+function PhotoSlide({ slide, first, active, maxDiscount, onMode }: SlideProps) {
   return (
     <div className="absolute inset-0 overflow-hidden bg-ink text-white">
       <SlowZoom active={active}>
@@ -252,7 +234,6 @@ function PhotoSlide({ slide, number, first, active, maxDiscount, onMode }: Slide
         <span {...reveal(active, 0, "translate-y-full")} className={`${reveal(active, 0, "translate-y-full").className} h-full w-3 -skew-x-[18deg] bg-white/15`} />
         <span {...reveal(active, 1, "-translate-y-full")} className={`${reveal(active, 1, "-translate-y-full").className} h-full w-3 -skew-x-[18deg] bg-hot`} />
       </div>
-      <BigNumber number={number} color="rgba(255,255,255,.16)" />
       <div className="absolute inset-0 flex flex-col justify-end p-5 pb-8 sm:p-10 lg:w-[56%] lg:justify-center lg:p-14 lg:pl-24">
         <SlideText slide={slide} tone="ink" first={first} active={active} maxDiscount={maxDiscount} onMode={onMode} />
       </div>
@@ -264,7 +245,7 @@ function PhotoSlide({ slide, number, first, active, maxDiscount, onMode }: Slide
  * Os maiores descontos do site, com a foto, o preço e a loja que o robô trouxe.
  * Nada inventado: se não houver ofertas, o slide nem entra no carrossel.
  */
-function DealsSlide({ slide, deals, number, first, active, maxDiscount, onMode }: SlideProps) {
+function DealsSlide({ slide, deals, first, active, maxDiscount, onMode }: SlideProps) {
   const newest = deals.reduce((m, d) => (d.updatedAt > m ? d.updatedAt : m), "");
   // Monta "dd/mm às hh:mm" pelas partes, para servidor e navegador escreverem igual.
   const part = (type: string) => checkedAt.formatToParts(new Date(newest)).find((p) => p.type === type)?.value;
@@ -277,13 +258,6 @@ function DealsSlide({ slide, deals, number, first, active, maxDiscount, onMode }
         <div className="absolute inset-0 bg-ink" style={{ clipPath: "polygon(66% 0, 78% 0, 35% 100%, 23% 100%)" }} />
         <div className="absolute inset-0 bg-hot" style={{ clipPath: "polygon(84% 0, 96% 0, 53% 100%, 41% 100%)" }} />
       </div>
-      <span
-        aria-hidden
-        className="pointer-events-none absolute -bottom-[0.12em] left-6 hidden select-none font-display leading-none text-transparent lg:block"
-        style={{ fontSize: "clamp(9rem, 15vw, 16rem)", WebkitTextStroke: "1.5px rgba(255,255,255,.1)" }}
-      >
-        {String(number).padStart(2, "0")}
-      </span>
       <div className="absolute inset-x-0 bottom-0 flex h-[42%] flex-col justify-center px-5 text-white sm:px-10 lg:inset-y-0 lg:right-auto lg:h-full lg:w-[33%] lg:pl-24 lg:pr-6">
         <SlideText slide={slide} tone="ink" first={first} active={active} maxDiscount={maxDiscount} onMode={onMode} note={note} />
       </div>
@@ -321,7 +295,7 @@ function DealsSlide({ slide, deals, number, first, active, maxDiscount, onMode }
   );
 }
 
-function SlideText({ slide, tone, first, active, maxDiscount, onMode, note }: Omit<SlideProps, "deals" | "number"> & { tone: Tone; note?: string }) {
+function SlideText({ slide, tone, first, active, maxDiscount, onMode, note }: Omit<SlideProps, "deals"> & { tone: Tone; note?: string }) {
   const t = tones[tone];
   const Title = first ? "h1" : "h2";
   const eyebrow = slide.eyebrow === "desconto" ? (maxDiscount > 0 ? `Até -${maxDiscount}% hoje` : "Conferido de hora em hora") : slide.eyebrow;
