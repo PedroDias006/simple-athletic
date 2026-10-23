@@ -104,11 +104,12 @@ export function BrandStrip({ brands }: { brands: { name: string; count: number }
   return (
     <section>
       <SectionTitle className="mb-4">Marcas em promoção</SectionTitle>
-      <ul className="flex flex-wrap gap-2">
-        {brands.map((b) => (
+      {/* Só as marcas com mais ofertas, em pílulas pequenas, para a seção não virar uma parede de nomes. */}
+      <ul className="flex flex-wrap gap-1.5">
+        {[...brands].sort((a, b) => b.count - a.count).slice(0, 24).map((b) => (
           <li key={b.name}>
-            <Link href={`/busca?q=${encodeURIComponent(b.name)}`} className="flex items-baseline gap-2 rounded-full border border-line px-5 py-2.5 text-lg font-medium transition hover:border-ink">
-              {b.name} <span className="text-sm text-muted">{b.count}</span>
+            <Link href={`/busca?q=${encodeURIComponent(b.name)}`} className="flex items-baseline gap-1.5 rounded-full border border-line px-3.5 py-1.5 text-sm font-medium transition hover:border-ink">
+              {b.name} <span className="text-xs text-muted">{b.count}</span>
             </Link>
           </li>
         ))}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useTransition } from "react";
+import { useTransition, type ReactNode } from "react";
 import type { Mode } from "@/lib/mode";
 
 const options: { mode: Mode; label: string; short: string; title: string }[] = [
@@ -20,6 +20,18 @@ export function useModeSwitch() {
     start(() => router.refresh());
   };
   return { pending, choose };
+}
+
+/** Botão que liga o modo (Feminino/Masculino) e já abre uma página do catálogo. */
+export function ModeLinkButton({ mode, href, className, children }: { mode: Mode; href: string; className?: string; children: ReactNode }) {
+  const router = useRouter();
+  const go = () => {
+    document.cookie = mode === "todos" ? "modo=; path=/; max-age=0; samesite=lax" : `modo=${mode}; path=/; max-age=31536000; samesite=lax`;
+    document.documentElement.dataset.modo = mode;
+    router.push(href);
+    router.refresh();
+  };
+  return <button type="button" onClick={go} className={className}>{children}</button>;
 }
 
 /** Seletor Todos / Feminino / Masculino. */

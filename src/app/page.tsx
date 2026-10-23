@@ -6,10 +6,11 @@ import HeroCarousel, { type HeroDeal } from "@/components/ui/HeroCarousel";
 import { BrandStrip, DealOfTheDay, PopularSearches, PriceRangeGrid, PriceTicker } from "@/components/ui/HomeBlocks";
 import ProductCard from "@/components/ui/ProductCard";
 import Rail from "@/components/ui/Rail";
-import { CategoryTile, DepartmentDealsTile, EmptyState, TopicCard, type DepartmentDeal } from "@/components/ui/Sections";
-import { campaign, campaignFem, campaignMasc, categories, departments, heroSlides, slideOfertas, stores, TELEGRAM_URL, topics, topicsFem, topicsMasc } from "@/data/catalog";
+import GenderSplit, { type GenderSide } from "@/components/ui/GenderSplit";
+import { CategoryTile, DepartmentDealsTile, EmptyState, type DepartmentDeal } from "@/components/ui/Sections";
+import { campaign, campaignFem, campaignMasc, categories, departments, heroSlides, slideOfertas, stores, TELEGRAM_URL } from "@/data/catalog";
 import { getMode } from "@/lib/mode";
-import { countBy, departmentOf, discountOf, filterProducts, getActiveProducts, getBrands, sortByDiscount } from "@/lib/products";
+import { countBy, departmentOf, discountOf, getActiveProducts, getBrands, sortByDiscount } from "@/lib/products";
 
 const steps = [
   { n: "01", title: "A gente vigia os preços", text: "Um robô confere as maiores lojas de esporte do Brasil de hora em hora." },
@@ -25,8 +26,10 @@ export default async function Home() {
   const byDiscount = sortByDiscount(active);
   const photos = fem ? campaignFem : masc ? campaignMasc : campaign;
   const deptCounts = countBy(active, departmentOf);
-  const topicCount = (t: (typeof topics)[number]) =>
-    t.kinds ? t.kinds.reduce((n, k) => n + filterProducts(active, { kind: k }).length, 0) : filterProducts(active, { department: t.department, group: t.group }).length;
+  const genderSides: GenderSide[] = (["feminino", "masculino"] as const).map((m) => {
+    const list = sortByDiscount(getActiveProducts(m).filter((p) => discountOf(p) > 0));
+    return { mode: m, count: list.length, maxDiscount: list[0] ? discountOf(list[0]) : 0 };
+  });
   const maxDiscount = byDiscount[0] ? discountOf(byDiscount[0]) : 0;
   // Slide "Achados do dia": os maiores descontos reais, no máximo um por tipo de produto.
   const kindsSeen = new Set<string>();
@@ -79,11 +82,10 @@ export default async function Home() {
         <PriceTicker products={byDiscount.slice(0, 10)} />
       </div>
 
-      <Container className="mt-16 sm:mt-20">
-        <Rail title={fem ? "Compre por tipo, pra ela" : masc ? "Compre por tipo, pra ele" : "Compre por tipo"} itemClassName="w-[62%] sm:w-[36%] lg:w-[calc((100%-36px)/4)]">
-          {(fem ? topicsFem : masc ? topicsMasc : topics).map((t) => <TopicCard key={t.href + t.label} topic={t} count={topicCount(t)} />)}
-        </Rail>
-      </Container>
+      {/* Arte dupla Ela | Ele logo abaixo da fita de preços */}
+      <div className="mx-auto mt-10 w-full max-w-[1800px] sm:mt-12 sm:px-4 lg:px-6">
+        <GenderSplit data={genderSides} />
+      </div>
 
       <Container className="mt-16 sm:mt-20">
         {byDiscount.length ? (
