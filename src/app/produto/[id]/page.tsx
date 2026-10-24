@@ -136,10 +136,16 @@ export default async function ProductPage({ params }: Props) {
                   href={`/ir/${product.id}`}
                   target="_blank"
                   rel="sponsored noopener"
-                  className="mt-8 flex w-full items-center justify-center gap-2 rounded-full bg-ink px-6 py-4 text-base font-semibold text-white transition hover:bg-hot"
+                  className="mt-8 flex w-full items-center justify-center gap-3 rounded-full bg-ink py-3 pl-3 pr-6 text-base font-semibold text-white transition hover:bg-hot"
                 >
-                  {sizes.length ? `Escolher tamanho e comprar no ${store.name}` : `Comprar no ${store.name}`}
-                  <ArrowRight width={18} height={18} />
+                  {/* Logo da loja num selo branco, para ficar legível em cima do botão escuro. */}
+                  {store.logo && (
+                    <span className="flex h-10 w-16 shrink-0 items-center justify-center rounded-full bg-white px-2.5">
+                      <img src={store.logo} alt="" className="max-h-6 max-w-full object-contain" />
+                    </span>
+                  )}
+                  <span className="text-left leading-tight">{sizes.length ? `Escolher tamanho e comprar no ${store.name}` : `Comprar no ${store.name}`}</span>
+                  <ArrowRight width={18} height={18} className="shrink-0" />
                 </a>
                 <p className="mt-3 text-center text-xs text-muted">
                   Você vai para o site oficial do {store.name}. A compra, o pagamento e a entrega são feitos lá, com a garantia da loja.
