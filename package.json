@@ -8,6 +8,7 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "bot:promocoes": "tsx bots/promocoes/index.ts",
+    "test:bot": "tsx bots/promocoes/testes/awin.teste.ts",
     "cf:build": "opennextjs-cloudflare build",
     "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "bot:marketing": "node --env-file-if-exists=bots/marketing/.env bots/marketing/index.mjs"

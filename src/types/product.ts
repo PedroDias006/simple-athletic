@@ -14,7 +14,17 @@ export type StoreId =
   | "netshoes"
   | "centauro"
   | "decathlon"
-  | "magalu";
+  | "magalu"
+  // Lojas da Awin (entram sozinhas quando o programa aprova e o feed tem ofertas)
+  | "nike"
+  | "adidas"
+  | "puma"
+  | "asics"
+  | "mizuno"
+  | "olympikus"
+  | "dafiti"
+  | "futfanatics"
+  | "lauri";
 
 export type Gender = "feminino" | "masculino" | "unissex";
 

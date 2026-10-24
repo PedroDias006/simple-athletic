@@ -167,6 +167,15 @@ export const stores: Record<StoreId, { name: string; color: string; logo?: strin
   centauro: { name: "Centauro", color: "#E30613", logo: "/lojas/centauro.svg" },
   decathlon: { name: "Decathlon", color: "#3643BA", logo: "/lojas/decathlon.svg" },
   magalu: { name: "Magalu", color: "#0086FF", logo: "/lojas/magalu.svg" },
+  nike: { name: "Nike", color: "#111111", logo: "/lojas/nike.svg" },
+  adidas: { name: "adidas", color: "#000000", logo: "/lojas/adidas.svg" },
+  puma: { name: "PUMA", color: "#111111", logo: "/lojas/puma.svg" },
+  asics: { name: "ASICS", color: "#001E62", logo: "/lojas/asics.svg" },
+  mizuno: { name: "Mizuno", color: "#001489", logo: "/lojas/mizuno.svg" },
+  olympikus: { name: "Olympikus", color: "#2735D4", logo: "/lojas/olympikus.svg" },
+  dafiti: { name: "Dafiti", color: "#111111" },
+  futfanatics: { name: "Fut Fanatics", color: "#111111" },
+  lauri: { name: "Lauri Esporte", color: "#111111" },
 };
 
 /** Tag de associado da Amazon (pública: vai em todo link). */

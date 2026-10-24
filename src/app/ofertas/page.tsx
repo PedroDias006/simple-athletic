@@ -30,6 +30,8 @@ export default async function OffersPage({ searchParams }: Props) {
   const mode = await getMode();
   // Esta página é só de promoções; o catálogo completo fica nos departamentos.
   let list = getActiveProducts(mode).filter((p) => discountOf(p) > 0);
+  // O filtro de loja só mostra lojas que têm oferta agora (as recém-aprovadas aparecem quando o robô trouxer produtos).
+  const storesWithOffers = (Object.keys(stores) as StoreId[]).filter((id) => id === store || list.some((p) => p.store === id));
   if (store) list = list.filter((p) => p.store === store);
   if (range) list = list.filter((p) => p.price >= range.min && p.price <= range.max);
   if (freeShipping) list = list.filter((p) => p.freeShipping);
@@ -81,7 +83,7 @@ export default async function OffersPage({ searchParams }: Props) {
               title="Loja"
               items={[
                 { href: href({ loja: null }), label: "Todas as lojas", active: !store },
-                ...(Object.keys(stores) as StoreId[]).map((id) => ({ href: href({ loja: id }), label: stores[id].name, active: store === id })),
+                ...storesWithOffers.map((id) => ({ href: href({ loja: id }), label: stores[id].name, active: store === id })),
               ]}
             />
           </>

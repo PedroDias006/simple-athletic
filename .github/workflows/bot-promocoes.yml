@@ -26,6 +26,9 @@ jobs:
 
       - run: npm ci
 
+      - name: Testar o conector da Awin (feed de exemplo, sem internet)
+        run: npm run test:bot
+
       - name: Rodar o bot
         run: npm run bot:promocoes
         env:

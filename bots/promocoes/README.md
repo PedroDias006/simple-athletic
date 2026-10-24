@@ -28,7 +28,7 @@ o que é proibido pelos termos das lojas e pode cancelar sua conta de afiliado.
 | Mercado Livre | API oficial do Mercado Livre | **Pronto.** Só falta você criar as chaves. |
 | Amazon | Creators API (substituta da PA-API 5.0) | Pronto, mas não testado: a Amazon só libera a API após 10 vendas em 30 dias. |
 | Shopee | API do Shopee Afiliados (GraphQL) | Pronto, mas não testado com chaves reais. |
-| Netshoes, Centauro, Decathlon | Feeds de produtos da Awin | Pronto (testado com feed de exemplo). Liga com `AWIN_FEED_API_KEY` e só lê lojas em que você foi aprovado. |
+| Nike, adidas, Centauro, Olympikus, ASICS, Mizuno, PUMA, Decathlon, Dafiti, Fut Fanatics, Lauri Esporte (e Netshoes/Magalu, se entrarem na Awin) | Feeds de produtos da Awin | Pronto (testado com feed de exemplo: `npm run test:bot`). Liga com `AWIN_FEED_API_KEY` e só lê lojas em que você foi aprovado. |
 | Magalu e outras | Lomadee | Esqueleto: ainda não busca nada. |
 
 Cada loja só liga quando as chaves dela existem. Sem chaves, ela é ignorada e o bot avisa no log.
@@ -95,15 +95,27 @@ Busca de anúncios, `/items`, avaliações e estoque ficam bloqueados; o bot tra
    GitHub Secrets. O adaptador (`lojas/shopee.ts`) busca por palavra-chave e usa o `offerLink` (já com a sua comissão).
 4. A Shopee só informa o preço atual e o % de desconto; o bot calcula o preço "de" a partir deles.
 
-### 4. Netshoes e Centauro (rede Awin)
+### 4. Lojas de esporte da Awin (Nike, adidas, Centauro...)
 
-Netshoes, Centauro e Decathlon não têm programa próprio aberto: ficam na rede de afiliados **Awin**.
+Várias lojas e marcas de esporte não têm programa próprio aberto: ficam na rede de afiliados **Awin**.
 Você se cadastra na Awin e depois pede para participar do programa de cada loja.
+
+**Situação em 24/10/2026:** cadastro feito (publisher 3133181). **Lauri Esporte** já aprovou. Pedidos pendentes:
+Nike, adidas, Centauro, Olympikus, ASICS, Mizuno, Fut Fanatics, Dafiti, Decathlon e PUMA.
+Netshoes, Magalu, Reebok e New Balance não estavam na Awin nessa data.
+
+O que o robô faz com cada feed (`lojas/awin.ts`):
+- reconhece a loja pelo nome do anunciante na Awin (lista `LOJAS`); loja nova = uma linha nessa lista e uma em `stores` (`src/data/catalog.ts`);
+- junta as linhas repetidas de um mesmo produto (uma por tamanho) e o mesmo produto em lojas diferentes (mesmo EAN), ficando o mais barato em estoque;
+- tira infantil, roupa social e itens que não são de esporte; na Dafiti (moda geral) só entra o que é claramente esportivo;
+- usa o gênero (`Fashion:suitable_for`), a cor (`colour`) e a nota (`average_rating`) que a loja informa no feed;
+- descarta desconto acima de 85% (costuma ser erro de cadastro do preço "de");
+- no máximo 5 ofertas de uma mesma loja por termo de busca, para nenhuma marca lotar o site sozinha.
 
 1. Cadastre-se em <https://www.awin.com/br> como **publisher** (afiliado), informando o site. A Awin pode cobrar um
    pequeno depósito de cadastro, que volta junto com o primeiro pagamento de comissão.
-2. No painel, vá em **Anunciantes → Ingressar em programas**, procure **Netshoes**, **Centauro** e **Decathlon** e
-   peça para participar de cada um. Cada loja aprova (ou não) separadamente.
+2. No painel, vá em **Anunciantes → Fazer Parte dos Programas**, procure cada loja e clique em **Aderir**.
+   Cada loja aprova (ou não) separadamente; acompanhe em **Pendente** e **Inscrito**.
 3. **Atenção:** a página da Centauro na Awin diz que **não aceita afiliado pessoa física**. Para ela, você
    vai precisar de um CNPJ (um MEI resolve). Confira as regras atuais de cada programa antes de pedir.
 4. Depois de aprovado em pelo menos uma loja, vá em **Toolbox → Create-a-Feed** (ou **Feeds de produtos**) e copie a
@@ -135,7 +147,7 @@ Quais lojas estão em cada rede muda com o tempo. Olhe no painel da rede antes d
 | `AMAZON_PARTNER_TAG` | Opcional: troca a tag padrão `simpleathleti-20` |
 | `AMAZON_CLIENT_ID` / `AMAZON_CLIENT_SECRET` | Creators API da Amazon (após 10 vendas em 30 dias) |
 | `SHOPEE_APP_ID` / `SHOPEE_APP_SECRET` | Open API do Shopee Afiliados |
-| `AWIN_FEED_API_KEY` | Chave de feeds de produtos da Awin (Netshoes, Centauro, Decathlon) |
+| `AWIN_FEED_API_KEY` | Chave de feeds de produtos da Awin (Nike, adidas, Centauro, Olympikus...) |
 | `LOMADEE_APP_TOKEN` / `LOMADEE_SOURCE_ID` | Lomadee |
 
 Só preencha as que você já tem. As outras lojas ficam desligadas.

@@ -157,14 +157,14 @@ export default async function Home() {
       <Container className="mt-20 sm:mt-24">
         <div id="lojas" className="scroll-mt-24">
           <SectionTitle>Lojas parceiras</SectionTitle>
-          <ul className="mt-6 grid grid-cols-2 border-l border-t border-line sm:grid-cols-4 lg:grid-cols-7">
+          <ul className="mt-6 grid grid-cols-2 border-l border-t border-line sm:grid-cols-4 lg:grid-cols-8">
             {Object.entries(stores).map(([id, s]) => (
               <li key={id}>
                 <Link href={`/ofertas?loja=${id}`} title={`Ofertas ${s.name}`} className="group flex h-24 items-center justify-center border-b border-r border-line px-6 text-center font-medium transition hover:bg-snow sm:h-28">
                   {s.logo ? (
                     <img src={s.logo} alt={s.name} loading="lazy" className="max-h-9 max-w-full object-contain transition group-hover:scale-105" />
                   ) : (
-                    s.name
+                    <span className="font-display text-xl uppercase leading-none tracking-tight">{s.name}</span>
                   )}
                 </Link>
               </li>
