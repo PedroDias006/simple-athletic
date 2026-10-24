@@ -70,3 +70,26 @@ export interface Product {
   /** O bot marca false quando a promoção acaba ou o produto esgota. */
   active: boolean;
 }
+
+/** Um tamanho do produto na loja: com oferta à venda (e o menor preço dele) ou esgotado. */
+export interface ProductSize {
+  label: string;
+  available: boolean;
+  /** Menor preço à venda neste tamanho (pode ser diferente do preço do card). */
+  price?: number;
+  /** Medida informada pela loja, ex.: "Comprimento do pé: 25 cm". */
+  note?: string;
+}
+
+/**
+ * Detalhes para a página do produto, em src/data/details.json (separado para não pesar os cards).
+ * O bot de promoções preenche aos poucos; produto sem detalhes mostra só a foto principal.
+ */
+export interface ProductDetails {
+  images?: string[];
+  /** Nome do seletor na loja ("Tamanho", "Numeração"...). */
+  sizeLabel?: string;
+  sizes?: ProductSize[];
+  /** ISO 8601. Quando o bot conferiu fotos e tamanhos na loja. */
+  checkedAt: string;
+}

@@ -13,11 +13,9 @@ export function PriceTicker({ products }: { products: Product[] }) {
   if (!products.length) return null;
   const items = (hidden: boolean) =>
     products.map((p) => (
-      <a
+      <Link
         key={`${p.id}-${hidden}`}
-        href={`/ir/${p.id}`}
-        target="_blank"
-        rel="sponsored noopener"
+        href={`/produto/${p.id}`}
         tabIndex={hidden ? -1 : undefined}
         className="flex shrink-0 items-center gap-3 px-6 font-display text-lg uppercase tracking-wide hover:text-white/70"
       >
@@ -25,7 +23,7 @@ export function PriceTicker({ products }: { products: Product[] }) {
         <span>{formatPrice(p.price)}</span>
         <span className="text-[#ff7a5c]">-{discountOf(p)}%</span>
         <span aria-hidden className="ml-3 h-1.5 w-1.5 rotate-45 bg-white/40" />
-      </a>
+      </Link>
     ));
 
   return (
@@ -68,9 +66,9 @@ export function DealOfTheDay({ product }: { product: Product }) {
           <li>✓ Preço conferido pelo nosso robô; se subir, a oferta sai do ar</li>
         </ul>
 
-        <a href={`/ir/${product.id}`} target="_blank" rel="sponsored noopener" className="mt-8 inline-flex w-fit items-center gap-2 rounded-full bg-ink px-7 py-3.5 font-medium text-white transition hover:bg-black/70">
-          Pegar oferta na {store.name} <ArrowRight width={18} height={18} />
-        </a>
+        <Link href={`/produto/${product.id}`} className="mt-8 inline-flex w-fit items-center gap-2 rounded-full bg-ink px-7 py-3.5 font-medium text-white transition hover:bg-black/70">
+          Ver fotos, tamanhos e oferta <ArrowRight width={18} height={18} />
+        </Link>
       </div>
     </section>
   );

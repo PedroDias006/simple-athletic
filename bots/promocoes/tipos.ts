@@ -1,4 +1,4 @@
-import type { CategorySlug, Product } from "../../src/types/product";
+import type { CategorySlug, Product, ProductDetails } from "../../src/types/product";
 
 /**
  * Sinais de qualidade que a loja informa. Não vão para products.json: servem só para a avaliação.
@@ -36,6 +36,11 @@ export interface AdaptadorLoja {
   verificarOferta(id: string): Promise<Verificacao>;
   /** Busca reputação, avaliações e estoque de uma candidata (chamadas extras, só para as melhores). */
   enriquecer?(oferta: Oferta): Promise<Oferta>;
+  /**
+   * Fotos extras e tamanhos de uma oferta publicada, para a página do produto (src/data/details.json).
+   * null = a loja não informa; erro = tenta de novo na próxima execução.
+   */
+  detalhar?(id: string): Promise<Omit<ProductDetails, "checkedAt"> | null>;
 }
 
 export const DESCONTO_MINIMO = 15;

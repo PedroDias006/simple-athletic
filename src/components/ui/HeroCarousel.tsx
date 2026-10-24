@@ -192,9 +192,7 @@ function DiagonalSlide({ slide, deals, first, active, maxDiscount, onMode }: Sli
         {/* A maior oferta real do momento, flutuando sobre a foto. */}
         {feature && (
           <a
-            href={`/ir/${feature.id}`}
-            target="_blank"
-            rel="sponsored noopener"
+            href={`/produto/${feature.id}`}
             {...reveal(active, 4, "-translate-x-6")}
             className={`${reveal(active, 4, "-translate-x-6").className} absolute bottom-8 left-20 z-10 hidden w-[340px] items-center gap-3 bg-white p-3 text-ink shadow-2xl hover:-translate-y-1 lg:flex`}
           >
@@ -265,9 +263,7 @@ function DealsSlide({ slide, deals, first, active, maxDiscount, onMode }: SlideP
         {deals.map((d, i) => (
           <li key={d.id} style={reveal(active, i + 1, "translate-y-8").style} className={`${reveal(active, i + 1, "translate-y-8").className} min-h-0`}>
             <a
-              href={`/ir/${d.id}`}
-              target="_blank"
-              rel="sponsored noopener"
+              href={`/produto/${d.id}`}
               className="group relative flex h-full flex-col bg-white p-1.5 ring-hot transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:ring-2 sm:p-3 lg:p-4"
             >
               <div className="relative min-h-0 flex-1">

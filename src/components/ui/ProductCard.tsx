@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Product } from "@/types/product";
 import { stores } from "@/data/catalog";
 import { discountOf, formatPrice, savingsOf } from "@/lib/products";
@@ -43,9 +44,9 @@ export default function ProductCard({ product, priority = false }: { product: Pr
         </div>
 
         <h3 className="mt-0.5 line-clamp-2 text-[15px] font-medium leading-snug sm:text-base">
-          <a href={`/ir/${product.id}`} target="_blank" rel="sponsored noopener" className="after:absolute after:inset-0">
+          <Link href={`/produto/${product.id}`} className="after:absolute after:inset-0">
             {product.title}
-          </a>
+          </Link>
         </h3>
         <p className="mt-0.5 text-[15px] text-muted sm:text-base">
           {product.brand ? `${product.brand} · ` : ""}{store.name}

@@ -8,12 +8,14 @@
  *  3. avalia cada candidata (reputação, avaliações, estoque, histórico de preço) com nota de 0 a 100
  *     e só publica prioridade alta ou média; as demais ficam em observação ou são rejeitadas com motivo;
  *  4. mantém no máximo MAX_ATIVAS e apaga inativas com mais de 30 dias;
- *  5. grava src/data/products.json, o histórico de preços, o registro de decisões e o relatório.
+ *  5. confere fotos extras e tamanhos à venda de até MAX_DETALHES_POR_EXECUCAO produtos (src/data/details.json,
+ *     usado pela página do produto);
+ *  6. grava src/data/products.json, o histórico de preços, o registro de decisões e o relatório.
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { classify } from "../../src/lib/classify";
-import type { Product } from "../../src/types/product";
+import type { Product, ProductDetails } from "../../src/types/product";
 import { avaliar } from "./avaliacao";
 import { categoriasDoSite, ehCategoriaDoSite } from "./categorias";
 import { Historico } from "./historico";
@@ -28,6 +30,7 @@ import { aviso, avisosDaExecucao, DESCONTO_MINIMO, descontoPercentual, type Adap
 const RAIZ = resolve(__dirname, "../..");
 const ARQUIVO = resolve(RAIZ, "src/data/products.json");
 const NEXT_CONFIG = resolve(RAIZ, "next.config.ts");
+const ARQUIVO_DETALHES = resolve(RAIZ, "src/data/details.json");
 const DADOS = resolve(__dirname, "dados");
 
 const MAX_ATIVAS = 2500;
@@ -43,6 +46,10 @@ const APAGAR_INATIVAS_APOS = 30 * DIA;
 const VALIDADE_SEM_CONFIRMAR = 2 * DIA;
 /** updatedAt só muda se algo mudou ou depois disso, para não gerar commit (e deploy) toda hora. */
 const RENOVAR_UPDATED_AT = 12 * 60 * 60 * 1000;
+/** Fotos e tamanhos de cada produto são conferidos de novo depois disso. */
+const RENOVAR_DETALHES = 2 * DIA;
+/** Produtos que recebem a conferência de fotos e tamanhos por execução. */
+const MAX_DETALHES_POR_EXECUCAO = 80;
 
 const TODOS_ADAPTADORES: AdaptadorLoja[] = [mercadoLivre, amazon, shopee, awin, lomadee];
 
@@ -230,6 +237,30 @@ async function main() {
   const finais = produtos.filter((p) => p.active || agora - Date.parse(p.updatedAt) <= APAGAR_INATIVAS_APOS);
   const apagadas = produtos.length - finais.length;
 
+  // Fotos extras e tamanhos para a página do produto (details.json), aos poucos: primeiro quem não tem,
+  // depois os mais antigos, no máximo MAX_DETALHES_POR_EXECUCAO por vez (cada tamanho custa uma chamada).
+  console.log("\nConferindo fotos e tamanhos…");
+  const detalhesAntes = existsSync(ARQUIVO_DETALHES) ? readFileSync(ARQUIVO_DETALHES, "utf8") : "{}";
+  const detalhes = JSON.parse(detalhesAntes) as Record<string, ProductDetails>;
+  const ativasIds = new Set(finais.filter((p) => p.active).map((p) => p.id));
+  for (const id of Object.keys(detalhes)) if (!ativasIds.has(id)) delete detalhes[id];
+  const fila = finais
+    .filter((p) => p.active && adaptadorDe(p, ativos)?.detalhar)
+    .filter((p) => !detalhes[p.id] || agora - Date.parse(detalhes[p.id].checkedAt) > RENOVAR_DETALHES)
+    .sort((a, b) => (detalhes[a.id] ? Date.parse(detalhes[a.id].checkedAt) : 0) - (detalhes[b.id] ? Date.parse(detalhes[b.id].checkedAt) : 0))
+    .slice(0, MAX_DETALHES_POR_EXECUCAO);
+  let detalhados = 0;
+  for (const p of fila) {
+    try {
+      const d = await adaptadorDe(p, ativos)!.detalhar!(p.id);
+      detalhes[p.id] = semIndefinidos({ ...(d ?? {}), checkedAt: agoraIso });
+      detalhados++;
+    } catch (e) {
+      aviso(`${p.id}: não deu para conferir fotos e tamanhos (${(e as Error).message})`);
+    }
+  }
+  console.log(`  ${detalhados} produtos conferidos, ${Object.keys(detalhes).length} com detalhes no arquivo.`);
+
   // 4. Gravar.
   console.log(`\n${log.length ? log.join("\n") : "  (nenhuma mudança de status)"}`);
   console.log(`\nResumo: ${finais.filter((p) => p.active).length} ativas, ${novas} novas, ${apagadas} apagadas, ${finais.length} no arquivo.`);
@@ -244,6 +275,8 @@ async function main() {
     console.log("products.json atualizado.");
   }
   if (seco) return;
+  const conteudoDetalhes = serializarDetalhes(detalhes);
+  if (conteudoDetalhes !== detalhesAntes) writeFileSync(ARQUIVO_DETALHES, conteudoDetalhes);
   garantirHostsDeImagem(finais);
 
   // Memória: histórico de preços, decisões e relatório.
@@ -284,6 +317,12 @@ function serializar(lista: Product[]) {
     return `  { ${campos.join(", ")} }`;
   });
   return `[\n${linhas.join(",\n")}\n]\n`;
+}
+
+/** Um produto por linha, em ordem de id, para os diffs do git ficarem pequenos. */
+function serializarDetalhes(d: Record<string, ProductDetails>) {
+  const linhas = Object.keys(d).sort().map((id) => `  ${JSON.stringify(id)}: ${JSON.stringify(d[id])}`);
+  return linhas.length ? `{\n${linhas.join(",\n")}\n}\n` : "{}\n";
 }
 
 /** Acrescenta em next.config.ts (lista imageHosts) os domínios de imagem que ainda não estão lá. */

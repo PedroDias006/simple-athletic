@@ -29,7 +29,14 @@ interface ProdutoCatalogo {
   children_ids?: string[];
   pictures?: { url: string }[];
   attributes?: { id: string; value_name?: string | null }[];
+  /** Seletores da página do produto (cor, tamanho...), cada opção apontando para o produto daquela variação. */
+  pickers?: { picker_id: string; picker_name?: string; products?: { product_id: string; picker_label: string; picker_subtext?: string; tags?: string[] }[] }[];
 }
+
+/** Fotos guardadas por produto na página de detalhes. */
+const FOTOS_POR_PRODUTO = 6;
+/** Tamanhos conferidos por produto (cada um custa 1 chamada de preço). */
+const TAMANHOS_POR_PRODUTO = 14;
 
 interface OfertaVendedor {
   item_id: string;
@@ -287,6 +294,33 @@ export const mercadoLivre: AdaptadorLoja = {
     return {
       ...oferta,
       sinais: { ...oferta.sinais, nivelVendedor: nivel(rep?.level_id), medalhaVendedor: rep?.power_seller_status ?? undefined },
+    };
+  },
+
+  /**
+   * Fotos do catálogo e tamanhos da mesma cor. Cada tamanho é conferido em /products/{id}/items:
+   * só aparece como disponível se tiver oferta nova à venda, com o menor preço dela.
+   */
+  async detalhar(id) {
+    if (!id.startsWith(PREFIXO_PRODUTO)) return null;
+    const p = await api<ProdutoCatalogo>(`/products/${id.slice(PREFIXO_PRODUTO.length)}`);
+    const images = [...new Set((p.pictures ?? []).map((f) => f.url?.replace(/^http:/, "https:")).filter(Boolean))].slice(0, FOTOS_POR_PRODUTO);
+    const seletor = p.pickers?.find((pk) => /SIZE/.test(pk.picker_id) && (pk.products?.length ?? 0) > 1);
+    const opcoes = (seletor?.products ?? []).slice(0, TAMANHOS_POR_PRODUTO);
+    const sizes = await emParalelo(opcoes, 4, async (o) => {
+      const r = await api<{ results: OfertaVendedor[] }>(`/products/${o.product_id}/items?limit=20`).catch(() => ({ results: [] as OfertaVendedor[] }));
+      const precos = r.results.filter((x) => (x.condition ?? "new") === "new" && x.price > 0).map((x) => x.price);
+      return {
+        label: o.picker_label.replace(/\s+BR$/i, ""),
+        available: precos.length > 0,
+        price: precos.length ? Math.min(...precos) : undefined,
+        note: o.picker_subtext || undefined,
+      };
+    });
+    return {
+      images: images.length ? images : undefined,
+      sizeLabel: seletor ? seletor.picker_name || "Tamanho" : undefined,
+      sizes: sizes.length ? sizes : undefined,
     };
   },
 

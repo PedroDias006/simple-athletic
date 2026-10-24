@@ -55,7 +55,7 @@ jobs:
         run: |
           # A memória do bot (histórico de preços, decisões, relatório) também precisa ser salva:
           # o computador do GitHub Actions é apagado depois de cada execução.
-          git add -A -- src/data/products.json next.config.ts bots/promocoes/dados
+          git add -A -- src/data/products.json src/data/details.json next.config.ts bots/promocoes/dados
           if git diff --cached --quiet; then
             echo "Nada mudou."
             exit 0
