@@ -1,6 +1,6 @@
 # Relatório do bot de promoções
 
-Execução: 23/10/2026, 22:39:08 (horário de Brasília)
+Execução: 24/10/2026, 04:22:05 (horário de Brasília)
 
 **Medido nesta execução:** 1152 ofertas ativas no site · 0 novas publicadas · 0 retiradas · 0 rejeitadas · 0 em observação · 1292 produtos com histórico de preço.
 
