@@ -1,8 +1,8 @@
 # Relatório do bot de promoções
 
-Execução: 24/10/2026, 13:39:01 (horário de Brasília)
+Execução: 24/10/2026, 16:32:12 (horário de Brasília)
 
-**Medido nesta execução:** 1152 ofertas ativas no site · 0 novas publicadas · 0 retiradas · 0 rejeitadas · 0 em observação · 1292 produtos com histórico de preço.
+**Medido nesta execução:** 1036 ofertas ativas no site · 0 novas publicadas · 116 retiradas · 0 rejeitadas · 0 em observação · 1292 produtos com histórico de preço.
 
 Lojas ligadas: Mercado Livre.
 
@@ -12,7 +12,122 @@ Nenhuma.
 
 ## Retiradas do site
 
-Nenhuma.
+- Bola Futebol Campo Vinil Vermelho Costurada: sem confirmação há 2 dias
+- Cinto Hidratação Corrida Porta Fone Celular C/ 2 Garrafinhas Preto Lisa: sem confirmação há 2 dias
+- Cinto Hidratação Evadict Trail Running 500ml Preto com Compartimentos: sem confirmação há 2 dias
+- Meião Topper Meia De Treino Corrida Ciclismo Dominator Cor Azul: sem confirmação há 2 dias
+- Raquete Padel 100% Carbono 12k Profissional Camewin Paddle Cor Raquete Padel 12k Smash: sem confirmação há 2 dias
+- Raquete Padel Camewin Fibra Carbono Paddle + Capa Cor Raquete Padel Carbono Azul: sem confirmação há 2 dias
+- Kit Bola Beach Tennis 60 Unidades Penalty Pro Laranja: sem confirmação há 2 dias
+- Antivibrador Raquete Tênis Artengo Feelconfort Absorvedor Neutro: sem confirmação há 2 dias
+- Raquete Beach Tennis Camewin Carbono 3K Profissional 2023: sem confirmação há 2 dias
+- Raquete Padel Bullpadel Hack Junior 2026: sem confirmação há 2 dias
+- Bola Beach Tennis Bola Bolinha Tênis Com 18 Unidades Wilson: sem confirmação há 2 dias
+- Raquete Padel Compass Glide 12k 2026: sem confirmação há 2 dias
+- Elástico Extensor Para Treino Tensão Leve Prottector: sem confirmação há 2 dias
+- Elástico Extensor Pedal De Puxar Fitness Musculação Treino, Elástico Extensor Exercícios M: sem confirmação há 2 dias
+- Luva Academia Esporte Neoprene Academia Luva Proteção Preto Lisa Unico: sem confirmação há 2 dias
+- Elástico Extensor Tensão Ajustável Treino E Musculação Yangfit: sem confirmação há 2 dias
+- Creatina 100% Pura Rituária Micronizada Monohidratada 300g Creatina: sem confirmação há 2 dias
+- Rolo Liberação Miofascial Foam Roller Massagem Azul 30cm Azul: sem confirmação há 2 dias
+- Rolo Liberação Miofascial Massagem Fisioterapia Pilates Yoga Preto: sem confirmação há 2 dias
+- Bolsa Gelo Nipo Center Ortopédica Joelho Costas 1200ml Alívio Dores: sem confirmação há 2 dias
+- Bolsa Gelo Ortopédica Fria Quente Grande 2,3l Profissional Verde: sem confirmação há 2 dias
+- Rolo Liberação Miofascial e Massagem Fitness: sem confirmação há 2 dias
+- Rolo Liberação Miofascial Foam Roller Massagem Fisioterapia Cor Preto: sem confirmação há 2 dias
+- Bolsa Gelo Ortopédica Joelho Costas Universal 500ml: sem confirmação há 2 dias
+- Kit 2 Joelheira Meia Compressão Joelho 3/4 Circulação Tensor Tamanho P: sem confirmação há 2 dias
+- Cinta Com Bolsa Gelo Flexivel G Membros/articulacoes Mercur: sem confirmação há 2 dias
+- Bolsa Gelo Térmica Gel Quente Fria Compressa Mercur 5 Unid: sem confirmação há 2 dias
+- Rolo Liberação Miofascial Foam Roller Massagem Azul 30cm: sem confirmação há 2 dias
+- Kit 3 Camisa Compressão Proteção Uv Manga Longa Extreme Ther Cor Cinza Cinza Cinza Tamanho: sem confirmação há 2 dias
+- Meia Esportiva Penalty Cano Médio 331: sem confirmação há 2 dias
+- Meia Esportiva Penalty Cano Alto 330 Branco 39/44: sem confirmação há 2 dias
+- Raquete Padel Camewin Fibra Carbono Paddle + Capa Cor Raquete Padel Carbono Roxa: sem confirmação há 2 dias
+- Oculos Natação Speedo Beats Cor Marinho: sem confirmação há 2 dias
+- Conjunto Fitness Feminino com Shorts de Ioga e Top Sutiã Esportivo – Roupas para Academia : sem confirmação há 2 dias
+- Tênis Feminino Vili Olimp Caminhada Academia Confortável: sem confirmação há 2 dias
+- Calça Jogger adidas Disney Frozen adidas Púrpura: sem confirmação há 2 dias
+- Luva Boxe Thai Pretorian Fx1 Amarelo + Bolsa Tamanho 12oz: sem confirmação há 2 dias
+- Conjunto Legging Animal adidas Bege: sem confirmação há 2 dias
+- Luva Boxe Muaythai Kickboxing Spank Comfy Profissional 14oz Rosa: sem confirmação há 2 dias
+- Massageador Elétrico Portátil, Pistola Massageadora Portátil 6 Velocidades e 4 Cabeças, Pi: sem confirmação há 2 dias
+- Munhequeira Ajustavel Dellamed: sem confirmação há 2 dias
+- Mochila Térmica Mochila Escolar Mochila De Viagem, Mochila Para Notebook de 15,6 Polegadas: sem confirmação há 2 dias
+- Bola Basquete Playoff Baby Penalty Laranja: sem confirmação há 2 dias
+- Bola Basquete Pro Ix Penalty Vermelho: sem confirmação há 2 dias
+- Bola Basquete Penalty Playoff Cor Verde: sem confirmação há 2 dias
+- Conjunto Blusão Com Calça Moletom Trick Nick Azul Azul: sem confirmação há 2 dias
+- Bola Basquete Poker Indoor 7.0 Laranja: sem confirmação há 2 dias
+- Meião Futebol Esporte Profissional Antiderrapante Algodão Branco Único: sem confirmação há 2 dias
+- Meião Futebol Penalty Antiderrapante Adulto Profissional Cor Azul: sem confirmação há 2 dias
+- Bola Beach Tennis Profissional Odissey 24 Unidades Amarelo e Rosa: sem confirmação há 2 dias
+- Bola Beach Tennis Profissional Odissey 120 Unidades Verde e Rosa: sem confirmação há 2 dias
+- Conjunto Feminino Blusa Manga Longa E Calça Conforto Casual Cor Preto: sem confirmação há 2 dias
+- Luva Boxe Muay Thai Tradicional 12oz Vermelho Fheras 000669: sem confirmação há 2 dias
+- Luva Boxe Pretorian Elite Alta Proteção Punho 10oz Prata: sem confirmação há 2 dias
+- Garrafa Inox TéRmica Preto Fosco Vingadores 500ml Marvel Garrafa Termica Agua Garrafa Term: sem confirmação há 2 dias
+- Short Saia Fitness Ausare Feminino Azul P para Treino com Proteção UV50+: sem confirmação há 2 dias
+- Short Fitness Ausare Feminino com Bolsos para Treino e Corrida: sem confirmação há 2 dias
+- Creatina Mastigavel 90 Pastilhas Sabor Framboesa Creatina Monohidratada: sem confirmação há 2 dias
+- Cinta Lombar Reforçada Suspensório Ergonômica Tamanho M: sem confirmação há 2 dias
+- munhequeira Ortopédica hx7621: sem confirmação há 2 dias
+- Mochila Notebook Ntesx Grande Expansível Mochila Masculina, Mochila Viagem Empresarial. Id: sem confirmação há 2 dias
+- Bola Vôlei Colorida Praia Quadra Volei: sem confirmação há 2 dias
+- Conjunto Camiseta adidas Disney Minnie Mouse adidas Cinza / Light Grey Heather / Semi Ice : sem confirmação há 2 dias
+- Bola Volei Penalty 8.1 Pro Amarelo: sem confirmação há 2 dias
+- RELÓGIO GPS IGPSPORT LW10 cinza: equilíbrio: a maioria do site precisa ser promoção
+- Relógio Gps Garmin Enduro 3 Carbon Gray Pulseira Preto: equilíbrio: a maioria do site precisa ser promoção
+- Pochete Corrida Touch Preta Fitness Academia Hidrolight: equilíbrio: a maioria do site precisa ser promoção
+- Pochete Corrida Celular Exercícios Academia Impermeavel Slim Cor Preto: equilíbrio: a maioria do site precisa ser promoção
+- Viseira verde ultraleve Compressport Viseira de corrida Xhwu38960: equilíbrio: a maioria do site precisa ser promoção
+- Viseira Para Corrida Hupi Preto Liso Tamanho Un: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Beach Tennis Heroes Harley 2025 Rosa: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Beach Tennis Heroes Armor Cor Rosa-claro: equilíbrio: a maioria do site precisa ser promoção
+- Heroes rebel raquete beach tennis 2023 cor preto: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Padel adidas Match Black/red 3.3 Vermelho: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Padel adidas Match Black/lime 3.3 Preto: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Padel Head Zephyr Cinza/laranja Azul-aço: equilíbrio: a maioria do site precisa ser promoção
+- Bola Tênis Premium Tecnifibre X Verde Para Todas Quadras 3 Latas: equilíbrio: a maioria do site precisa ser promoção
+- Bola Tênis Wilson Us Open Extra Duty - Cx com 24 Tubos: equilíbrio: a maioria do site precisa ser promoção
+- Kit 6 Tubos Bola Tênis Profissional Tecnifibre X-One 18 Unidades: equilíbrio: a maioria do site precisa ser promoção
+- Overgrip Wilson Pro Overgrip Comfort Pack x3, Branco para Tênis e Padel: equilíbrio: a maioria do site precisa ser promoção
+- Overgrip Dropshot - Unidade: equilíbrio: a maioria do site precisa ser promoção
+- Overgrip Wilson Absorbx Vermelho: equilíbrio: a maioria do site precisa ser promoção
+- Garrafa Térmica Inteligente Com Medidor De Temperatura 500ml Cor Garrafa Termica Vermelha: equilíbrio: a maioria do site precisa ser promoção
+- Garrafa Termica Aço Inox Termômetro 5 Display Digital 500ml: equilíbrio: a maioria do site precisa ser promoção
+- Coqueteleira Cruzeiro Azul: equilíbrio: a maioria do site precisa ser promoção
+- Anilha 31mm Pintada 15kg Crossfit Treino Funcional Casa Gym: equilíbrio: a maioria do site precisa ser promoção
+- Anilha Pintada de 4kg para Musculação, Treino e Academia da HENVIFER: equilíbrio: a maioria do site precisa ser promoção
+- Anilha de Ferro Pintada 4 kg para Treino de Musculação com Pegas: equilíbrio: a maioria do site precisa ser promoção
+- Mini Band - Leve: equilíbrio: a maioria do site precisa ser promoção
+- Mini Band Médio (amarelo): equilíbrio: a maioria do site precisa ser promoção
+- Mini Band Kallango Basic Médio: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Aço Cross Rolamento Speed Profissional 3m: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Proaction G307 2,75m Treino Funcional: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Aço Crossfit 2,8m Rolamento Speed Profissional: equilíbrio: a maioria do site precisa ser promoção
+- Tornozeleira Ortopedica Compressão Faixa Ajustável Estavel Variadas: equilíbrio: a maioria do site precisa ser promoção
+- Tornozeleira Ortopédica Compressão Ajustável Academia Fitnes: equilíbrio: a maioria do site precisa ser promoção
+- Cinta Lombar Kalipso Ajustável Reforçada Ergonômica Tamanho M: equilíbrio: a maioria do site precisa ser promoção
+- Corretor Postural Lombar Ajustável Cinta Reforçada GG Preta: equilíbrio: a maioria do site precisa ser promoção
+- Colete Corretor Postural Ajustável de Poliéster, Tamanho GG: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa Termica Gel Mercur: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa térmica Relet Bolsa Térmica Multiuso Marmita - cinza: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa Térmica Gel Média Mercur: equilíbrio: a maioria do site precisa ser promoção
+- 2 Tornozeleira Meia Ortopédica Ajustável Compressão Elástica: equilíbrio: a maioria do site precisa ser promoção
+- Conjunto De Agasalho Esportivo Penalty Pipe Masculino Tamanho G Confortável Para Treino E : equilíbrio: a maioria do site precisa ser promoção
+- Agasalho Conjunto Corinthians Masculino SPR com Jaqueta e Calça: equilíbrio: a maioria do site precisa ser promoção
+- Bola Volei Penalty Vp 5100 Mirim Xxvi Amarelo: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futsal Futebol Penalty Mais Inflador: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futsal Rokma Furion Jogo Amarelo/laranja: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futsal Stadium Centurion Cor Branco/laranja: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futsal Penalty Rx 100 Xxiii Amarelo: equilíbrio: a maioria do site precisa ser promoção
+- Meia Esportiva Penalty Cano Baixo Kit 3 Pares X T 39 Ao 44 Cor Branco Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
+- Meia Feminina Corrida Running Fitness Bike Gym Clube Futebol Cor Fluminense Tamanho 34 Ao : equilíbrio: a maioria do site precisa ser promoção
+- Caixa De Meia Esquadria Plástica - Mister: equilíbrio: a maioria do site precisa ser promoção
+- Caixa meia-esquadria Idea+Pro 2652C / 0421C: equilíbrio: a maioria do site precisa ser promoção
+- Action Wearzone | Smartwatch Esportivo | A Prova D'água, Gps: equilíbrio: a maioria do site precisa ser promoção
+- Boné Para Corrida Hupi Run Colors Branco Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
 
 ## Rejeitadas (por motivo principal)
 
