@@ -46,10 +46,12 @@ const APAGAR_INATIVAS_APOS = 30 * DIA;
 const VALIDADE_SEM_CONFIRMAR = 2 * DIA;
 /** updatedAt só muda se algo mudou ou depois disso, para não gerar commit (e deploy) toda hora. */
 const RENOVAR_UPDATED_AT = 12 * 60 * 60 * 1000;
-/** Fotos e tamanhos de cada produto são conferidos de novo depois disso. */
-const RENOVAR_DETALHES = 2 * DIA;
-/** Produtos que recebem a conferência de fotos e tamanhos por execução. */
-const MAX_DETALHES_POR_EXECUCAO = 80;
+/** Fotos de produto sem tamanho são conferidas de novo depois disso. */
+const RENOVAR_DETALHES = 3 * DIA;
+/** Produto com tamanhos (cada um com preço e link próprios) é reconferido depois disso. */
+const RENOVAR_DETALHES_COM_TAMANHO = 6 * 60 * 60 * 1000;
+/** Produtos do Mercado Livre que recebem a conferência de fotos e tamanhos por execução. */
+const MAX_DETALHES_POR_EXECUCAO = 100;
 
 const TODOS_ADAPTADORES: AdaptadorLoja[] = [mercadoLivre, amazon, shopee, awin, lomadee];
 
@@ -263,11 +265,18 @@ async function main() {
   const detalhes = JSON.parse(detalhesAntes) as Record<string, ProductDetails>;
   const ativasIds = new Set(finais.filter((p) => p.active).map((p) => p.id));
   for (const id of Object.keys(detalhes)) if (!ativasIds.has(id)) delete detalhes[id];
-  const fila = finais
-    .filter((p) => p.active && adaptadorDe(p, ativos)?.detalhar)
-    .filter((p) => !detalhes[p.id] || agora - Date.parse(detalhes[p.id].checkedAt) > RENOVAR_DETALHES)
-    .sort((a, b) => (detalhes[a.id] ? Date.parse(detalhes[a.id].checkedAt) : 0) - (detalhes[b.id] ? Date.parse(detalhes[b.id].checkedAt) : 0))
-    .slice(0, MAX_DETALHES_POR_EXECUCAO);
+  // Com tamanhos, o preço de cada tamanho vai para a página: reconfere bem mais vezes.
+  const venceu = (p: Product) => {
+    const d = detalhes[p.id];
+    if (!d) return true;
+    return agora - Date.parse(d.checkedAt) > (d.sizes?.length ? RENOVAR_DETALHES_COM_TAMANHO : RENOVAR_DETALHES);
+  };
+  const porIdade = (a: Product, b: Product) => (detalhes[a.id] ? Date.parse(detalhes[a.id].checkedAt) : 0) - (detalhes[b.id] ? Date.parse(detalhes[b.id].checkedAt) : 0);
+  const comDetalhes = finais.filter((p) => p.active && adaptadorDe(p, ativos)?.detalhar);
+  const fila = [
+    ...comDetalhes.filter((p) => adaptadorDe(p, ativos)!.detalhesSemCusto),
+    ...comDetalhes.filter((p) => !adaptadorDe(p, ativos)!.detalhesSemCusto && venceu(p)).sort(porIdade).slice(0, MAX_DETALHES_POR_EXECUCAO),
+  ];
   let detalhados = 0;
   for (const p of fila) {
     try {

@@ -103,20 +103,36 @@ export default async function ProductPage({ params }: Props) {
                   {details?.checkedAt && <span className="text-xs text-muted">conferido em {quando(details.checkedAt)}</span>}
                 </div>
                 <ul className="mt-3 grid grid-cols-4 gap-2 sm:grid-cols-5">
-                  {sizes.map((s) => (
-                    <li
-                      key={s.label}
-                      title={s.note}
-                      className={`flex flex-col items-center justify-center rounded-lg border px-1 py-2.5 text-center ${s.available ? "border-line" : "border-line bg-snow text-muted line-through"}`}
-                    >
-                      <span className="font-medium">{s.label}</span>
-                      {s.available && precosVariam && s.price && <span className="mt-0.5 text-[11px] text-muted no-underline">{formatPrice(s.price)}</span>}
-                    </li>
-                  ))}
+                  {sizes.map((s) =>
+                    s.available && s.url && product.active ? (
+                      // Tamanho com oferta: abre a loja já neste tamanho, na mesma oferta do preço mostrado.
+                      <li key={s.label}>
+                        <a
+                          href={`/ir/${product.id}?tam=${encodeURIComponent(s.label)}`}
+                          target="_blank"
+                          rel="sponsored noopener"
+                          title={s.note ? `${s.note} · abrir no ${store.name}` : `Abrir no ${store.name} no tamanho ${s.label}`}
+                          className="flex h-full flex-col items-center justify-center rounded-lg border border-line px-1 py-2.5 text-center transition hover:border-ink hover:bg-ink hover:text-white"
+                        >
+                          <span className="font-medium">{s.label}</span>
+                          {s.price && <span className="mt-0.5 text-[11px] opacity-70">{formatPrice(s.price)}</span>}
+                        </a>
+                      </li>
+                    ) : (
+                      <li
+                        key={s.label}
+                        title={s.note}
+                        className={`flex flex-col items-center justify-center rounded-lg border px-1 py-2.5 text-center ${s.available ? "border-line" : "border-line bg-snow text-muted line-through"}`}
+                      >
+                        <span className="font-medium">{s.label}</span>
+                        {s.available && s.price && <span className="mt-0.5 text-[11px] text-muted">{formatPrice(s.price)}</span>}
+                      </li>
+                    ),
+                  )}
                 </ul>
                 <p className="mt-2 text-xs text-muted">
                   {algumComOferta
-                    ? `Riscados: sem oferta no ${store.name} quando conferimos.${precosVariam ? " O preço pode mudar de um tamanho para outro." : ""} Você escolhe o tamanho na loja.`
+                    ? `Toque no tamanho para abrir o ${store.name} já nele, na oferta do preço mostrado.${precosVariam ? " O preço muda de um tamanho para outro." : ""} Riscados: sem oferta quando conferimos.`
                     : `Nenhum tamanho com oferta quando conferimos. Veja na loja se voltou.`}
                 </p>
                 {sizes.some((s) => s.note) && (

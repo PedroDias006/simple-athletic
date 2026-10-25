@@ -41,6 +41,8 @@ export interface AdaptadorLoja {
    * null = a loja não informa; erro = tenta de novo na próxima execução.
    */
   detalhar?(id: string): Promise<Omit<ProductDetails, "checkedAt"> | null>;
+  /** true quando detalhar() não faz chamadas extras (os dados já vieram na busca): roda para todas, toda vez. */
+  detalhesSemCusto?: boolean;
 }
 
 export const DESCONTO_MINIMO = 15;

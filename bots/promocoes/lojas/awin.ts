@@ -1,6 +1,6 @@
 import { gunzipSync } from "node:zlib";
 import { inferColors, inferGender, inferKind, normalize } from "../../../src/lib/classify";
-import type { CategorySlug, ColorSlug, Gender, StoreId } from "../../../src/types/product";
+import type { CategorySlug, ColorSlug, Gender, ProductSize, StoreId } from "../../../src/types/product";
 import { termosDaRodada, termosDe } from "../categorias";
 import { aviso, DESCONTO_MINIMO, descontoPercentual, type AdaptadorLoja, type Oferta, type Verificacao } from "../tipos";
 
@@ -20,7 +20,15 @@ import { aviso, DESCONTO_MINIMO, descontoPercentual, type AdaptadorLoja, type Of
  * Link de afiliado: aw_deep_link, que já vem rastreado com o seu ID de publisher.
  */
 const PREFIXO = "awin-";
-const LISTA = (chave: string) => `https://productdata.awin.com/datafeed/list/apikey/${chave}`;
+/** ID de publisher da Simple Athletic na Awin (público: aparece em todo link de afiliado). */
+const PUBLISHER = () => process.env.AWIN_PUBLISHER_ID || "3133181";
+/** Lista de feeds no formato novo da Awin ("darwin"); a antiga fica de reserva. */
+const LISTAS = (chave: string) => [
+  `https://ui.awin.com/productdata-darwin-download/publisher/${PUBLISHER()}/${chave}/1/feedList`,
+  `https://productdata.awin.com/datafeed/list/apikey/${chave}`,
+];
+/** Feed que a loja não atualiza há mais que isso fica de fora: preço velho no site não pode. */
+const IDADE_MAXIMA_FEED_DIAS = 3;
 
 /** Nome do anunciante na Awin -> loja do site. Lojas fora desta lista são ignoradas. */
 export const LOJAS: [RegExp, StoreId][] = [
@@ -81,6 +89,13 @@ export interface ProdutoFeed {
   rating?: number;
   reviews?: number;
   ean?: string;
+  /** Tamanho desta linha do feed (cada tamanho vem numa linha, com link e preço próprios). */
+  size?: string;
+  /** Agrupador da loja para as variações de um mesmo produto (item_group_id), quando existe. */
+  group?: string;
+  images?: string[];
+  /** No representante: todos os tamanhos do produto, cada um com o próprio link e preço. */
+  tamanhos?: ProductSize[];
 }
 
 let cache: Promise<Map<string, ProdutoFeed>> | null = null;
@@ -113,7 +128,8 @@ export function lerCsv(texto: string): Linha[] {
 
 async function baixarTexto(url: string): Promise<string> {
   const res = await fetch(url, { signal: AbortSignal.timeout(120_000) });
-  if (!res.ok) throw new Error(`${res.status} em ${url.split("/apikey/")[0]}`);
+  // A chave vai no meio do endereço: nunca deixar ela aparecer em aviso (o relatório vai para o GitHub).
+  if (!res.ok) throw new Error(`${res.status} em ${url.replace(/[0-9a-f]{32}/gi, "<chave>").split("/apikey/")[0]}`);
   const buf = Buffer.from(await res.arrayBuffer());
   // Feeds costumam vir em gzip; a lista vem em texto puro.
   return buf[0] === 0x1f && buf[1] === 0x8b ? gunzipSync(buf).toString("utf8") : buf.toString("utf8");
@@ -149,6 +165,56 @@ const semTamanho = (titulo: string) =>
     .replace(/\b\d{2}(\/\d{2})?\b/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+
+/** Link rastreado da Awin para uma página da loja (o formato novo do feed traz o link direto da loja). */
+export function linkRastreado(destino: string, anuncianteId: string): string {
+  if (/awin1\.com|awclick/.test(destino)) return destino;
+  return `https://www.awin1.com/cread.php?awinmid=${anuncianteId}&awinaffid=${PUBLISHER()}&ued=${encodeURIComponent(destino)}`;
+}
+
+/**
+ * Feed no formato novo da Awin (padrão Google Shopping) -> mesmas colunas do formato antigo, para o resto
+ * do conector não precisar saber de onde veio. Preço "199.90 BRL"; sale_price é o preço de promoção.
+ */
+export function normalizarLinhaGoogle(l: Linha, anuncianteId: string): Linha {
+  const preco = numero(l.price);
+  const promo = numero(l.sale_price);
+  const emPromo = promo !== undefined && preco !== undefined && promo < preco;
+  const link = l.aw_deep_link || l.link || "";
+  return {
+    aw_product_id: l.aw_product_id || l.id || "",
+    product_name: l.title || "",
+    aw_deep_link: link ? linkRastreado(link, anuncianteId) : "",
+    merchant_image_url: l.image_link || "",
+    alternate_images: l.additional_image_link || "",
+    merchant_category: `${l.product_type ?? ""} ${l.google_product_category ?? ""}`.trim(),
+    search_price: String(emPromo ? promo : (preco ?? "")),
+    product_price_old: emPromo ? String(preco) : "",
+    in_stock: /out of stock|esgotado|fora de estoque/i.test(l.availability ?? "") ? "0" : "1",
+    brand_name: l.brand || "",
+    colour: l.color || "",
+    "fashion:size": l.size || "",
+    "fashion:suitable_for": l.gender || "",
+    ean: l.gtin || "",
+    item_group_id: l.item_group_id || "",
+  };
+}
+
+/** Tamanho que vem no fim do nome ("Camiseta Dry Fit Preta - G", "Tênis X Tam 40"). */
+function tamanhoDoTitulo(titulo: string): string | undefined {
+  const m = titulo.match(/(?:\btam(?:anho)?\.?\s*|[-–|]\s*|\s)((?:PP|P|M|G|GG|XG|XGG|EG|EGG|XS|S|L|XL|XXL)|(?:3[3-9]|4[0-8])(?:\/(?:3[4-9]|4[0-9]))?)\s*$/i);
+  return m?.[1]?.toUpperCase();
+}
+
+const ORDEM_TAMANHOS = ["PP", "XS", "P", "S", "M", "G", "L", "GG", "XL", "XG", "XXL", "XGG", "EG", "EGG"];
+function compararTamanhos(a: string, b: string) {
+  const na = parseFloat(a);
+  const nb = parseFloat(b);
+  if (!Number.isNaN(na) && !Number.isNaN(nb)) return na - nb;
+  const ia = ORDEM_TAMANHOS.indexOf(a.toUpperCase());
+  const ib = ORDEM_TAMANHOS.indexOf(b.toUpperCase());
+  return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
+}
 
 /** Converte uma linha do feed num produto, ou null se faltar algo essencial ou não for esporte adulto. */
 export function linhaParaProduto(l: Linha, store: StoreId): ProdutoFeed | null {
@@ -186,30 +252,56 @@ export function linhaParaProduto(l: Linha, store: StoreId): ProdutoFeed | null {
     rating: rating && rating <= 5 ? rating : undefined,
     reviews: reviews ? Math.round(reviews) : undefined,
     ean: (l.ean || l.product_gtin || "").replace(/\D/g, "") || undefined,
+    size: (l["fashion:size"] || "").trim() || tamanhoDoTitulo(l.product_name),
+    group: l.item_group_id?.trim() || undefined,
+    images: [imageUrl, ...(l.alternate_images ?? "").split(/[,|]\s*/), l.alternate_image ?? "", l.alternate_image_two ?? "", l.alternate_image_three ?? ""]
+      .map((u) => u.trim().replace(/^http:/, "https:"))
+      .filter((u, i, a) => u.startsWith("https://") && a.indexOf(u) === i)
+      .slice(0, 7),
   };
 }
 
 const melhorDe = (a: ProdutoFeed, b: ProdutoFeed) => ((a.inStock && !b.inStock) || (a.inStock === b.inStock && a.price < b.price) ? a : b);
 
+/** Tamanhos de um produto: um por etiqueta (o mais barato em estoque), cada um com o link e o preço da sua linha. */
+function tamanhosDe(linhas: ProdutoFeed[]): ProductSize[] | undefined {
+  const porEtiqueta = new Map<string, ProdutoFeed>();
+  for (const p of linhas) {
+    if (!p.size) continue;
+    const k = p.size.toUpperCase();
+    porEtiqueta.set(k, porEtiqueta.has(k) ? melhorDe(p, porEtiqueta.get(k)!) : p);
+  }
+  if (porEtiqueta.size < 2) return undefined;
+  return [...porEtiqueta.entries()]
+    .sort(([a], [b]) => compararTamanhos(a, b))
+    .map(([label, p]) => ({ label, available: p.inStock, price: p.inStock ? p.price : undefined, url: p.inStock ? p.affiliateUrl : undefined }));
+}
+
 /**
  * Junta as linhas repetidas (uma por tamanho, na mesma loja e cor) e depois o mesmo produto em lojas
- * diferentes (mesmo EAN): fica o mais barato em estoque. Devolve o representante de cada id do feed,
- * para a verificação continuar achando a oferta mesmo se outro tamanho virar o mais barato.
+ * diferentes (mesmo EAN): fica o mais barato em estoque. O representante guarda todos os tamanhos.
+ * Devolve o representante de cada id do feed, para a verificação continuar achando a oferta mesmo se
+ * outro tamanho virar o mais barato.
  */
 export function juntarRepetidos(produtos: ProdutoFeed[]): Map<string, ProdutoFeed> {
-  const agrupar = (lista: ProdutoFeed[], chave: (p: ProdutoFeed) => string | undefined) => {
-    const grupos = new Map<string, ProdutoFeed>();
-    const de = new Map<ProdutoFeed, string>();
-    for (const p of lista) {
-      const k = chave(p) ?? p.id;
-      grupos.set(k, grupos.has(k) ? melhorDe(p, grupos.get(k)!) : p);
-      de.set(p, k);
-    }
-    return { vencedor: (p: ProdutoFeed) => grupos.get(de.get(p)!)!, unicos: [...grupos.values()] };
-  };
-  const porVariacao = agrupar(produtos, (p) => `${p.store}|${semTamanho(p.title)}|${(p.colors ?? []).join(",")}`);
-  const porEan = agrupar(porVariacao.unicos, (p) => (p.ean ? `ean|${p.ean}` : undefined));
-  return new Map(produtos.map((p) => [p.id, porEan.vencedor(porVariacao.vencedor(p))]));
+  const grupos = new Map<string, ProdutoFeed[]>();
+  for (const p of produtos) {
+    const k = p.group ? `${p.store}|g|${p.group}|${(p.colors ?? []).join(",")}` : `${p.store}|${semTamanho(p.title)}|${(p.colors ?? []).join(",")}`;
+    if (!grupos.has(k)) grupos.set(k, []);
+    grupos.get(k)!.push(p);
+  }
+  const repDe = new Map<ProdutoFeed, ProdutoFeed>();
+  const reps: ProdutoFeed[] = [];
+  for (const linhas of grupos.values()) {
+    const rep = linhas.reduce(melhorDe);
+    rep.tamanhos = tamanhosDe(linhas);
+    reps.push(rep);
+    for (const l of linhas) repDe.set(l, rep);
+  }
+  const porEan = new Map<string, ProdutoFeed>();
+  for (const r of reps) if (r.ean) porEan.set(r.ean, porEan.has(r.ean) ? melhorDe(r, porEan.get(r.ean)!) : r);
+  const final = (r: ProdutoFeed) => (r.ean ? porEan.get(r.ean)! : r);
+  return new Map(produtos.map((p) => [p.id, final(repDe.get(p)!)]));
 }
 
 /** Escolhe as ofertas de um termo: maior desconto primeiro, no máximo POR_LOJA por loja. */
@@ -237,27 +329,44 @@ export function escolherDoTermo(produtos: ProdutoFeed[], termo: string, jaEscolh
 function catalogo(): Promise<Map<string, ProdutoFeed>> {
   cache ??= (async () => {
     const chave = process.env.AWIN_FEED_API_KEY!;
-    const feeds = lerCsv(await baixarTexto(LISTA(chave)));
+    let feeds: Linha[] = [];
+    let erroLista: unknown;
+    for (const lista of LISTAS(chave)) {
+      try {
+        feeds = lerCsv(await baixarTexto(lista));
+        if (feeds.length) break;
+      } catch (e) {
+        erroLista = e;
+      }
+    }
+    if (!feeds.length) throw erroLista ?? new Error("lista de feeds vazia");
     const lidos: ProdutoFeed[] = [];
     for (const f of feeds) {
       const anunciante = f.advertiser_name ?? "";
       const store = LOJAS.find(([re]) => re.test(anunciante))?.[1];
-      const aprovado = ["active", "joined"].includes((f.membership_status ?? "").trim().toLowerCase());
+      const aprovado = /^(active|joined)$/i.test((f.membership_status ?? "").trim());
       if (!store || !f.url) continue;
       if (!aprovado) {
         aviso(`Awin: ${anunciante} ainda não aprovou sua entrada (o feed entra sozinho quando aprovar).`);
         continue;
       }
+      // Preço velho não entra: feed que a loja não atualiza há dias fica de fora até ela atualizar.
+      const importado = Date.parse(`${(f.last_imported ?? "").trim().replace(" ", "T")}Z`);
+      if (!Number.isFinite(importado) || Date.now() - importado > IDADE_MAXIMA_FEED_DIAS * 24 * 60 * 60 * 1000) {
+        aviso(`Awin: o catálogo de ${anunciante} não é atualizado desde ${f.last_imported || "(sem data)"}; fica fora do site até a loja atualizar (preço velho não pode).`);
+        continue;
+      }
+      const google = /google/i.test(f.datafeed_format ?? "");
       try {
         let texto: string;
         try {
-          texto = await baixarTexto(comColunas(f.url));
+          texto = await baixarTexto(google ? f.url : comColunas(f.url));
         } catch {
           texto = await baixarTexto(f.url); // a loja não tem alguma das colunas extras: usa as padrão
         }
         let n = 0;
-        for (const l of lerCsv(texto)) {
-          const p = linhaParaProduto(l, store);
+        for (const bruta of lerCsv(texto)) {
+          const p = linhaParaProduto(google ? normalizarLinhaGoogle(bruta, f.advertiser_id ?? "") : bruta, store);
           if (p) lidos.push(p), n++;
         }
         console.log(`  Awin: feed de ${anunciante} lido (${n} produtos de esporte)`);
@@ -307,6 +416,14 @@ export const awin: AdaptadorLoja = {
       for (const p of escolherDoTermo(produtos, termo, new Set(ofertas.keys()))) ofertas.set(p.id, paraOferta(p, categoria));
     }
     return [...ofertas.values()];
+  },
+
+  /** Fotos e tamanhos vêm do próprio feed já baixado: não custa chamada extra, então é refeito a cada execução. */
+  detalhesSemCusto: true,
+  async detalhar(id) {
+    const p = (await catalogo()).get(id);
+    if (!p) return null;
+    return { images: p.images?.length ? p.images : undefined, sizeLabel: p.tamanhos ? "Tamanho" : undefined, sizes: p.tamanhos };
   },
 
   async verificarOferta(id): Promise<Verificacao> {

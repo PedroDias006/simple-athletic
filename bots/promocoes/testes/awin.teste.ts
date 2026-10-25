@@ -3,7 +3,7 @@
  * Rode com: npx tsx bots/promocoes/testes/awin.teste.ts
  */
 import assert from "node:assert/strict";
-import { escolherDoTermo, juntarRepetidos, LOJAS, lerCsv, linhaParaProduto } from "../lojas/awin";
+import { escolherDoTermo, juntarRepetidos, LOJAS, lerCsv, linhaParaProduto, normalizarLinhaGoogle } from "../lojas/awin";
 
 const feed = `aw_deep_link,product_name,aw_product_id,merchant_image_url,merchant_category,search_price,rrp_price,product_price_old,brand_name,colour,in_stock,ean,average_rating,reviews,Fashion:suitable_for
 https://www.awin1.com/a?p=1,"Tênis Nike Revolution 7 Masculino Preto Tam 40",1,https://img/1.jpg,Calçados > Corrida,299.99,499.99,,Nike,Preto,1,789001,4.6,120,male
@@ -56,5 +56,28 @@ const unicos = [...new Set(reps.values())].filter((p) => p.inStock);
 const achados = escolherDoTermo(unicos, "tênis corrida masculino", new Set());
 assert.ok(achados.some((p) => p.id === "awin-2"), "acha o tênis de corrida masculino");
 assert.ok(!achados.some((p) => p.id === "awin-3"), "não traz a legging feminina");
+
+// Formato novo da Awin (padrão Google): cada tamanho numa linha, com link e preço próprios
+const google = `id,title,link,image_link,additional_image_link,availability,price,sale_price,brand,gtin,item_group_id,color,size,gender,product_type
+G1,"Blusa Moletom Esportiva Masculina Preta",https://loja.com/blusa?tam=P,https://img/b1.jpg,"https://img/b2.jpg,https://img/b3.jpg",in stock,199.90 BRL,149.90 BRL,Marca,111,BLUSA1,Preto,P,male,Roupas > Moletom
+G2,"Blusa Moletom Esportiva Masculina Preta",https://loja.com/blusa?tam=M,https://img/b1.jpg,,in stock,199.90 BRL,139.90 BRL,Marca,112,BLUSA1,Preto,M,male,Roupas > Moletom
+G3,"Blusa Moletom Esportiva Masculina Preta",https://loja.com/blusa?tam=G,https://img/b1.jpg,,out of stock,199.90 BRL,149.90 BRL,Marca,113,BLUSA1,Preto,G,male,Roupas > Moletom`;
+const blusas = lerCsv(google).map((l) => linhaParaProduto(normalizarLinhaGoogle(l, "12345"), "lauri")!);
+assert.equal(blusas[0].price, 149.9, "preço de promoção vem do sale_price");
+assert.equal(blusas[0].oldPrice, 199.9, "preço 'de' vem do price");
+assert.equal(blusas[0].gender, "masculino");
+assert.ok(blusas[0].affiliateUrl.startsWith("https://www.awin1.com/cread.php?awinmid=12345&awinaffid="), "link direto da loja vira link rastreado da Awin");
+assert.ok(decodeURIComponent(blusas[1].affiliateUrl).endsWith("tam=M"), "o link de cada tamanho leva para aquele tamanho");
+assert.equal(blusas[2].inStock, false, "out of stock vira sem estoque");
+assert.deepEqual(blusas[0].images, ["https://img/b1.jpg", "https://img/b2.jpg", "https://img/b3.jpg"], "fotos extras vêm do additional_image_link");
+
+const repBlusa = juntarRepetidos(blusas).get("awin-G1")!;
+assert.equal(repBlusa.price, 139.9, "o card mostra o tamanho mais barato em estoque");
+assert.deepEqual(repBlusa.tamanhos?.map((t) => [t.label, t.available, t.price]), [["P", true, 149.9], ["M", true, 139.9], ["G", false, undefined]], "cada tamanho com o preço da própria linha; esgotado sem preço");
+assert.ok(decodeURIComponent(repBlusa.tamanhos![0].url!).endsWith("tam=P"), "clicar no P leva ao P");
+assert.equal(repBlusa.tamanhos![2].url, undefined, "tamanho esgotado não tem link");
+
+// Tamanho no fim do nome (formato antigo, sem coluna de tamanho)
+assert.equal(linhaParaProduto({ ...linhas[2], product_name: "Shorts Treino Masculino Preto - GG", aw_product_id: "50" }, "nike")!.size, "GG");
 
 console.log("✔ conector da Awin: todos os testes passaram");

@@ -79,6 +79,8 @@ export interface ProductSize {
   price?: number;
   /** Medida informada pela loja, ex.: "Comprimento do pé: 25 cm". */
   note?: string;
+  /** Link de afiliado que abre a loja já neste tamanho, na oferta do preço acima. Usado por /ir/[id]?tam=. */
+  url?: string;
 }
 
 /**

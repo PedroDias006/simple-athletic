@@ -308,13 +308,15 @@ export const mercadoLivre: AdaptadorLoja = {
     const seletor = p.pickers?.find((pk) => /SIZE/.test(pk.picker_id) && (pk.products?.length ?? 0) > 1);
     const opcoes = (seletor?.products ?? []).slice(0, TAMANHOS_POR_PRODUTO);
     const sizes = await emParalelo(opcoes, 4, async (o) => {
+      // A oferta mais barata (nova) deste tamanho: o preço mostrado e o link levam para ela, e só ela.
       const r = await api<{ results: OfertaVendedor[] }>(`/products/${o.product_id}/items?limit=20`).catch(() => ({ results: [] as OfertaVendedor[] }));
-      const precos = r.results.filter((x) => (x.condition ?? "new") === "new" && x.price > 0).map((x) => x.price);
+      const melhor = r.results.filter((x) => (x.condition ?? "new") === "new" && x.price > 0).sort((a, b) => a.price - b.price)[0];
       return {
         label: o.picker_label.replace(/\s+BR$/i, ""),
-        available: precos.length > 0,
-        price: precos.length ? Math.min(...precos) : undefined,
+        available: !!melhor,
+        price: melhor?.price,
         note: o.picker_subtext || undefined,
+        url: melhor ? linkProduto(o.product_id, melhor.item_id) : undefined,
       };
     });
     return {

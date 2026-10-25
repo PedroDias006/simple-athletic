@@ -22,6 +22,16 @@ const femininoCasual = [
   "moletom feminino", "calça moletom feminina", "calça jogger feminina", "jaqueta esportiva feminina",
   "conjunto moletom feminino", "blusa de frio feminina", "camiseta oversized feminina",
 ];
+// Blusas, frio, shorts e calças femininas (mais variedade para ela)
+const femininoBlusasECalcas = [
+  "blusa esportiva feminina", "blusa de frio esportiva feminina", "blusa térmica feminina", "blusa dry fit feminina manga longa",
+  "moletom esportivo feminino", "jaqueta de treino feminina", "jaqueta corta vento feminina com capuz", "agasalho esportivo feminino",
+  "short esportivo feminino", "calça esportiva feminina", "calça de treino feminina", "calça flare fitness", "bermuda fitness feminina",
+  "top esportivo alta sustentação", "legging sem costura", "legging estampada", "conjunto fitness sem costura", "body fitness",
+  "regata nadador feminina", "camiseta dry fit feminina academia", "meia esportiva feminina", "bolsa esportiva feminina",
+  "tênis feminino corrida nike", "tênis feminino corrida adidas", "tênis feminino asics", "tênis feminino olympikus",
+  "tênis feminino mizuno", "maiô natação", "luva academia feminina",
+];
 
 // ---------- Roupas masculinas ----------
 const masculinoAcademia = [
@@ -37,6 +47,13 @@ const masculinoCasual = [
   "moletom masculino", "calça moletom masculina", "calça jogger masculina", "bermuda moletom masculina",
   "agasalho esportivo masculino", "conjunto agasalho masculino", "jaqueta esportiva masculina", "camisa polo esportiva",
   "camiseta oversized masculina",
+];
+// Blusas, frio, shorts e calças masculinas
+const masculinoBlusasECalcas = [
+  "blusa esportiva masculina", "blusa de frio esportiva masculina", "blusa térmica masculina", "blusa dry fit masculina manga longa",
+  "moletom esportivo masculino", "jaqueta de treino masculina", "agasalho de treino masculino",
+  "short esportivo masculino", "short tactel masculino", "calça esportiva masculina", "calça de treino masculina",
+  "bermuda de treino masculina", "calça de moletom esportiva",
 ];
 
 // ---------- Marcas (o catálogo do ML tem muitos produtos de marca com preço "de") ----------
@@ -54,6 +71,9 @@ const termosPorCategoria: Record<CategorySlug, string[]> = {
     "chuteira futsal nike", "chuteira futsal adidas", "chuteira futsal umbro", "chuteira futsal penalty", "chuteira futsal joma",
     "chuteira campo nike", "chuteira campo adidas", "chuteira campo puma", "chuteira campo mizuno", "chuteira campo umbro",
     "chuteira mercurial", "chuteira phantom", "chuteira predator", "chuteira feminina",
+    // chuteira de trava (campo)
+    "chuteira de trava", "chuteira trava mista", "chuteira campo trava", "chuteira campo penalty", "chuteira campo joma",
+    "chuteira campo topper", "chuteira campo feminina", "chuteira society feminina",
     // bolas, roupas e acessórios
     "bola de futebol", "bola futsal", "bola society", "bola de futebol nike", "bola de futebol adidas", "bola de futebol penalty",
     "camisa de time", "camisa de time feminina", "camisa seleção brasileira", "calção de futebol", "meião de futebol",
@@ -80,7 +100,7 @@ const termosPorCategoria: Record<CategorySlug, string[]> = {
     "raqueteira", "overgrip", "tênis para quadra", "saia de tênis feminina",
   ],
   musculacao: [
-    ...femininoAcademia, ...masculinoAcademia,
+    ...femininoAcademia, ...masculinoAcademia, ...femininoBlusasECalcas, ...masculinoBlusasECalcas,
     "tênis feminino academia", "tênis masculino academia", "tênis de treino cross",
     // acessórios e equipamentos
     "bolsa academia feminina", "mochila academia", "garrafa térmica", "coqueteleira", "luva de academia", "strap musculação",
