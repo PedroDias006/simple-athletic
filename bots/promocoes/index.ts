@@ -272,7 +272,8 @@ async function main() {
     return agora - Date.parse(d.checkedAt) > (d.sizes?.length ? RENOVAR_DETALHES_COM_TAMANHO : RENOVAR_DETALHES);
   };
   const porIdade = (a: Product, b: Product) => (detalhes[a.id] ? Date.parse(detalhes[a.id].checkedAt) : 0) - (detalhes[b.id] ? Date.parse(detalhes[b.id].checkedAt) : 0);
-  const comDetalhes = finais.filter((p) => p.active && adaptadorDe(p, ativos)?.detalhar);
+  // Loja fora do ar nesta execução não é consultada de novo (só geraria um aviso por produto).
+  const comDetalhes = finais.filter((p) => p.active && adaptadorDe(p, ativos)?.detalhar && !forasDoAr.has(adaptadorDe(p, ativos)!));
   const fila = [
     ...comDetalhes.filter((p) => adaptadorDe(p, ativos)!.detalhesSemCusto),
     ...comDetalhes.filter((p) => !adaptadorDe(p, ativos)!.detalhesSemCusto && venceu(p)).sort(porIdade).slice(0, MAX_DETALHES_POR_EXECUCAO),
