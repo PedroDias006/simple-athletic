@@ -98,6 +98,9 @@ async function main() {
 
   // 1. Rechecar o que já está no ar.
   console.log("\nRechecando ofertas ativas…");
+  // Falhas de rede/API ficam para o fim: se a loja inteira caiu (ex.: chave inválida), nada sai do ar por isso.
+  const semResposta: { p: Product; adaptador: AdaptadorLoja; motivo: string }[] = [];
+  const respondeu = new Set<AdaptadorLoja>();
   for (const p of produtos.filter((p) => p.active && !ehDemo(p))) {
     if (p.expiresAt && Date.parse(p.expiresAt) <= agora) {
       desativar(p, "expirou", log);
@@ -110,10 +113,10 @@ async function main() {
     }
     const v = await adaptador.verificarOferta(p.id);
     if (v.status === "erro") {
-      aviso(`${p.id}: não deu para rechecar (${v.motivo})`);
-      if (agora - Date.parse(p.updatedAt) > VALIDADE_SEM_CONFIRMAR) desativar(p, "sem confirmação há 2 dias", log);
+      semResposta.push({ p, adaptador, motivo: v.motivo });
       continue;
     }
+    respondeu.add(adaptador);
     if (v.status === "indisponivel") {
       desativar(p, v.motivo, log);
       continue;
@@ -128,6 +131,22 @@ async function main() {
     }
     atualizar(p, { price: v.price, oldPrice, freeShipping: v.freeShipping || undefined, affiliateUrl: v.affiliateUrl ?? p.affiliateUrl });
   }
+
+  // Loja que não respondeu nenhuma checagem está fora do ar (chave inválida, API caída): as ofertas dela
+  // ficam como estão e a execução termina com erro, para o GitHub avisar por e-mail. Só quando a loja
+  // responde é que uma oferta sem confirmação há 2 dias sai do site.
+  const forasDoAr = new Set(semResposta.map((s) => s.adaptador).filter((a) => !respondeu.has(a)));
+  for (const a of forasDoAr) {
+    const exemplo = semResposta.find((s) => s.adaptador === a)!.motivo;
+    const total = semResposta.filter((s) => s.adaptador === a).length;
+    aviso(`${a.nome} FORA DO AR: nenhuma das ${total} checagens funcionou (${exemplo}). Nenhuma oferta foi retirada por isso. Confira as chaves nos GitHub Secrets.`);
+  }
+  for (const { p, adaptador, motivo } of semResposta) {
+    if (forasDoAr.has(adaptador)) continue;
+    aviso(`${p.id}: não deu para rechecar (${motivo})`);
+    if (agora - Date.parse(p.updatedAt) > VALIDADE_SEM_CONFIRMAR) desativar(p, "sem confirmação há 2 dias", log);
+  }
+  if (forasDoAr.size) process.exitCode = 1;
 
   // 2. Buscar ofertas novas.
   console.log("\nBuscando ofertas novas…");
