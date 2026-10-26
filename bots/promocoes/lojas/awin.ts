@@ -328,18 +328,24 @@ export function escolherDoTermo(produtos: ProdutoFeed[], termo: string, jaEscolh
  */
 function catalogo(): Promise<Map<string, ProdutoFeed>> {
   cache ??= (async () => {
-    const chave = process.env.AWIN_FEED_API_KEY!;
+    // Aceita a chave colada com espaço/quebra de linha ou o link inteiro da "Lista de Feed".
+    const bruta = process.env.AWIN_FEED_API_KEY ?? "";
+    const chave = bruta.match(/[0-9a-f]{32}/i)?.[0] ?? bruta.trim();
     let feeds: Linha[] = [];
-    let erroLista: unknown;
+    const falhas: string[] = [];
     for (const lista of LISTAS(chave)) {
+      const nome = lista.includes("darwin") ? "lista nova" : "lista antiga";
       try {
-        feeds = lerCsv(await baixarTexto(lista));
+        const texto = await baixarTexto(lista);
+        feeds = lerCsv(texto);
         if (feeds.length) break;
+        // Respondeu, mas sem feeds: mostra o começo da resposta (sem a chave) para entender o motivo.
+        falhas.push(`${nome}: sem feeds (resposta começa com "${texto.slice(0, 80).replace(/[0-9a-f]{32}/gi, "<chave>").replace(/\s+/g, " ")}")`);
       } catch (e) {
-        erroLista = e;
+        falhas.push(`${nome}: ${e instanceof Error ? e.message : e}`);
       }
     }
-    if (!feeds.length) throw erroLista ?? new Error("lista de feeds vazia");
+    if (!feeds.length) throw new Error(`${falhas.join(" · ")}${/^[0-9a-f]{32}$/i.test(chave) ? "" : " · a chave salva no GitHub não tem o formato de 32 letras/números"}`);
     const lidos: ProdutoFeed[] = [];
     for (const f of feeds) {
       const anunciante = f.advertiser_name ?? "";
