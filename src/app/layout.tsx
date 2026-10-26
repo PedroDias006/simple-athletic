@@ -13,6 +13,8 @@ const anton = Anton({ subsets: ["latin"], weight: "400", display: "swap", variab
 export const metadata: Metadata = {
   title: { default: "SIMPLE ATHLETIC | Promoções de artigos esportivos", template: "%s | SIMPLE ATHLETIC" },
   description: "As melhores promoções de tênis, chuteiras, suplementos e equipamentos esportivos, garimpadas e atualizadas o dia todo.",
+  // Verificação do site na Lomadee (rede de afiliados). Não é segredo: é só o ID do canal.
+  other: { lomadee: "2324685" },
 };
 
 export const viewport: Viewport = { themeColor: "#ffffff" };
