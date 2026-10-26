@@ -108,7 +108,7 @@ export default async function ProductPage({ params }: Props) {
                       // Tamanho com oferta: abre a loja já neste tamanho, na mesma oferta do preço mostrado.
                       <li key={s.label}>
                         <a
-                          href={`/ir/${product.id}?tam=${encodeURIComponent(s.label)}`}
+                          href={`/vai/${product.id}?tam=${encodeURIComponent(s.label)}`}
                           target="_blank"
                           rel="sponsored noopener"
                           title={s.note ? `${s.note} · abrir no ${store.name}` : `Abrir no ${store.name} no tamanho ${s.label}`}
@@ -149,7 +149,7 @@ export default async function ProductPage({ params }: Props) {
             {product.active ? (
               <>
                 <a
-                  href={`/ir/${product.id}`}
+                  href={`/vai/${product.id}`}
                   target="_blank"
                   rel="sponsored noopener"
                   className="mt-8 flex w-full items-center justify-center gap-3 rounded-full bg-ink py-3 pl-3 pr-6 text-base font-semibold text-white transition hover:bg-hot"
