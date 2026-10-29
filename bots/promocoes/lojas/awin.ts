@@ -347,11 +347,15 @@ function catalogo(): Promise<Map<string, ProdutoFeed>> {
     }
     if (!feeds.length) throw new Error(`${falhas.join(" · ")}${/^[0-9a-f]{32}$/i.test(chave) ? "" : " · a chave salva no GitHub não tem o formato de 32 letras/números"}`);
     const lidos: ProdutoFeed[] = [];
+    aviso(`Awin: a lista de feeds tem ${feeds.length} feed(s): ${[...new Set(feeds.map((f) => `${f.advertiser_name} (${f.membership_status})`))].join(", ")}.`);
     for (const f of feeds) {
       const anunciante = f.advertiser_name ?? "";
       const store = LOJAS.find(([re]) => re.test(anunciante))?.[1];
       const aprovado = /^(active|joined)$/i.test((f.membership_status ?? "").trim());
-      if (!store || !f.url) continue;
+      if (!store || !f.url) {
+        if (/^(active|joined)$/i.test((f.membership_status ?? "").trim())) aviso(`Awin: ${anunciante} aprovou, mas ${store ? "não tem link de feed" : "não está na lista de lojas do robô"}.`);
+        continue;
+      }
       if (!aprovado) {
         aviso(`Awin: ${anunciante} ainda não aprovou sua entrada (o feed entra sozinho quando aprovar).`);
         continue;
@@ -375,7 +379,9 @@ function catalogo(): Promise<Map<string, ProdutoFeed>> {
           const p = linhaParaProduto(google ? normalizarLinhaGoogle(bruta, f.advertiser_id ?? "") : bruta, store);
           if (p) lidos.push(p), n++;
         }
-        console.log(`  Awin: feed de ${anunciante} lido (${n} produtos de esporte)`);
+        // Vai para o relatório: mostra, loja por loja, o que entrou do feed (e o que tem desconto).
+        const comDesconto = lidos.slice(-n).filter((p) => p.inStock && descontoPercentual(p.price, p.oldPrice) >= DESCONTO_MINIMO).length;
+        aviso(`Awin: feed de ${anunciante} lido (atualizado em ${f.last_imported}): ${n} produtos de esporte, ${comDesconto} em estoque com desconto de ${DESCONTO_MINIMO}%+.`);
       } catch (e) {
         aviso(`Awin: não deu para baixar o feed de ${anunciante}: ${(e as Error).message}`);
       }
