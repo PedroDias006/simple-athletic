@@ -1,8 +1,8 @@
 # Relatório do bot de promoções
 
-Execução: 12/11/2026, 00:50:54 (horário de Brasília)
+Execução: 12/11/2026, 09:49:37 (horário de Brasília)
 
-**Medido nesta execução:** 880 ofertas ativas no site · 322 novas publicadas · 509 retiradas · 229 rejeitadas · 8 em observação · 3730 produtos com histórico de preço.
+**Medido nesta execução:** 887 ofertas ativas no site · 233 novas publicadas · 226 retiradas · 231 rejeitadas · 8 em observação · 3734 produtos com histórico de preço.
 
 Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 
@@ -10,175 +10,120 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 
 | Nota | Confiança | Desconto | Produto | Preço |
 | --- | --- | --- | --- | --- |
-| 97 | 42% | anunciado | Tênis Feminino Esportivo Vili Neon Caminhada tamanho 37 Academia Leve | R$ 87,90 (de R$ 166,50) |
+| 98 | 54% | verificado | Pingente Life Raquete Tênis Cor Prateado | R$ 145,00 (de R$ 290,00) |
 | 95 | 29% | anunciado | Conjunto De Blusão Com Legging Trick Nick Bege | R$ 244,99 (de ?) |
 | 95 | 29% | anunciado | Manguito de Compressão Free Force para Braço Laranja-Claro M | R$ 99,90 (de ?) |
 | 95 | 29% | anunciado | Bola Suiça Pilates Massagem 75cm Hidrolight | R$ 136,10 (de ?) |
-| 93 | 32% | anunciado | Chinelo Feminino E Masculino Adissage adidas | R$ 187,00 (de R$ 299,99) |
-| 90 | 42% | anunciado | Manguito Trabalho Pesado Proteção Solar Compressão Cor Petróleo Tamanho GG | R$ 24,90 (de R$ 39,90) |
-| 89 | 32% | anunciado | Tornozeleira Ortopédica de Compressão Ajustável | R$ 19,26 (de R$ 40,99) |
-| 88 | 42% | anunciado | Tênis Olympikus Apolis Feminino Esportivo Casual para Caminhada | R$ 174,00 (de R$ 249,99) |
+| 88 | 44% | verificado | Coqueteleira Dc - Dux Nutrition Azul | R$ 27,00 (de ?) |
+| 88 | 29% | anunciado | Toalha De Academia Algodão Absorvente Fitness Teka Cor Azul | R$ 44,99 (de ?) |
 | 88 | 29% | anunciado | Manguito Hupi Smart Com Compressão 1 Par Branco Tamanho Único | R$ 64,90 (de ?) |
 | 88 | 29% | anunciado | Bola Vôlei Dualt Vp2000 Mirim Treino E Recreação Azul/amarelo | R$ 74,90 (de ?) |
-| 87 | 42% | anunciado | Tornozeleira Ortopedica G Compressão Estabiliza Elastica 346 Preto G | R$ 21,45 (de R$ 33,00) |
-| 86 | 42% | anunciado | Manguito Compressão Hype Modas Proteção Solar Bike Gg Marinho | R$ 30,41 (de R$ 45,90) |
-| 84 | 54% | verificado | Conjunto Praia Blusa Manga Longa E Chapéu Com Proteção Uv Rosa 02 | R$ 167,93 (de R$ 239,90) |
-| 82 | 42% | anunciado | Whey Protein Hyper Whey 900g Cappuccino - Profit Laboratórios | R$ 49,90 (de R$ 69,90) |
-| 77 | 42% | anunciado | Chuteira Predator Accuracy.1 Fg adidas | R$ 1418,39 (de R$ 1799,99) |
-| 76 | 44% | verificado | Penalty CB510053 bola vôlei soft cor laranja roxo | R$ 65,95 (de ?) |
-| 75 | 42% | anunciado | Cinto Lpo Duuq Crossfit Lpo Musculação Levantamento De Peso Cor Preto Tamanho G | R$ 296,64 (de R$ 349,00) |
-| 74 | 54% | verificado | Whey Protein Itambé Chocolate 450g | R$ 66,39 (de R$ 83,99) |
-| 73 | 42% | anunciado | Roda Abdominal Pro Everlast Preto | R$ 114,11 (de R$ 129,48) |
-| 71 | 54% | verificado | Meia Feminina Corrida Running Fitness Bike Gym Clube Futebol Cor Flamengo Tamanho 34 Ao 39 | R$ 49,90 (de ?) |
-| 68 | 42% | anunciado | Meião Topper Meia De Treino Corrida Ciclismo Dominator Cor Branco | R$ 38,27 (de R$ 43,87) |
-| 67 | 42% | anunciado | Bone Aba Curva Snapback Okdok Azul Unic | R$ 163,93 (de R$ 169,00) |
-| 66 | 32% | anunciado | Tênis Leve Confortável Corrida Academia Olympikus Nuvem | R$ 311,59 (de R$ 379,99) |
-| 64 | 54% | verificado | Bola Padel Profissional Inni Force Amarela Tubo 3 Unidades | R$ 62,19 (de ?) |
+| 81 | 32% | anunciado | Chuteira Campo Unissex Bravo Y-3 Penalty | R$ 130,00 (de R$ 179,00) |
 | 63 | 44% | verificado | Tornozeleira Ortopedica Proteção | R$ 17,89 (de ?) |
-| 62 | 54% | verificado | Whey Protein Nutragold 3w | R$ 162,90 (de ?) |
-| 60 | 54% | verificado | Roda Abdominal Pro - Everlast | R$ 99,00 (de ?) |
+| 61 | 42% | anunciado | Boné Aba Curva Liso Masculino Strapback Ajustável Cor Preto Tamanho Único | R$ 28,99 (de R$ 29,89) |
 | 59 | 54% | verificado | Faixa Mini Band Liveup Sports Média Verde | R$ 20,38 (de ?) |
-| 58 | 54% | verificado | Tênis Olympikus Passo Feminino para Caminhada Confortável | R$ 219,99 (de ?) |
-| 56 | 32% | anunciado | Chuteira Predator Accuracy.3 Futsal adidas | R$ 545,90 (de R$ 599,90) |
+| 58 | 54% | verificado | Raquete Beach Tennis Ianoni Btr9100 | R$ 378,00 (de ?) |
+| 56 | 44% | verificado | Overgrip Grip Overgrips Raquete Tênis Beach Wilson 10un Cor Branco | R$ 72,90 (de ?) |
+| 51 | 54% | verificado | Bola Society Kappa Blasty Cor Amarelo | R$ 112,90 (de ?) |
+| 51 | 54% | verificado | Bola Society Profissional Trivella PU Termofusão Futebol | R$ 139,90 (de ?) |
+| 51 | 54% | verificado | Bola Society Profissional Kickoff Pu100% Fut7 Trivella 1 | R$ 139,90 (de ?) |
+| 51 | 54% | verificado | Bola Futebol De Campo Penalty Matis Termotec Cor Azul | R$ 189,90 (de ?) |
+| 51 | 54% | verificado | Bola Futebol Grama Society Penalty 8 X Termotec Cor Preto | R$ 224,93 (de ?) |
+| 51 | 54% | verificado | Bola Futebol Salão Futsal Penalty Rx 500 XVVI | R$ 139,99 (de ?) |
+| 51 | 54% | verificado | Bola Futebol De Campo Storm Duotec X Penalty Cor Branco/Amarelo/Azul | R$ 115,75 (de ?) |
+| 51 | 54% | verificado | Caneleira adidas Adiflex Preta G Preto | R$ 106,75 (de ?) |
+| 51 | 54% | verificado | Conjunto Regata e Short Feminino Ateliê Kr para Verão Casual Azul-Marinho GG | R$ 98,90 (de ?) |
+| 51 | 54% | verificado | Fita Protetora Raquete Tênis Prokennex 32mm 5m Poliuretano Preta | R$ 114,51 (de ?) |
+| 51 | 54% | verificado | Raquete Beach Tennis Madeira | R$ 79,00 (de ?) |
+| 51 | 54% | verificado | Colar Raquete Beach Tennis Folheado Em Ouro 18k Dourado | R$ 149,90 (de ?) |
+| 51 | 54% | verificado | Raquete Tênis Mesa Yashima Caneta Japonesa 1 Estrela Madeira | R$ 99,90 (de ?) |
+| 51 | 54% | verificado | Raquete Tênis Mesa Yashima Clássica 02 Estrelas Aprovada ITTF | R$ 111,00 (de ?) |
+| 51 | 54% | verificado | Bola De Padel Wilson - Pack Com 03 Tubos | R$ 187,88 (de ?) |
+| 51 | 54% | verificado | Bola Head Padel Pro Kit 3tubos 9 Bolas Verde Amarelo | R$ 211,00 (de ?) |
 
 ## Retiradas do site
 
-- Cotoveleira Lisa - Kestal Cor Preto Tamanho G: produto removido do catálogo
-- Conjunto Fitness Feminino com Shorts de Ioga e Top Sutiã Esportivo – Roupas para Academia : equilíbrio: a maioria do site precisa ser promoção
-- Luva Boxe Muaythai Kickboxing Spank Comfy Profissional 14oz Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Luva Boxe Muay Thai Classic Black Maximum 12oz Branco: equilíbrio: a maioria do site precisa ser promoção
-- Mochila Notebook Ntesx Grande Expansível Mochila Masculina, Mochila Viagem Empresarial. Id: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futebol De Campo Bola 8 X Penalty Cor Preto: equilíbrio: a maioria do site precisa ser promoção
-- Luva Goleiro Profissional Difai Crazy 2025 Branco 10: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futebol Campo Pu Preto/vermelho: equilíbrio: a maioria do site precisa ser promoção
-- Meião Futebol Vistho Profissional Cor Preto: equilíbrio: a maioria do site precisa ser promoção
-- Meião Futebol Penalty S11 Kanguru 39-44 Azul: equilíbrio: a maioria do site precisa ser promoção
-- Luva Goleiro Campo Kaemy Rosa Tamanho M Treino Adulto: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Camiseta Neymar + Short Tactel Masculino Njr Cor KIT PRETO COD 174 Tamanho GG: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Body C/ Short Em Algodão Egípcio Ursinha Mini & Co. Cor Bege Tamanho 2: equilíbrio: a maioria do site precisa ser promoção
-- Meia Esportiva Penalty Cano Alto Ecoknit Adulto Preto Un: equilíbrio: a maioria do site precisa ser promoção
-- Meia Esportiva Cano Medio X 3 Pares T 33-38 Pt Penalty Sortido Único: equilíbrio: a maioria do site precisa ser promoção
-- Relógio GPS Garmin Forerunner 955 Preto Para Triatlo e Multiesporte: equilíbrio: a maioria do site precisa ser promoção
-- Relógio Garmin Forerunner 70 - Branco: equilíbrio: a maioria do site precisa ser promoção
-- Relógio Garmin Forerunner 170 Music 43mm Rosa Vermelho: equilíbrio: a maioria do site precisa ser promoção
-- Relógio Garmin Fenix 8 Safira Solar Titânio 47mm: equilíbrio: a maioria do site precisa ser promoção
-- Óculos Sol Polarizado UV400 Yopp Verde Espelhado Ironman Esportivo: equilíbrio: a maioria do site precisa ser promoção
-- Oculos Sol Feminino Oculos Feminino Sol Preto: equilíbrio: a maioria do site precisa ser promoção
-- Mochila De Rodinhas Garrafa Squeeze Estojo Homem Aranha: equilíbrio: a maioria do site precisa ser promoção
-- Garrafa Squeeze Ou 700ML: equilíbrio: a maioria do site precisa ser promoção
-- Saia Curta Sukini Feminina Top Brasil para Praia, Azul-Celeste: equilíbrio: a maioria do site precisa ser promoção
-- Camewin raquete beach tennis full carbon: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Tênis Fort Sports Modelo 27 68.58cm: equilíbrio: a maioria do site precisa ser promoção
-- Berloque Raquete Tênis Pjoias Prata 925 Cor Prateado 2,3cm: equilíbrio: a maioria do site precisa ser promoção
-- Corda Raquete Tenis Weiss Cannon Power Principle Set 12m: equilíbrio: a maioria do site precisa ser promoção
-- Corda Raquete Tênis Polyfibre TCS 17L 1.25mm Amarelo 200m Co-Poliéster: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Tênis Head Junior Novak 21 Preto/azul L05: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Tênis Babolat Pure Strike 100 Gen4 16x19 L2: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Madeira: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis - Maranello: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Ianoni Btr9100: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Kevlar - Maranello: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Padel Compass Control 12k 2026: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Padel Compass Trophy 3k 2026: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Padel Compass Talent 12k 2026: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Padel Star Vie Aquila Space Pro Preto: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Tênis De Mesa Yashima 82011 Lisa Allround Practice: equilíbrio: a maioria do site precisa ser promoção
-- Bola Beach Tennis Bola Bolinha Tênis Com 12 Unidades adidas: equilíbrio: a maioria do site precisa ser promoção
-- Bola Beach Tennis Leflex Profissional Stage 2 Feltro Acrílico: equilíbrio: a maioria do site precisa ser promoção
-- Raqueteira NOX BEACH Raqueteira NG17 2026 para black/white: equilíbrio: a maioria do site precisa ser promoção
-- Corda Pular Exercicio Funcional Cross Fit Ajustavel MBFIT: equilíbrio: a maioria do site precisa ser promoção
-- Luva Boxe Muay Thai Naja Viper 16 Oz Vermelho: equilíbrio: a maioria do site precisa ser promoção
-- Óculos Natação Speedo Nexus Marinho/azul: equilíbrio: a maioria do site precisa ser promoção
-- Anilha Emborrachada Sport de 20 kg para Musculação e Treino Profissional: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Legging Animal adidas Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Short Saia Ursinha: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto De Potes Marmita Fitness Reutilizável Microondas: equilíbrio: a maioria do site precisa ser promoção
-- Mochila academia Olympikus Prime cor preto: equilíbrio: a maioria do site precisa ser promoção
-- Mochila Academia Camping Trilha Resistente Impermeável Cinza: equilíbrio: a maioria do site precisa ser promoção
-- Mochila Academia Camping Trilha Resistente Impermeável Verde: equilíbrio: a maioria do site precisa ser promoção
-- Strap Musculação Punch Power Lifiting Academia Par Preto: equilíbrio: a maioria do site precisa ser promoção
-- Strap Musculação Algodão Fly High para Crossfit Preto 60cm: equilíbrio: a maioria do site precisa ser promoção
-- Strap Musculação Tala Strep Treino Academia Resistent Gancho Preto: equilíbrio: a maioria do site precisa ser promoção
-- Tala Strap Musculação Fada Do Retalho 100% Algodão Preto Antiderrapante: equilíbrio: a maioria do site precisa ser promoção
-- Faixa Cabelo Azul Kit 6 Malha Canelada Larga Vitrine: equilíbrio: a maioria do site precisa ser promoção
-- Par de halter sextavado Halter Sextavado 5 Kg para academia: equilíbrio: a maioria do site precisa ser promoção
-- Halter 3kg Pintado - Preto: equilíbrio: a maioria do site precisa ser promoção
-- Caneleira Peso Kit 8kg Hidrolight: equilíbrio: a maioria do site precisa ser promoção
-- Elástico Extensor Pedal De Puxar Fitness Musculação Treino, Elástico Extensor Pedal De Pux: equilíbrio: a maioria do site precisa ser promoção
-- Kit Elástico Extensor 11 Peças Treino Funcional Musculação: equilíbrio: a maioria do site precisa ser promoção
-- Elástico Extensor Exercícios Multifuncional Com Apoio Pés Rosa, Elástico Treino Extensor E: equilíbrio: a maioria do site precisa ser promoção
-- Elástico Extensor Sortido - Mebuki: equilíbrio: a maioria do site precisa ser promoção
-- Elástico Extensor Tensão Forte / Tube Band - Treino Funcional Musculação: equilíbrio: a maioria do site precisa ser promoção
-- Super Band Elástico Extensor Leve 13mm Exercícios Treino Yangfit: equilíbrio: a maioria do site precisa ser promoção
-- Kit Elástico Extensor Grupo Online Treino Casa Crossfit Preto: equilíbrio: a maioria do site precisa ser promoção
-- Kit Elástico Extensor Lehmox 11 Peças Treino Academia e Fisioterapia: equilíbrio: a maioria do site precisa ser promoção
-- Mini Band Em Látex - Leve: equilíbrio: a maioria do site precisa ser promoção
-- Mini Band Poker Media 600x50x0.6mm Azul: equilíbrio: a maioria do site precisa ser promoção
-- Tapete Yoga Mat Pilates - Metalife: equilíbrio: a maioria do site precisa ser promoção
-- Colchonete Esteira Tapete Yoga (1,70x55cm) Cor Verde: equilíbrio: a maioria do site precisa ser promoção
-- Tapete Yoga Mat Pilates Pvc Antiderrapante Roxo: equilíbrio: a maioria do site precisa ser promoção
-- Corda Pular Profissional Rolamento Aeróbico Boxe Crossfit: equilíbrio: a maioria do site precisa ser promoção
-- Corda Pular Aço Cross Rolamento Speed Profissional 3m: equilíbrio: a maioria do site precisa ser promoção
-- Corda Pular Aço Crossfit 2,8m Rolamento Speed Profissional: equilíbrio: a maioria do site precisa ser promoção
-- Corda Pular Plástica Cross Preta Atrio, 275cm. Transforme: equilíbrio: a maioria do site precisa ser promoção
-- Bola Pilates Head 65cm Bola Fitness Bola Suiça Abdominal Etc Cinza: equilíbrio: a maioria do site precisa ser promoção
-- Óculos Natação Antiembaçante Cinza 1898 - Mor: equilíbrio: a maioria do site precisa ser promoção
-- CARAMELO CREATINA COM 60 INTELLIGENCE CREATINA MASTIGÁVEL: equilíbrio: a maioria do site precisa ser promoção
-- Albumina Dim Pura 500g: equilíbrio: a maioria do site precisa ser promoção
-- Albumina em Pó Unilife de Chocolate, 500g: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Compressão Protetor Tornozeleira Treino Corrida Cor G - Preto: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Ortopédica Compressão Estabilização Pro Vermelho: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Elastica M: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Elástica Cano: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Ajustavel - Foot Hand: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Bilateral Levamed Medi: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Compressão Ortopedica Estabilizadora Proteção: equilíbrio: a maioria do site precisa ser promoção
-- Kit Joelheira Cotoveleira IMS Protector Preto Motocross Tamanho GG Esportiva: equilíbrio: a maioria do site precisa ser promoção
-- Bandagem Elastica Fita Kinesio Preto Supermedy: equilíbrio: a maioria do site precisa ser promoção
-- Cinta Lombar Ergonômica Elástica Ajustável Fitness Imediato: equilíbrio: a maioria do site precisa ser promoção
-- Cinta Lombar Ergonômica Abdominal Com Suspensório Tamanho Gg: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Gelo Térmica Top Rio Ortopédica Flexível Compressa 21 Cm: equilíbrio: a maioria do site precisa ser promoção
-- Cinta Com Bolsa Gelo Flexível Costas E Ombros Mercur: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Gelo Termica Ortopedica Flexivel Compressa 22 Cm Cor Azul: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa De Gelo Artificial Flexível 2 Peças Azul: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa de Gelo Artificial Flexível Imporiente 400ml Transparente Gel: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa térmica Relet Bolsa Térmica Multiuso Marmita - cinza: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Térmica Gel Média Mercur: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Térmica Gel Tam. M - Kestal: equilíbrio: a maioria do site precisa ser promoção
-- Lancheira Bolsa Térmica Azul: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Termica Em Gel Tam P Colorgel: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Térmica Gel - Não Congelável - 250g - Rmc: equilíbrio: a maioria do site precisa ser promoção
-- Meia Compressao Joelheira 3/4 Circulaçao Corrida Crossfit Cor Preto/Verde Tamanho G/GG: equilíbrio: a maioria do site precisa ser promoção
-- Meia de Compressão Acte Sports para Pernas Azul (33 ao 38): equilíbrio: a maioria do site precisa ser promoção
-- Meia Polaina Sportactive Compressão 20-30 Venosan Rosa G: equilíbrio: a maioria do site precisa ser promoção
-- Meia de Ciclismo com Compressão Giro para Bike Rosa-Chiclete: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Compressão Curto Cor Preto Tamanho P/m: equilíbrio: a maioria do site precisa ser promoção
-- Kit Rolo Liberacao Miofascial 30cm + Bastão Miofascial Small Cor Azul: equilíbrio: a maioria do site precisa ser promoção
-- Rolo Liberação Miofascial 33cm Massagem Eva Pvc Cor Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Bola vôlei de praia areia Rainha: equilíbrio: a maioria do site precisa ser promoção
-- Vinho Cobos Volturno Top Top Top (97pt): equilíbrio: a maioria do site precisa ser promoção
-- Chinelo Slide Masculino Melbourne Olympikus: equilíbrio: a maioria do site precisa ser promoção
-- Chinelo Slide Stitch Disney Tamanho: equilíbrio: a maioria do site precisa ser promoção
-- Kit Cola Chinelo 50g + Verniz Chinelo 37ml Gliart: equilíbrio: a maioria do site precisa ser promoção
-- Verniz Chinelo Gliart 37ml: equilíbrio: a maioria do site precisa ser promoção
-- Bola Vôlei Diadora 3800: equilíbrio: a maioria do site precisa ser promoção
-- Kit Voleibol Treino + Bola Vôlei Colorfull: equilíbrio: a maioria do site precisa ser promoção
-- Bola Vôlei Veloster Lemon: equilíbrio: a maioria do site precisa ser promoção
-- Bola Vôlei Oficial Veloster Lemon: equilíbrio: a maioria do site precisa ser promoção
-- Bola Volei Winner Extra Soft - Amarelo Neon: equilíbrio: a maioria do site precisa ser promoção
-- Bola Vôlei Vb500 Soft Macia Kipsta Azul: equilíbrio: a maioria do site precisa ser promoção
+- Kit 3 Camisa Compressão Proteção Uv Manga Longa Extreme Ther Cor Marinho Marinho Marinho T: produto removido do catálogo
+- Bolsa Gelo Nipo Center Ortopédica Joelho Costas 1200ml Alívio Dores: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa Gelo Ortopédica Joelho Costas Universal 500ml: equilíbrio: a maioria do site precisa ser promoção
+- Meião Futebol Zoup Adulto Cor Branco Tamanho 38-43: equilíbrio: a maioria do site precisa ser promoção
+- Meião Futebol Dray Vermelho Tamanho 39 Ao 44: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futebol Americano Corda: equilíbrio: a maioria do site precisa ser promoção
+- Bola de Futebol Trivella Society de Poliuretano Tamanho 5: equilíbrio: a maioria do site precisa ser promoção
+- Bola Society 91 Cor Cinza: equilíbrio: a maioria do site precisa ser promoção
+- Bola Society Uhlsport - Force 2.0 Cor Amarelo: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futebol Penalty Campo Bravo Esportiva Grama Cor Azul: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futebol Campo Penalty Storm Xxi Bco/verm: equilíbrio: a maioria do site precisa ser promoção
+- Garrafa Squeeze Matte 900ml - Azul: equilíbrio: a maioria do site precisa ser promoção
+- Garrafa Squeeze 450ml + Mochila Palmeiras: equilíbrio: a maioria do site precisa ser promoção
+- Meia Lupo Atoalhada Alta Performance Futebol Corrida Cor Preto Tamanho G (41-44): equilíbrio: a maioria do site precisa ser promoção
+- Boné Corrida Dry-fit Colorido Roxo Roxo Un: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Tenis Carlitos Jr 26 Babolat Cinza L1: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Beach Tennis Heroes Kepler 2023 - Cor Marrom: equilíbrio: a maioria do site precisa ser promoção
+- Bola Beach Tennis AMA Pink: equilíbrio: a maioria do site precisa ser promoção
+- Corda Raquete Tênis Gioco Potenza 1.33mm Vermelha Monofilamento: equilíbrio: a maioria do site precisa ser promoção
+- Corda Raquete Tênis Gioco Grand Slam 1.25mm 12m Multilfilamento: equilíbrio: a maioria do site precisa ser promoção
+- Bola Padel Profissional Inni Force Amarela Tubo 3 Unidades: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Beach Tennis Oxy Tomahawk + Mochila Imediata: equilíbrio: a maioria do site precisa ser promoção
+- Corda Raquete Tênis Kirschbaum Max Power 1.30mm Copolímero Prata: equilíbrio: a maioria do site precisa ser promoção
+- Set Individual Corda Raquete Tenis Weiss Cannon Ultra Para Spin Set 12m: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Tênis Head Pwr 110 Branca 2026 L3: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Tênis Wilson Shift 99l V1 L3 Branco Perolado Grip 3: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Tênis Wilson Fusion Xl L2 L3 - Cor Branco E Cinza | 2024: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Beach Tennis Heroes Harley 2025 Rosa: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Beach Tennis Heroes Armor Cor Rosa-claro: equilíbrio: a maioria do site precisa ser promoção
+- Combo Raquete Beach Tennis Heroes Rebel 2026 + Raqueteira: equilíbrio: a maioria do site precisa ser promoção
+- Bola Tênis Wilson Us Open Extra Duty - Cx com 24 Tubos: equilíbrio: a maioria do site precisa ser promoção
+- Tubo de bola Wilson Padel - Premier Padel X3 cor amarela: equilíbrio: a maioria do site precisa ser promoção
+- Bola de Padel Prince Pack com 3 Tubos: equilíbrio: a maioria do site precisa ser promoção
+- Bola De Padel Spin Extra Pack Com 03 Tubos: equilíbrio: a maioria do site precisa ser promoção
+- Raqueteira Fila Champion X6 Preta: equilíbrio: a maioria do site precisa ser promoção
+- Coqueteleira Inox Wellmix: equilíbrio: a maioria do site precisa ser promoção
+- Kit 6 Toalha Academia Treino Fitness Yoga Absorvente Grafite Liso: equilíbrio: a maioria do site precisa ser promoção
+- Conjunto Comfy Com Blusa Manga Longa E Jogger Recorte Malha Cor Preto: equilíbrio: a maioria do site precisa ser promoção
+- Conjunto Fitness Feminino Top + Short Cós Alto Com Bolso Zero Transparência Poliamida: equilíbrio: a maioria do site precisa ser promoção
+- Coqueteleira De Cobre: equilíbrio: a maioria do site precisa ser promoção
+- Coqueteleira Prottector - 700ml: equilíbrio: a maioria do site precisa ser promoção
+- Coqueteleira Palmeiras Verde: equilíbrio: a maioria do site precisa ser promoção
+- Jaque Shop Cinto Musculação - Preto - P: equilíbrio: a maioria do site precisa ser promoção
+- Cinto Musculação Agachamento LPO Couro Sintético Yangfit Tamanho M: equilíbrio: a maioria do site precisa ser promoção
+- Kit Mini Band Elástico Treino 3 Faixas Intensidades Diferentes Mini Band: equilíbrio: a maioria do site precisa ser promoção
+- 5 Mini Band Elastico Academia Fit Treino Funcional Exercício Cor Kit 5 Mini Band: equilíbrio: a maioria do site precisa ser promoção
+- Mini Band Médio (amarelo): equilíbrio: a maioria do site precisa ser promoção
+- Mini Band Kallango Basic Médio: equilíbrio: a maioria do site precisa ser promoção
+- Mini Band Kallango Basic Leve: equilíbrio: a maioria do site precisa ser promoção
+- Mini Band Intensidade Leve Tipo Thera Band Fitness Riber: equilíbrio: a maioria do site precisa ser promoção
+- Albumina 1kg - Flora Ervas Sem Sabor: equilíbrio: a maioria do site precisa ser promoção
+- Rolo Liberação Miofascial 45cm X 15cm - Fabricante Sbc Cor Rosa: equilíbrio: a maioria do site precisa ser promoção
+- Almofada Com Bolsa Térmica Gel No Filter: equilíbrio: a maioria do site precisa ser promoção
+- Pistola Massageadora Beauty Dellamed - Alívio Muscular: equilíbrio: a maioria do site precisa ser promoção
+- Tornozeleira Ortopedica Suporte Tornozelo Compressao: equilíbrio: a maioria do site precisa ser promoção
+- Tornozeleira Ortopédica Ajustável Compressão Articulação: equilíbrio: a maioria do site precisa ser promoção
+- Kit Tornozeleira Ortopédica Compressiva Par Estabilizador: equilíbrio: a maioria do site precisa ser promoção
+- Tornozeleira Ortopedica Compressão Faixa Ajustável Estavel Variadas: equilíbrio: a maioria do site precisa ser promoção
+- Tornozeleira Ortopédica Compressão Ajustável Academia Fitnes: equilíbrio: a maioria do site precisa ser promoção
+- Kit Mercur Bolsa Gelo M + Cinta Gelo Membros/articulações Preto: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa Gelo Ortopédica Rosa Joelho Costas IT131 1,5l: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa Gelo Ortopédica UniqMed Joelho Costas 1500ml Borracha: equilíbrio: a maioria do site precisa ser promoção
+- Par Manguito Compressão Esportivo Mangas Proteção M Vollo: equilíbrio: a maioria do site precisa ser promoção
+- Manguito Compressão Vôlei Vistho Rosa Luminoso Sem Costura Conforto: equilíbrio: a maioria do site precisa ser promoção
+- Manguito Compressão Uv50+ Proteção Solar Corrida Ciclismo Pa Único Cinza-escuro: equilíbrio: a maioria do site precisa ser promoção
+- Manguito Compressão Tempo Real Braço Preto UV 50+ Beach Tennis: equilíbrio: a maioria do site precisa ser promoção
+- Manguito Compressão Acte F13-pc Leve 48g Preto Cinza G/gg Preto: equilíbrio: a maioria do site precisa ser promoção
+- Bola Massagem Pontiaguda Liberação Muscular Acte Cor Cinza/Laranja: equilíbrio: a maioria do site precisa ser promoção
+- Bola De Massagem Amendoim Preto Proaction: equilíbrio: a maioria do site precisa ser promoção
+- Conjunto Agasalho Masculino Tactel Calça E Jaqueta Forrado Cor Azul Tamanho G: equilíbrio: a maioria do site precisa ser promoção
+- Bola Volei Prestige Wilson Verde/branco/amarelo: equilíbrio: a maioria do site precisa ser promoção
+- Conjunto Agasalho Masculino Corinthians Trilobal, para 2025: equilíbrio: a maioria do site precisa ser promoção
+- Agasalho Conjunto Masculino Seleção Brasileira Preto M: equilíbrio: a maioria do site precisa ser promoção
+- Boné Aba Curva Resina Dardo Branco Ajustável: equilíbrio: a maioria do site precisa ser promoção
+- CHINELO HK 44: equilíbrio: a maioria do site precisa ser promoção
+- Bone Aba curva Mil GRAU: equilíbrio: a maioria do site precisa ser promoção
+- Boné Aba Curva NATHOS de Poliéster, Preto: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei De Praia Rainha Tech Fusion: equilíbrio: a maioria do site precisa ser promoção
-- Bola Basquete Basketball Tamanho Nº7 Resistente: equilíbrio: a maioria do site precisa ser promoção
-- Mini Bola Basquete Laranja Spalding Spaldeen TF: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futsal Diadora - Coloring Park: equilíbrio: a maioria do site precisa ser promoção
-- Bola Society Dualt Slick Evolution M2 Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Meião Futebol Masculino Meia Esportiva Futsal Jogador 28ao43 Azul P: equilíbrio: a maioria do site precisa ser promoção
-- Luva Goleiro Nga Soccer Astra Cor Azul Tamanho 9: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futebol Copa Do Mundo Brincadeira Vermelho: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futebol Campo Topper Drible Pro: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futebol E.v.a 06 Unidades Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Bola Society Diadora Colorin Park Cor Azul: equilíbrio: a maioria do site precisa ser promoção
-- Bola Society Profissional Kickoff Pu100% Fut7 Trivella 1: equilíbrio: a maioria do site precisa ser promoção
+- Bola Volei Penalty Vp 5100 Mirim Xxvi Amarelo: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futebol Manchester City Blue Cor Azul: equilíbrio: a maioria do site precisa ser promoção
+- Meião Futebol Kanxa Treino Todas Cores Cor Preto: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Profissional Trivella PU Termofusão Futebol: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Penalty Se7e Ultra Fusion Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Topper Slick + Bomba De Ar: equilíbrio: a maioria do site precisa ser promoção
@@ -191,198 +136,49 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Futebol De Campo Lider Xxi Ed. Brasil Na Copa - Penalty Branco: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol De Campo Storm Duotec X Penalty Cor Branco/Amarelo/Azul: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol Salão Futsal Penalty Rx 500 XVVI: equilíbrio: a maioria do site precisa ser promoção
-- Meião Futebol Umbro Premier Adulto 38-44 Cor Branco: equilíbrio: a maioria do site precisa ser promoção
-- Meião Futebol Penalty Matis - Adulto Cor Marinho Tamanho 39-44: equilíbrio: a maioria do site precisa ser promoção
-- Meião Futebol Kipsta F500 Azul-marinho Tamanho 43/45 Adulto: equilíbrio: a maioria do site precisa ser promoção
-- Meião Futebol Topper Cup Cor Branco-preto Tamanho 39-44: equilíbrio: a maioria do site precisa ser promoção
-- Caneleira adidas Adiflex Preta G Preto: equilíbrio: a maioria do site precisa ser promoção
-- Caneleira Para Sublimação - Tamanho P Branca: equilíbrio: a maioria do site precisa ser promoção
-- Luva Goleiro Poker Training Hold Cor Azul Tamanho 10: equilíbrio: a maioria do site precisa ser promoção
-- Luva Goleiro Campo Twofive Manaus Cor Branco Tamanho 11: equilíbrio: a maioria do site precisa ser promoção
-- Garrafa Squeeze De Água 500ml Cromado: equilíbrio: a maioria do site precisa ser promoção
-- Viseira Para Corrida Hupi Run Colors Preta Cor Preto Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Masculino De Corrida Veloz 3 Tam 43 Olympikus: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Olympikus Corre 4: equilíbrio: a maioria do site precisa ser promoção
-- Caixa meia-esquadria Idea+Pro 2652C / 0421C: equilíbrio: a maioria do site precisa ser promoção
-- Caixa Meia Esquadria Plástico ABS Ipiranga F000466: equilíbrio: a maioria do site precisa ser promoção
-- Kit Gabarito Meia Esquadria + Serra Ingco Hmbsb30062: equilíbrio: a maioria do site precisa ser promoção
-- Gabarito Caixa Meia Esquadria + Serrote 12 Polegadas: equilíbrio: a maioria do site precisa ser promoção
-- Caixa Para Serra Meia Esquadria 300x90mm Mtx: equilíbrio: a maioria do site precisa ser promoção
-- Caixa Meia Esquadria 45/90 - Black Jack: equilíbrio: a maioria do site precisa ser promoção
-- Caixa Plástica Meia Esquadria Com Serra 300mm Sparta: equilíbrio: a maioria do site precisa ser promoção
+- Fundo Fotográfico Camisas Seleção Brasileira Ff26-2733 Horizontal - 300x200 Diversas: equilíbrio: a maioria do site precisa ser promoção
+- Caneleira De Futebol Pequena Profix - Branca: equilíbrio: a maioria do site precisa ser promoção
+- Caneleira Penalty Matis Viii Amarela: equilíbrio: a maioria do site precisa ser promoção
+- Caixa Meia Esquadria Medidor + Serrote Japonês Wolfcraft: equilíbrio: a maioria do site precisa ser promoção
+- Meia Feminina Corrida Running Fitness Bike Gym Clube Futebol Cor Flamengo Tamanho 34 Ao 39: equilíbrio: a maioria do site precisa ser promoção
+- Caixa De Meia Esquadria Plástica - Mister: equilíbrio: a maioria do site precisa ser promoção
 - Extensor Comedouro Meia Lua - Não Acompanha Meia Lua: equilíbrio: a maioria do site precisa ser promoção
-- Cinto De Hidratação 2 Garrafas Corrida Running Acte Sports: equilíbrio: a maioria do site precisa ser promoção
-- Pochete Corrida Fitness Impermeável Porta Celular Garrafa Preto Liso: equilíbrio: a maioria do site precisa ser promoção
-- Pochete Corrida Celular Exercícios Academia Impermeável Slim Cor Azul: equilíbrio: a maioria do site precisa ser promoção
-- Viseira Para Corrida Hupi 42k Grids Verde Verde/preto Único Geométrico: equilíbrio: a maioria do site precisa ser promoção
-- Viseira de corrida vermelha ultraleve Compressport Xhwu3893050: equilíbrio: a maioria do site precisa ser promoção
-- Viseira Hupi 21K Grids Verde/Preta para Corrida: equilíbrio: a maioria do site precisa ser promoção
-- Viseira Hupi Running Vermelho e Azul para Corrida: equilíbrio: a maioria do site precisa ser promoção
-- Viseira Para Corrida Hupi Live Love Run  preta Preto/branco Único Liso: equilíbrio: a maioria do site precisa ser promoção
-- Viseira para Corrida Hupi 21K Ibira Preto e Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Disney Minnie - Garrafa Squeeze Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Disney Stitch - Garrafa Squeeze Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Garrafa Squeeze Térmica Preto 420ml - Poker: equilíbrio: a maioria do site precisa ser promoção
-- Garrafa Squeeze Litrao Urbano 35968: equilíbrio: a maioria do site precisa ser promoção
-- Garrafa Squeeze 2l Antivazamento - Rosa/azul: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira De Futsal Feminina Max 1000 Ecoknit Penalty: equilíbrio: a maioria do site precisa ser promoção
-- Viseira Para Corrida E Triathlon Hupi - Kit 02 Viseiras Asas Preto Único: equilíbrio: a maioria do site precisa ser promoção
-- Garrafa Squeeze De Plastico Transcolor 600ml: equilíbrio: a maioria do site precisa ser promoção
-- Saia Saída De Praia Feminina Curta Tule Pareo Moda Verão Cor Preto Tamanho Gg: equilíbrio: a maioria do site precisa ser promoção
-- Raqueteira Heroes Thunder Fierce Michelle Capelletti Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Raqueteira Yonex Mochila para 2 raquetes preto: equilíbrio: a maioria do site precisa ser promoção
-- Bola Beach Tennis Joog Itf Stage 2 (3 Unidades) Cor Amarelo E Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Corda para Raquete Tênis Unique Big Hitter Black 7 200m Co-Polímeros: equilíbrio: a maioria do site precisa ser promoção
-- Raqueteira Drop Shot Blitz Preta Preto: equilíbrio: a maioria do site precisa ser promoção
-- Raqueteira Yonex Pro Racquet 9: equilíbrio: a maioria do site precisa ser promoção
-- Overgrip Grip Overgrips Raquete Tênis Beach Wilson 10un Cor Preto: equilíbrio: a maioria do site precisa ser promoção
-- Antivibrador Raquete Tênis Squash Silent Dampener Preto Zons: equilíbrio: a maioria do site precisa ser promoção
-- Fita Protetora Raquete Tênis Prokennex 32mm 5m Poliuretano Preta: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Camewin 50% Carbono Tratamento + Capa Cor Raquete Beach Tennis Tsunam: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Camewin Redonda Controle 48cm Fibra de Carbono: equilíbrio: a maioria do site precisa ser promoção
+- Viseira Fila Holographic Preta para Corrida com Proteção Solar: equilíbrio: a maioria do site precisa ser promoção
+- Mochila Raqueteira Head Tour Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
+- Pingente de Raquete Beach Tennis em Ouro 18k Amarelo: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Tênis de Praia BT1005, Esporte e Treino, Preto - Acte: equilíbrio: a maioria do site precisa ser promoção
 - Colar Raquete Beach Tennis Folheado Em Ouro 18k Dourado: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Compass Gaia 3k: equilíbrio: a maioria do site precisa ser promoção
 - Capa Quicksand Para Raquete Beach Tennis Colorida Poliéster: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Compass Flow 3k: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Topgrip Star Carbono Verde Brasil: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Nox Varadero 2022 Cor Preto: equilíbrio: a maioria do site precisa ser promoção
-- Grip adidas Raquete Beach Tennis, Padel Cor Branco: equilíbrio: a maioria do site precisa ser promoção
-- Bola Beach Tennis Profissional Bolinha Tênis Praia Quickshot: equilíbrio: a maioria do site precisa ser promoção
-- Kit 10 Bolinhas Bola Beach Tennis Mormaii Profissional Nova: equilíbrio: a maioria do site precisa ser promoção
-- 3 Unidades Bola Beach Tennis Ball Bolinha Tênis Praia Lorben: equilíbrio: a maioria do site precisa ser promoção
-- Bola Beach Tennis Adidas Aditour Pack 3 Unidades Durável Oficial Kit NF: equilíbrio: a maioria do site precisa ser promoção
-- Kit 3 Bola Beach Tennis Bolinha Tênis Alto Padrão Great Home Verde-limão: equilíbrio: a maioria do site precisa ser promoção
-- Bola Beach Tennis Head Pro Pack Com 03 Unidades Stage 2 Itf Laranja E Amarelo: equilíbrio: a maioria do site precisa ser promoção
-- Raqueteira Mormaii Beach Tennis Pro Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Raqueteira Head Base S - Limão: equilíbrio: a maioria do site precisa ser promoção
-- Raqueteira Head Tour XL 12R: equilíbrio: a maioria do site precisa ser promoção
-- Mochila Raqueteira Beach Tennis Hupi Preto: equilíbrio: a maioria do site precisa ser promoção
-- Tapete Yoga Premium Purple Antiderrapante 5.0mm 61x183cm: equilíbrio: a maioria do site precisa ser promoção
-- Halter Sextavado Pintado 26kg: equilíbrio: a maioria do site precisa ser promoção
-- Par Caneleira Peso 10kg Exercício Treino Em Casa E Academia Preto: equilíbrio: a maioria do site precisa ser promoção
-- Agasalho Conjunto Feminino Calça Corinthians Trilobal - Spr Tamanho M: equilíbrio: a maioria do site precisa ser promoção
-- Luva Academia Esporte Treino Musculação Exercicios Neoprene Ajustável - Preta: equilíbrio: a maioria do site precisa ser promoção
-- Luva Academia Musculação Artipé Neoprene Palma Couro Preta Tamanho P: equilíbrio: a maioria do site precisa ser promoção
-- Mochila Academia DMS Preta Poliéster Capacidade 2L Modelo MS01: equilíbrio: a maioria do site precisa ser promoção
-- Mochila Academia Sestini Golden State Warriors Azul 17 L Poliéster: equilíbrio: a maioria do site precisa ser promoção
-- Halter Injetado Preto 06 Kg: equilíbrio: a maioria do site precisa ser promoção
-- Halter Injetado Preto 05 Kg: equilíbrio: a maioria do site precisa ser promoção
-- Caneleira Peso 4kg Life Zone Para Exercícios Musculares: equilíbrio: a maioria do site precisa ser promoção
-- Caneleira Peso 0,5 Kg Domyos Rosa para Exercícios com Velcro: equilíbrio: a maioria do site precisa ser promoção
-- Caneleira Peso Enforce Fitness 3 Pares 2kg 4kg 6kg Preto: equilíbrio: a maioria do site precisa ser promoção
-- Par Caneleira Peso Para Treino Kit 1kg (2 Un De 0,5kg): equilíbrio: a maioria do site precisa ser promoção
-- Caneleira de Peso - 4kg Muvin: equilíbrio: a maioria do site precisa ser promoção
-- Bola Pilates Suiça Fisioterapia Targ Me 55 Cm + Bomba Preto: equilíbrio: a maioria do site precisa ser promoção
-- Bola Pilates 65 Cm + Faixa Elástica+ Overball 25cm+ Puxador Diversas: equilíbrio: a maioria do site precisa ser promoção
-- Mini Bola Pilates Dualt Over Ball Yoga Ginástica 25cm Cinza: equilíbrio: a maioria do site precisa ser promoção
-- Oculos Natação Dokos Prime 13059 Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Óculos Natação Speedo Mariner Cor Preto/ Citronela: equilíbrio: a maioria do site precisa ser promoção
-- Albumina 500g Naturovos Sabor Banana: equilíbrio: a maioria do site precisa ser promoção
-- Albumina Proteina Ovo Chocolate 420g - Uevo Chocolate: equilíbrio: a maioria do site precisa ser promoção
-- Albumina 500g Proteína Pura Sabor Cappuccino Sem Glúten: equilíbrio: a maioria do site precisa ser promoção
-- Albumina Absolut Beijinho De Coco 500g: equilíbrio: a maioria do site precisa ser promoção
-- Albumina 500g - Proteina Do Ovo - Maxxi Ovos: equilíbrio: a maioria do site precisa ser promoção
-- Kit 2x Albumina Naturovos de 1kg Sabor Chocolate: equilíbrio: a maioria do site precisa ser promoção
-- Bioviton Unilife 400ml Multivitamínico Biotonico: equilíbrio: a maioria do site precisa ser promoção
-- Policomplex Multivitaminico 1400mg 60 Cápsulas - Natulha: equilíbrio: a maioria do site precisa ser promoção
-- Multivitamínico Lil Critters 190 Gummies - Frutas: equilíbrio: a maioria do site precisa ser promoção
-- Cédé - MultiVit (multivitamínico) - 200ml: equilíbrio: a maioria do site precisa ser promoção
-- Vitamini Juice Multivitamínico Uva (280g) - Essential: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Térmica Porta Mamadeira Azul Kuka: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Térmica C/ 2 Compartimentos: equilíbrio: a maioria do site precisa ser promoção
-- Munhequeira Weistband Beach Tennis Shark - Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Munhequeira Tennis Grande - Branco adidas Ht3911: equilíbrio: a maioria do site precisa ser promoção
-- Kit Bolsa Térmica Gel 250g RMC + Capa Protetora: equilíbrio: a maioria do site precisa ser promoção
-- Joelheira Ortopédica De Compressão Tensor - Imediato: equilíbrio: a maioria do site precisa ser promoção
-- Joelheira Ortopédica Mercur Bc0035 Tamanho G: equilíbrio: a maioria do site precisa ser promoção
-- Munhequeira Atoalhada Branco M: equilíbrio: a maioria do site precisa ser promoção
-- Munhequeira Dynamo Labz: equilíbrio: a maioria do site precisa ser promoção
-- Munhequeira Kestal Ajustável Preta: equilíbrio: a maioria do site precisa ser promoção
-- Munhequeira Elástica - Ideal Cor Bege Tamanho Unico: equilíbrio: a maioria do site precisa ser promoção
-- Munhequeira Neoprene Penalty para Adultos, Preta: equilíbrio: a maioria do site precisa ser promoção
-- Munhequeira Ajustável Bandagem Suporte Elástico Esportes Preto: equilíbrio: a maioria do site precisa ser promoção
-- Kit Joelheira E Munhequeira Sport: equilíbrio: a maioria do site precisa ser promoção
-- Cinta Lombar Magnética Aquecimento Turmalina 20 Imas Cólica M: equilíbrio: a maioria do site precisa ser promoção
-- Cinta Lombar Ergonômica Aradesc Ajustável para Coluna Tamanho M: equilíbrio: a maioria do site precisa ser promoção
-- Colete Putti Baixo Cinta Lombar Ortpédica Lombossacral Tamanho M: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Térmica Ursinho Off White Buba: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Térmica De Gel Rosa Multilaser Saúde - Hc355: equilíbrio: a maioria do site precisa ser promoção
-- Rolo de Massagem Ortho Pauher MG06 Liberação Miofascial Amarelo: equilíbrio: a maioria do site precisa ser promoção
-- Rolo de Massagem Bamwei Liberação Miofascial Foam Roller Verde: equilíbrio: a maioria do site precisa ser promoção
-- Rolo De Massagem 45x15 Eva Liberação Miofascial Yangfit: equilíbrio: a maioria do site precisa ser promoção
-- Rolo De Liberação Miofascial Foam Roller Alongamento Cor Preto: equilíbrio: a maioria do site precisa ser promoção
-- Chinelo Slide Masculino E Feminino Basic Mizuno Liso: equilíbrio: a maioria do site precisa ser promoção
-- Bola Basquete Spalding Outdoor Preta Adulto Nba Pro Preto: equilíbrio: a maioria do site precisa ser promoção
-- CD Rodolfo & ET – Top Top Edição Limitada: equilíbrio: a maioria do site precisa ser promoção
-- 2x Circuito Integrado Top246y = Top 246 Yn = Top 246y: equilíbrio: a maioria do site precisa ser promoção
-- Chinelo Masculino Slide Melbourne Olympikus: equilíbrio: a maioria do site precisa ser promoção
-- Chinelo Feminino Slide Angra Olympikus Liso: equilíbrio: a maioria do site precisa ser promoção
-- Assento Sanitário Scala Bone Para Louça Ideal St. Bone: equilíbrio: a maioria do site precisa ser promoção
-- Bola Basquete Stadium Tamanho Peso Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futebol De Campo Fusionada Cor Branco: equilíbrio: a maioria do site precisa ser promoção
+- Caneleira Peso Profissional Emborrachada 4kg Academia Kallango: equilíbrio: a maioria do site precisa ser promoção
+- Rolo De Massagem Liberação Miofascial Gallant - Preto: equilíbrio: a maioria do site precisa ser promoção
+- Rolo De Liberacao Miofascial 60cm Acte Cor Preto: equilíbrio: a maioria do site precisa ser promoção
+- Conjunto Malwee Calça Moletom Moletinho Carinhoso 14 E 16 Cor Cinza: equilíbrio: a maioria do site precisa ser promoção
+- Conjunto Blusão Alongado Legging Boca Grande Tamanho 4: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Tênis Wilson Blade 100 V10 16x19 300g - L2: equilíbrio: a maioria do site precisa ser promoção
-- Chocoki Multivitamínico 300g Essential Nutrition Chocolate: equilíbrio: a maioria do site precisa ser promoção
-- Multivitamínico Swanson 130 Tablets Sem Sabor: equilíbrio: a maioria do site precisa ser promoção
-- Joelheira Ortopédica Veidoorn USB Recarregável Fisioterapia: equilíbrio: a maioria do site precisa ser promoção
-- Raqueteira Hummel Zeiq Cinza: equilíbrio: a maioria do site precisa ser promoção
-- Relógio Garmin Forerunner 165 Music Amoled Preto () Pulseira Granada/ Roxo: equilíbrio: a maioria do site precisa ser promoção
-- Overgrip Wilson Absorbx Vermelho: equilíbrio: a maioria do site precisa ser promoção
-- Overgrip Head Prime Tour Verde: equilíbrio: a maioria do site precisa ser promoção
-- Wilson, 3 peças, Overgrip, laranja: equilíbrio: a maioria do site precisa ser promoção
-- Strap Academia Punho Algodão Strong Musculação Alta Resistência - Preto: equilíbrio: a maioria do site precisa ser promoção
-- Corda Pular Woder Alumínio 2.0 Speed Rope Cross: equilíbrio: a maioria do site precisa ser promoção
-- Anilha Emborrachada Ferduor 2 kg com Grip para Musculação e Treino de Força: equilíbrio: a maioria do site precisa ser promoção
-- Elástico Extensor Multifuncional com Pedal KDBD, Aparelho para Treino em Casa: equilíbrio: a maioria do site precisa ser promoção
-- Elástico Extensor Intensidade Média 120cm: equilíbrio: a maioria do site precisa ser promoção
-- Calça Jeans Masculina Tradicional Elastano Premium Skinny Preto Meteoro 42: equilíbrio: a maioria do site precisa ser promoção
-- Calça Jeans Masculina Meteoro Slim Azul de Elastano: equilíbrio: a maioria do site precisa ser promoção
-- Calça Jeans Slim Com Elastano Tecido Premium Masculina Azul 48 Meteoro: equilíbrio: a maioria do site precisa ser promoção
-- Esmalte Calça Flare Look Do Dia + Top Brilho 10ml Anita Look Do Dia: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Agasalho Masculino Umbro Color Pipe Cor Marinho Tamanho G: equilíbrio: a maioria do site precisa ser promoção
-- Strap de musculação para academia ThrXster Tala strap x 1 - Bege: equilíbrio: a maioria do site precisa ser promoção
-- Strap Para Academia Skyhill - Suporte Para Musculação Preto: equilíbrio: a maioria do site precisa ser promoção
-- Strap Tala Luva Gancho Musculação Preto Be Stronger: equilíbrio: a maioria do site precisa ser promoção
-- Faixa Cabelo C/ 3 Unids Ballet Dança Tamanho Único 3 Trio: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Malwee Jaqueta Calça Jogger Proteção Uv 4 Ao 18 Cor Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Anilha Pintada 2kg de Ferro Fundido Para Musculação e Treino: equilíbrio: a maioria do site precisa ser promoção
+- Esmalte Calça Flare 10ml Coleção Look Do Dia 1141 Anita: equilíbrio: a maioria do site precisa ser promoção
+- Calça Jeans Masculina Azul Slim Com Elastano Premium da Meteoro: equilíbrio: a maioria do site precisa ser promoção
+- Chinelo Fisioterapia Acupuntura Portátil Tens & Fes: equilíbrio: a maioria do site precisa ser promoção
+- Tapete Flutuador Inflável Chinelo Jilong 166x67cm 80kg: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Profissional Trivela Futebol Kit 3 Bola: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Kappa Blasty Cor Amarelo: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol De Campo Penalty Matis Termotec Cor Azul: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Regata e Short Feminino Ateliê Kr para Verão Casual Azul-Marinho GG: equilíbrio: a maioria do site precisa ser promoção
-- Oculos Sol Colcci Ava Amarelo: equilíbrio: a maioria do site precisa ser promoção
-- Bola De Padel Head Pro Tubo Com 3 Unidades: equilíbrio: a maioria do site precisa ser promoção
+- Smartwatch Blackview R50 Bezel Grey Smartwatch esportivo: equilíbrio: a maioria do site precisa ser promoção
+- Oculos Sol Colcci Adam C0155abc33 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Jogo de bola de velcro com raquetes para crianças: equilíbrio: a maioria do site precisa ser promoção
-- Bola De Padel Rosa Hiperlight Tubo Com 03 Bolas Rosa: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Tênis de Mesa Joola Infinity Balance: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Heroes Show 26 Carbono 3 K - Sophia Chow: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Tênis Mesa Yashima Caneta Japonesa 1 Estrela Madeira: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Tênis Mesa Yashima Clássica Learning Borracha 2mm: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Tênis De Mesa Nome 24,5x13,5 50un Madeira Adesivado Cor Savana: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Tênis de Mesa Yashima Starter Learning Iniciante Controle 4: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Tenis De Mesa Ping Pong - Eva - Luxo - Pentagol: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Tênis Mesa Yashima Clássica 02 Estrelas Aprovada ITTF: equilíbrio: a maioria do site precisa ser promoção
-- Bola De Padel Wilson - Pack Com 03 Tubos: equilíbrio: a maioria do site precisa ser promoção
-- Bola de Padel Head Pro Kit com 6 Tubos: equilíbrio: a maioria do site precisa ser promoção
-- Bola Head Padel Pro Kit 3tubos 9 Bolas Verde Amarelo: equilíbrio: a maioria do site precisa ser promoção
-- Bola De Padel Babolat Court - Pack Com 6 Tubos: equilíbrio: a maioria do site precisa ser promoção
-- Coqueteleira 600ml - Universal Sabor Natural: equilíbrio: a maioria do site precisa ser promoção
-- Toalha De Academia E Mão 33x50 Buettner Grêmio Azul: equilíbrio: a maioria do site precisa ser promoção
-- Faixa Mini Band Liveup Sports Média Verde: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Flores Rosa Casaco Legging Marlan Rosa 1: equilíbrio: a maioria do site precisa ser promoção
-- Cinto Trenó Líder Fit Preto Fita de Polipropileno para Crossfit: equilíbrio: a maioria do site precisa ser promoção
-- Toalha Gelada Refrescante Fitness Para Academia Topget Cor Azul: equilíbrio: a maioria do site precisa ser promoção
-- Coqueteleira - 600ml Rosa - Bodyaction: equilíbrio: a maioria do site precisa ser promoção
-- Coqueteleira Home Style Fit Prateado: equilíbrio: a maioria do site precisa ser promoção
-- Coqueteleira 600ml Adaptogen Preto: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Tênis de Mesa Yashima 9421 Madeira Pino Controle 140g: equilíbrio: a maioria do site precisa ser promoção
+- Toalha Para Academia Fitness Appel Home Cor Prata: equilíbrio: a maioria do site precisa ser promoção
+- Toalha Fitness Algodão Preto Domyos Pequena Absorvente Academia: equilíbrio: a maioria do site precisa ser promoção
+- Kit Bolsa Academia Unissex Média + Necessaire Grande Moderna Preto Lisa: equilíbrio: a maioria do site precisa ser promoção
 - Coqueteleira Basic Equaliv: equilíbrio: a maioria do site precisa ser promoção
 - Coqueteleira Inox 750ml Chefline: equilíbrio: a maioria do site precisa ser promoção
 - Coqueteleira Black Skull: equilíbrio: a maioria do site precisa ser promoção
-- Coqueteleira Prime 500 Ml Lyor: equilíbrio: a maioria do site precisa ser promoção
-- Coqueteleira 500 Ml Aço Inox: equilíbrio: a maioria do site precisa ser promoção
-- Coqueteleira branca 700ml - Dymatize: equilíbrio: a maioria do site precisa ser promoção
-- Cinturão Musculação Agachamento Lpo Fit Cinto Orbit Skyhill Preto Gg: equilíbrio: a maioria do site precisa ser promoção
-- Cinto Cinturão Musculação Academia Lpo Lombar Odin Fit Tamanho P: equilíbrio: a maioria do site precisa ser promoção
-- Cinto LPO Gohardbr para Treino Pesado de Musculação com Velcro - Tamanho PP: equilíbrio: a maioria do site precisa ser promoção
-- 2 Toalha Academia Fitness Macia 400g/m2 Grossa 30x80 Gf Grafite Cinza Escuro Toalha Fit Ab: equilíbrio: a maioria do site precisa ser promoção
 - Kit 6 Toalha Academia Fitness Yoga Treino Viagens Algodão Cinza: equilíbrio: a maioria do site precisa ser promoção
 - Toalha De Academia E Mão 33x50 Buettner Flamengo Vermelho: equilíbrio: a maioria do site precisa ser promoção
 - Toalha Fitness Academia 29x70cm Branca -001 Cor - Nome: equilíbrio: a maioria do site precisa ser promoção
@@ -390,49 +186,27 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Toalha De Academia E Mão 33x50 Buettner Inter Branco: equilíbrio: a maioria do site precisa ser promoção
 - Toalha de Rosto Academia Atlântica Azul-Marinho Algodão 80x30cm: equilíbrio: a maioria do site precisa ser promoção
 - Toalha De Academia E Mão 33x50 Buettner Corinthians Preto: equilíbrio: a maioria do site precisa ser promoção
-- Toalha Rosto Microfibra Refrescante Seca Rapido Fit Academia Grafite Lisa: equilíbrio: a maioria do site precisa ser promoção
-- Mini Band - Faixa Elástica - Intensidade Leve: equilíbrio: a maioria do site precisa ser promoção
-- Exercitador Elástico Mini Band Médio - Arktus: equilíbrio: a maioria do site precisa ser promoção
-- Exercitador Elástico Mini Band Leve - Arktus: equilíbrio: a maioria do site precisa ser promoção
-- Mini Band Elástica Prottector Tensão Leve Azul: equilíbrio: a maioria do site precisa ser promoção
 - Exercitador Elástico Mini Band Extraforte - Arktus: equilíbrio: a maioria do site precisa ser promoção
 - Exercitador Elástico Mini Band Forte - Arktus: equilíbrio: a maioria do site precisa ser promoção
-- Whey Protein International Protein 2.270g Baunilha sem Glúten: equilíbrio: a maioria do site precisa ser promoção
-- Whey Protein Isolado Hidrolisado International Protein Chocolate 907g: equilíbrio: a maioria do site precisa ser promoção
-- Whey Protein Adaptogen Tasty Whey Baunilha 900g Pó: equilíbrio: a maioria do site precisa ser promoção
-- Whey Protein Isolado -1kg Baunilha: equilíbrio: a maioria do site precisa ser promoção
-- Whey Isolado Absolut Baunilha 1.8 Kg Whey protein: equilíbrio: a maioria do site precisa ser promoção
-- Bola Cravo Para Massagem Fisioterapia E Exercícios: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Ortopédica Salvapé Softcast Air Nv Cor Branco Esquerda: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Ortopedica Neoprene Ajustavel Ankle Suport 1und: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Ortopedica Longa Com Zíper Bilateral Preto Tamanho P: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Ortopedica Longa Em Neoprene Bilateral Preto Tamanho G: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Ortopédica Aircast Feminina para Suporte e Estabilização: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Ortopedica Em Oito Neoprene Bilateral Preto Tamanho G: equilíbrio: a maioria do site precisa ser promoção
+- Roda Abdominal MBFit com Cabo Antiderrapante e 1 Roda: equilíbrio: a maioria do site precisa ser promoção
+- Whey Protein Concentrado Sachê Chocolate: equilíbrio: a maioria do site precisa ser promoção
+- Whey Protein Chocolate 450g Parmalat: equilíbrio: a maioria do site precisa ser promoção
+- Whey Protein Fisionutri Chocolate - 900g: equilíbrio: a maioria do site precisa ser promoção
+- Whey Protein Supreme 900g Chocolate: equilíbrio: a maioria do site precisa ser promoção
+- Whey Protein Nutragold 3w: equilíbrio: a maioria do site precisa ser promoção
+- Suplemento en whey protein concentrado TSN Suplementos Whey protein ganho de massa sabor b: equilíbrio: a maioria do site precisa ser promoção
+- Tornozeleira Ortopédica P Longa Estabilizadora Bilateral Preto Pequena: equilíbrio: a maioria do site precisa ser promoção
 - Estabilizador De Tornozelo Tornozeleira Ortopédica Com Tala Preto Gg: equilíbrio: a maioria do site precisa ser promoção
 - Tornozeleira Ortopédica RK Esportiva para Estabilização e Compressão: equilíbrio: a maioria do site precisa ser promoção
-- Fita Kinesio Taping Elástica Adesiva 5m X 5cm Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Ice Bag Boccati Bolsa Gelo PVC 4L Azul Translúcido Porta Garrafa: equilíbrio: a maioria do site precisa ser promoção
+- Joelheira Crio SalvaPé Bolsa Gelo Ajustável Lesões Pós-Cirúrgicas: equilíbrio: a maioria do site precisa ser promoção
 - Bolsa Cooler 11 Litros Balde De Gelo Ice Bag Praia Cor Amarelo: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Performance Mercur | Compressão Bilateral | Uv50 P Preto: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Braçadeira De Compressão Com Efeito Climático P Bege: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Esportivo Proteção Uv50 Brk Manga Longa Compressão P Preto: equilíbrio: a maioria do site precisa ser promoção
-- Bola de Massagem Cravo Carci Macia, Laranja 8cm: equilíbrio: a maioria do site precisa ser promoção
-- Bola De Massagem Sal Rosa Do Himalaia Terapêutica Premium: equilíbrio: a maioria do site precisa ser promoção
-- Bola Bolinha Lisa Massagem Fisioterapia Sorriso 6cm Cor Amarela: equilíbrio: a maioria do site precisa ser promoção
-- Bola de Massagem Supermedy Mini Massage Ball Silicone Sortido: equilíbrio: a maioria do site precisa ser promoção
-- Bola De Massagem - 7cm Verde Citrico U: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Agasalho Masculino Corinthians Preto para Treino e Dia a Dia: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Orlando Ajustável Strapback Anth Co Branco Un: equilíbrio: a maioria do site precisa ser promoção
-- Bola Vôlei Allpha Eva Colorida EVA Praia Piscina Campo 67cm: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Strapback Resina Emoji Calado Branco: equilíbrio: a maioria do site precisa ser promoção
-- Bola Vôlei Bfx280 Quadra Mais Aderência E Controle Belfix Rosa/azul: equilíbrio: a maioria do site precisa ser promoção
+- Penalty CB510053 bola vôlei soft cor laranja roxo: equilíbrio: a maioria do site precisa ser promoção
+- Bola Vôlei Vinil Durável Resistente Furos Voleibol: equilíbrio: a maioria do site precisa ser promoção
+- Bola Vôlei De Praia Mikasa Bv552c-wybr Amarelo: equilíbrio: a maioria do site precisa ser promoção
+- Bola Vôlei Quadra e Praia Oficial Tamanho Profissional Verão: equilíbrio: a maioria do site precisa ser promoção
 - Poker BOLA VOLEI OFICIAL POKER MG3600 2600 3.5 MACIA Cancha Tricolor: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Liso Branco Ajustável de Poliéster: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Masculino Ajustável Esportivo Casual Verde Un: equilíbrio: a maioria do site precisa ser promoção
 - Boné Aba Curva Azul Branco Rapala Estampado Fecho Ajustável: equilíbrio: a maioria do site precisa ser promoção
 - Bola Volei De Praia Penalty Xxi: equilíbrio: a maioria do site precisa ser promoção
-- Bola Vôlei De Praia Pró Beach Penalty: equilíbrio: a maioria do site precisa ser promoção
 - Kit Bola Vôlei Veloster Orenji 06 Unidades Orenji: equilíbrio: a maioria do site precisa ser promoção
 - Câmara Ar Bola Vôlei Preto Kaemy Para Salão: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei Poker Training Ii Pvc Cor Branco/azul: equilíbrio: a maioria do site precisa ser promoção
@@ -443,129 +217,72 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Vôlei Tamanho Praia E Quadra Durável: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei Dexin Rosa Praia e Quadra PVC Costurada 65cm: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei Euro Pró Max 5.0 Cor Amarelo e Azul: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Tênis De Mesa Nome 24,5x13,5 50un Madeira Adesivado Cor Ouriço: equilíbrio: a maioria do site precisa ser promoção
 - Cinturão Musculação Academia Fitness Cinto Yangfit Tamanho P: equilíbrio: a maioria do site precisa ser promoção
-- Doctors Whey 900g Whey Protein Concentrado Sabor Baunilha: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Derby Flex Pro Fechado Anth Co Marrom/aba Areia Único: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Olympikus Corre S: equilíbrio: a maioria do site precisa ser promoção
-- Overgrip Fita Cabo Raquete Tenis Wilson Ultra Wrap - 1 Unid Branco: equilíbrio: a maioria do site precisa ser promoção
-- Mochila Academia Leader Preto Poliéster Zíper À Prova D'Água 56x43cm: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futebol Campo Star Numero 5 Amarelo: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Atacama Green: equilíbrio: a maioria do site precisa ser promoção
-- Halter Injetado Preto 10 Kg: equilíbrio: a maioria do site precisa ser promoção
-- Meião Futebol Profissional Kanxa Verde Tamanho Único 39 ao 44: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futsal Penalty Rx 100 Xxvi Branco: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Flores Rosa Casaco Legging Marlan Rosa 2: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Blusa E Legging Estampada Ursos Meninas - Milon Cor Verde Tamanho 4: equilíbrio: a maioria do site precisa ser promoção
-- Whey Protein FTW Delicious Whey Chocolate Sachê 30g: equilíbrio: a maioria do site precisa ser promoção
-- Anilha 4Kg Musculação Academia Treino Peso Fitness Exercícios Físicos Esporte Fisioterapia: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Mochila Academia Corrida Futebol Sem gênero: equilíbrio: a maioria do site precisa ser promoção
-- Forma Silicone BWB Chuteira Chocolate Páscoa: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto 10 Potes De Vidro Hermético Marmita Fitness 640ml Cor Vermelho: equilíbrio: a maioria do site precisa ser promoção
+- Conjunto Blusa E Legging Estampada Ursos Meninas - Milon Cor Creme Tamanho 4: equilíbrio: a maioria do site precisa ser promoção
+- Roda Abdominal Com Estabilidade Por Cotovelos: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Uhlsport Low Kick Cor Amarelo: equilíbrio: a maioria do site precisa ser promoção
-- Óculos Sol Ana Hickmann Ah90013 A01: equilíbrio: a maioria do site precisa ser promoção
+- Óculos Sol Lente Vermelho Retangular Rêtro. Vintage: equilíbrio: a maioria do site precisa ser promoção
 - Toalha De Academia Karsten Pallas 30x90 Cm - 30272 Cinza: equilíbrio: a maioria do site precisa ser promoção
 - Bola Volei Tamanho Costurada Resistente Volleyball Verde: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Orlando Ajustável Strapback Anth Co Rosa Un: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Regulável Strapback Emoji Triste Azul-claro: equilíbrio: a maioria do site precisa ser promoção
 - Conjunto Agasalho Atlético Mineiro Galo Masculino Cor Preto/Dourado Tamanho GG: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Furadinho Strapback Anth Co Vermelho Un: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei Wilson Cast Away: equilíbrio: a maioria do site precisa ser promoção
 - Bola Volei 6.0 Pró Penalty Profissional Mais Ilador Com: equilíbrio: a maioria do site precisa ser promoção
 - Bola Volei Praia Dm Sports Colorida Macia Costurada Em Pvc: equilíbrio: a maioria do site precisa ser promoção
-- Corda Pular Jump Rope Profissional Laranja 2,60m: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futebol Campo Topper Slick Ii: equilíbrio: a maioria do site precisa ser promoção
-- Growth Supplements Garrafa Squeeze shaker 600 ml unidad: equilíbrio: a maioria do site precisa ser promoção
-- Saída Praia Saia Feminina Texturizada Moda Verão Tendências Amarelo M: equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Térmica Gel Compressa Quente Fria Reutilizável Joelho: equilíbrio: a maioria do site precisa ser promoção
-- Rolo De Massagem Liberação Miofascial Athletic Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
+- Caneleira Umbro Team St Único Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Meia Ciclismo Corrida Fitness Running Bike Gym Vasco Da Gama Tamanho 38 Ao 43: equilíbrio: a maioria do site precisa ser promoção
 - Meia Ciclismo Corrida Fitness Running Bike Gym Palmeiras Tamanho 39 Ao 43: equilíbrio: a maioria do site precisa ser promoção
 - Meia Ciclismo Corrida Fitness Running Bike Gym Fluminense Tamanho 38 Ao 43: equilíbrio: a maioria do site precisa ser promoção
 - Meia Ciclismo Corrida Fitness Run Bike Gym Futebol Cruzeiro Cor Foto Tamanho (38 Ao 43): equilíbrio: a maioria do site precisa ser promoção
+- Joelheira De Ginástica Joelheira De Jazz Joelheira De Ballet Cor Bege Tamanho M: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei Penalty Vp 5100 X: equilíbrio: a maioria do site precisa ser promoção
+- Óculos Sol Feminino Armação Quadrada Óculos Vermelho Lente Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Boné Aba Curva Mercedes Preto/branco Boné Aba Curva Bmw Preto 11: equilíbrio: a maioria do site precisa ser promoção
-- Luva Goleiro Poker Versatile Profissional Cor Preto Tamanho 10: equilíbrio: a maioria do site precisa ser promoção
+- Bandagem Muay Thai, Boxe e Kickboxing - Elástica - Preta Fheras - 3,5m: equilíbrio: a maioria do site precisa ser promoção
 - Mini Band Leve Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Camiseta Oversized Premium MOONDU de Algodão Off White: equilíbrio: a maioria do site precisa ser promoção
-- Bola Vôlei Mormaii Beach Sports Vb500 Praia Homologada Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Camiseta Feminina de Treino Ausare com Proteção UV e Conforto: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Society Masculina Class Umbro: equilíbrio: a maioria do site precisa ser promoção
-- Bola Society Uhlsport Aerotrack: equilíbrio: a maioria do site precisa ser promoção
-- Luva Boxe Pretorian Elite Alta Proteção Punho 12oz Vermelho: equilíbrio: a maioria do site precisa ser promoção
-- Tornozeleira Com Reforço P Mercur Preto: equilíbrio: a maioria do site precisa ser promoção
+- Chuteira Society Masculina Garra Y-2.0 Penalty: equilíbrio: a maioria do site precisa ser promoção
+- Coqueteleira De Aço Inox 500 Ml: equilíbrio: a maioria do site precisa ser promoção
+- Coqueteleira Dc - Dux Nutrition Azul: equilíbrio: a maioria do site precisa ser promoção
+- Coqueteleira Academia Compartimento Preta Cor Preto: equilíbrio: a maioria do site precisa ser promoção
+- Toalha Rosto Microfibra Refrescante Seca Rapido Fit Academia Grafite Lisa: equilíbrio: a maioria do site precisa ser promoção
 - Tornozeleira Ortopedica Proteção: equilíbrio: a maioria do site precisa ser promoção
-- Halter 18Kg S. Musculação Academia Treino Peso Anilha Halter Fitness Exercícios Físicos Fe: equilíbrio: a maioria do site precisa ser promoção
-- Kit 2 Halter 5Kg (Par) e 2 Halter 10Kg Emborrachado Musculação Academia Ferro Fundido: equilíbrio: a maioria do site precisa ser promoção
-- Caneleira Peso Kit 6kg (2 Un 3kg): equilíbrio: a maioria do site precisa ser promoção
-- Bolsa Térmica Lunch Bag Bolsa Térmica Lancheira De Cor Cinza: equilíbrio: a maioria do site precisa ser promoção
+- Chinelo Adultos Masculino: equilíbrio: a maioria do site precisa ser promoção
 - Conjunto Agasalho França Vinho Masculino G para Futebol Balboa: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Campo Umbro Score: equilíbrio: a maioria do site precisa ser promoção
-- Caneleira de 8 kg Para Treino e Musculação FERDUOR: equilíbrio: a maioria do site precisa ser promoção
 - Coqueteleira Inox 750ml: equilíbrio: a maioria do site precisa ser promoção
 - Whey Protein Integralmédica Nutri Whey Chocolate 1.2kg: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Unisex Liso Tamanho Ajustável Passeio Esporte Creme Un: equilíbrio: a maioria do site precisa ser promoção
-- Roda Abdominal - Funcional - Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Orlando Ajustável Strapback Anth Co Cinza Un: equilíbrio: a maioria do site precisa ser promoção
-- Tênis De Corrida Feminino 460 V4 New Balance: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Casual Feminino Advantage Base 2.0 adidas Liso: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Casual Feminino Solado Flatform Kolosh: equilíbrio: a maioria do site precisa ser promoção
-- Canga Saia Pareô Feminina Marujábeach de Viscose Preta com Franja Multicolor: equilíbrio: a maioria do site precisa ser promoção
-- Bola Pilates Yoga Fisioterapia Ginastica Bomba 75cm S 300kg: equilíbrio: a maioria do site precisa ser promoção
-- Colágeno Bodybalance com Creatina Neutro Bigens 550g: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Futsal Masculina Locker Ecoknit Penalty: equilíbrio: a maioria do site precisa ser promoção
+- Tênis De Corrida Masculino Charged Skyline 4 Under Armour: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol Grama Society Penalty 8 X Termotec Cor Preto: equilíbrio: a maioria do site precisa ser promoção
-- Coqueteleira Shakeira 600ml - Vitaminar: equilíbrio: a maioria do site precisa ser promoção
-- Boné Aba Curva Orlando Ajustável Strapback Anth Co Vermelho Un: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futsal Rx500 Penalty - Xxiii Cor Branco/verde: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Compressao Termica UV50+ Poliamida Segunda Pele G Azul Royal: equilíbrio: a maioria do site precisa ser promoção
-- Blusa Camisa Feminina Proteção Solar Bike Jetski Pesca Praia Cor Preto Tamanho GG: equilíbrio: a maioria do site precisa ser promoção
 - Coqueteleira - 700ml Rosa - On: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Trabalho Pesado Proteção Solar Compressão Cor Cinza Tamanho P: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Compressão Hype Modas Proteção Solar Bike M Branco: equilíbrio: a maioria do site precisa ser promoção
-- Joelheira ortopédica Joelheira Esportiva C/ BC0037: equilíbrio: a maioria do site precisa ser promoção
-- Joelheira Ortopédica Estabilizadora Joelheira Esporte C/ Bc0037 - Preto: equilíbrio: a maioria do site precisa ser promoção
-- Joelheira Ortopédica Estabilizadora Joelheira Esportiva C/ Bc0037 - Preto: equilíbrio: a maioria do site precisa ser promoção
-- Bola de Massagem Miofascial Lacrosse Pro 65mm Aikau Azul: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Society Masculina Storm Y-3 Penalty: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Compressao Termica UV 50 Poliamida Segunda Pele G Branco: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Hupi Smart Com Compressão 1 Par Branco Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
-- Manguito de Compressão Free Force para Braço Laranja-Claro M: equilíbrio: a maioria do site precisa ser promoção
-- Overgrip Head Xtreme Soft Individual Branco: equilíbrio: a maioria do site precisa ser promoção
-- Bola Pilates 55cm Com Bomba Yoga Fitness Alongamento Azul: equilíbrio: a maioria do site precisa ser promoção
-- Viseira Light Esportiva Beach Tennis Corrida Fitness Praia Cor Roxo Tamanho UN: equilíbrio: a maioria do site precisa ser promoção
+- Joelheira Ortopédica Estabilizadora Joelheira Esportiva Mercur Bc0037 - Preto: equilíbrio: a maioria do site precisa ser promoção
+- Par Manga Camisa Proteção Sol Pedreiro Motoboy Motoqueiro Cor Cinza Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Tênis Babolat Evoke Tour Preto/vermelho L2: equilíbrio: a maioria do site precisa ser promoção
-- Pré Treino Lichia Wpink - Virginia Fonseca: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Casual Masculino Only 2 Olympikus Liso 40: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei Dualt Vp2000 Mirim Treino E Recreação Azul/amarelo: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Academia Esportivo Masculino Virtus Caminhada: equilíbrio: a maioria do site precisa ser promoção
-- Rolo Bastão Massageador Manual Corporal Liberação Miofascial: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Olympikus Corre Trilha 2: equilíbrio: a maioria do site precisa ser promoção
-- Mini Bola Futebol Dualt Uruguai 314: equilíbrio: a maioria do site precisa ser promoção
-- Bola Futebol Campo Tamanho Capotão 12x Pcs: equilíbrio: a maioria do site precisa ser promoção
 - Corda Raquete Tênis Volkl Cyclone Tour 17 1.25mm 200m: equilíbrio: a maioria do site precisa ser promoção
-- Óculos Natação Arena Tracks Mirror 92370_110_tu Amarelo: equilíbrio: a maioria do site precisa ser promoção
-- Rolo Liberação Miofascial 30x15 - Fabricante Terra Fitness Cor Azul: equilíbrio: a maioria do site precisa ser promoção
-- Chinelo Masculino Slide Sereno Olympikus: equilíbrio: a maioria do site precisa ser promoção
+- Tênis Para Meninos Com Calce Fácil Molekinho: equilíbrio: a maioria do site precisa ser promoção
 - Conjunto De Blusão Com Legging Trick Nick Bege: equilíbrio: a maioria do site precisa ser promoção
 - Cinto Cinturão Gel Cross Lpo Lifting Musculação Prottector Cor Preto Tamanho P: equilíbrio: a maioria do site precisa ser promoção
 - Toalha Rosto Microfibra Refrescante Seca Rapido Academia Azul: equilíbrio: a maioria do site precisa ser promoção
 - Whey Protein 3w 900g Whey Nutra Growth cookies: equilíbrio: a maioria do site precisa ser promoção
-- Neenca - Joelheira de compressão profissional, joelheira: equilíbrio: a maioria do site precisa ser promoção
 - Tornozeleira Ortopedica Neoprene Reforço Lateral Mormaii Cor Preto Tamanho G: equilíbrio: a maioria do site precisa ser promoção
 - Bola Suiça Pilates Massagem 75cm Hidrolight: equilíbrio: a maioria do site precisa ser promoção
+- Tênis Casual Masculino Em Couro Pegada: equilíbrio: a maioria do site precisa ser promoção
+- Toalha De Academia Algodão Absorvente Fitness Teka Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 
 ## Rejeitadas (por motivo principal)
 
-- 224× desconto suspeito
+- 226× desconto suspeito
 - 5× reputação do vendedor baixa
 
 ## Avisos
 
 - Awin: a lista de feeds tem 951 feed(s): Needs No Label (Not Joined), Super Genius Society (Not Joined), Doulton (Not Joined), Foreverlyfe (Not Joined), GreatBeanBags.com (Not Joined), Back to the Office (Not Joined), isletan (Not Joined), Atenai London Affiliation Marketing (Not Joined), BRUH. Skincare (Not Joined), ZONLIHOME (US) (Not Joined), LUXDRAPE (Not Joined), BASE-K (Not Joined), Fila UK (Not Joined), kemoway (Not Joined), Glamory (Not Joined), MakeID (Not Joined), Marketing program (Not Joined), NeuroScent (Not Joined), buybeautykorea (Not Joined), Belord (Not Joined), Game Over (Not Joined), Gardenista (Not Joined), No.98 Beauty (Not Joined), UUNA TEK Affliate Program (Not Joined), Finitex (Not Joined), ZazzMode (Not Joined), The Brush & Broom (Not Joined), shopify (Not Joined), Raw Beauty Lab (Not Joined), So Divine (Not Joined), Bad Shirt Club (Not Joined), Fitness Options (Not Joined), Celebre Store (Not Joined), garden sanctuary. (Not Joined), hansmaker Affiliate Program (Not Joined), Afewvibe LTD (Not Joined), HongKong Caesar lmport &amp; Export Co., Limited (Not Joined), StepMotech (Not Joined), goettgen.de - Das grosse Schmuck und Uhrenportal (Not Joined), HCK REFRIGERATOR HI-TECH COMPANY LIMITED (Not Joined), OLAOLA (Not Joined), Beyond Memories (Not Joined), Yeamon Beauty (Not Joined), Earkings NL (Not Joined), Cheap Furniture Warehouse (Not Joined), Cerqular (Not Joined), Elenker (Not Joined), RumbleBox (Not Joined), NorthSky Supply (Not Joined), Yeloly (Not Joined), Edify (Not Joined), Will & Bear (Not Joined), Vatrer (Not Joined), Thesupermade Inc (Not Joined), Craft Buddy Shop (Not Joined), Twist (Not Joined), Ahipos Horses (Not Joined), Blooh (Not Joined), Lir Pharmacy (Not Joined), Max Recovery Clothing (Not Joined), Wellshave (Not Joined), Living with Luxury (Not Joined), SELDOM SEEN STYLES (Not Joined), PartyPro NL (Not Joined), Pixie Dixie (Not Joined), VSGO (Not Joined), ASMAX (Not Joined), UPPER Brand | Best Diaper Bag (Not Joined), MASON New York Jewelry (Not Joined), Mason & Madison Co. Jewelry - US (Not Joined), Biobees (Not Joined), TouchBeauty (Not Joined), Juntos Affiliates (Not Joined), Azomalli Tea (Not Joined), JOLTBOLT (Not Joined), Everdry official affiliate (Not Joined), Red Run (Not Joined), Scottish Fine Soaps UK (Not Joined), LOTFLY - lotflycare.com (Not Joined), Pro Espresso (Not Joined), Fazari (Not Joined), Coziwow (Not Joined), AEKE PR (Not Joined), WOSPORTS (Not Joined), Bella Maison USA Affiliate Program (Not Joined), Pawp Culture (Not Joined), Mint Outdoor (Not Joined), dowinx (Not Joined), Giftomory (Not Joined), ATOTO (Not Joined), Hula Daddy Kona Coffee (Not Joined), Watch Enclave Affiliate Programme (Not Joined), InStock UK (Not Joined), FLOWSTEAM (Not Joined), The Foam People (Not Joined), Fra' Mani (Not Joined), SONNI Affiliate Program (Not Joined), Lets Buy Books (Not Joined), TRONTTI TECHNOLOGY CO. LIMITED (Not Joined), Boxed2me (Not Joined), ShadowGPS (Not Joined), SUNJOY EU (Not Joined), SUNJOY UK (Not Joined), ROCKBROS (Not Joined), AKKO UK (Not Joined), Mojo Fun (Not Joined), Extreme Comfort (Not Joined), The Sleep People (Not Joined), Starlight Beds (Not Joined), Sitpack (Not Joined), Layermor (Not Joined), Mirlux Spiegels Affiliate (Not Joined), Artless Forever (Not Joined), Opulensi Perfumes Lattafa Sapil Anfar (Not Joined), hugmoom curtains (Not Joined), COLAMY (Not Joined), Magicshine (Not Joined), PawFurEver (Not Joined), Curo Skin (Not Joined), Andyanand US (Not Joined), Sinocare (Not Joined), Geepas Partner Program (Not Joined), yesshop (Not Joined), Breck and Grier (Not Joined), MOJAWA, LLC (Not Joined), INGNOK (Not Joined), LuxeCosy DE (Not Joined), Thrivous (Not Joined), Ready Steady Bed (Not Joined), The Vintage Realm (Not Joined), Joyrealtoys (Not Joined), LifeVibe (Not Joined), Kingbull Bike (Not Joined), L'Uomo e La Donna IT (Not Joined), Brookwood Med (Not Joined), Paw Up (Not Joined), Bigfoot Kick (Not Joined), Alorair the dry air (Not Joined), Poster Master US (Not Joined), Harfi (Not Joined), Cyseekin (Not Joined), Lectron (Not Joined), Wasserstein (Not Joined), All Oils (Not Joined), Super Area Rugs (Not Joined), OKUN (Not Joined), Traverseon (Not Joined), Monsterpub Sex Toy (Not Joined), Viaduct Clothing (Not Joined), Wilt-Affiliates (Not Joined), Juicy Couture UK (Not Joined), WAU (Not Joined), Finediam (Not Joined), Casa Moro DE (Not Joined), More Than Matcha (Not Joined), Tastee (Not Joined), RitFitness (Not Joined), PlanetFoot (Not Joined), Truthbrush (Not Joined), Simpletics (Not Joined), AfricanNetSponge (Not Joined), iYofe (Not Joined), StarSleep (Not Joined), euhomy (Not Joined), intlbuys (Not Joined), HeimGlueck (Not Joined), Companion Candles (Not Joined), Myvella - at Home Beauty spa (Not Joined), FansJerseyHub (Not Joined), Manuka Valley (Not Joined), Kerzen Pfeilstetter (Not Joined), Bartuke (Not Joined), Auter (Not Joined), Wallshoppe (Not Joined), Argendon Crawlspace & commercial dehumidifier (Not Joined), Eydology (Not Joined), Active Silver (Not Joined), Godestar (Not Joined), Cocinare Limited (Not Joined), FLOWERFIX (Not Joined), Cottsbury (Not Joined), Frenzy Clothings (Not Joined), Mosaic Weighted Blankets (Not Joined), mamaraya (Not Joined), Fan Ink (Not Joined), SPIEZ (Not Joined), DATOUBOSS (Not Joined), Bodycross (FR) (Not Joined), Fun Fact Co. (Not Joined), Blitec DE (Not Joined), Deme by Gabriella (Not Joined), ZONVEER (Not Joined), Blade Infiniti Affiliate Program (Not Joined), Hamxi (Not Joined), HOMO NATURALS (Not Joined), Makerfire (Not Joined), sitre (Not Joined), Capricorn Baby (Not Joined), https://www.soloredlight.com/ (Not Joined), Parfivo (Not Joined), Ma Lin (Not Joined), Wonder Hoodie Inc (Not Joined), Spacelift Creators (Not Joined), balarugs (Not Joined), MONÉ UK Affiliate Programme (Not Joined), Noirgaze Affiliate (Not Joined), EXG Pro (Not Joined), wanayou (Not Joined), Steam & Oak (Not Joined), Dermlane Affiliate (US) (Not Joined), SnoreLessNow (Not Joined), Natures Way DE (Not Joined), SafeFort (UK) (Not Joined), Ophelia Eternity Jewelry (Not Joined), Ashaki (Not Joined), Gemone Diamonds Official Affiliate Program (Not Joined), Vixxar Skincare (Not Joined), Dima Eyewear (US) (Not Joined), Orebella (Not Joined), metfine (Not Joined), Moskera (Not Joined), MontAmour (Not Joined), Medella Springs (Not Joined), SIRUI Optical GmbH (Not Joined), Affiliates - Spoiled Brat (Not Joined), Shopping Ads: Google & Bing (Not Joined), EntoZoo (Not Joined), Some Slight Clothing (Not Joined), OneStreet (Not Joined), WheelXL.com (Not Joined), Susan Caplan (Not Joined), monvane (Not Joined), Thierry Lasry (Not Joined), Tu Mando Circle (Not Joined), Bonheur de lune (Not Joined), Five Star Direct (Not Joined), Angel Barocco (Not Joined), myCord | Bracelet Lab (Not Joined), Huizbirn - Holzdeko von René Riebenbauer (Not Joined), Tietie Bike (Not Joined), Sparklar (Not Joined), Perfumeria Comas FR (Not Joined), Natkina (Not Joined), Elevinix Lab Promotion (Not Joined), LOOMY Home (Not Joined), aotos (Not Joined), Miles Jewellery (Not Joined), Atlas Knife Co (US) (Not Joined), Serika (Not Joined), Imarku (Not Joined), BeyPan Store (Not Joined), Ancestral&Natural skincare (PT) (Not Joined), Ying Mart (Not Joined), Christmas Mystery (Not Joined), Peremis Partners (Not Joined), Escobar Cigars (Not Joined), King & Country (Not Joined), Sonjas Apotek (Not Joined), Wilder Botanics (Not Joined), Tat Aura (Not Joined), NORVEXA ADVISORY LTD (Not Joined), POPY TRADE DE (Not Joined), Eusphera (Not Joined), eFans Direct (Not Joined), LightsLux (Not Joined), Giantmart.com Affiliate Program (Not Joined), MALOA (Not Joined), Monarch Market (Not Joined), Homespace Direct (Not Joined), Decorbites Decor and furniture (Not Joined), Purr and Mutt (Not Joined), Lumiere Hair (Not Joined), Bell's Reines (Not Joined), Zilch (Not Joined), CozySpiritStudio INTL (Not Joined), THEGATHER (Not Joined), Strapsicle (Not Joined), Mr Farts (Not Joined), Everyday Hair (US) (Not Joined), Beauti Outlet (Not Joined), Deluvia Skincare and Cosmetics (Not Joined), Artree Design (Not Joined), Bluebells Flora Florist (Not Joined), METZ (Not Joined), BELTBUY (Not Joined), Grundig Auto (Not Joined), Jax CPA Campaign (Not Joined), Optimum Nutrition UK (Not Joined), CrazyDeelz (Not Joined), Tactical X Gear (Not Joined), TulipArt (Not Joined), usmile (Not Joined), The Gerry Anderson Store (Not Joined), Luregod (DE) (Not Joined), OOSSXX (Not Joined), Cotidié (Not Joined), Handbags Infinity Fashion (Not Joined), Pro-Camera (Not Joined), balmyou.naturkosmetik DE (Not Joined), Carraro BR (Not Joined), Wilna Kitchen (Not Joined), intimatify affiliate program (Not Joined), CurvelleBody (Not Joined), Home On Center (Not Joined), Pudgy Penguins (Not Joined), Parasite Cancer Connection (US) (Not Joined), Grove Flower & Toys Affiliate (Not Joined), Mizawe (Not Joined), Aloe Vera Luxury – Affiliate Launch Program (Not Joined), Publisher Commission (Not Joined), The Norevain (Not Joined), SecretKnit (US) (Not Joined), femme (Not Joined), Grozavu (Not Joined), Greenera (UK) (Not Joined), EMOKO BIKE (Not Joined), WATCH & WATCH (Not Joined), World Businesses for Sale (Not Joined), Mibro (Not Joined), BioGaia (Not Joined), Baruni _ Awin Sep 26 (Not Joined), MonsterPiercing -Quality Piercing Jewellery (Not Joined), T1L FURTHER NOTICE (Not Joined), Laud Sleep (Not Joined), SheSpot Sexual Wellness (Not Joined), Brass Eye (Not Joined), Stattics (Not Joined), PERLETTI - OMBRELLI PER PASSIONE IT (Not Joined), Yose Power DE (Not Joined), Lumy Health (Not Joined), ERGONOVA (Not Joined), Smugglers Crate (Not Joined), Geek Crate (Not Joined), Dean Morris Cards (Not Joined), Mowrator DE (Not Joined), SneakerMood (Not Joined), Skingineered Cosmetics (Not Joined), Poedagar (FR) (Not Joined), Olea True (Not Joined), Pixel Corner FR (Not Joined), Mibro FR (Not Joined), DRBO Greenenergy (DE) (Not Joined), ScarletDarkness (US) (Not Joined), ABCCANOPY Affiliate Program (Not Joined), Retouch Global (Not Joined), soillar autoparts (Not Joined), RvDesigner Fashion (Not Joined), Elah Ring (Not Joined), ELYSEE 1960 (Not Joined), InterRose (Not Joined), Bunches.co.uk (Not Joined), Tooled Up (Not Joined), Cadbury Gifts Direct (Not Joined), TV Cables (Not Joined), Sport and Leisure UK (Not Joined), Theatre Tickets Direct (Not Joined), Chargrilled (Not Joined), Simply LED (Not Joined), Lights 4 Living (Not Joined), Fiszki PL (Not Joined), AliExpress PL (Not Joined), Legimi PL (Not Joined), Tirendo UK (Not Joined), Plusshop SE (Not Joined), Profichemie.com DE (Not Joined), getgoods DE (Not Joined), Modellbau-Universe - die Adresse für Modellbau (Not Joined), Monbento.com (Not Joined), Nike BR (active), Centauro BR (active), Fut Fanatics BR (active), CBD Armour (Not Joined), Botanycl (Not Joined), babista.ch (Not Joined), Weneve PL (Not Joined), HIVITAL (Not Joined), Muscle Research Legal Anabolics (Not Joined), Flowers & Plants Co. (Not Joined), Converse PL (Not Joined), DAX PL (Not Joined), InterGard tuinartikelen NL (Not Joined), GOE PL (Not Joined), Matten Welt DE (Not Joined), Yellowtipi PL (Not Joined), Ecosusi Fashion (US) (Not Joined), Fußmatten-Welt DE (Not Joined), CHIKO (US) (Not Joined), Sportdirect.ca (Canada) (Not Joined), Workout For Less (Not Joined), BlackboxMeats (US) (Not Joined), BlazeVideo DE (Not Joined), Nature's Skin And Body Food (US) (Not Joined), Doctor Blooms (Not Joined), Webbs Motorcycles (Not Joined), Plusshop IE (Not Joined), Bare Kind Bamboo Socks (Not Joined), 8wines DACH (Not Joined), Diamondsmile DE (Not Joined), Eonon (US) (Not Joined), Petcube (US) (Not Joined), Bazta SE (Not Joined), Boogie Bounce Fitness Rebounders (Not Joined), Bazta BE (Not Joined), Bazta NL (Not Joined), Legal Muscle Anabolics (Not Joined), Earthly Co. (Not Joined), Pets Calm Down (Not Joined), Medicross-Labs DE (Not Joined), Workliving NL (Not Joined), Cut Plastic Sheeting (Not Joined), Rowabi (Not Joined), Santoro Milan (Not Joined), SODEAL CH (Not Joined), Kokoso Baby (Not Joined), Custom Splashbacks (Not Joined), Revolution Soft (Not Joined), FineBuy - Möbel zum Wohlfühlen DE (Not Joined), aZengear (Not Joined), Cocktail Crates (Not Joined), Vegairoa (Not Joined), Bellerei Hundezubehör DE (Not Joined), logo-matten DE (Not Joined), APE BORN Fitness (Not Joined), Gemax DE (Not Joined), isinwheel.ES (Not Joined), La Drogueria de Percon (Not Joined), Vivtone hearing (Not Joined), BlazeVideo FR (Not Joined), Dunford, Inc. (Not Joined), My Mini Maker (Not Joined), AKKO IT (Not Joined), AKKO FR (Not Joined), Plusshop UK (Not Joined), Brandsaver NL (Not Joined), Brandsaver BE (Not Joined), Venustein DE (Not Joined), Caterboss (Not Joined), Just Pleasure (Not Joined), Dream Interiors (Not Joined), Kadax PL (Not Joined), Apex S1 affiliates (Not Joined), Shower Blocks (Not Joined), Aperturee (Not Joined), Gains Nutrition (Not Joined), AlphaBiolabs US (Not Joined), T.LUXY (Not Joined), New Marine IT (Not Joined), Nothingprojector (Not Joined), SOLO-Kleinmotoren DE (Not Joined), Svensson (Not Joined), Mvolo (Not Joined), Petlibro UK Affiliate Program (Not Joined), DAME (Not Joined), SA Aligners (Not Joined), TrophyCentral (Not Joined), SuperBox (Not Joined), Happy Days Factory Flowers (Not Joined), Star Wurst Grillschürzen DE (Not Joined), 4kidsonly (Not Joined), Ceragem DE (Not Joined), Sanitair Online NL (Not Joined), THE MAGPIE DE (Not Joined), MOH (Not Joined), Brian James (Not Joined), ISOQAR Academy (Not Joined), Amazgifts DE (Not Joined), www.diecastmodelswholesale.com (Not Joined), Flowers Fast.com-Send Flowers Same Day Delivery (Not Joined), Everywhere Chair LLC (Not Joined), Wondershare Global Limited (Not Joined), PandaHall (Not Joined), uCloudlink America Ltd. (Not Joined), Shenzhen Shibao Jewelry Co., Ltd. (Not Joined), Food valley SRL (Not Joined), Ottocast (Not Joined), Shenzhen Mintion technology co., ltd (Not Joined), Dragonhawk (Not Joined), DGW-NL (Not Joined), Skirting King UK (Not Joined), SKINWORK (Not Joined), Goedkoopste-Kantoorartikelen NL (Not Joined), Alberto Nardoni Affiliate Program US (Not Joined), Emensuits Affiliate Program US (Not Joined), Silver Cloud Beauty (Not Joined), Netzwerkartikel.de (Not Joined), io Gut Health (Not Joined), 4x4 Predator (Not Joined), Japspeed UK (Not Joined), 1st Class Cigar Humidors (Not Joined), 8wines UK (Not Joined), Alianças Imperiais BR (Not Joined), Unipolar DE (Not Joined), MyBeauty.Boutique (Not Joined), Lightsin UK (Not Joined), Dowinx (EU) (Not Joined), Clovis Calçados BR (Not Joined), Besselink Licht (Not Joined), LENA Nail Polish (Not Joined), VETEXPERT Tiergesundheit AT (Not Joined), Legale Lover BR (Not Joined), Printerval (Not Joined), Kuishi (Not Joined), Milk Bar Babystore (Not Joined), Bern Helmets (UK) (Not Joined), Modmo (Not Joined), Nasopia ES (Not Joined), BBBGEM (Not Joined), Enable Accessible Haircare Products (Not Joined), Monsgeek EU (Not Joined), Macian (Not Joined), Clubfarma IT (Not Joined), The Yoga Friends DE (Not Joined), AirVantage (Not Joined), MIMMTI (Not Joined), Moderne Raamdecoratie Groep (Not Joined), Luxe Mattress Affiliation (Not Joined), Ecotalk (Not Joined), 9PHX RACING (Not Joined), Marco Cerullo (Not Joined), Bouclème (Not Joined), Fri som en fågel (Not Joined), Gotodirect (Not Joined), LUMIPIA (Not Joined), ANITA & ZAHA (Not Joined), Kaytea (Not Joined), eSIMania.com - Buy eSIM for International Travel (Not Joined), Plusshop FI (Not Joined), Mustard Seed (Not Joined), Bloomcabin USA (Not Joined), Outdoor Queen DE (Not Joined), Bazta IE (Not Joined), Bazta UK (Not Joined), Santean Bracelets (Not Joined), Watches Of USA (Not Joined), Database Mart (Not Joined), Guenda (Not Joined), Embossed Graphics (Not Joined), Clone of Perfume (Not Joined), Fashiontamers US (Not Joined), iHome Dental (US) (Not Joined), Qumi (Not Joined), Xiaomi RO (Not Joined), elvishredlight (Not Joined), Lauri Esporte (active), Kunstige-stearinlys (Not Joined), Bazta FI (Not Joined), Illadelph Spirits (Not Joined), Proimage B.V. (NL) (Not Joined), Deluxehomeartshop SE (Not Joined), SK-LED (Not Joined), Ahipos Horses DE (Not Joined), Deluxehomeartshop FR (Not Joined), Deluxehomeartshop NL (Not Joined), Deluxehomeartshop DE (Not Joined), DoctorQuality (Not Joined), Keppi (Not Joined), Omara Jewelry (Not Joined), Watch Enclave (Not Joined), iBstone (Not Joined), Afiliados Galícia Educação (Not Joined), TurboTech Co. (Not Joined), GamingKit (Not Joined), COLORDIAMONDS LED MASK (Not Joined), AML Travel and Tours (Not Joined), Rochas Divine Mart (US) (Not Joined), ALZOO (Not Joined), Superior Play Systems (Not Joined), bdr-beauty DE (Not Joined), licencjapro.pl (Not Joined), Body Body (Not Joined), Social Stories Club (UK) (Not Joined), PcNova.co.uk (Not Joined), Al Jazeera Perfumes EU (Not Joined), knitfirst (Not Joined), EfuiHarlley (Not Joined), PCHUB.UK (Not Joined), Exypna (Not Joined), Luxefashion Clothing (Not Joined), Celsius Herbs (Not Joined), DailyDiet.Online Subscription (Not Joined), EngageBay CRM (Not Joined), Medical CGI Central Partner Program (Not Joined), Aussui Affiliate Programme (UK) (Not Joined), Bauernladenhelene (Not Joined), Plugins-for-Wordpress (Not Joined), Elixir Garden Supplies (Not Joined), braingood (Not Joined), Omara Jewelry (ES) (Not Joined), Regina Andrew Detroit (Not Joined), MONÉ UK (Not Joined), Fang Accessories (Not Joined), Bazta DK (Not Joined), Bazta IT (Not Joined), Al Jazeera Perfumes UK (Not Joined), Plusshop IT (Not Joined), Sokken-Online (Not Joined), SIRUI Optical GmbH (DE) (Not Joined), Bennimarceau.com (Not Joined), parfumbella (Not Joined), Dr. Alan Bauman (US) (Not Joined), LIKA (Not Joined), Huizbirn - Holzdeko von René Riebenbauer (DE) (Not Joined), GRABO (Not Joined), SPORTPARTNERS.IT (Not Joined), MoreThisWay (Not Joined), Herbs by Sonja (Not Joined), Aquatics Shop (UK) (Not Joined), Cufflinks Gift Hub (UK) (Not Joined), Baccus (UK) (Not Joined), MATMAY (Not Joined), Kaufbei.de Partnerprogramm AWIN (Not Joined), Chaussettes-en-ligne.fr/ (FR) (Not Joined), Strumpor-online.se/ (Not Joined), Socken-online.de (Not Joined), Booking Radar (Not Joined), intimatify affiliate program (US) (Not Joined), Pirate Weasel (Not Joined), ANCHOR & CREW (Not Joined), Plan B Rentals (Not Joined), Turnaa eSIM (Not Joined), Magic Gram (Not Joined), Scento Germany (Not Joined), OGStreetwear Affiliate Program (Not Joined), eSIM For U (Not Joined), PaintMySoul (Not Joined).
-- Awin: feed de Nike BR lido (atualizado em 2026-11-11 20:17:07): 5223 produtos de esporte, 3687 em estoque com desconto de 15%+.
-- Awin: feed de Nike BR lido (atualizado em 2026-11-11 04:02:06): 5172 produtos de esporte, 0 em estoque com desconto de 15%+.
-- Awin: feed de Centauro BR lido (atualizado em 2026-11-11 22:06:34): 30799 produtos de esporte, 0 em estoque com desconto de 15%+.
+- Awin: feed de Nike BR lido (atualizado em 2026-11-12 11:16:14): 5167 produtos de esporte, 3656 em estoque com desconto de 15%+.
+- Awin: feed de Nike BR lido (atualizado em 2026-11-12 04:02:07): 5170 produtos de esporte, 0 em estoque com desconto de 15%+.
+- Awin: feed de Centauro BR lido (atualizado em 2026-11-12 12:16:48): 29658 produtos de esporte, 0 em estoque com desconto de 15%+.
 - Awin: o catálogo de Fut Fanatics BR não é atualizado desde 2026-05-15 14:00:44; fica fora do site até a loja atualizar (preço velho não pode).
-- Awin: feed de Lauri Esporte lido (atualizado em 2026-11-11 14:26:29): 2609 produtos de esporte, 207 em estoque com desconto de 15%+.
+- Awin: feed de Lauri Esporte lido (atualizado em 2026-11-12 06:18:43): 2586 produtos de esporte, 209 em estoque com desconto de 15%+.
 
 ## Limitações conhecidas
 
