@@ -127,7 +127,7 @@ async function main() {
     let oldPrice = v.oldPrice && v.oldPrice > v.price ? v.oldPrice : undefined;
     historico.registrar(p.id, v.price, oldPrice, agora);
     const analise = historico.analisar(p.id, v.price, oldPrice, agora);
-    if (analise.inflado) {
+    if (analise.inflado && !adaptador.lojasOficiais) {
       log.push(`  ~ ${p.id} desconto suspeito removido (${analise.motivoInflado})`);
       oldPrice = undefined;
     }

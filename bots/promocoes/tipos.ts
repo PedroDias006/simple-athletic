@@ -43,6 +43,11 @@ export interface AdaptadorLoja {
   detalhar?(id: string): Promise<Omit<ProductDetails, "checkedAt"> | null>;
   /** true quando detalhar() não faz chamadas extras (os dados já vieram na busca): roda para todas, toda vez. */
   detalhesSemCusto?: boolean;
+  /**
+   * true quando toda oferta vem da própria loja oficial (Nike, Centauro...): o preço "de" é o preço de
+   * tabela da marca, então o histórico não serve para chamar o desconto de suspeito.
+   */
+  lojasOficiais?: boolean;
 }
 
 export const DESCONTO_MINIMO = 15;

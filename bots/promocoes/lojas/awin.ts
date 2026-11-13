@@ -55,8 +55,8 @@ const ESPORTIVO = /\b(esporte|esportiv|fitness|academia|treino|corrida|running|f
 const PROIBIDAS = /\b(bebe|bebes|baby|infantil|infantis|kids|juvenil|menina|menino|recem nascido|social|lingerie|cueca|calcinha|sutia de renda|vestido de festa|chaveiro|caneca|adesivo|poster|miniatura)\b/;
 
 /** Máximo de ofertas por termo de busca e, dentro dele, por loja — para nenhuma loja lotar o site sozinha. */
-const POR_TERMO = 15;
-const POR_LOJA = 5;
+const POR_TERMO = 40;
+const POR_LOJA = 10;
 
 /** Desconto acima disso costuma ser erro de cadastro no feed ("de" inflado); fica de fora. */
 const DESCONTO_MAXIMO = 85;
@@ -410,6 +410,8 @@ function paraOferta(p: ProdutoFeed, categoria: CategorySlug): Oferta {
     rating: p.rating,
     reviews: p.reviews,
     freeShipping: p.freeShipping,
+    // Todas as lojas da Awin no robô são lojas oficiais (Nike, Centauro, Mizuno...), com produto novo.
+    sinais: { lojaOficial: true, condicao: "new" },
   };
 }
 
@@ -422,7 +424,9 @@ export const awin: AdaptadorLoja = {
   },
 
   async buscarOfertas(categoria) {
-    const produtos = [...new Set((await catalogo()).values())].filter((p) => p.inStock && descontoPercentual(p.price, p.oldPrice) >= DESCONTO_MINIMO);
+    // Promoções primeiro (escolherDoTermo ordena por desconto), mas produto sem desconto também entra:
+    // o equilíbrio do index.ts garante que a maior parte do site continue sendo promoção.
+    const produtos = [...new Set((await catalogo()).values())].filter((p) => p.inStock);
     const ofertas = new Map<string, Oferta>();
     for (const termo of termosDaRodada(termosDe(categoria))) {
       for (const p of escolherDoTermo(produtos, termo, new Set(ofertas.keys()))) ofertas.set(p.id, paraOferta(p, categoria));
@@ -432,6 +436,7 @@ export const awin: AdaptadorLoja = {
 
   /** Fotos e tamanhos vêm do próprio feed já baixado: não custa chamada extra, então é refeito a cada execução. */
   detalhesSemCusto: true,
+  lojasOficiais: true,
   async detalhar(id) {
     const p = (await catalogo()).get(id);
     if (!p) return null;

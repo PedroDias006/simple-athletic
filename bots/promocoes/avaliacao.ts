@@ -101,7 +101,8 @@ export function avaliar(o: Oferta, preco: AnalisePreco): Avaliacao {
 
   // --- Critérios eliminatórios: nenhuma nota compensa ---
   const rejeicoes: string[] = [];
-  if (preco.inflado) rejeicoes.push(`desconto suspeito: ${preco.motivoInflado}`);
+  // Na loja oficial da marca o preço "de" é o de tabela: o histórico curto (só preços de promoção) não o desmente.
+  if (preco.inflado && !s.lojaOficial) rejeicoes.push(`desconto suspeito: ${preco.motivoInflado}`);
   if (s.condicao && s.condicao !== "new") rejeicoes.push(`produto ${s.condicao === "used" ? "usado" : s.condicao}`);
   if (s.nivelVendedor !== undefined && s.nivelVendedor <= 2) rejeicoes.push(`reputação do vendedor baixa (nível ${s.nivelVendedor} de 5)`);
   if (o.rating !== undefined && o.rating < 3.8 && (o.reviews ?? 0) >= 10) rejeicoes.push(`nota dos compradores baixa (${o.rating} em ${o.reviews} avaliações)`);
