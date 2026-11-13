@@ -1,9 +1,10 @@
 name: Bot de promoções
 
 on:
-  # SUSPENSO em 13/11/2026: o agendamento automatico esta desligado. Para religar, tire o # das linhas abaixo.
-  # schedule:
-  #  - cron: "17 * * * *" # de hora em hora (minuto 17 para fugir do pico das :00)
+  # Uma rodada por dia (antes era de hora em hora). Cada rodada gera um commit, e cada commit faz a
+  # Cloudflare compilar o site de novo: de hora em hora isso estourava o limite grátis de builds.
+  schedule:
+    - cron: "17 9 * * *" # 06:17 de Brasília (09:17 UTC)
   workflow_dispatch: # botão "Run workflow" na aba Actions
 
 permissions:
@@ -16,7 +17,8 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    # A rodada diária busca todos os termos de uma vez (sem rodízio), então demora mais.
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
@@ -33,6 +35,8 @@ jobs:
       - name: Rodar o bot
         run: npm run bot:promocoes
         env:
+          # 1 = todos os termos em toda rodada (com uma rodada por dia, o rodízio deixaria termos 3 dias sem busca).
+          BOT_RODIZIO: "1"
           ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
           ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
           ML_AFFILIATE_TAG: ${{ secrets.ML_AFFILIATE_TAG }}
