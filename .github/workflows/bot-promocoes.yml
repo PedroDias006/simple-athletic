@@ -1,8 +1,9 @@
 name: Bot de promoções
 
 on:
-  schedule:
-    - cron: "17 * * * *" # de hora em hora (minuto 17 para fugir do pico das :00)
+  # SUSPENSO em 13/11/2026: o agendamento automatico esta desligado. Para religar, tire o # das linhas abaixo.
+  # schedule:
+  #  - cron: "17 * * * *" # de hora em hora (minuto 17 para fugir do pico das :00)
   workflow_dispatch: # botão "Run workflow" na aba Actions
 
 permissions:

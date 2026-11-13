@@ -3,9 +3,10 @@
 name: Bot de marketing
 
 on:
-  schedule:
-    # Minuto 17 de toda hora (UTC). O próprio bot só posta das 8h às 22h de Brasília.
-    - cron: "17 * * * *"
+  # SUSPENSO em 13/11/2026: o agendamento automatico esta desligado. Para religar, tire o # das linhas abaixo.
+  # schedule:
+  #  # Minuto 17 de toda hora (UTC). O próprio bot só posta das 8h às 22h de Brasília.
+  #  - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       modo:
