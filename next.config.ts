@@ -13,6 +13,10 @@ const imageHosts = [
   "a-static.mlcdn.com.br",
   // Fotos de campanha (hero e categorias), licença Unsplash.
   "images.unsplash.com",
+  "imgnike-a.akamaihd.net",
+  "images.yampi.me",
+  "mizunobr.vteximg.com.br",
+  "vulcabras.vteximg.com.br",
 ];
 
 const nextConfig: NextConfig = {
