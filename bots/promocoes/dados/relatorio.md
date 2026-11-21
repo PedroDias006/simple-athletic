@@ -1,8 +1,8 @@
 # Relatório do bot de promoções
 
-Execução: 20/11/2026, 14:53:21 (horário de Brasília)
+Execução: 21/11/2026, 13:50:55 (horário de Brasília)
 
-**Medido nesta execução:** 1796 ofertas ativas no site · 2231 novas publicadas · 2177 retiradas · 261 rejeitadas · 380 em observação · 9125 produtos com histórico de preço.
+**Medido nesta execução:** 1774 ofertas ativas no site · 2264 novas publicadas · 2286 retiradas · 266 rejeitadas · 368 em observação · 9739 produtos com histórico de preço.
 
 Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 
@@ -10,55 +10,55 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 
 | Nota | Confiança | Desconto | Produto | Preço |
 | --- | --- | --- | --- | --- |
+| 95 | 29% | anunciado | Chuteira Futsal Masculina Locker Ecoknit Penalty | R$ 259,90 (de ?) |
+| 95 | 29% | anunciado | Viseira Para Corrida Hupi Run Roxo Liso Roxo Unico Liso | R$ 99,90 (de ?) |
 | 95 | 29% | anunciado | Boné Corrida Estampado adidas Púrpura M | R$ 149,99 (de ?) |
 | 95 | 29% | anunciado | Bolsa Mala Mochila Academia Bagagem Viagem Cor Black | R$ 299,98 (de ?) |
 | 95 | 29% | anunciado | Coqueteleira Mulher Maravilha Glitter | R$ 171,67 (de ?) |
 | 95 | 29% | anunciado | Anilha 5Kg Injetada Musculação Academia Treino Peso Anilha Halter Ferro Fundido | R$ 78,99 (de ?) |
 | 95 | 29% | anunciado | Anilha 5Kg Injetada Musculação Academia Treino Peso Anilha Halter Fitness Exercícios Ferdu | R$ 78,99 (de ?) |
 | 95 | 29% | anunciado | Anilha 5Kg Injetada Musculação Academia Treino Peso Anilha Halter Fitness Exercícios Físic | R$ 78,99 (de ?) |
+| 95 | 29% | anunciado | Roda Abdominal Dupla T145 - Acte | R$ 90,74 (de ?) |
 | 95 | 29% | anunciado | Chinelo Adilette Aqua adidas | R$ 169,90 (de ?) |
 | 92 | 44% | verificado | Bola Vôlei De Praia Mikasa Bv552c-wybr Amarelo | R$ 259,00 (de ?) |
-| 91 | 42% | anunciado | Bola Futebol Qualidade cor8 | R$ 30,99 (de R$ 54,99) |
-| 91 | 42% | anunciado | Tênis Asics Gel-outsider - Masculino | R$ 400,53 (de R$ 635,98) |
+| 91 | 29% | anunciado | Raquete Beach Tennis Fibra Carbon Profissional Preta + Bolsa | R$ 930,40 (de ?) |
 | 91 | 29% | anunciado | Agasalho Masculino Umbro 1107394 Training Line Cor Cinza Tamanho GG | R$ 549,99 (de ?) |
 | 91 | 29% | anunciado | Anilha 20Kg Sport Ferduor Musculação Academia Treino Peso Fitness Exercícios Físicos Espor | R$ 459,00 (de ?) |
 | 91 | 29% | anunciado | Anilha 20Kg Sport Fisioterapia Musculação Academia Treino Peso Fitness Exercícios Ferduor  | R$ 459,00 (de ?) |
 | 91 | 29% | anunciado | Anilha 20Kg Sport Peso Musculação Academia Treino Fitness Exercícios Ferduor Físicos Espor | R$ 459,00 (de ?) |
-| 91 | 42% | anunciado | Albumina 500g Naturovos Sabor Banana | R$ 70,37 (de R$ 129,90) |
+| 89 | 32% | anunciado | Pressurizador Bola Tênis Fonte 3 Unidades 8.5cm Tubo Laranja Protetor Da Bola Do Tênis Pre | R$ 77,96 (de R$ 139,23) |
 | 89 | 34% | verificado | Conjunto Roupa Fitness Paris SOMAMI | R$ 22,00 (de ?) |
-| 89 | 32% | anunciado | Colageno Tipo II 40mg Magnésio Colágeno Tipo 2 Vitaminas D3 K2 MK7 Colágeno Tipo II D3 K2  | R$ 25,65 (de R$ 45,00) |
-| 89 | 32% | anunciado | Colágeno Tipo II 40mg Magnésio Vitaminas D3 K2 Colágeno Tipo ii D3 K2 Magnésio Colágeno Ti | R$ 25,65 (de R$ 45,00) |
-| 89 | 32% | anunciado | Cinta Lombar Abdominal Ergonômica Postura Reforçada Carga Tamanho Xg | R$ 36,71 (de R$ 99,00) |
-| 89 | 34% | verificado | Cotoveleira Ortopédica Epicondilite Compressão Ajustável | R$ 18,00 (de ?) |
-| 89 | 32% | anunciado | Chuteira Campo Nike Mercurial Vapor 17 Club | R$ 239,99 (de R$ 399,99) |
-| 89 | 32% | anunciado | Shorts Dri-FIT Nike Gym Classic Masculino | R$ 119,99 (de R$ 249,99) |
-| 89 | 32% | anunciado | Shorts Dri-FIT Nike Miler 5" Masculino | R$ 119,99 (de R$ 249,99) |
-| 89 | 32% | anunciado | Calça Brasil Dri-FIT Nike Academy Pro Masculina | R$ 199,99 (de R$ 349,99) |
-| 89 | 32% | anunciado | Bolsa Nike Shoe Bag 11L Unissex | R$ 99,99 (de R$ 249,99) |
-| 89 | 32% | anunciado | Bolsa Nike Brasilia 60L Unissex | R$ 179,99 (de R$ 399,99) |
-| 89 | 32% | anunciado | Chinelo Nike Offcourt Adjust Masculino | R$ 219,99 (de R$ 449,99) |
-| 89 | 32% | anunciado | Mala Nike Gym Club 24L Unissex | R$ 199,99 (de R$ 399,99) |
-| 89 | 32% | anunciado | Boné Paris Saint-Germain Nike Club Unissex | R$ 129,99 (de R$ 249,99) |
-| 89 | 32% | anunciado | Boné Nike Air Humara Unissex | R$ 146,29 (de R$ 249,99) |
+| 89 | 34% | verificado | Cotoveleira Ortopédica Epicondilite Compressão Ajustável | R$ 14,99 (de R$ 21,00) |
+| 89 | 32% | anunciado | Shorts Dri-FIT Nike Flex 7'' Masculino | R$ 99,99 (de R$ 179,99) |
+| 89 | 32% | anunciado | Camisa Nike Dri-FIT Academy Masculina | R$ 69,99 (de R$ 149,99) |
+| 89 | 32% | anunciado | Boné Jordan Rise Camo Unissex | R$ 129,99 (de R$ 249,99) |
+| 89 | 32% | anunciado | Boné Holanda Nike Club Unissex | R$ 146,29 (de R$ 249,99) |
+| 89 | 32% | anunciado | Boné Nike Club JDI Unissex | R$ 119,99 (de R$ 199,99) |
+| 88 | 29% | anunciado | Porta Caneleira Futebol Palmeiras Tamanho G | R$ 40,00 (de ?) |
+| 88 | 29% | anunciado | Bolsa Porta Chuteira Convoy Sport Cor Preto | R$ 59,90 (de ?) |
+| 88 | 32% | anunciado | Raquete Beach Tennis Vini Font Mormaii 2022 | R$ 1249,00 (de R$ 1998,00) |
+| 88 | 29% | anunciado | Anilha 4Kgs Pesos Para Musculação Academia Treino Fitness Exercícios Ferduor Esporte Físic | R$ 69,00 (de ?) |
+| 88 | 29% | anunciado | Anilha 4Kgs Para Treino Musculação Academia Fitness Pesos Exercícios Ferduor Esporte Físic | R$ 69,00 (de ?) |
+| 88 | 29% | anunciado | Anilha 4Kgs Para Exercícios Musculação Academia Treino Pesos Fitness Ferduor Esporte Físic | R$ 69,00 (de ?) |
 
 ## Retiradas do site
 
-- Anilha 3Kg Musculação Academia Treino Peso Anilha Halter Fitness Exercícios Ferduor Físico: produto removido do catálogo
-- Cinta Meia Calça Feminina Rendada Trama Preta Preto Un (38 A 48): produto removido do catálogo
-- Albumina Proteina Ovo Morango 1kg - Uevo Morango: produto removido do catálogo
-- Agasalho Masculino Umbro 1107394 Training Line Cor Cinza Tamanho GG: produto removido do catálogo
-- Bcaa 500 G Em Pó 100% Puro Sabor BCAA 2:1:1: produto removido do catálogo
-- Bola Futsal Rokma Speed Jogo Branca Vermelha Azul: produto removido do catálogo
-- Chuteira Futsal Joma Maxima Amarela 42: saiu do feed da loja
-- Bermuda Asics Yokohama Reta ASICS Feminina: saiu do feed da loja
-- Mochila Nike One Unissex: saiu do feed da loja
-- Tênis De Caminhada Feminino Max Cush Slip Ins Skechers: produto removido do catálogo
-- Tênis On Running Cloudpulse Next Masculino Branco 41: saiu do feed da loja
-- Bola de Futebol Nike Skills: saiu do feed da loja
-- Camiseta Nike Dri-FIT UV Miler Masculina: saiu do feed da loja
-- Calça Legging Feminina Oxer Zig Lateral Média Compressão Cintura Média: passou do limite de 2500
+- munhequeira Ortopédica hx7621: produto removido do catálogo
+- Conjunto De Agasalho Esportivo Penalty Pipe Masculino Tamanho G Confortável Para Treino E : produto removido do catálogo
+- Tênis Asics Metafuji Trail - Unissex: produto removido do catálogo
+- Chuteira Campo Rx Locker Y-4 Penalty: produto removido do catálogo
+- Óculos Natação Speedo Horizon Plus Cor Cinza: produto removido do catálogo
+- Chuteira Society Nike Mercurial Superfly 10 Club: saiu do feed da loja
+- Shorts Dri-FIT Nike Pro Feminino: saiu do feed da loja
+- Boné Nike Dri-FIT ADV Club Unissex: saiu do feed da loja
+- Tênis On Running Cloudflow 5 Masculino Branco 39: saiu do feed da loja
+- Tênis Fila Float Maxxi 2 Pro Masculino Verde 42: saiu do feed da loja
+- Shorts Dri-FIT Nike Gym Classic Masculino: saiu do feed da loja
+- Jaqueta Corta Vento Nord Térmica RT - Feminina: passou do limite de 2500
+- Calça Legging Oxer Feminina Capri Campeão Slim Cós Baixo Média Compressão: passou do limite de 2500
+- Calça Legging Feminina Oxer Textura New Média Compressão Cós Médio: passou do limite de 2500
+- Calça Legging Feminina Farm Floresta Leopardo Cós Médio Média Compressão Bex: passou do limite de 2500
 - Shorts Nike Dri-FIT 4IN Masculino: passou do limite de 2500
-- Bermuda Oxer Rip Stop B5P Com Sunga Interna Masculina: passou do limite de 2500
 - Shorts de Corrida Mizuno Core 7.5 2in1 Masculino P Preto: passou do limite de 2500
 - Shorts de Corrida Mizuno Core 5.5 Masculino P Preto: passou do limite de 2500
 - Shorts de Corrida Mizuno 2x1 High 3/7 Masculino P Preto: passou do limite de 2500
@@ -68,6 +68,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Short de Corrida Mizuno Active Alpha Masculino GG Azul: passou do limite de 2500
 - Short de Corrida Mizuno Active Alpha 2 em 1 5.5 Masculino GG Preto: passou do limite de 2500
 - Short de Corrida Mizuno Active Alpha Masculino GG Preto: passou do limite de 2500
+- Calção adidas Estro 19 - Masculino: passou do limite de 2500
 - Short de Tennis Mizuno Daybreakers 8 Amp Masculino EG Branco: passou do limite de 2500
 - Short de Futebol Mizuno Morelia Masculino: passou do limite de 2500
 - Short de Futebol Mizuno Basic Masculino: passou do limite de 2500
@@ -78,7 +79,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Shorts 2 em 1 de Corrida Mizuno High 3 Masculino P Preto: passou do limite de 2500
 - Shorts de Corrida Mizuno High 3 Masculino G Azul: passou do limite de 2500
 - Short de Tennis Mizuno Masculino EG Preto: passou do limite de 2500
-- Camiseta Regata Masculina Oxer Flat Respirabilidade: passou do limite de 2500
+- Camiseta Masculina Nike Manga Longa Dri-Fit Element Crew: passou do limite de 2500
 - Camiseta de Corrida Mizuno Run Spark Mescla Masculina P Preto: passou do limite de 2500
 - Camiseta de Corrida Mizuno Core Impulse Masculina P Azul: passou do limite de 2500
 - Camiseta de Corrida Mizuno Core Runbird Masculina P Azul: passou do limite de 2500
@@ -92,8 +93,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Jaqueta Corta-Vento Corre Olympikus Masculina PP Branco: passou do limite de 2500
 - Jaqueta Corta-Vento Corre Olympikus Masculina PP Preto: passou do limite de 2500
 - Jaqueta Corta-Vento Masculina Starter com Capuz T296A: passou do limite de 2500
-- Jaqueta Corta-Vento Masculina Oxer com Capuz Tecido Plano Heat Embossed: passou do limite de 2500
-- Jaqueta Corta Vento do Grêmio Betel Packable Imortal Masculina: passou do limite de 2500
+- Camiseta Nike DF RUN ENER Masculina: passou do limite de 2500
 - Regata de Corrida Mizuno High 3 Masculina GG Preto: passou do limite de 2500
 - Regata de Corrida Mizuno Run Spark 2 Masculina P Cinza: passou do limite de 2500
 - Regata de Corrida Mizuno Nirvana Masculina EG Azul: passou do limite de 2500
@@ -104,22 +104,19 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Regata de Corrida Masculina Mizuno Nirvana P Azul: passou do limite de 2500
 - Regata de Corrida Masculina Mizuno Spark 2 M Branco: passou do limite de 2500
 - Meia de Compressão Cano Alto ASICS Adulto 34-38: passou do limite de 2500
-- Meia Para Corrida On Running Cano Médio Performance Run Sock Low: passou do limite de 2500
 - Relógio de Corrida Polar com GPS Ignite 3 - Adulto: passou do limite de 2500
 - Relógio Monitor Cardíaco Garmin Forerunner 165 com GPS Adulto: passou do limite de 2500
 - Relógio Monitor Cardíaco Garmin Forerunner 265 - Adulto: passou do limite de 2500
-- Pochete adidas Corrida Unissex: passou do limite de 2500
 - Pochete ASICS com 2 Squeeze Tech: passou do limite de 2500
 - Pochete Oxer Neo Run Bolso Seguro Refletivo: passou do limite de 2500
 - Pochete Oxer Fit Bolso Seguro Refletivo: passou do limite de 2500
-- Pochete Oxer Puffer: passou do limite de 2500
 - Pochete ASICS Cinto de Corrida Premium Unissex com Porta-Número: passou do limite de 2500
 - Pochete On Brazil Spees Belt 1 U: passou do limite de 2500
 - Pochete Oxer Porta Número de Peito: passou do limite de 2500
 - Viseira Oxer Básica - Adulto: passou do limite de 2500
 - Viseira ASICS Elástico Logado Adulto: passou do limite de 2500
 - Viseira Aba Curva Nike Dri-Fit Ace Visor Unissex: passou do limite de 2500
-- Viseira Aba Curva ASICS Strapback Básica - Adulto: passou do limite de 2500
+- Boné Aba Curva Nike Strapback Dri-Fit Club AB FL P - Adulto: passou do limite de 2500
 - Óculos de Sol Oxer com Proteção Solar Esportivo Flutuante Adulto: passou do limite de 2500
 - Óculos de Sol Oxer Esportivo Polarizado com Troca de Lentes com Opção de Grau Adulto: passou do limite de 2500
 - Óculos de Sol Oxer Esportivo Espelhado Adulto: passou do limite de 2500
@@ -138,10 +135,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola de Tênis Wilson US OPEN XD TB3 - 3 Unidades: passou do limite de 2500
 - Bola de Tênis Wilson US Open: passou do limite de 2500
 - Corda para Raquete de Tênis Wilson Sensation Control - 12,2m: passou do limite de 2500
-- Raquete de Tênis Wilson RF 01 Future 3 Adulto: passou do limite de 2500
-- Raquete de Tênis Wilson RF 01 Adulto: passou do limite de 2500
-- Raquete de Tênis Wilson Blade 98 18x20 V10 Adulto: passou do limite de 2500
-- Raquete de Tênis Wilson Blade 98 16x19 V10 Adulto: passou do limite de 2500
 - Bola de Tênis Babolat Gold Championship 3 Unidades: passou do limite de 2500
 - Raquete de Tênis Babolat Feather - Iniciante - Adulto: passou do limite de 2500
 - Corda para Raquete de Tênis Babolat Synthetic Gut Universal 1.25 mm 17L – 12 m: passou do limite de 2500
@@ -155,12 +148,11 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Raquete de Tênis Head Extreme MP Adulto: passou do limite de 2500
 - Corda para Raquete de Tênis Head Lynx Tour 16 Champagne: passou do limite de 2500
 - Bola de Tênis Beach Tennis Shark - 3 Unidades: passou do limite de 2500
-- Raquete de Beach Tennis Shark Cyclone 2023: passou do limite de 2500
 - Bola de Beach Tennis Head PCT 2 Unidades: passou do limite de 2500
 - Bola de Beach Tennis Adidas Aditour 3 unidades: passou do limite de 2500
 - Kit Bolas Adams Beach Tennis: passou do limite de 2500
 - Raquete de Padel Drop Shot Conqueror 10.0 DS - Adulto: passou do limite de 2500
-- Raquete de Beach Tennis adidas Metalbone Team H24: passou do limite de 2500
+- Tênis Masculino Asics Geldedicate 9 padel: passou do limite de 2500
 - Kit de Tênis de Mesa Adams com 2 Raquetes e 3 Bolinhas: passou do limite de 2500
 - Kit de Bola de Tênis de Mesa Adams 6 Unidades: passou do limite de 2500
 - Kit de Bola de Tênis de Mesa Vollo 6 Unidades 1 Estrela: passou do limite de 2500
@@ -168,7 +160,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Tênis de Mesa Adams com 3 Unidades: passou do limite de 2500
 - Kit Tênis de Mesa Poker Effect II: passou do limite de 2500
 - Bolas de Tênis Adams com 3 Unidades: passou do limite de 2500
-- Raqueteira Fila Pomezia - 27,6 Litros: passou do limite de 2500
 - Raqueteira Asics Smash: passou do limite de 2500
 - Raqueteira de Tênis Wilson Super Tour 6PK: passou do limite de 2500
 - Raqueteira Wilson Blade v9 Super Tour 9 Pack: passou do limite de 2500
@@ -187,9 +178,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Legging Basic Olympikus Feminina PP Azul: passou do limite de 2500
 - Legging de Corrida Feminina Olympikus GG Cinza: passou do limite de 2500
 - Legging Eleva Olympikus Feminina M Azul: passou do limite de 2500
-- Legging Basic Olympikus Feminina P Cinza: passou do limite de 2500
-- Legging Basic Olympikus Feminina P Preto: passou do limite de 2500
-- Legging Knit Minimal Olympikus Feminina M Bege: passou do limite de 2500
+- Calça Legging Feminina Vestem Fuso Sabina: passou do limite de 2500
 - Legging de Corrida Mizuno Run Easy 6 P Preto: passou do limite de 2500
 - Legging de Corrida Mizuno Biogear Sonic Masculina P Preto: passou do limite de 2500
 - Legging de Corrida Mizuno Biogear Sonic Feminina P Preto: passou do limite de 2500
@@ -204,26 +193,24 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Calça Legging Vestem com Bolsos Lateral Feminina: passou do limite de 2500
 - Calça Legging Adidas com Bolso Feminina: passou do limite de 2500
 - Calça Vestem Legging Fusô Astral com Bolso Feminina: passou do limite de 2500
-- Calça Legging Feminina adidas Yoga Seas: passou do limite de 2500
 - Camiseta Masculina Nike Manga Longa Dri-Fit Tight TOP LS: passou do limite de 2500
+- Top Fitness com Bojo Mizuno Média Sustentação Soul Fit New Adulto: passou do limite de 2500
 - Top Fitness sem Bojo Oxer Média Sustentação Nadador Básico Campeão - Adulto: passou do limite de 2500
 - Top Fitness com Bojo Removível Authen Alta Sustentação Grit Bossa Nadador Reto com Bolso A: passou do limite de 2500
+- Top Fitness Authen Essential Run Nadador Stamina Feminino: passou do limite de 2500
 - Top Farm Nadador Floral Leni Feminino: passou do limite de 2500
+- Top Farm Nadador Bananas Pintadas Feminino: passou do limite de 2500
+- Blusa Cropped Regata adidas Small Logo Feminina: passou do limite de 2500
+- Blusa Cropped adidas Training Feminina: passou do limite de 2500
 - Blusa Cropped Feminina Puma Lemlem Tank: passou do limite de 2500
-- Blusa Feminina Regata Cropped Lauf Basic Lolitta: passou do limite de 2500
-- Jaqueta de Moletom Cropped Feminina Under Armour com Capuz Project Rock HW Terry: passou do limite de 2500
 - Blusa Cropped Manga Longa Feminina adidas Outloud: passou do limite de 2500
-- Blusa Regata Cropped Feminina Nike Np Dri-Fit: passou do limite de 2500
-- Blusa Cropped Feminina Fit Dance Manga Curta: passou do limite de 2500
 - Blusa de Moletom Cropped Feminina adidas com Capuz Hiit: passou do limite de 2500
-- Saia Short Feminina Oxer Fitness: passou do limite de 2500
+- Blusa Cropped Feminina New Balance Small Logo: passou do limite de 2500
 - Short Saia Feminino Fila Básico: passou do limite de 2500
 - Camiseta Nina Vestem Treino Feminina: passou do limite de 2500
-- Short-Saia Lauf New Look Feminino: passou do limite de 2500
-- Short-Saia Fila Future Sports Adulto: passou do limite de 2500
 - Shorts-Saia Treino Essentials Três Listras - Feminino: passou do limite de 2500
+- Shorts Saia Farm Aurora Floral Feminino: passou do limite de 2500
 - Bermuda Feminina Oxer Ciclista Cotton: passou do limite de 2500
-- Complemento Farm Macaquinho Logomania Feminino: passou do limite de 2500
 - Macaquinho Feminino Lauf Cravina: passou do limite de 2500
 - Macaquinho Oxer Treino Sem Costura - Feminino: passou do limite de 2500
 - Macaquinho adidas Training Originals: passou do limite de 2500
@@ -236,9 +223,9 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Camiseta Under Armour Box Sports Up Masculina: passou do limite de 2500
 - Camiseta do Real Madrid Balboa Masculina Dry Fit: passou do limite de 2500
 - Camiseta do Real Madrid Dry Fit Balboa Masculina: passou do limite de 2500
+- Camiseta Masculina Oxer Manga Curta Média Compressão Flat Mescla: passou do limite de 2500
 - Camiseta Masculina Adams Manga Longa Compressão Proteção UV Refletiva: passou do limite de 2500
 - Camisa Manga Longa Adams Compressão Alta Masculina: passou do limite de 2500
-- Camiseta Masculina Nord Manga Longa Segunda Pele Skin: passou do limite de 2500
 - Camiseta Masculina Nord Manga Longa Segunda Pele: passou do limite de 2500
 - Camiseta Oxer Manga Long Flat Mescla - Masculina: passou do limite de 2500
 - Camiseta Masculina Oxer Manga Longa Recortada: passou do limite de 2500
@@ -246,42 +233,39 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bermuda Masculina Oxer Compressão: passou do limite de 2500
 - Bermuda de Compressão Masculina Venum Black Belt Dark: passou do limite de 2500
 - Bermuda Masculina Adams Compressão Proteção UV: passou do limite de 2500
+- Bermuda de Compressão Masculina Under Armour HG: passou do limite de 2500
 - Bermuda de Compressão Adams com Bolso Lateral Masculina: passou do limite de 2500
 - Shorts Vanish Woven Under Armour Masculino: passou do limite de 2500
 - Bermuda Puma Ls Ess Elevated Shorts Masculina: passou do limite de 2500
 - Calça Masculina Oxer de Compressão: passou do limite de 2500
 - Calça ASICS Legging Compressão PWR Refletiva Masculina: passou do limite de 2500
+- Jaqueta Puffer Térmica com Capuz Nord Stopper - Feminina: passou do limite de 2500
 - Jaqueta de Treino Mizuno Soul Fit Feminina M Branco: passou do limite de 2500
 - Jaqueta de Treino Feminina Mizuno Puff M Preto: passou do limite de 2500
 - Jaqueta Corta-Vento Feminina Mizuno com Capuz Focus 2: passou do limite de 2500
+- Short adidas Originals Treino Feminino: passou do limite de 2500
+- Shorts Treino 3 List Adidas Feminina: passou do limite de 2500
 - Calça de Treino Mizuno Two Loops 88 Feminina P Preto: passou do limite de 2500
 - Calça Feminina Farm Flare Voo Doce: passou do limite de 2500
 - Calça Farm Flare Farm Banana Feminina: passou do limite de 2500
 - Calça Legging Feminina Oxer Canelada Sem Costura: passou do limite de 2500
 - Calça Legging Feminina FitDance Cós Médio Estampada: passou do limite de 2500
 - Calça adidas Legging 7/8 Techfit Estampada Feminina: passou do limite de 2500
-- Top Nike Pro Dri-FIT - Feminino: passou do limite de 2500
 - Camiseta Regata Feminina ASICS Libélula Recorte Nadador: passou do limite de 2500
-- Kit de Meias Puma Esportiva Sapatilha com 3 Pares 34 a 39 - Feminina: passou do limite de 2500
 - Tênis Olympikus Essential 3 Feminino 41 Preto: passou do limite de 2500
 - Tênis Olympikus Acqua Feminino 41 Azul: passou do limite de 2500
 - Tênis Olympikus Acqua Feminino 40 Rosa: passou do limite de 2500
 - Tênis Olympikus Acqua Feminino 34 Preto: passou do limite de 2500
 - Tênis Olympikus Acqua Feminino 41 Bege: passou do limite de 2500
 - Tênis Olympikus Acqua Feminino 41 Lilas: passou do limite de 2500
-- Tênis Olympikus Vest Feminino 41 Amarelo: passou do limite de 2500
-- Tênis Olympikus Vest Feminino 41 Bege: passou do limite de 2500
-- Tênis Olympikus Vest Feminino 41 Preto: passou do limite de 2500
-- Tênis Olympikus Essential 3 Feminino 41 Cinza: passou do limite de 2500
 - Tênis Feminino Mizuno Wave Prophecy 12-S 39 Laranja: passou do limite de 2500
 - Tênis Feminino Mizuno Wave Prophecy 12-S 36 Preto: passou do limite de 2500
 - Tênis Feminino Mizuno Wave Prophecy 12-S 39 Roxo: passou do limite de 2500
 - Tênis de Tennis Feminino Mizuno Wave Exceed Light All Court 36 Azul: passou do limite de 2500
 - Tênis Feminino Mizuno Wave Rider 26 SSW 36 Roxo: passou do limite de 2500
 - Maiô Fila Austrália Print - Feminino: passou do limite de 2500
-- Maiô Speedo Acqua Plus - Adulto: passou do limite de 2500
 - Jaqueta do Cruzeiro Treino Atleta 26/27 adidas Masculina: passou do limite de 2500
-- Jaqueta do Flamengo Treino 26/27 adidas Masculina: passou do limite de 2500
+- Jaqueta Masculina CBF Treino Drill Top Nike: passou do limite de 2500
 - Jaqueta de Treino Mizuno Mescla Masculina Jaqueta de Treino Mizuno Mescla: passou do limite de 2500
 - Jaqueta de Treino Mizuno Mescla Masculina P: passou do limite de 2500
 - Calção Masculino CBB Treino Basquete Brasil: passou do limite de 2500
@@ -290,9 +274,9 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Short do Flamengo 26/27 adidas Treino Masculino: passou do limite de 2500
 - Calça do Cruzeiro Treino 26/27 adidas Masculina: passou do limite de 2500
 - Calça do Flamengo Treino 26/27 adidas Masculina: passou do limite de 2500
-- Calça de Treino Mizuno Soul Fit Masculina: passou do limite de 2500
 - Bermuda de Treino 7 Olympikus Masculina P Cinza: passou do limite de 2500
 - Bermuda de Treino 7 Olympikus Masculina P Preto: passou do limite de 2500
+- Bermuda de Treino Masculina Mizuno Run Bird P Azul: passou do limite de 2500
 - Bermuda do Corinthians 26/27 Treino Nike Masculina: passou do limite de 2500
 - Bermuda de Treino Mizuno Malha Soul Fit Masculina P Cinza: passou do limite de 2500
 - Bermuda de Treino Mizuno Root Mesh Masculina P Azul: passou do limite de 2500
@@ -303,29 +287,34 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bermuda de Treino Mizuno Tem Master Masculina EG Cinza: passou do limite de 2500
 - Bermuda de Treino Mizuno Tem Master Masculina EG Preto: passou do limite de 2500
 - Bermuda de Treino Mizuno Tem Master Masculina M Vermelho: passou do limite de 2500
+- Tênis Puma Carina BDP - Feminino: passou do limite de 2500
 - Jaqueta Feminina Oxer Ajustada Textura Bolso Selado: passou do limite de 2500
 - Bermuda Com Bolsa Lateral Vestem Feminina: passou do limite de 2500
+- Short Feminino Oxer com Forro e Bolso Interno Ever: passou do limite de 2500
 - Bermuda adidas com Bolso Treino Feminina: passou do limite de 2500
 - Bermuda com Bolsos Luna Vestem Feminina: passou do limite de 2500
-- Mala adidas Def Duffle: passou do limite de 2500
+- Bermuda Feminina Oxer Básico Print com Bolsa: passou do limite de 2500
 - Lancheira Oxer com Suporte para Garrafa: passou do limite de 2500
 - Garrafa Térmica Oxer com Alça 600 ml: passou do limite de 2500
 - Squeeze Oxer Térmico 700 ml: passou do limite de 2500
-- Garrafa Térmica Oxer Demi 500ml: passou do limite de 2500
 - Luvas Oxer com Polegar Adulto: passou do limite de 2500
 - Luvas Oxer sem Polegar Adulto: passou do limite de 2500
 - Luvas Oxer Protetor Palmar: passou do limite de 2500
 - Luva Oxer Protetor Palmar Ajustável Adulto: passou do limite de 2500
 - Luva para Academia adidas Treino: passou do limite de 2500
+- Luvas para Academia sem Polegar Oxer - Adulto: passou do limite de 2500
 - Strap Punch Musculação com Munhequeira: passou do limite de 2500
 - Munhequeira Oxer Neopreme Ajustável: passou do limite de 2500
 - Munhequeira Oxer Neopreme Ajustável com Polegar: passou do limite de 2500
 - Munhequeira Oxer - Caneleira E Munhequeira: passou do limite de 2500
 - Halter Oxer Emborrachado - 4 Kg: passou do limite de 2500
 - Halter Oxer Neoprene - 3 Kg: passou do limite de 2500
+- Halteres Oxer Revestido - 5 Kg: passou do limite de 2500
 - Halter Oxer Neoprene 4kg: passou do limite de 2500
 - Halter Oxer Emborrachado - 2 Kg: passou do limite de 2500
 - Halter Oxer Emborrachado - 5 Kg: passou do limite de 2500
+- Halter Oxer Cimento 9Kg: passou do limite de 2500
+- Halter Oxer Cromado - 5 Kg: passou do limite de 2500
 - Halter Oxer Neoprene 3kg: passou do limite de 2500
 - Anilha Oxer Ferro Vazada - 5 Kg: passou do limite de 2500
 - Anilha de Ferro Vazada 2kg Oxer: passou do limite de 2500
@@ -357,12 +346,9 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Kit Luvas de Boxe Venum New Impact Evo 12oz + Bandagem + Bocal: passou do limite de 2500
 - Kit de Boxe Naja: Bandagem + Protetor Bucal + Luvas de Boxe Black - 14 OZ - Adulto: passou do limite de 2500
 - Kit Boxe Venum Luva 2M Bandagem Buca: passou do limite de 2500
-- Kit de Natação Swim SLC com Touca + Óculos + Protetor de Ouvido: passou do limite de 2500
-- Óculos de Natação Speedo Legend - Adulto: passou do limite de 2500
-- Óculos de Natação Speedo Hydrovision - Adulto: passou do limite de 2500
 - Touca de Natação Speedo Silicone Lisa - Adulto: passou do limite de 2500
-- Touca de Natação Speedo Xtrafit - Adulto: passou do limite de 2500
 - Touca de Natação Oxer Silicone Zinny: passou do limite de 2500
+- Whey Protein Dux Isolado 450g Chocolate Branco: passou do limite de 2500
 - Whey Protein Integralmédica Baunilha 100% Pure - 900g: passou do limite de 2500
 - Barra de Proteína Whey Grego Doce de Leite com Morango Havanna Nutrata 40g: passou do limite de 2500
 - Whey Protein Dark Lab One Refil 900g: passou do limite de 2500
@@ -375,7 +361,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Creatina Pura Dark Lab Refil 1Kg: passou do limite de 2500
 - Creatina Dux Monohidratada Pote 300g: passou do limite de 2500
 - Creatina Guday Frutas Vermelhas 60 Gomas: passou do limite de 2500
-- Creatina Shark Pro Creajuice Pote 300G Laranja com Acerola: passou do limite de 2500
 - Pré-Treino Dobro Carbs Gel Maracujá 30g: passou do limite de 2500
 - Carbs Gel Dobro Neutro Fresh 30g: passou do limite de 2500
 - Carbs Gel Dobro Neutro Fresh com Cafeína 30g: passou do limite de 2500
@@ -400,12 +385,11 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Tornozeleira Oxer Neoprene Ajustável 1 Unidade Adulto: passou do limite de 2500
 - Tornozeleira Oxer Neoprene Longa 1 Unidade Adulto: passou do limite de 2500
 - Tornozeleira Mormaii Sportline Neo com Zíper - Adulto: passou do limite de 2500
-- Munhequeira Nike Swoosh Wristbands - Adulto: passou do limite de 2500
-- Munhequeira adidas - Adulto: passou do limite de 2500
 - Meia Cano Alto de Compressão Mizuno Performance II tam. 39/44 39-44 Branco: passou do limite de 2500
 - Moletom Cropped Olympikus Feminino P Preto: passou do limite de 2500
 - Moletom Cropped Olympikus Feminino P Rosa: passou do limite de 2500
 - Moletom Hoddie Olympikus Feminino P Preto: passou do limite de 2500
+- Blusa de Moletom Feminina adidas Logo Linear: passou do limite de 2500
 - Moletom Casual Mizuno Novo Feminino P Bege: passou do limite de 2500
 - Moletom Casual Mizuno Novo Feminino P Preto: passou do limite de 2500
 - Moletom Canguru Sportstyle Feminino Mizuno GG Rosa: passou do limite de 2500
@@ -413,7 +397,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Calça Jogger Olympikus Feminina Plus Size G1 Azul: passou do limite de 2500
 - Calça Jogger Olympikus Feminina Plus Size G1 Preto: passou do limite de 2500
 - Calça Jogger Feminina Nike Sportswear Tech Flc HR: passou do limite de 2500
-- Jaqueta Feminina Nord com Capuz Impermeável Selada: passou do limite de 2500
+- Camiseta New Balance Oversized Small Log Feminina: passou do limite de 2500
 - Moletom Comfy Big Logo Olympikus Masculino P Bege: passou do limite de 2500
 - Blusa de Moletom Mizuno x Botafogo Masculina GG Preto: passou do limite de 2500
 - Bermuda de Moletom Masculina Mizuno P Preto: passou do limite de 2500
@@ -429,26 +413,13 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Calça Jogger Jogador do Vasco Dry Masculina: passou do limite de 2500
 - Calça Mizuno Soft Jogger Masculina P Cinza: passou do limite de 2500
 - Calça Mizuno Soft Jogger Masculina P Preto: passou do limite de 2500
-- Bermuda Masculina Oxer Moletom Recorte: passou do limite de 2500
-- Conjunto de Agasalho Masculino Nike Dri-FIT Academy: passou do limite de 2500
-- Agasalho Nike Sportswear Masculino: passou do limite de 2500
-- Conjunto de Agasalho Mizuno Root IV Masculino: passou do limite de 2500
+- Agasalho adidas Climacool Sereno Cut Três Listras Masculino: passou do limite de 2500
 - Camiseta Oversized Ccore adidas Masculina: passou do limite de 2500
-- Calça Legging Masculina Nike Dri-Fit Challenger Tight: passou do limite de 2500
-- Calça Legging Feminina Nike Air Fast Dri-Fit Mr 7/8 TGT: passou do limite de 2500
-- Calça Legging Feminina Nike Dri-ft Universal High 78 Tight: passou do limite de 2500
-- Calça Legging Feminina adidas Hiit Luxe: passou do limite de 2500
-- Calça Legging Feminina adidas Latin Colorblock: passou do limite de 2500
 - Camiseta Manga Longa Feminina Under Armour Qualifier: passou do limite de 2500
-- Camiseta Feminina Under Armour Manga Longa Tech: passou do limite de 2500
-- Camiseta do Stephen Curry Under Armour Masculina Vinea Heather: passou do limite de 2500
-- Camiseta Feminina Under Armour Manga Curta Streaker Run: passou do limite de 2500
 - Short-Saia adidas Tennis Club Adulto: passou do limite de 2500
 - Bermuda Essential 06 Olympikus Feminina G Roxo: passou do limite de 2500
 - Bermuda Basic 6 Olympikus Feminina P Preto: passou do limite de 2500
 - Bermuda Basic 6 Olympikus Feminina P Cinza: passou do limite de 2500
-- Bermuda Mesh Basic Olympikus Masculina M Cinza: passou do limite de 2500
-- Bermuda Basic 6 Olympikus Feminina PP Azul: passou do limite de 2500
 - Bermuda Corre 7 Olympikus PP Cinza: passou do limite de 2500
 - Bermuda com Bolso Feminina Olympikus Corre Foco: passou do limite de 2500
 - Camiseta Casual Olympikus PP Preto: passou do limite de 2500
@@ -457,23 +428,26 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Camiseta Recortes Olympikus Feminina P Preto: passou do limite de 2500
 - Camiseta Box Treino Olympikus Feminina GG Branco: passou do limite de 2500
 - Camiseta Box Treino Olympikus Feminina G Preto: passou do limite de 2500
-- Camiseta Manga Longa Essential Olympikus Feminina M Preto: passou do limite de 2500
-- Camiseta Manga Longa Essential Olympikus Masculina P Azul: passou do limite de 2500
 - Camiseta Regata Feminina Olympikus Corre: passou do limite de 2500
 - Camiseta Regata Olympikus Corre Feminina: passou do limite de 2500
 - Camiseta Olympikus Corre Foco Masculina: passou do limite de 2500
 - Camiseta Olympikus Corre Foco Feminina: passou do limite de 2500
+- Camiseta Masculina Fila Manga Curta Tennis Mach: passou do limite de 2500
+- Camiseta Feminina Fila Manga Curta Basic Sports Polygin: passou do limite de 2500
 - Short Mizuno Running 5 Masculino: passou do limite de 2500
 - Shorts Mizuno Run Easy 6 Masculino: passou do limite de 2500
 - Shorts de Tennis Mizuno Flex Feminino GG Branco: passou do limite de 2500
 - Shorts de Corrida Mizuno Summerpack P Laranja: passou do limite de 2500
 - Shorts de Corrida Mizuno Summerpack P Azul: passou do limite de 2500
 - Shorts de Treino Mizuno Essence Feminino P Preto: passou do limite de 2500
+- Jaqueta adidas Sportwear Hooded Feminina: passou do limite de 2500
+- Blusão Moletom Nike Club Hoodie Masculino: passou do limite de 2500
 - Blusa de Moletom Nike Air Jordan Flight Fleece QTR ZIP: passou do limite de 2500
+- Tênis New Balance ML373 - Masculino: passou do limite de 2500
+- Tênis Masculino Nike Court Vision Low Next Nature: passou do limite de 2500
 - Tênis Olympikus Pride 4 Feminino 41 Branco: passou do limite de 2500
 - Tênis Olympikus Versa Feminino 41 Branco: passou do limite de 2500
 - Tênis de Tennis Feminino Mizuno Wave Exceed Light 2 Clay Court 40 Branco: passou do limite de 2500
-- Tênis de Tennis Feminino Mizuno Break Shot 4 All Court 37 Branco: passou do limite de 2500
 - Tênis de Corrida Feminino Mizuno Wave Sky 8 35 Branco: passou do limite de 2500
 - Tênis de Corrida Feminino Mizuno Wave Sky 8 Wide 2D 40 Branco: passou do limite de 2500
 - Tênis de Corrida Mizuno Neo Vista 2 Feminino 39 Branco: passou do limite de 2500
@@ -481,15 +455,10 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Tênis Olympikus Eros 2 Masculino 44 Branco: passou do limite de 2500
 - Tênis Masculino Mizuno Wave Prophecy 12 37 Branco: passou do limite de 2500
 - Tênis Nike Air Force 1'07 PRM: passou do limite de 2500
-- Tênis Cano Alto Converse All Star CT AS Core HI CT0004 - Unissex: passou do limite de 2500
+- Tênis Converse All Star CT AS Core OX CT0001 - Unissex: passou do limite de 2500
+- Chinelo Slide Unissex Adams Space: passou do limite de 2500
 - Chinelo Mizuno Slide Basic: passou do limite de 2500
-- Chinelo Nike Offcourt - Slide - Feminino: passou do limite de 2500
 - Chinelo Slide Unissex adidas Adilette Lumia: passou do limite de 2500
-- Chinelo adidas Znscape: passou do limite de 2500
-- Chinelo Slide Unissex adidas Adilette Aqua: passou do limite de 2500
-- Chinelo adidas Originals Adilette: passou do limite de 2500
-- Chinelo Slide Unissex adidas Adissage 360REC: passou do limite de 2500
-- Chinelo adidas Adilette Comfort 2 0: passou do limite de 2500
 - Boné Running Olympikus U Preto: passou do limite de 2500
 - Boné Running Corre Olympikus U Rosa: passou do limite de 2500
 - Boné Running Corre Olympikus U Amarelo: passou do limite de 2500
@@ -499,8 +468,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Boné Casual Style 2.0 Olympikus U Cinza: passou do limite de 2500
 - Bone Olympikus Runnig Corre U Bege: passou do limite de 2500
 - Kit 1 Tênis Olympikus Corre Grafeno 3 e 1 Boné Oly 46 Multicolorido: passou do limite de 2500
-- Boné Nike Club Casual: passou do limite de 2500
-- Boné Adulto 940 New York Yankees New Era Aba Curva: passou do limite de 2500
 - Boné Casual Vrunk x Mizuno U Preto: passou do limite de 2500
 - Boné Mizuno Drylite U Branco: passou do limite de 2500
 - Boné Mizuno Drylite U Preto: passou do limite de 2500
@@ -508,19 +475,12 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Boné Casual Mizuno Crinkle: passou do limite de 2500
 - Boné Mizuno x Budweiser Legends United 86 U Vermelho: passou do limite de 2500
 - Boné Mizuno x Budweiser Legends United 26 U Azul: passou do limite de 2500
+- Boné Aba Flexível Nike Strapback Dri-Fit Fly Cap U Cb - Adulto: passou do limite de 2500
 - Mochila Nike Utility Speed 2.0 27 Litros: passou do limite de 2500
 - Mochila Olympikus Puffer U Cinza: passou do limite de 2500
 - Mochila Olympikus Puffer U Verde: passou do limite de 2500
-- Mochila Essential Olympikus U Cinza: passou do limite de 2500
-- Mochila Basic Olympikus U Verde: passou do limite de 2500
-- Mochila Olympikus Prime U Preto: passou do limite de 2500
-- Mochila Olympikus Shammy U Roxo: passou do limite de 2500
-- Mochila Olympikus Shammy U Vermelho: passou do limite de 2500
-- Mochila Olympikus Cabo de Aço U Azul: passou do limite de 2500
-- Mochila Olympikus Cabo de Aço U Preto: passou do limite de 2500
 - Mochila Mizuno Energy U Preto: passou do limite de 2500
 - Mochila Mizuno Energy U Azul: passou do limite de 2500
-- Mochila Nike Elemental Hbr 21L Recortes Respiráveis: passou do limite de 2500
 - Mochila Mizuno Energy U Rosa: passou do limite de 2500
 - Mochila Mizuno Fun U Cinza: passou do limite de 2500
 - Mochila Mizuno Big U Verde: passou do limite de 2500
@@ -529,6 +489,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Mochila Sportstyle Mizuno Basic U Azul: passou do limite de 2500
 - Mochila Sportstyle Mizuno Basic U Cinza: passou do limite de 2500
 - Mochila Sportstyle Mizuno Basic U Vermelho: passou do limite de 2500
+- Mochila Nike Elemental Bkpk 2.0 Lbr - 21 Litros: passou do limite de 2500
 - Bola de Volêi Adams Soft Touch: passou do limite de 2500
 - Bola de Vôlei de Praia Penalty XXI: passou do limite de 2500
 - Bola Vôlei de Praia Mikasa Bv552c-Wybr: passou do limite de 2500
@@ -537,12 +498,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola de Vôlei de Praia Adams: passou do limite de 2500
 - Kit Mini Bolas Esportivas Adams com 3 Unidades – Basquete, Futebol Americano e Vôlei: passou do limite de 2500
 - Bola de Basquete Spalding Graffiti: passou do limite de 2500
-- Bola de Basquete Wilson NBA DRV: passou do limite de 2500
-- Bola de Basquete Spalding Streetball: passou do limite de 2500
-- Bola de Basquete Spalding Varsity Tf-150: passou do limite de 2500
-- Bola de Basquete Spalding Lay-Up: passou do limite de 2500
-- Bola de Basquete Spalding Downtown: passou do limite de 2500
-- Mini bola de Basquete Adams: passou do limite de 2500
 - Tênis Nike Precision VII: passou do limite de 2500
 - Tênis de Vôlei Mizuno Momentum Pro 44 Branco: passou do limite de 2500
 - Tênis de Vôlei Mizuno Neo Jump 46 Branco: passou do limite de 2500
@@ -550,205 +505,181 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Tênis de Vôlei Mizuno Wave Momentum Elite Mid 44 Branco: passou do limite de 2500
 - Tênis de Volei Unissex Mizuno Thunder Blade Z 35 Azul: passou do limite de 2500
 - Tênis de Vôlei Unissex Mizuno Wave Lightning Neo 2 35 Branco: passou do limite de 2500
-- Tênis De Corrida Masculino 413v3 New Balance: passou do limite de 2500
-- Boné Para Corrida Hupi Run Verde/rosa Tamanho Único: passou do limite de 2500
 - Toalha Head Refrescante Slim Beach Tennis Rosa Academia: passou do limite de 2500
-- Bolsa térmica Everbags Bolsa Termica Master de 7L - azul: passou do limite de 2500
-- Chuteira Society Adulto Mizuno Morelia Classic: passou do limite de 2500
-- Chuteira Futsal Adulto Nike Tiempo Reactgato: passou do limite de 2500
-- Chuteira Futsal Adulto adidas Quadra: passou do limite de 2500
 - Chuteira de Campo Adulto Umbro Fifty VI League: passou do limite de 2500
 - Chuteira de Campo Adulto Mizuno Alpha Japan: passou do limite de 2500
 - Chuteira de Campo Mizuno Morelia Classic AS 44 Branco: passou do limite de 2500
+- Chuteira Society adidas Mundial Team - Adulto: passou do limite de 2500
 - Chuteira Society Adulto adidas F50 League Mid: passou do limite de 2500
-- Chuteira De Campo Adulto Predator Elite adidas: passou do limite de 2500
 - Chuteira Campo Adulto Nike Mercurial Vapor 17 Pro: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Zoom Mercurial Superfly 11 Elite: passou do limite de 2500
-- Chuteira de Campo Adulto Kylian Mbappé Nike Zoom Mercurial Superfly 11 Pro: passou do limite de 2500
-- Chuteira Society Adulto Nike Phantom 6 Club: passou do limite de 2500
-- Bola De Futebol De Campo Penalty Lider XXV: passou do limite de 2500
 - Camisa do Fluminense Torcedor II 25 Umbro Feminina: passou do limite de 2500
-- Luvas de Goleiro Nike GK Match Júnior: passou do limite de 2500
-- Tênis Mizuno Enigma 2 Feminino: passou do limite de 2500
-- Tênis Unissex Nike Pegasus Plus: passou do limite de 2500
-- Tênis Feminino adidas Lite Racer 4.0: passou do limite de 2500
-- Tênis de Corrida Mizuno Neo Aura Knit 40 Rosa: passou do limite de 2500
-- Tênis Masculino Olympikus Clic: passou do limite de 2500
+- Luvas de Goleiro Adams Júnior: passou do limite de 2500
+- Tênis Feminino Asics Gel Nimbus 27: passou do limite de 2500
+- Tênis New Balance Fresh Foam X 1080 V14 Feminino: passou do limite de 2500
+- Tênis New Balance 411 V'3 Masculino: passou do limite de 2500
+- Tênis New Balance 411v3 Feminino: passou do limite de 2500
+- Tênis Feminino New Balance Fresh Foam ARISHIV4: passou do limite de 2500
+- Tênis Masculino Nike Air Zoom Pegasus 41: passou do limite de 2500
 - Tênis Nike Interact Run - Feminino: passou do limite de 2500
 - Tênis Masculino On Running Cloudsurfer Trail 2: passou do limite de 2500
 - Camiseta Regata Vestem Simone Dry Feminina: passou do limite de 2500
 - Camiseta Regata Farm Dryfit Leopardo Feminina: passou do limite de 2500
 - Jaqueta Corta-Vento Oxer Run Utraleve Packable Feminina: passou do limite de 2500
-- Bermuda On Brazil 7 Performace Masculina: passou do limite de 2500
 - Relógio Monitor Cardíaco Garmin com GPS Forerunner 965 47 mm - Adulto: passou do limite de 2500
 - Relógio Monitor Cardíaco Garmin Venu 3 com GPS Adulto: passou do limite de 2500
-- Relógio Monitor Cardíaco Polar Pacer Pro com GPS - Adulto: passou do limite de 2500
 - Raqueteira Wilson Tênis Mochila RF: passou do limite de 2500
-- Top Fitness com Bojo Removível Vestem Média Sustentação Marta Adulto: passou do limite de 2500
-- Camiseta Feminina Fila Manga Curta Future Sports Flow: passou do limite de 2500
-- Camiseta Regata Masculina Oxer Mescla Basic: passou do limite de 2500
+- Top Fitness com Bojo Removível Oxer Baixa Sustentação Nadador Sem Costura Adulto: passou do limite de 2500
+- Saia Short Feminina Oxer Fitness: passou do limite de 2500
 - Camiseta Masculina Oxer Manga Longa Mescla Flat: passou do limite de 2500
 - Shorts adidas Essentials - Masculino: passou do limite de 2500
-- Calça Legging Feminina Oxer Yoga Sem Costura Mescla Média Compressão Cós Alto: passou do limite de 2500
-- Tênis Olympikus Bruma Feminino: passou do limite de 2500
+- Tênis Feminino adidas RunFalcon 5: passou do limite de 2500
+- Jaqueta Puffer com Capuz Térmica Stopper - Masculina: passou do limite de 2500
 - Blusa de Treino Masculina Adams Jogador Futebol: passou do limite de 2500
-- Porta Tapete de Yoga Oxer Packable Mat: passou do limite de 2500
+- Jaqueta Seleção Brasileira Treino 26 Masculina: passou do limite de 2500
 - Corda de Pular Oxer Aço - 3 metros: passou do limite de 2500
 - Barra de Proteina +MU Choco Wheyfer Chocolate Branco - Unidade: passou do limite de 2500
 - Barra de Proteína +Mu Choco Wheyfer Chocolate e Avelã - 25g: passou do limite de 2500
-- Conjunto de Agasalho Masculino Oxer Replayer: passou do limite de 2500
-- Camisa Masculina Nike Manga Curta Dri-Fit Park VII: passou do limite de 2500
+- Conjunto Agasalho Nike Club - Masculino: passou do limite de 2500
 - Camiseta Nike Dri-FIT Legend - Masculina: passou do limite de 2500
-- Camiseta Manga Curta Essential Olympikus Feminina M Preto: passou do limite de 2500
-- Short Feminino Mizuno Heritage 2: passou do limite de 2500
 - Shorts de Treino Feminino Mizuno Essence M Rosa: passou do limite de 2500
-- Jaqueta Feminina adidas 3 Stripes com Capuz: passou do limite de 2500
-- Tênis Puma Carina Street BDP - Feminino: passou do limite de 2500
-- Tênis Nike Full Force Low - Masculino: passou do limite de 2500
-- Chinelo Nike Offcourt - Slide - Masculino: passou do limite de 2500
 - Boné Essential Olympikus U Branco: passou do limite de 2500
+- Boné Nike Club Casual: passou do limite de 2500
+- Boné Aba Curva Nike Dri-Fit Fly Club Cap Strapback - Adulto: passou do limite de 2500
 - Mochila Olympikus Puffer U Azul: passou do limite de 2500
-- Bola Futsal Topper - Treinamento Amarelo: passou do limite de 2500
-- Bola Futsal Tornado Penalty - Xxii Cor Branco/verde: passou do limite de 2500
 - Bola Futsal Profissional Magussy Matrix 500 Laranja Tamanho: passou do limite de 2500
 - Bola Society Dalponte 81 Nitro Microfibra Branco Costurada Mão: passou do limite de 2500
-- Cinto De Hidratação Para Corrida Pochete Com 2x Garrafinhas Preto: passou do limite de 2500
 - Raquete Padel StarVie Titania Kepler Controle Redonda Soft EVA: passou do limite de 2500
-- Conjunto Feminino Alfaiataria Cropped Calça Pantalona Casual Azul: passou do limite de 2500
-- Tapete Yoga Mat Bloco Tijolinho Faixa Elástica Overball Roxo: passou do limite de 2500
-- Roda Abdominal Power T146 Acte Sports: passou do limite de 2500
-- Whey Protein Itambé Morango 450g: passou do limite de 2500
-- Fita Kinésio Bandagem Elástica Kelogel Premium 5cmx5m Cor Bege: passou do limite de 2500
+- Corda Pular Treino Funcional Cross Speed Rope Acte Sports Cor Laranja: passou do limite de 2500
 - Lancheira Bolsa Térmica Up4you - Verde: passou do limite de 2500
 - Meia Cano Longo De Compressão Arrow Azul 34-39: passou do limite de 2500
 - Rolo De Massagem Liberação Miofascial Bastão E Bola: passou do limite de 2500
 - Rolo Massagem Foam Roller Liberação Miofascial Pilates Yoga Preto: passou do limite de 2500
 - Bola Basquete N°7 Preto Dourado Resistente Cor Cinza/preta: passou do limite de 2500
-- Chuteira Society Adulto Nike Mercurial Vapor 16 Club: passou do limite de 2500
 - Chuteira de Campo Adulto Puma Tacto II FG/AG: passou do limite de 2500
-- Chuteira Society Adulto Puma Ultra 7 Play: passou do limite de 2500
-- Chuteira de Society Adulto Umbro Class Footballer: passou do limite de 2500
-- Chuteira Futsal Adulto adidas Kaká Predator League: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Phantom GX II Club: passou do limite de 2500
+- Chuteira Society Adulto Puma Neymar Ultra 6 Match: passou do limite de 2500
+- Chuteira Society Adulto Umbro Techno II: passou do limite de 2500
+- Chuteira Futsal Adulto Umbro Pro 5 Bump Club: passou do limite de 2500
 - Chuteira de Campo Adulto Nike Mercurial Zoom Vapor 16 Elite: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Mercurial Zoom Vapor 16 Academy United: passou do limite de 2500
 - Chuteira de Campo Adulto Mizuno Morelia Neo Japan: passou do limite de 2500
-- Chuteira de Campo Adulto Mizuno Regent Club MD: passou do limite de 2500
+- Chuteira Society Adulto Nike Phantom GX II Academy Erling Haaland Force9: passou do limite de 2500
 - Chuteira Society Adulto Nike Phantom 6 Low Club T: passou do limite de 2500
-- Bola Society Penalty Lider XXVI: passou do limite de 2500
 - Bola de Futebol de Campo Nike Mercurial Fade: passou do limite de 2500
 - Bola de Futebol de Campo Nike Pitch Train: passou do limite de 2500
 - Bola de Futebol de Campo Nike Pitch: passou do limite de 2500
 - Bola de Futebol de Campo Nike VJR Academy: passou do limite de 2500
-- Bola de Futebol de Campo Nike Academy: passou do limite de 2500
 - Mini Bola adidas Trionda Oficial da Copa do Mundo FIFA 2026: passou do limite de 2500
-- Camiseta do Barcelona Masculina: passou do limite de 2500
-- Caneleira Nike Mercurial Hardshell FA22 - Adulto: passou do limite de 2500
-- Caneleiras adidas Messi Club Adulto: passou do limite de 2500
-- Tênis Under Armour Ch.Wing SE Masculino: passou do limite de 2500
+- Tênis Masculino Under Armour Charged Starlight 3 SE: passou do limite de 2500
 - Tênis Masculino Under Armour Chslight 4: passou do limite de 2500
-- Tênis Feminino Brooks Hyperion 2: passou do limite de 2500
-- Tênis Masculino Mizuno Wave Legend 5: passou do limite de 2500
-- Tênis Unissex Olympikus Corre 4: passou do limite de 2500
+- Tênis Nike Pegasus Plus - Masculino: passou do limite de 2500
+- Tênis ASICS Gel-Pulse 15 SE Feminino: passou do limite de 2500
 - Camiseta Vestem Dry Fit Beth Feminina: passou do limite de 2500
+- Corta Vento Oxer Run Mesh Feminino: passou do limite de 2500
 - Jaqueta Corta-Vento Térmica Nord RT Bex - Masculina: passou do limite de 2500
+- Camiseta Regata Puma Run Velocity Tank Masculina: passou do limite de 2500
 - Pochete adidas Ultraboost Corrida: passou do limite de 2500
-- Viseira Nike Dri-FIT ADV Ace Adulto: passou do limite de 2500
+- Squeeze adidas Performance - 0,5L: passou do limite de 2500
+- Squeeze Asics Térmico 750ml: passou do limite de 2500
 - Raquete de Tênis Head Speed MP Legend - Avançado - Adulto: passou do limite de 2500
-- Calça Legging Feminina ASICS Shibori Recortes: passou do limite de 2500
-- Calça Legging Feminina Vestem Fuso Marta: passou do limite de 2500
-- Calça Legging Feminina adidas 3 listras com bolso: passou do limite de 2500
-- Top Fitness Puma Mid Impact Strong Bra - Adulto: passou do limite de 2500
-- Blusa Cropped Feminina Puma Manga Curta Ess N1 Logo Relaxed: passou do limite de 2500
-- Short Feminino Nike Dri-Fit One Mr 3IN Br: passou do limite de 2500
+- Short Puma Feminino Train Strong 3 Tight: passou do limite de 2500
+- Complemento Farm Macaquinho Logomania Feminino: passou do limite de 2500
 - Macaquinho Farm Floral Leni Feminino: passou do limite de 2500
-- Bermuda Fila Train Elastic Feminina: passou do limite de 2500
 - Bola de Pilates Oxer com Bomba de Enchimento Ginástica 55cm: passou do limite de 2500
 - Whey Protein Dux Concentrado 450g Butter Cookies: passou do limite de 2500
-- Caixa MU Chocowheyfer Chocolate com 12 Unidades: passou do limite de 2500
 - Pré-Treino SuperCoffee Língua de Gato Stick - Chocolate - 10g: passou do limite de 2500
 - Pré-Treino Amora Exquenta 20g: passou do limite de 2500
-- Munhequeira adidas Tennis Adulto: passou do limite de 2500
 - Munhequeira ASICS Racket - Adulto: passou do limite de 2500
-- Calça Jogger Feminina Oxer Malha Premium: passou do limite de 2500
 - Calça Jogger Nike Masculina Futura: passou do limite de 2500
+- Agasalho Nike Sportswear Masculino: passou do limite de 2500
+- Calça Legging Nike Pro Sculpt Feminina: passou do limite de 2500
 - Camiseta Feminina Puma Manga Curta Essentials Small Logo Tee: passou do limite de 2500
 - Bermuda Essential 06 Olympikus Feminina GG Rosa: passou do limite de 2500
-- Chinelo Unissex Nike ReactX Rejuven8 Slide: passou do limite de 2500
-- Chinelo Slide Nike Offcourt Adjust - Adulto: passou do limite de 2500
+- Tênis Vans Brooklyn Ls Feminino: passou do limite de 2500
 - Bola Futevôlei Mikasa Fifa Ft5 Pro: passou do limite de 2500
 - Chuteira Society Mizuno Regent Masculina: passou do limite de 2500
 - Bola Society Finta Megatron Tamanho 68 Profissional: passou do limite de 2500
+- Tênis Leve Confortável Corrida Academia Olympikus Nuvem: passou do limite de 2500
+- Raquete Tênis Head Innegra Ig Challenge Mp 295g Encordoada Vermelho L2: passou do limite de 2500
 - Raqueteira Wilson Clash V3 3X: passou do limite de 2500
+- Luva Academia Musculação Neoprene Protetora Palma Emborrachada Ajustável para Treino Femin: passou do limite de 2500
+- Bola Pilates Suiça Yoga 65cm Ginástica Fisio Bomba Mmhouse Rosa: passou do limite de 2500
+- Corda Pular Profissional Treino Funcional Jump Cross Fitness Cor Verde: passou do limite de 2500
+- Strap Gancho Metalico Luva De Mão Para Musculação Garra Preto: passou do limite de 2500
 - Tapete Yoga Pilates TAPETE YOGA BOLA EXERCICIOS Vermelho/Azul Antiderrapante + Bola 65cm: passou do limite de 2500
-- Caneleira Com Tornozeleira Umbro Protection Ct Branco: passou do limite de 2500
+- Manguito Compressao Termica UV 50 Poliamida Segunda Pele GG Cinza: passou do limite de 2500
 - Munhequeira Head Pequena - Verde Musgo: passou do limite de 2500
 - Bolsa térmica Coleman Bolsa de armazenamento térmico Arcashopping Bolsa térmica conservado: passou do limite de 2500
 - Rolo Massagem Corpo Liberação Miofascial Fisioterapia Mbfit Lilás: passou do limite de 2500
+- Chuteira Society Adulto Nike Zoom Mercurial Vapor 16 Academy: passou do limite de 2500
 - Chuteira Society Mizuno Morelia Classic AS 40 Branco: passou do limite de 2500
-- Chuteira Society Adulto adidas F50 Hyperfast Pro: passou do limite de 2500
-- Chuteira Society Adulto Puma Future 9 Play BDP: passou do limite de 2500
-- Chuteira Society Adulto Umbro Neocomfort: passou do limite de 2500
-- Chuteira Society Adulto Umbro Top Speed League: passou do limite de 2500
+- Chuteira Futsal Adulto Nike Zoom Mercurial Vapor 16 Academy: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Zoom Mercurial Vapor 16 Academy Kylian Mbappé: passou do limite de 2500
+- Chuteira Society Adulto Nike Zoom Vapor 16 Academy Vini Jr: passou do limite de 2500
+- Chuteira Society Adulto Puma Future 9 Play: passou do limite de 2500
 - Chuteira Futsal Adulto Nike Tiempo Streetgato: passou do limite de 2500
+- Chuteira Futsal Adulto Nike Mercurial Zoom Vapor 15 Club: passou do limite de 2500
 - Chuteira Futsal Adulto adidas Predator Essentials 25.5: passou do limite de 2500
 - Chuteira Futsal Adulto adidas Predator Essentials 26.5: passou do limite de 2500
-- Chuteira de Campo Adulto adidas F50 Hyperfast Club: passou do limite de 2500
-- Chuteira de Campo Adulto Puma Neymar Future 9 Ultimate: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Phantom 6 Low Pro: passou do limite de 2500
 - Chuteira de Campo Umbro Invictus Jr - Unissex: passou do limite de 2500
-- Meião Umbro Training 39 a 43 - Adulto: passou do limite de 2500
-- Tênis Nike React Infinity Run FK 4 - Masculino: passou do limite de 2500
-- Tênis Mizuno Cool Ride 3 Masculino: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Phantom 6 Low: passou do limite de 2500
+- Camisa do Avaí I 25/26 Torcedor Volt Feminina: passou do limite de 2500
+- Tênis Masculino Olympikus Clic: passou do limite de 2500
 - Tênis de Corrida Masculino Mizuno Wave Skyrise 5 38 Cinza: passou do limite de 2500
 - Tênis de Corrida Masculino Mizuno Wave Rider 28 39 Amarelo: passou do limite de 2500
 - Tênis Nike Uplift SC Feminino: passou do limite de 2500
 - Tênis de Corrida Mizuno Neo Zen 2 44 Preto: passou do limite de 2500
 - Tênis de Corrida Mizuno Wave Skyway 44 Vermelho: passou do limite de 2500
-- Tênis Unissex Olympikus Turbo: passou do limite de 2500
+- Tênis Olympikus Lance Feminino: passou do limite de 2500
+- Tênis Feminino Hoka Bondi 8: passou do limite de 2500
+- Tênis Feminino Hoka Arahi 7: passou do limite de 2500
+- Tênis Feminino Brooks Adrenaline GTS 24: passou do limite de 2500
 - Tênis Feminino Mizuno Wave Skyway: passou do limite de 2500
+- Tênis Olympikus Corre Max 41 Multicolor: passou do limite de 2500
+- Tênis Olympikus Corre Grafeno 3 39 Azul: passou do limite de 2500
+- Tênis Olympikus Corre 4 Maratona SP 34 Azul: passou do limite de 2500
+- Tênis Olympikus Corre 4 35 Azul: passou do limite de 2500
+- Short Feminino Oxer Duplo Laser Cut com Bermuda Interna: passou do limite de 2500
 - Short ASICS Libélula Feminino: passou do limite de 2500
 - Camiseta Regata Farm Dryfit Tropical Feminina: passou do limite de 2500
-- Short Masculino ASICS 5" 2 Em 1 Mesh Lateral: passou do limite de 2500
+- Calça Legging Feminina Oxer Campeão Print Cós Baixo Baixa Compressão: passou do limite de 2500
+- Camiseta de Corrida Mizuno Run Spark Mescl Masculino P Azul: passou do limite de 2500
+- Meia De Corrida Nike Cano Médio Trail Running Crew - Adulto - 42 a 43.5: passou do limite de 2500
 - Relógio Monitor Cardíaco Garmin GPS Forerunner 970: passou do limite de 2500
-- Pochete de Corrida Unissex Oxer Cinto: passou do limite de 2500
-- Boné Adulto On Lightweight Aba Curva: passou do limite de 2500
-- Squeeze de Alumínio Nord - 750ml: passou do limite de 2500
-- Tênis Asics Gel-Resolution X Padel - Masculino - Tennis: passou do limite de 2500
+- Viseira adidas Climacool Adulto: passou do limite de 2500
+- Calça Legging Essential 2.0 Olympikus Plus Size G1 Preto: passou do limite de 2500
+- Calça Legging Essential 2.0 Olympikus Plus Size G2 Preto: passou do limite de 2500
+- Calça Legging Essential 2.0 Olympikus Plus Size G3 Preto: passou do limite de 2500
+- Calça Legging Feminina adidas 3 listras com bolso: passou do limite de 2500
+- Calça Legging Optime adidas Feminina: passou do limite de 2500
+- Calça Legging Dri-FIT Nike Pro Feminina: passou do limite de 2500
+- Top Fitness com Proteção Solar UV Mizuno Essence - Feminino: passou do limite de 2500
 - Top Fitness Oxer Campeão Slim - Adulto: passou do limite de 2500
-- Blusa Cropped Feminina FitDAnce Cirre: passou do limite de 2500
 - Camiseta Regata adidas Gráfica Mercado de Agricultores Cropped Feminina: passou do limite de 2500
-- Camiseta Regata Vestem Cropped Trace Dry Fit: passou do limite de 2500
-- Short Feminino adidas Pacer 3 Listras: passou do limite de 2500
+- Camiseta Regata Feminina Oxer Textura Print: passou do limite de 2500
+- Short Feminino adidas Treino Básico: passou do limite de 2500
 - Short Saia Feminina Oxer Juju: passou do limite de 2500
-- Short Saia Feminino ASICS: passou do limite de 2500
 - Complemento adidas Conjunto Motion One Feminino: passou do limite de 2500
 - Conjunto Mizuno de Inverno Root - Feminino: passou do limite de 2500
-- Camiseta Masculina Oxer Manga Curta Média Compressão Flat Mescla: passou do limite de 2500
-- Camiseta Regata Masculina adidas Treino Básica: passou do limite de 2500
-- Camiseta Manga longa Mizuno Energy 2.0 Masculina: passou do limite de 2500
-- Camiseta Manga Longa Nike Park VIII Masculina: passou do limite de 2500
-- Camiseta Masculina Nike Manga Longa Dri-Fit Rlgd: passou do limite de 2500
-- Bermuda Masculina Oxer 2 em 1 Breeze: passou do limite de 2500
 - Bermuda Masculina Oxer Training 7" Tecido Plano: passou do limite de 2500
-- Calça de Compressão Masculina ASICS Compressão Standard Refletiva: passou do limite de 2500
+- Blusão do Vasco Nike Treino 2026 com Meio Zíper - Masculino: passou do limite de 2500
 - Jaqueta Masculina Treino Tiro 26 League adidas: passou do limite de 2500
-- Bermuda de Treino Mizuno Energy 7 Masculina EG Azul: passou do limite de 2500
 - Halter Oxer Emborrachado - 3 Kg: passou do limite de 2500
 - Luva de Boxe/Muay Thay Pretorian Elite Adulto: passou do limite de 2500
 - Creatina Guday Maçã Verde 60 Gomas: passou do limite de 2500
 - Tornozeleira Oxer Neoprene Curta 1 Unidade Adulto: passou do limite de 2500
 - Shorts Moletom Oxer Premium Vivos - Feminino: passou do limite de 2500
-- Calça Jogger Dri-FIT Soft 24.7 Nike Feminina: passou do limite de 2500
+- Blusa de Moletom NFL New Era Masculina com Capuz Básico Sazonal: passou do limite de 2500
+- Jaqueta Moletom Canguru Com Fleece ASICS Masculina: passou do limite de 2500
 - Blusa de Moletom Masculina All Szn: passou do limite de 2500
 - Calça de Moletom Puma Essentials Logo Pants - Masculina: passou do limite de 2500
-- Jaqueta Masculina adidas com Capuz 3 Stripes: passou do limite de 2500
-- Blusão Moletom Nike Club Hoodie Masculino: passou do limite de 2500
+- Conjunto de Agasalho Masculino Oxer Replayer: passou do limite de 2500
+- Conjunto de Agasalho Masculino Nike Dri-FIT Academy: passou do limite de 2500
+- Camiseta Comfy Tape Olympikus Masculina P Preto: passou do limite de 2500
+- Short Feminino Mizuno Heritage 2: passou do limite de 2500
 - Tênis Feminino Puma Carina L BDP: passou do limite de 2500
-- Tênis Vans Range Exp - Feminino: passou do limite de 2500
-- Chinelo Rider Chicago Bulls NBA Jam II Slide Adulto + Meia Cano Alto: passou do limite de 2500
-- Chinelo Slide Nike Calm Essential: passou do limite de 2500
-- Boné Adulto Nike Club Swoosh Aba Curva: passou do limite de 2500
-- Minibola de Basquete Spalding: passou do limite de 2500
+- Tênis Puma Caven 2.0 BDP - Masculino: passou do limite de 2500
+- Boné New York Yankees MLB Aba Curva New Era 940 Snapback - Adulto: passou do limite de 2500
+- Tênis de Vôlei Mizuno Thunder Blade Z 39 Azul: passou do limite de 2500
 - Tênis de Vôlei Mizuno Thunder Blade Z 36 Preto: passou do limite de 2500
 - Bolsa Porta Chuteira Convoy Sport Cor Preto: passou do limite de 2500
 - Bolsa Porta Chuteira Esportiva Alça Transversal Treino: passou do limite de 2500
@@ -767,81 +698,90 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Manguito Compressão Lupo Emit Preto Verde Fio Emana Proteção UV: passou do limite de 2500
 - Chinelo Adilette Aqua adidas: passou do limite de 2500
 - Mochila Goodyear Grey Mochila Gy09 Mochila retangular Mochila Mochila: passou do limite de 2500
-- Chuteira Society Adulto Nike Zoom Mercurial Vapor 16 Academy: passou do limite de 2500
+- Chuteira Society Adulto Joma Liga 5: passou do limite de 2500
+- Chuteira de Campo Adulto adidas Predator 24 Club: passou do limite de 2500
 - Chuteira de Campo Mizuno Morelia Neo IV Beta Japan 42 Branco: passou do limite de 2500
-- Chuteira Society Adulto Nike Tiempo Maestro Club T: passou do limite de 2500
 - Chuteira Society Adulto Nike Phantom 6 High Acad: passou do limite de 2500
-- Chuteira Society Adulto adidas F50 Messi Club: passou do limite de 2500
-- Chuteira de Campo Adidas F50 Club Adulto: passou do limite de 2500
+- Chuteira de Society Adulto adidas Predator Essentials: passou do limite de 2500
+- Chuteira Society Adulto Umbro Aero: passou do limite de 2500
+- Chuteira de Futsal Joma Top Flex Rebound Masculina: passou do limite de 2500
 - Chuteira de Campo Adulto Mizuno Morelia Neo IV Japan: passou do limite de 2500
 - Chuteira de Campo Mizuno Morelia Classic MD 44 Preto: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Phantom 6 Low Elite: passou do limite de 2500
+- Chuteira de Campo Nike Phantom 6 High Academy: passou do limite de 2500
 - Kit de Meias do Vasco da Gama Rikam Soquete Tamanho 29 ao 33: passou do limite de 2500
-- Meião Umbro Team Adulto: passou do limite de 2500
 - Luvas de Goleiro Nike GK Match Adulto: passou do limite de 2500
 - Luvas de Goleiro Uhlsport Resist - Adulto: passou do limite de 2500
+- Tênis ASICS Gel-Excite 10 - Feminino: passou do limite de 2500
 - Tênis de Corrida Feminino Mizuno Wave Rider 26 34 Azul: passou do limite de 2500
 - Tênis de Corrida Feminino Mizuno Wave Rider 26 40 Branco: passou do limite de 2500
-- Tênis Nike ZoomX Vaporfly Next% 3 - Feminino: passou do limite de 2500
-- Tênis Masculino Nike Vomero 17: passou do limite de 2500
-- Tênis Masculino ASICS Raiden 4: passou do limite de 2500
-- Tênis ASICS Noosa Tri 16 Feminino: passou do limite de 2500
-- Tênis Olympikus Pride 4 Feminino: passou do limite de 2500
+- Tênis ASICS Magic Speed 3 - Masculino: passou do limite de 2500
+- Tênis Masculino Nike Vomero 18: passou do limite de 2500
+- Tênis adidas Adizero SL - Masculino: passou do limite de 2500
+- Tênis adidas Adizero Takumi Sen 10 Masculino: passou do limite de 2500
+- Tênis Nike Quest 6 Masculino: passou do limite de 2500
+- Tênis adidas Supernova Stride Masculino: passou do limite de 2500
+- Tênis Mizuno Base One Unissex: passou do limite de 2500
+- Tênis Mizuno Goya 2 Unissex: passou do limite de 2500
+- Tênis Feminino Mizuno Neo Vista 2: passou do limite de 2500
+- Tênis Under Armour Charged Wing 2 Masculino: passou do limite de 2500
 - Tênis Feminino Under Armour Charged Wing 2: passou do limite de 2500
 - Tênis Masculino Brooks Hyperion Max 3: passou do limite de 2500
-- Tênis Nike Pegasus Premium Masculino: passou do limite de 2500
-- Tênis Mizuno Wave Rebellion Pro Low: passou do limite de 2500
-- Tênis Olympikus Corre Max 36 Preto: passou do limite de 2500
-- Tênis Masculino On Running Cloudvista 3 M: passou do limite de 2500
+- Tênis ASICS Gel-Kamo Go - Masculino: passou do limite de 2500
+- Tênis ASICS Gel-Quantum 180 FLY - Feminino: passou do limite de 2500
 - Camiseta Feminina Vestem Manga Curta Dry Fit: passou do limite de 2500
-- Jaqueta Corta-Vento Feminina On Running com Capuz Core Jacket: passou do limite de 2500
-- Corta Vento Oxer Run Mesh Feminino: passou do limite de 2500
-- Camiseta de Corrida Masculina Mizuno Pro Uv P Branco: passou do limite de 2500
+- Camiseta Masculina ASICS Manga Longa Leve com Proteção UV: passou do limite de 2500
 - Jaqueta Corta-Vento Essential Olympikus Jaqueta Quebra-Vento Essential Olympikus Masculina: passou do limite de 2500
-- Camiseta Nike DF RUN ENER Masculina: passou do limite de 2500
+- Jaqueta Corta Vento Masculina adidas com Capuz: passou do limite de 2500
+- Meia Para Corrida ASICS Cano Baixo Tech Single Tamanho 34-38 Adulto: passou do limite de 2500
 - Relógio Monitor Cardíaco Coros Pace 2 Silicone Premium Sport com GPS: passou do limite de 2500
-- Tênis Joma Master 1000 - Masculino - Tennis: passou do limite de 2500
+- Tênis Joma Master 1000 - Feminino - Tennis: passou do limite de 2500
 - Corda para Raquete de Tênis Head Synt Gut Power 17 1,25mm - 11,5m: passou do limite de 2500
 - Tênis Feminino Asics Gelchallenger 15 Padel: passou do limite de 2500
-- Calça Legging Feminina adidas 3 Stripes: passou do limite de 2500
-- Top Fitness sem Bojo Oxer Média Sustentação Campeão Print Adulto: passou do limite de 2500
-- Camiseta Regata Feminina Fila Future Sports Flow: passou do limite de 2500
-- Conjunto Inverno Mizuno Root II - Feminino: passou do limite de 2500
+- Calça Legging Feminina Lauf Linha Light: passou do limite de 2500
+- Calça Legging Feminina Nike Dri-Fit Tight: passou do limite de 2500
+- Calça Legging Feminina Nike Dri-fit One HR Tight Useam: passou do limite de 2500
+- Camiseta Regata Cropped Feminina Oxer Telada: passou do limite de 2500
+- Camiseta Cava Tradicional Oxer Manga Curta Cord IV - Feminina: passou do limite de 2500
+- Short Feminino Fila Myler: passou do limite de 2500
+- Short Feminino Nike One Dri-FIT 3IN: passou do limite de 2500
+- Camiseta Regata Masculina Nike Dri-Fit Legend: passou do limite de 2500
 - Camiseta Masculina Puma Manga Curta Performance SS: passou do limite de 2500
 - Camiseta do Real Madrid Balboa Dry Fit Masculina: passou do limite de 2500
 - Camiseta PSG Balboa Dry Fit Masculina: passou do limite de 2500
+- Camiseta Nike Iykyk Fitne Masculina: passou do limite de 2500
 - Camiseta Masculina Mizuno Manga Longa Energy: passou do limite de 2500
 - Bermuda adidas Essentials Shorts 8 Inches Masculina: passou do limite de 2500
-- Top Fitness sem Bojo Puma Média Sustentação 4Keeps Adulto: passou do limite de 2500
+- Bermuda Cós Baixo e Média Compressão Feminina Oxer Aerobic: passou do limite de 2500
+- Tênis Feminino Mizuno Csd Sport: passou do limite de 2500
+- Maiô para Natação com Proteção Solar UV Fila Tri Logo II - Adulto: passou do limite de 2500
 - Macaquinho de Natação ASICS com Forro Adulto: passou do limite de 2500
+- Calça do Corinthians 26/27 Nike Treino Masculina: passou do limite de 2500
 - Bermuda Masculina adidas Treino: passou do limite de 2500
 - Bermuda adidas Três Listras Treinar Masculina: passou do limite de 2500
-- Tênis Feminino Nike Metcon 9 SE: passou do limite de 2500
-- Tênis Puma Carina BDP - Feminino: passou do limite de 2500
-- Tênis Under Armour Tribase Cross 2 Masculino: passou do limite de 2500
-- Coqueteleira Oxer Multshaker - 450ml: passou do limite de 2500
+- Garrafa Térmica Stanley Aerolight Transit 591ml: passou do limite de 2500
 - Luvas para Academia Oxer Protetor Palmar - Adulto: passou do limite de 2500
-- Munhequeira Nike Swoosh Double Wristband Unissex Ac2287-100: passou do limite de 2500
 - Cotoveleira Mormaii Sport Com Reforço Neo com 1 Unidade - Adulto: passou do limite de 2500
 - Moletom Cropped Olympikus Feminino G Azul: passou do limite de 2500
+- Blusa de Moletom Feminina Oxer Careca Bolso Externo Selado: passou do limite de 2500
+- Jaqueta Moletom ASICS Canguru Com Fleece Feminino: passou do limite de 2500
 - Blusão Moletom ASICS Canguru Com Fleece Feminino: passou do limite de 2500
+- Calça Jogger Mizuno Feminina: passou do limite de 2500
+- Blusão Fila White F-Box - Feminino: passou do limite de 2500
+- Bermuda Masculina Oxer Moletom Recorte: passou do limite de 2500
 - Calça Moletom ASICS Com Fleece Masculina: passou do limite de 2500
 - Calça Jogger Masculina Nike Club Knit: passou do limite de 2500
 - Calça Jogger Nike Challenger Masculina: passou do limite de 2500
-- Conjunto de Agasalho Masculino ASICS Interlock Bolso Fusionado: passou do limite de 2500
-- Calça Legging Feminina adidas Latin Fit Color: passou do limite de 2500
-- Camiseta Masculina adidas Manga Curta Logo Linear: passou do limite de 2500
-- Camiseta Regata Feminina Under Armour Iso Chill: passou do limite de 2500
-- Bermuda Mesh Basic Olympikus Masculina M Preto: passou do limite de 2500
-- Camiseta Manga Curta Essential Olympikus Feminina P Azul: passou do limite de 2500
-- Jaqueta adidas Windweave Terrex Multi CLIMA365 - Masculina: passou do limite de 2500
-- Blusão de Moletom Nike Sportswear Club Crew FT - Masculino: passou do limite de 2500
-- Tênis Masculino Nike Court Vision Low Next Nature: passou do limite de 2500
+- Tênis New Balance WL501 - Feminino: passou do limite de 2500
+- Tênis adidas Grand Court Base 2.0 - Feminino: passou do limite de 2500
+- Tênis Fila Original Fitness Bold Feminino: passou do limite de 2500
 - Tênis adidas Grand Court Base 2.0 - Masculino: passou do limite de 2500
 - Tênis de Corrida Feminino Mizuno Wave Inspire 21 40 Branco: passou do limite de 2500
+- Tênis Puma Smash V2 BDP - Unissex: passou do limite de 2500
+- Tênis New Balance Fresh Foam X Hierro V7 - Feminino: passou do limite de 2500
+- Tênis Converse Chuck Taylor All Star - Adulto: passou do limite de 2500
+- Chinelo Slide Rider Pump II: passou do limite de 2500
 - Chinelo adidas Adissage - Slide - Masculino: passou do limite de 2500
 - Chinelo Masculino adidas Lightblaze: passou do limite de 2500
-- Minibola de Basquete Spalding Real Madrid: passou do limite de 2500
 - Tênis Nike G.T Hustle Academy Masculino: passou do limite de 2500
 - Porta Caneleira Futebol Palmeiras Tamanho G: passou do limite de 2500
 - Bath & Body Works GINGHAM Body splash Body splash para feminino: passou do limite de 2500
@@ -850,686 +790,836 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Anilha 4Kgs Para Treino Musculação Academia Fitness Pesos Exercícios Ferduor Esporte Físic: passou do limite de 2500
 - Anilha 4Kgs Para Exercícios Musculação Academia Treino Pesos Fitness Ferduor Esporte Físic: passou do limite de 2500
 - Anilha 20Kg Sport Peso Musculação Academia Treino Fitness Exercícios Ferduor Físicos Espor: passou do limite de 2500
+- Roda Abdominal Dupla T145 - Acte: passou do limite de 2500
+- Moulon kit roda abdominal larga 100kg preto: passou do limite de 2500
 - Touca Natação Unissex Hidroginástica Cobre Orelha Poliamida Preto Único: passou do limite de 2500
 - Dux Whey Protein 900gr Baunilha: passou do limite de 2500
 - Bolsa Térmica Gel Sanity Cantinhodaschicas 300ml Quente Fria Reutilizável: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Tiempo Maestro Elite: passou do limite de 2500
-- Chuteira de Campo Adulto Puma Ultra Nitro 7 Match: passou do limite de 2500
-- Chuteira Futsal Adulto Nike Mercurial Vapor 16 Club: passou do limite de 2500
-- Bola De Futsal Penalty S11 R2 XXV: passou do limite de 2500
-- Tênis Nike Air Max Excee Masculino: passou do limite de 2500
-- Tênis Mizuno Enigma 2 Masculino: passou do limite de 2500
-- Tênis ASICS Magic Speed 4 Feminino: passou do limite de 2500
+- Chuteira Futsal Adulto adidas Deportivo III: passou do limite de 2500
+- Chuteira Society Adulto Nike Phantom 6 Club: passou do limite de 2500
+- Chuteira de Society Adulto Umbro Class Footballer: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Mercurial Superfly 10 Club: passou do limite de 2500
+- Short Feminino adidas Tiro: passou do limite de 2500
+- Tênis Olympikus Essential 3 Feminino: passou do limite de 2500
+- Tênis Puma ForeverRun NITRO™ 2 Feminino: passou do limite de 2500
 - Tênis Mizuno Wave Prophecy 14 44 Preto: passou do limite de 2500
-- Tênis Mizuno Wave Prophecy 14 44 Azul: passou do limite de 2500
+- Camiseta Regata Feminina Vestem Dry Fit Ariel: passou do limite de 2500
 - Shorts Nike Dri-Fit Victory 9IN Masculino: passou do limite de 2500
 - Jaqueta Corta Vento Nike Windrunner Masculina: passou do limite de 2500
-- Jaqueta Corta Vento do Flamengo 2026 adidas TT Masculina: passou do limite de 2500
 - Regata de Corrida Masculina Mizuno Nirvana G Amarelo: passou do limite de 2500
-- Meia Para Corrida Rally Crew 5k Cano Alto Tamanho 34-38 ASICS Adulto: passou do limite de 2500
+- Pochete Puma PR Classic Runnning Adulto: passou do limite de 2500
 - Bola Wilson Garros All Court (Tb3): passou do limite de 2500
 - Raquete de Beach Tênis adidas Metalbone Team: passou do limite de 2500
 - Calça Legging Nike NK DF One HR Feminina: passou do limite de 2500
-- Top Fitness com Bojo Removível Oxer Baixa Sustentação Nadador Sem Costura Adulto: passou do limite de 2500
-- Top Fitness com Bojo Removível Oxer Alta Sustentação Adulto: passou do limite de 2500
-- Camiseta Feminina Nike Pro SS Tee: passou do limite de 2500
+- Top Fitness com Bojo Removível Mizuno Média Sustentação Compress Fit - Adulto: passou do limite de 2500
+- Camiseta ASICS Manga Curta Basic Logo Feminina: passou do limite de 2500
+- Bermuda Puma Train Strong 3 Feminino: passou do limite de 2500
+- Camiseta Regata Masculina adidas Treino Básica: passou do limite de 2500
 - Camiseta Regata Oxer Cavada - Masculina: passou do limite de 2500
-- Bermuda Masculina Nike 9 Polegadas Totality Knit: passou do limite de 2500
 - Jaqueta Corta-Vento Feminina On Running com Capuz Weather Jacket: passou do limite de 2500
-- Bermuda Nike LFC Sportswear Heritage JG - Feminina: passou do limite de 2500
-- Bermuda Baixa Compressão Feminino ASICS Cós Baixo: passou do limite de 2500
-- Jaqueta Puffer com Capuz Térmica Stopper - Masculina: passou do limite de 2500
 - Blusão Puma Palmeiras Treino 26 - Masculina: passou do limite de 2500
 - Bermuda de Treino 7 Olympikus Masculina GG Azul: passou do limite de 2500
-- Mochila Fila Basic Letter 18 Litros: passou do limite de 2500
-- Kit 3 Pares de Meias Atoalhadas Cano Médio Tamanho 34 - 38 Casual Oxer Adulto: passou do limite de 2500
-- Kit 3 Pares de Meias Atoalhadas Cano Médio Tamanho 39-44 Casual Oxer Adulto: passou do limite de 2500
-- Jaqueta Feminina Oxer com Capuz Recortada Packable Refletivo: passou do limite de 2500
-- Camiseta Regata Masculina Nike Dri-fit Starting 5: passou do limite de 2500
+- Touca de Natação Speedo Xtrafit - Adulto: passou do limite de 2500
 - Camiseta Olympikus Manga Curta Corre - Masculina: passou do limite de 2500
+- Tênis adidas Grand Court 2.0 - Masculino: passou do limite de 2500
+- Tênis Unissex Converse All Star Chuck Taylor Malden: passou do limite de 2500
+- Boné Aba Curva Jordan Nike Club Cap US Strapback Adulto: passou do limite de 2500
+- Tênis Under Armour Bankshot SE Masculino: passou do limite de 2500
 - Tênis de Vôlei Mizuno Momentum Elite 41 Branco: passou do limite de 2500
-- Tênis de Vôlei Mizuno Thunder Blade Z 42 Azul: passou do limite de 2500
 - Bola Futebol Copa Do Mundo Brincadeira Preto: passou do limite de 2500
 - Meião Futebol Adulto Selene Vermelho Tamanho 39 A 43: passou do limite de 2500
 - Relogio Garmin Forerunner 965 Amoled 47mm Caixa Preto: passou do limite de 2500
-- Viseira Feminina Esportiva Praia Corrida Proteção Solar Rosa-chiclete Un Canelado: passou do limite de 2500
 - Kit 3 Conjunto Fitness Virginia Croped Short Academia Treino Pink/moucha/preto: passou do limite de 2500
 - Tênis Feminino Adrena Olympikus Liso: passou do limite de 2500
 - Agasalho Masculino Umbro 1107394 Training Line Cor Cinza Tamanho GG: passou do limite de 2500
 - Anilha 5Kg Injetada Musculação Academia Treino Peso Anilha Halter Fitness Exercícios Ferdu: passou do limite de 2500
 - Elástico Extensor de Tensão para Treino com Alças Verde: passou do limite de 2500
 - Chuteira Society Adulto Puma Neymar Jr Future Match: passou do limite de 2500
-- Chuteira Society Adulto adidas Predator 24 Club: passou do limite de 2500
 - Chuteira Society Adulto Nike Phantom GX II Club: passou do limite de 2500
-- Chuteira Society Adulto New Balance Tekela Magique TF V4: passou do limite de 2500
-- Chuteira Society Adulto Nike Phantom GX II Academy Erling Haaland Force9: passou do limite de 2500
-- Chuteira Society Adulto Nike Mercurial Superfly 10 Club Mds: passou do limite de 2500
 - Chuteira Society Adulto adidas Copa Pure 3 Club: passou do limite de 2500
-- Chuteira Society Adulto Umbro Fifty VI League: passou do limite de 2500
 - Chuteira Society Mizuno Regent AS 38 Vermelho: passou do limite de 2500
-- Chuteira Futsal Adulto Nike Mercurial Zoom Vapor 15 Club: passou do limite de 2500
-- Chuteira Futsal Adulto Nike Phantom GX II Club: passou do limite de 2500
-- Chuteira Futsal Nike Tiempo 10 Club - Adulto: passou do limite de 2500
-- Chuteira Futsal Adulto Puma Future 8 Play: passou do limite de 2500
 - Chuteira Futsal Joma Maxima - Adulto: passou do limite de 2500
-- Chuteira Futsal Adulto Umbro Pro 5 Bump: passou do limite de 2500
-- Chuteira Futsal Adulto Joma Propulsion: passou do limite de 2500
 - Chuteira Futsal Mizuno Regent IN: passou do limite de 2500
 - Chuteira de Campo Adulto adidas Predator Essentials 24.5 Artilheira: passou do limite de 2500
-- Chuteira de Campo Adulto Puma Attacanto: passou do limite de 2500
-- Chuteira de Campo Adulto Umbro Class Footballer: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Zoom Mercurial Vapor 16 Academy Kylian Mbappé: passou do limite de 2500
-- Chuteira de Campo Nike Vapor 16 Club - Adulto: passou do limite de 2500
 - Chuteira de Campo Adulto Puma Ultra 5 Play: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Phantom 6 Academy: passou do limite de 2500
 - Chuteira Society Adulto Nike Tiempo Maestro Academy: passou do limite de 2500
-- Chuteira Society Adulto Nike Tiempo Maestro Club: passou do limite de 2500
-- Chuteira Society Adulto adidas Predator 25 Essentials: passou do limite de 2500
 - Chuteira Society Adulto adidas Predator Club TF: passou do limite de 2500
 - Chuteira Society Adulto adidas Predator Pro: passou do limite de 2500
-- Chuteira Society Adulto adidas F50 Hyperfast Club: passou do limite de 2500
-- Chuteira Society Adulto Puma Neymar Ultra 6 Match: passou do limite de 2500
 - Chuteira Society Adulto Puma Ultra 6 Play: passou do limite de 2500
 - Chuteira Society Adulto Umbro Fast II: passou do limite de 2500
-- Chuteira Society Adulto Umbro Adamant Master Class Pro Bump Kintsugi: passou do limite de 2500
-- Chuteira Society Adulto Umbro Techno II: passou do limite de 2500
-- Chuteira Society Adulto Mizuno Morelia Club AS: passou do limite de 2500
 - Chuteira Society Adulto Mizuno Alpha II Select AS: passou do limite de 2500
 - Chuteira Society Mizuno Morelia Classic AS 42 Preto: passou do limite de 2500
-- Chuteira Futsal Adulto Nike Zoom Mercurial Vapor 16 Academy: passou do limite de 2500
 - Chuteira Futsal Adulto Umbro Skill: passou do limite de 2500
-- Chuteira Futsal Adulto Joma Maxima: passou do limite de 2500
-- Chuteira de Futsal Joma Top Flex Rebound Masculina: passou do limite de 2500
 - Chuteira de Campo Adulto Nike Mercurial Superfly 10 Elite Kylian Mbappé: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Vapor 16 Elite: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Tiempo Maestro Elite LV8: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Superfly 11 Academy: passou do limite de 2500
 - Chuteira de Campo Adulto Nike Mercurial Superfly 11 Club: passou do limite de 2500
-- Chuteira de Campo Adulto adidas Predator Club: passou do limite de 2500
 - Chuteira de Campo Adulto adidas F50 Pro: passou do limite de 2500
-- Chuteira de Campo Adulto adidas F50 League: passou do limite de 2500
-- Chuteira de Campo Adulto adidas Predator League: passou do limite de 2500
 - Chuteira de Campo Adulto adidas Deportivo III: passou do limite de 2500
 - Chuteira de Campo Adulto adidas Predator Elite: passou do limite de 2500
-- Chuteira de Campo Adulto Puma Future 8 Play: passou do limite de 2500
-- Chuteira de Campo Adulto PUMA Ultra 6 Play: passou do limite de 2500
 - Chuteira de Campo Adulto Puma Neymar Ultra 6 Ultimate: passou do limite de 2500
-- Chuteira de Campo Adulto Puma Neymar Ultra 6 Match: passou do limite de 2500
-- Chuteira de Campo Adulto Puma Ultra Nitro 7 Match LL: passou do limite de 2500
-- Chuteira de Campo Adulto Mizuno Regent MD: passou do limite de 2500
-- Chuteira de Campo Adulto Umbro Mutant: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Mercurial Superfly 10 Club: passou do limite de 2500
-- Chuteira de Campo Nike Phantom 6 High Academy: passou do limite de 2500
-- Chuteira de Campo Adulto Nike Phantom 6 Low: passou do limite de 2500
 - Chuteira Society Adulto adidas Predator League: passou do limite de 2500
-- Bola de Futebol de Campo Puma Big Cat 4: passou do limite de 2500
-- Bola de Futebol de Campo Umbro Scorpion Recreational: passou do limite de 2500
 - Bola de Futsal Uhlsport Aerotrack: passou do limite de 2500
-- Bola de Futebol de Campo Umbro Formation: passou do limite de 2500
-- Bola De Futsal Penalty Líder XXV: passou do limite de 2500
-- Bola de Futebol Sportcom Corinthians Estádios 24: passou do limite de 2500
-- Bola de Futebol Nike Pitch: passou do limite de 2500
-- Bola de Futebol Americano Wilson NFL Team Tailgate JR Kansas Chiefs: passou do limite de 2500
 - Camiseta New Era NFL Manga Curta Basic Time - Masculina: passou do limite de 2500
-- Camiseta do Corinthians Masculina Nike Manga Curta Swoosh Tee: passou do limite de 2500
 - Camiseta da Seleção do Brasil CBD Retrô 70 Masculina: passou do limite de 2500
-- Camisa do Internacional I 24 adidas Masculina Torcedor: passou do limite de 2500
-- Camisa do Palmeiras III 24 Puma Masculina Torcedor: passou do limite de 2500
 - Camiseta do Flamengo Zico nº 10 Braziline - Masculina: passou do limite de 2500
-- Camiseta do São Paulo New Balance Masculina 24: passou do limite de 2500
-- Camiseta do Cruzeiro Braziline Masculina Honra: passou do limite de 2500
-- Camiseta do Internacional Feminina Colorado: passou do limite de 2500
 - Camisa do Cruzeiro I 25/26 Torcedor adidas Feminina: passou do limite de 2500
 - Camiseta do Corinthians Coimbra Feminina Democracia: passou do limite de 2500
-- Camisa do Corinthians Coimbra Fitness Feminina: passou do limite de 2500
-- Camisa do Cruzeiro II 25/26 Torcedor adidas Feminina: passou do limite de 2500
-- Camisa do Cruzeiro 25/ 26 Fanshirt adidas Feminina: passou do limite de 2500
-- Camiseta do Flamengo Braziline Principia Feminina: passou do limite de 2500
-- Camisa do Fluminense I 25 Umbro Feminina Torcedora: passou do limite de 2500
-- Camisa Seleção da Alemanha I 26/27 Torcedora adidas Feminina: passou do limite de 2500
-- Calção do Barcelona - Masculino: passou do limite de 2500
-- Calção Masculino Adams Liso: passou do limite de 2500
-- Calça Jogger do Barcelona Masculina Fute Pro: passou do limite de 2500
-- Calção do Flamengo Braziline Masculino Wander: passou do limite de 2500
-- Calção do Fluminense Braziline Masculino Wander: passou do limite de 2500
-- Calção do Grêmio Masculino Basic: passou do limite de 2500
-- Calção Seleção do Brasil CBF Dry Masculino: passou do limite de 2500
-- Meião Nike Classic II Cushioned Kneed High OTC Team - Adulto: passou do limite de 2500
 - Meia do Corinthians Rikam Esporte Adulto: passou do limite de 2500
-- Meia do São Paulo Rikam Esporte Adulto: passou do limite de 2500
-- Meia Cano Alto do Corinthians Rikam Tamanho 38-43 Adulto: passou do limite de 2500
 - Meia Cano Alto do Palmeiras Rikam Tamanho 38-43 Adulto: passou do limite de 2500
 - Meião do Palmeiras Rikam Esporte 34 - 37: passou do limite de 2500
 - Caneleira de Futebol Puma Ventilation Shinguards - Adulto: passou do limite de 2500
-- Luvas de Goleiro Penalty Delta 1 XXIII: passou do limite de 2500
 - Tênis Puma Flyer Flex Bdp - Feminino: passou do limite de 2500
-- Tênis Nike Revolution 7 Feminino: passou do limite de 2500
 - Tênis New Balance Fresh Foam X More V4 - Feminino: passou do limite de 2500
 - Tênis Feminino Olympikus 130G Ultraleve: passou do limite de 2500
-- Tênis Fila KR6 - Feminino: passou do limite de 2500
-- Tênis Nike Quest 5 - Feminino: passou do limite de 2500
-- Tênis adidas Duramo Rc - Feminino: passou do limite de 2500
 - Tênis Mizuno Space 4 Feminino: passou do limite de 2500
 - Tênis adidas Supernova 2 X Parley - Masculino: passou do limite de 2500
 - Tênis Nike Interact Run - Masculino: passou do limite de 2500
-- Tênis Nike Air Winflo 12 - Masculino: passou do limite de 2500
-- Tênis Nike Quest 5 - Masculino: passou do limite de 2500
-- Tênis Nike Downshifter 13 - Masculino: passou do limite de 2500
-- Tênis ASICS Gel-Pacemaker-4 - Masculino: passou do limite de 2500
-- Tênis Nike Revolution 7 Masculino: passou do limite de 2500
 - Tênis Olympikus Mescla Masculino: passou do limite de 2500
-- Tênis Nike Air Winflo 12 - Feminino: passou do limite de 2500
-- Tênis Nike Air Zoom Vomero 16 - Feminino: passou do limite de 2500
 - Tênis Nike Air Zoom Pegasus 41 Feminino: passou do limite de 2500
 - Tênis Nike Pegasus Plus - Feminino: passou do limite de 2500
-- Tênis Nike Zoomx Streakfly - Masculino: passou do limite de 2500
-- Tênis Nike Quest 6 Feminino: passou do limite de 2500
-- Tênis Nike Downshifter 13 - Feminino: passou do limite de 2500
-- Tênis Nike Journey Run Feminino: passou do limite de 2500
-- Tênis adidas Runfalcon 3.0 - Feminino: passou do limite de 2500
 - Tênis adidas Adizero Sl Feminino: passou do limite de 2500
-- Tênis adidas Adizero Adios Pro 3 - Feminino: passou do limite de 2500
 - Tênis adidas Duramo SL Masculino: passou do limite de 2500
-- Tênis adidas Adizero Takumi Sen 10 Masculino: passou do limite de 2500
-- Tênis adidas Runfalcon 5 Masculino: passou do limite de 2500
-- Tênis Masculino adidas Adizero Drive RC: passou do limite de 2500
-- Tênis ASICS Magic Speed 3 - Feminino: passou do limite de 2500
-- Tênis ASICS Gel-Nimbus 26 Feminino: passou do limite de 2500
-- Tênis ASICS Raiden 4 Feminino: passou do limite de 2500
-- Tênis ASICS Dynablast 5 Feminino: passou do limite de 2500
-- Tênis ASICS Gel-Excite 10 - Feminino: passou do limite de 2500
-- Tênis ASICS Magic Speed 4 Masculino: passou do limite de 2500
-- Tênis Mizuno Wave Creation 25 SE Feminino: passou do limite de 2500
 - Tênis Mizuno Wave Creation 25 Feminino: passou do limite de 2500
-- Tênis Mizuno Goya 2 Unissex: passou do limite de 2500
-- Tênis Mizuno Neo Zen Feminino: passou do limite de 2500
 - Tênis de Corrida Mizuno Wave Rider 30 Disclosure 42 Branco: passou do limite de 2500
 - Tênis Olympikus Corre Supra Unissex: passou do limite de 2500
-- Tênis Olympikus Intuit Feminino: passou do limite de 2500
-- Tênis Olympikus Adrena - Feminino: passou do limite de 2500
-- Tênis Olympikus Subverse Feminino: passou do limite de 2500
-- Tênis Olympikus Reverso 2 - Masculino: passou do limite de 2500
 - Tênis Olympikus Subverse Masculino: passou do limite de 2500
-- Tênis Fila Racer Carbon 2 - Masculino: passou do limite de 2500
-- Tênis Fila Improve Masculino: passou do limite de 2500
 - Tênis Fila Go Trainer Feminino: passou do limite de 2500
 - Tênis Fila Venture Tracer 2 Masculino: passou do limite de 2500
-- Tênis Fila Kr6 Frame Masculino: passou do limite de 2500
-- Tênis Fila Racer Speedzone Masculino: passou do limite de 2500
-- Tênis Fila Float Maxxi 2 Masculino: passou do limite de 2500
-- Tênis Fila Racer T2 Xtreme Feminino: passou do limite de 2500
-- Tênis Fila Maxximus Masculino: passou do limite de 2500
-- Tênis Feminino Fila Racer Speedzone: passou do limite de 2500
-- Tênis New Balance 411v3 Feminino: passou do limite de 2500
 - Tênis New Balance Fresh Foam 680V8 Feminino: passou do limite de 2500
-- Tênis Feminino New Balance Fresh Foam ARISHIV4: passou do limite de 2500
-- Tênis New Balance 370v1 Unissex: passou do limite de 2500
-- Tênis Masculino New Balance Fresh Foam Arishiv4: passou do limite de 2500
-- Tênis New Balance Fuelcell Rebel V4 Masculino: passou do limite de 2500
-- Tênis Feminino New Balance Fuelcell Supercomp Trainer V3: passou do limite de 2500
-- Tênis Under Armour Charged Wing 2 Masculino: passou do limite de 2500
-- Tênis Masculino Under Armour Charged Starlight 3 SE: passou do limite de 2500
 - Tênis Feminino Under Armour Charged Slight 3 SE: passou do limite de 2500
-- Tênis Under Armour Charged Quicker 2 Masculino: passou do limite de 2500
 - Tenis Under Armour Velociti SPD - Masculino: passou do limite de 2500
 - Tênis Puma Flyer Runner Mesh BDp - Júnior: passou do limite de 2500
 - Tênis Puma Skyrocket Lite - Feminino: passou do limite de 2500
-- Tênis Puma Pounce Lite Feminino: passou do limite de 2500
-- Tênis Puma Skyrocket Lite Masculino: passou do limite de 2500
-- Tênis Puma Flyer Lite 3 - Masculino: passou do limite de 2500
-- Tênis Puma Pounce Lite Masculino: passou do limite de 2500
-- Tênis de Corrida Puma Skyrocket Lite - Unissex: passou do limite de 2500
-- Tênis Masculino Puma X-Ray 3 BDP: passou do limite de 2500
-- Tênis Masculino Hoka Mach 6: passou do limite de 2500
 - Tênis Masculino Hoka Arahi 7: passou do limite de 2500
-- Tênis Masculino Hoka Rincon 4: passou do limite de 2500
-- Tênis Hoka Evo Xc Spikeless - Feminino: passou do limite de 2500
-- Tênis Masculino Hoka Clifton 10: passou do limite de 2500
-- Tênis Masculino Hoka Cielo X1 2.0: passou do limite de 2500
-- Tênis Masculino Hoka Bondi 9: passou do limite de 2500
-- Tênis Masculino Brooks Hyperion 2: passou do limite de 2500
-- Tênis Feminino Brooks Glycerin 22: passou do limite de 2500
-- Tênis Masculino Brooks Adrenaline GTS 24: passou do limite de 2500
-- Tênis Feminino Brooks Glycerin Max: passou do limite de 2500
-- Tênis Masculino Brooks Glycerin Max 2: passou do limite de 2500
-- Tenis Brooks Hyperion Max 2 Masc: passou do limite de 2500
-- Tênis Masculino Nike Air Zoom Pegasus 42: passou do limite de 2500
-- Tênis Nike Pegasus Plus - Masculino: passou do limite de 2500
-- Tênis Masculino Nike Air Zoom Pegasus 41: passou do limite de 2500
-- Tênis Masculino Nike Pegasus Premium: passou do limite de 2500
-- Tênis Nike Pegasus Premium Feminino: passou do limite de 2500
-- Tênis ASICS Gel-Takumi - Masculino: passou do limite de 2500
-- Tênis ASICS Gel-Resolution 9 - Masculino - Tennis: passou do limite de 2500
-- Tênis ASICS Gel-Quantum 180 FLY - Feminino: passou do limite de 2500
 - Tênis ASICS Gel-Takumi Brilliant - Feminino: passou do limite de 2500
-- Tênis ASICS Gel-Cumulus 27 Masculino: passou do limite de 2500
-- Tênis ASICS Gel-Nagoya ST Masculino: passou do limite de 2500
-- Tênis ASICS Gel-Cumulus 27 Feminino: passou do limite de 2500
-- Tênis ASICS GEL-Trabuco 13 Masculino: passou do limite de 2500
-- Tênis Asics Gel-Resolution X - Masculino - Tennis: passou do limite de 2500
-- Tênis ASICS GEL-Resolution X Clay - Feminino - Tennis: passou do limite de 2500
-- Tênis Mizuno Wave Zest 2 Masculino: passou do limite de 2500
-- Tênis Mizuno Wave Prophecy 14 S Masculino: passou do limite de 2500
 - Tênis Unissex Mizuno Wave Prophecy 15: passou do limite de 2500
-- Tênis Unissex Mizuno Wave Prophecy 1: passou do limite de 2500
 - Tênis Mizuno Wave Prophecy LS Masculino: passou do limite de 2500
-- Tênis Unissex Olympikus Corre Supra 2: passou do limite de 2500
-- Tênis Unissex Olympikus Corre Max: passou do limite de 2500
-- Tênis Masculino Olympikus Corre Grafeno 3: passou do limite de 2500
-- Tênis adidas Ultraboost 5 Feminino: passou do limite de 2500
-- Tênis Feminino adidas Ultraboost 5x: passou do limite de 2500
-- Tênis adidas Ultraboost 5 Masculino: passou do limite de 2500
-- Tênis Masculino adidas Ultraboost Strung 5: passou do limite de 2500
-- Tênis Masculino adidas Ultraboost 5x: passou do limite de 2500
 - Tênis Feminino adidas Duramo SL 2: passou do limite de 2500
-- Tênis Nike Zoom Fly 6 Feminino: passou do limite de 2500
 - Tênis Mizuno Cool Ride 3 Feminino: passou do limite de 2500
 - Tênis adidas Adizero Boston 12 - Feminino: passou do limite de 2500
-- Tênis On Running Cloud 6 Feminino: passou do limite de 2500
-- Tênis Mizuno Virtue Feminino: passou do limite de 2500
-- Tênis Feminino Nike Run Defy: passou do limite de 2500
-- Tênis On Running Cloudflow 4 - Masculino: passou do limite de 2500
-- Tênis Nike Air Zoom Rival Fly 4 Masculino: passou do limite de 2500
-- Tênis Nike Zoom Fly 6 CM Masculino: passou do limite de 2500
 - Tênis Masculino adidas Terrex Agravic Speed Ultra Trail Running: passou do limite de 2500
 - Tênis Feminino On Running Cloudvista 3 W: passou do limite de 2500
-- Short com Bolso Selado e Refletivo Feminino Oxer Duplo: passou do limite de 2500
-- Short New Balance Sport Essentials Run 3 Feminino: passou do limite de 2500
-- Short Feminino Adizero Essentials: passou do limite de 2500
-- Short On 3" Performance 2/1 Feminino: passou do limite de 2500
-- Short Nike Dri-FIT Swift Feminino: passou do limite de 2500
-- Camiseta Regata Feminina Vestem Sarah Dry Fit: passou do limite de 2500
 - Camiseta Regata Feminina Vestem Raissa Dry Fit: passou do limite de 2500
 - Camiseta Regata Feminina Vestem Munique Dry Fit: passou do limite de 2500
-- Camiseta Regata Farm DryFit Aurora Floral Feminina: passou do limite de 2500
 - Camiseta Regata Feminina Vestem Dry Pandora: passou do limite de 2500
-- Camiseta Farm Banana Flora Dry Fit Feminina: passou do limite de 2500
 - Camiseta Vestem Dry Fit Winner Feminina: passou do limite de 2500
 - Jaqueta Feminina Corta-Vento Sport Essentials New Balance: passou do limite de 2500
-- Jaqueta Corta-Vento Feminina ASICS Repelente à Água com Capuz Toyama: passou do limite de 2500
-- Calça Legging Feminina Oxer New Zig Média Compressão Cós Alto: passou do limite de 2500
-- Calça Legging Feminina Oxer Campeão Slim Média Compressão Cós Baixa: passou do limite de 2500
-- Calça Legging Feminina Oxer Cós Médio Respirabilidade Alta Compressão: passou do limite de 2500
 - Calça Legging Feminina Oxer Campeão Slim Cós Baixo Média Compressão: passou do limite de 2500
 - Calça Legging Feminina Oxer Capri Campeão Slim Cós Baixo Média Compressão: passou do limite de 2500
-- Short Masculino adidas Adizero Essentials: passou do limite de 2500
 - Bermuda Masculina Mizuno High 2 M 5: passou do limite de 2500
 - Shorts Nike Stride - Masculino: passou do limite de 2500
 - Bermuda Compressão Corrida adi365 Iconic Masculina: passou do limite de 2500
-- Bermuda Asics 5 Est Fog Masculina: passou do limite de 2500
-- Shorts de Corrida Mizuno Running 5 Masculino: passou do limite de 2500
-- Calção Masculino adidas Logo Pequeno: passou do limite de 2500
 - Calção do Cruzeiro II 25/26 Uniforme adidas Masculino: passou do limite de 2500
-- Camiseta ASICS Manga Longa Refletivo Yokohama - Masculina: passou do limite de 2500
-- Camiseta Masculina ASICS Manga Curta Respirável de Secagem Rápida Refletiva Mescla: passou do limite de 2500
-- Camiseta Under Armour Tech 2.0 - Masculina: passou do limite de 2500
-- Camiseta Masculina adidas Manga Curta Run It: passou do limite de 2500
 - Camiseta Nike Manga Curta Dri-Fit Rise 365 RU - Masculina: passou do limite de 2500
-- Camiseta Masculina Nike Manga Curta com Proteção UV Miler: passou do limite de 2500
-- Camiseta ASICS Manga Curta Fugi - Masculina: passou do limite de 2500
-- Camiseta Regata Masculina adidas Own The Run Base: passou do limite de 2500
-- Camiseta Masculina Oxer Manga Curta Crepe Estampada: passou do limite de 2500
-- Camiseta Masculina Nike Manga Longa Dri-Fit Miler Top: passou do limite de 2500
-- Jaqueta Corta-Vento Masculina Oxer com Capuz Packable Tecido Plano Corrida: passou do limite de 2500
-- Jaqueta Corta Vento da Seleção do Brasil CBF 26/27 Masculina: passou do limite de 2500
-- Jaqueta Corta-Vento de Ciclismo Refactor - Masculina: passou do limite de 2500
-- Camiseta Regata Masculina Nike Dri-Fit Miler: passou do limite de 2500
 - Camiseta Regata Masculina adidas Own The Run 3 Listras: passou do limite de 2500
 - Camiseta Nike Dri-FIT ADV Stride Masculina: passou do limite de 2500
 - Kit Meia Cano Médio Nike Multiplier Corrida 2 Pares Adulto: passou do limite de 2500
-- Meia Para Corrida Rally Crew 21k Cano Alto Tamanho 34-38 ASICS Adulto: passou do limite de 2500
-- Meia Para Corrida Rally Crew 10k Cano Alto Tamanho 34-38 ASICS Adulto: passou do limite de 2500
-- Meia De Corrida adidas Adizero Cano Médio Adulto 1 Par: passou do limite de 2500
-- Meia Para Corrida Rally Crew 5k Cano Alto Tamanho 39-44 ASICS Adulto: passou do limite de 2500
 - Relógio de corrida com GPS Polar Pacer: passou do limite de 2500
 - Relógio Monitor Cardíaco Garmin Forerunner 570 com GPS: passou do limite de 2500
 - Smartwatch Polar Vantage M3 Esportivo com GPS: passou do limite de 2500
-- Braçadeira Porta-Celular Oxer H61: passou do limite de 2500
 - Viseira adidas Corrida Adulto: passou do limite de 2500
 - Viseira adidas Maratona do Rio: passou do limite de 2500
-- Boné ASICS Aba Reta Strapback Run Cap - Adulto: passou do limite de 2500
-- Boné ASICS Aba Curva Lic Performance Strapback - Adulto: passou do limite de 2500
 - Boné Unissex Puma Running III Aba Curva: passou do limite de 2500
 - Boné Adulto Fila Fast Aba Curva: passou do limite de 2500
 - Boné Adulto ASICS Flexivel Fuji Aba Reta: passou do limite de 2500
-- Boné Aba Curva Nike Strapback Dri-Fit Club AB FL P - Adulto: passou do limite de 2500
 - Boné adidas Maratona do Rio: passou do limite de 2500
-- Squeeze Oxer Acqua - 800ml: passou do limite de 2500
-- Squeeze Puma TR Bottle Sportstyle: passou do limite de 2500
 - Squeeze adidas Maratona Rio: passou do limite de 2500
-- Raquete de Tênis Adams Phenomenon - Iniciante - Adulto: passou do limite de 2500
-- Tênis Nike Court Lite 4 - Masculino - Tennis: passou do limite de 2500
 - Raquete de Beach Tennis adidas RX 3.1 H14: passou do limite de 2500
-- Tênis Joma Ace - Masculino - Tennis: passou do limite de 2500
-- Tênis Fila Winner Clay - Masculino - Tennis: passou do limite de 2500
-- Tênis Fila Precision - Masculino - Tennis: passou do limite de 2500
-- Tênis Asics Court FF 3 Novak - Masculino - Tennis: passou do limite de 2500
-- Tênis Nike Zoom Vapor Pro 3 Premium - Masculino - Tennis: passou do limite de 2500
-- Raquete de Beach Tennis Joma Madrid + Capa Protetora - Adulto: passou do limite de 2500
-- Raquete de Beach Tennis Joma Toledo + Capa Protetora - Adulto: passou do limite de 2500
-- Raquete de Beach Tennis Joma Radon + Capa Protetora - Adulto: passou do limite de 2500
-- Raquete de Beach Tennis adidas BT 3.0: passou do limite de 2500
 - Raqueteira de Beach Tennis ASICS Bag: passou do limite de 2500
-- Raquete de Beach Tennis adidas Adipower Team H31 - Adulto: passou do limite de 2500
 - Raquete de BeachTennis Sexy Rasta Woody - Adulto: passou do limite de 2500
 - Tênis Asics Gel-Challenger 15 Padel - Masculino - Tennis: passou do limite de 2500
-- Tênis Masculino Asics Geldedicate 9 padel: passou do limite de 2500
 - Mala Wilson Duffel Pro Staff Super Tour V14: passou do limite de 2500
 - Bolsa Raqueteira ASICS Básica: passou do limite de 2500
 - Raqueteira Babolat Pure Aero X6: passou do limite de 2500
-- Overgrip Wilson Pro BR: passou do limite de 2500
 - Grip Wilson Over Profile Wrz402: passou do limite de 2500
-- Calça Leggig Feminina adidas Outloud: passou do limite de 2500
 - Calça Legging Nike 365 Tight Fit - Feminina: passou do limite de 2500
 - Calça Legging Feminina Vestem Tiana Fuso: passou do limite de 2500
-- Calça Legging Feminina Fila Train Elastic IIII: passou do limite de 2500
-- Calça Legging Feminina Oxer Sem Costura: passou do limite de 2500
-- Calça Legging Feminina ASICS Recorte Mesh: passou do limite de 2500
-- Calça Legging Feminina ASICS Cintura Alta: passou do limite de 2500
 - Calça Vesten Com Bolsos Dream Feminina: passou do limite de 2500
-- Calça Legging Feminina ASICS Rib Recortes Bin: passou do limite de 2500
-- Calça Legging Feminina Mizuno Soul III: passou do limite de 2500
-- Calça Legging Feminina ASICS Basic Logo: passou do limite de 2500
-- Calça Legging Feminina adidas Treino Básica: passou do limite de 2500
-- Calça ASICS Legging Estampa Kumadori Recortes Feminina: passou do limite de 2500
-- Calça Legging Fila Touch Gym Feminina: passou do limite de 2500
-- Top Fitness com Bojo Nike Baixa Sustentação Dri-Fit Indy Bra Vneck Adulto: passou do limite de 2500
-- Top Fitness Sem Bojo Under Armour Méida Sustentação HG Padl Adulto: passou do limite de 2500
-- Top Fitness com Bojo Removível Vestem Média Sustentação Carly Adulto: passou do limite de 2500
-- Top Fitness Oxer Bra Básico - Adulto: passou do limite de 2500
 - Top Fitness com Bojo Nike Baixa Sustentação Dri-Fit Indy SPT BRA: passou do limite de 2500
-- Top Fitness com Bojo Removível Vestem Média Sustentação Emma Adulto: passou do limite de 2500
-- Top Fitness com Bojo Removível Oxer Média Sustentação Nadador Run - Adulto: passou do limite de 2500
-- Camiseta Regata Cropped Feminina Oxer Telada: passou do limite de 2500
 - Blusa Cropped Feminina Vestem Trace Dry Fit: passou do limite de 2500
 - Camiseta Nike One Classic Cropped Feminina: passou do limite de 2500
-- Blusa Cropped Feminina adidas Big Logo: passou do limite de 2500
 - Jaqueta adidas Cropped Training Originals - Feminina: passou do limite de 2500
-- Blusa Cropped Oxer Estampada - Feminina: passou do limite de 2500
-- Blusa Cropped Regata Feminina adidas Essentials: passou do limite de 2500
 - Camiseta Regata Feminina Puma Slim Logo ESS: passou do limite de 2500
-- Camiseta Regata Feminina ASICS Estilo Nadador Shibori: passou do limite de 2500
 - Camiseta Regata Feminina Fila Basic Sports Polygin: passou do limite de 2500
-- Camiseta Feminina Nike Regata Dri-FIT Victory Tank: passou do limite de 2500
-- Camiseta Regata Feminina Oxer Open Alça Fina: passou do limite de 2500
-- Camiseta Regata Feminina Nike Dri-fit One Classic T: passou do limite de 2500
-- Camiseta Regata Feminina Oxer Print: passou do limite de 2500
-- Camiseta Feminina Oxer Decote V: passou do limite de 2500
 - Camiseta Feminina Oxer Manga Curta Duni New com Necessaire: passou do limite de 2500
-- Camiseta Manga Longa Feminina Oxer Crepinho Jogging: passou do limite de 2500
 - Camiseta Feminina Nike Manga Curta One Classic Dri-Fit TWST: passou do limite de 2500
-- Camiseta Feminina adidas treino Básica: passou do limite de 2500
-- Camiseta Feminina Oxer Manga Curta Basica Jogging New II: passou do limite de 2500
-- Camiseta Feminina Oxer Manga Curta Sem Cava Decote V Print: passou do limite de 2500
-- Short Feminino Oxer Básico: passou do limite de 2500
-- Short Feminino Vestem Paris: passou do limite de 2500
-- Short Feminino adidas All SZN: passou do limite de 2500
-- Short Feminino Oxer Ever Prin Animal Color Calção Interno: passou do limite de 2500
 - Short Feminino Nike Sportswear Essential Woven: passou do limite de 2500
-- Short adidas Future Icons Small Logo Feminino: passou do limite de 2500
 - Short Feminino Fila Future Duplo Flow: passou do limite de 2500
 - Short Saia Feminina adidas Optime: passou do limite de 2500
-- Short Saia Feminino ASICS UV: passou do limite de 2500
-- Short-Saia Farm Banana Adulto: passou do limite de 2500
-- Shorts Saia Farm Aurora Floral Feminino: passou do limite de 2500
-- Camiseta Puma Manga Curta Active Small Logo - Masculina: passou do limite de 2500
 - Camiseta Masculina Oxer Manga Curta Malha Mescla Basic: passou do limite de 2500
 - Camiseta Cava Tradicional Oxer Manga Curta Basic New Baixa Sustentação II - Masculina: passou do limite de 2500
-- Camiseta Masculina adidas Manga Curta Essentials 3 Listras: passou do limite de 2500
-- Camiseta Nike Manga Curta Dry-FIT Advance - Masculina: passou do limite de 2500
-- Camiseta Manchester City Balboa Dry Fit Masculina: passou do limite de 2500
-- Camiseta Regata Masculina Oxer Crepe Estampada: passou do limite de 2500
-- Camiseta Regata Masculina Puma Tad Big Logo: passou do limite de 2500
-- Camiseta Regata Masculina adidas Small Logo: passou do limite de 2500
 - Camiseta Regata Masculina ASICS Logo: passou do limite de 2500
-- Camiseta Masculina Oxer Manga Curta Compressão: passou do limite de 2500
-- Camiseta Masculina adidas Manga Longa Techfit: passou do limite de 2500
 - Bermuda Masculina Nike 7 Polegadas Totality Knit: passou do limite de 2500
 - Bermuda Masculina ASICS Malha Recorte Lateral: passou do limite de 2500
-- Bermuda Masculina ASICS Malha Mesh: passou do limite de 2500
-- Bermuda Térmica Umbro Twr Diamond New - Masculina: passou do limite de 2500
-- Bermuda Masculina Mizuno Tennis Master M7: passou do limite de 2500
-- Bermuda Masculina Nike Dri-Fit Epic Knit 8In: passou do limite de 2500
-- Bermuda de Compressão Masculina Under Armour HG: passou do limite de 2500
-- Shorts adidas Treino Masculino: passou do limite de 2500
-- Jaqueta Puffer Térmica com Capuz Nord Stopper - Feminina: passou do limite de 2500
 - Jaqueta de Treino Feminina Mizuno Puff G Branco: passou do limite de 2500
-- Short Feminino adidas Treino Básico: passou do limite de 2500
-- Short adidas Originals Treino Feminino: passou do limite de 2500
 - Bermuda Feminina Oxer Arobic Média Compressão Cós Baixo: passou do limite de 2500
-- Shorts Asics Kumadori Feminino: passou do limite de 2500
-- Shorts Nike Pro 365 - Feminino: passou do limite de 2500
 - Top Fitness adidas sem Bojo Média Sustentação Adizero Adulto: passou do limite de 2500
-- Top Fitness sem Bojo Oxer Média Sustentação Canelado Sem Costura: passou do limite de 2500
-- Top Fitness com Bojo Fixo Oxer Alta Sustentação Alça Cruzada - Adulto: passou do limite de 2500
-- Top Fitness com Bojo Nike Alta Sustentação Dri-fit Indy Adulto: passou do limite de 2500
 - Top Fitness com Bojo Removível Nike Média Sustentação Indy Plung Bra Bold Adulto: passou do limite de 2500
-- Top Fitness sem Bojo ASICS Média Sustentação Toya Run Basic - Adulto: passou do limite de 2500
-- Tênis ASICS Japan S PF - Feminino: passou do limite de 2500
-- Tênis Olympikus Jogging 101 Feminino: passou do limite de 2500
-- Tênis Feminino Olympikus Vibe: passou do limite de 2500
-- Tênis Feminino Olympikus Reverso 3: passou do limite de 2500
-- Maiô Júnior Oxer Nadador: passou do limite de 2500
-- Maiô para Natação com Proteção Solar UV Fila Tri Logo II - Adulto: passou do limite de 2500
-- Maiô para Natação com Proteção Solar UV Fila Austrália - Adulto: passou do limite de 2500
-- Maiô Nike Back One Piece - Adulto: passou do limite de 2500
-- Macaquinho de Natação Oxer Feminino Taiti: passou do limite de 2500
-- Maiô adidas Natação Flowers - Feminino: passou do limite de 2500
-- Jaqueta do Corinthians Treino 26/27 Nike Masculina: passou do limite de 2500
-- Blusão do Corinthians Treino 26/27 Nike Masculino: passou do limite de 2500
 - Jaqueta do Atlético Mineiro Treino 26/27 Nike Masculina: passou do limite de 2500
 - Blusão Umbro Athlético Paranaense Treino Torcedor - Masculino: passou do limite de 2500
-- Bermuda Lacoste Esportiva Masculina: passou do limite de 2500
 - Bermuda Masculina Venum Treino Basquete Slim Fit: passou do limite de 2500
-- Tênis adidas Dropset 3 Trainer Feminino: passou do limite de 2500
-- Tênis Feminino Oxer Speed 2: passou do limite de 2500
-- Tênis Feminino Nike Metcon 10: passou do limite de 2500
-- Tênis Feminino Nike Flex Train: passou do limite de 2500
-- Tênis Feminino Nike Air Jordan Skyline Low: passou do limite de 2500
 - Tênis Everlast Forceknit 5 Masculino: passou do limite de 2500
-- Tênis Lacoste Baseshot Masculino: passou do limite de 2500
-- Tênis Lacoste T-Clip Masculino: passou do limite de 2500
-- Tênis New Balance 574v2 Masculino: passou do limite de 2500
-- Tênis Nike Court Vision Lo NN Flax Masculino: passou do limite de 2500
-- Tênis Nike Air Max Alpha Trainer 6 Masculino: passou do limite de 2500
-- Tênis Nike Metcon 9 Masculino: passou do limite de 2500
-- Tênis Nike Court Vision Low Masculino: passou do limite de 2500
-- Short Feminino Oxer com Forro e Bolso Interno Ever: passou do limite de 2500
-- Bermuda Feminina Oxer Básico Print com Bolsa: passou do limite de 2500
-- Bolsa Nike Gym Club Bag Plus - 24 Litros: passou do limite de 2500
-- Mala Oxer Puffer 16L: passou do limite de 2500
-- Shoulder Bag Puma Phase Portable: passou do limite de 2500
-- Bolsa Farm Rio Fervo Tucanos Graficos: passou do limite de 2500
-- Mochila Under Armour Loudon 25 Litros: passou do limite de 2500
-- Bolsa adidas Organizer Linear: passou do limite de 2500
-- Mochila Puma Plus 20 Litros: passou do limite de 2500
-- Mala Oxer Adulto 25L: passou do limite de 2500
 - Garrafa Térmica Stanley Aerolight Flip Straw Heat Wave 710ml: passou do limite de 2500
 - Garrafa Térmica Stanley Aerolight Fast Flow 710ml: passou do limite de 2500
 - Garrafa Térmica Stanley Aerolight Flip Straw Messi 710ml: passou do limite de 2500
 - Luvas para Academia com Polegar e Protetor Palmar Oxer - Adulto: passou do limite de 2500
-- Strap Punch Musculação Simples: passou do limite de 2500
-- Halter Acte Emborrachado 4 Kg: passou do limite de 2500
-- Halteres Oxer Revestido - 5 Kg: passou do limite de 2500
 - Caneleira de Peso Oxer - Par com 1Kg Cada: passou do limite de 2500
-- Tapete de Yoga Viva Zen CBB Viagem Aquarela 183x61 cm: passou do limite de 2500
-- Roda Abdominal Oxer Duplo Reforçado: passou do limite de 2500
 - Óculos de Natação Arena Vulcan X - Adulto: passou do limite de 2500
 - Antiembaçante para Óculos de Natação Speedo Vision: passou do limite de 2500
-- Óculos de Sol Yopp Performance Ironman Brasil UV400 Mask IMB2.5: passou do limite de 2500
-- Óculos de Sol Yopp Polarizado Uv400 Ai Calica: passou do limite de 2500
-- Óculos Oakley Frogskins Lite: passou do limite de 2500
-- Touca de Natação Oxer Malha - Adulto: passou do limite de 2500
 - Whey Protein Integralmédica Nutri 900g: passou do limite de 2500
 - Joelheira Patelar de Neoprene Oxer - Adulto: passou do limite de 2500
 - Tornozeleira de Neoprene Oxer Ajustável - Adulto: passou do limite de 2500
 - Munhequeira Fila Vintage Adulto: passou do limite de 2500
-- Calça Jogger Feminina Oxer Moletom: passou do limite de 2500
-- Blusa de Moletom Feminina Oxer com Capuz Canguru: passou do limite de 2500
-- Blusa de Moletom Feminina adidas Future Icon: passou do limite de 2500
-- Blusa de Moletom Feminina adidas com Capuz Big Logo: passou do limite de 2500
-- Blusão Moletom Oxer Premium Vivos Feminino: passou do limite de 2500
-- Jaqueta Moletom ASICS Canguru Com Fleece Feminino: passou do limite de 2500
 - Calça Moletom ASICS Jogger Com Fleece Feminino: passou do limite de 2500
-- Calça Feminina Oxer Jogger Plush com Bolso: passou do limite de 2500
-- Jaqueta Oxer com Capuz Plush Cap Bex - Feminina: passou do limite de 2500
-- Blusão Feminino Nike Club Fleece Crew: passou do limite de 2500
-- Blusão Feminino ASICS Recortado Tokio: passou do limite de 2500
-- Blusão Feminino Nike Sportswear Club Fleece Standard Pullover Hoodie: passou do limite de 2500
-- Jaqueta Feminina adidas Stella McCartney: passou do limite de 2500
-- Camiseta New Balance Oversized Small Log Feminina: passou do limite de 2500
 - Blusa de Moletom Under Armour Masculina com Capuz Rival Fleece Big: passou do limite de 2500
-- Blusão Oxer Moletom Canguru -Masculino: passou do limite de 2500
-- Jaqueta Moletom Canguru Com Fleece ASICS Masculina: passou do limite de 2500
-- Calça de Moletom Asics Retro Masculina: passou do limite de 2500
-- Blusão Asics Moletom Retro - Masculino: passou do limite de 2500
 - Bermuda de Moletom Puma Athletics TR 9 - Masculina: passou do limite de 2500
 - Calça Masculina adidas Moletom Leve 3 Listras: passou do limite de 2500
-- Calça de Moletom do Manchester City Balboa Masculina: passou do limite de 2500
 - Calça Jogger do Corinthians 26/27 Nike Masculina: passou do limite de 2500
 - Calça Masculina Under Armour Rival Fleece Jogger: passou do limite de 2500
 - Bermuda de Moletom Oxer Canguru - Masculina: passou do limite de 2500
 - Conjunto de Agasalho Masculino adidas Inverno: passou do limite de 2500
-- Conjunto de Agasalho Masculino ASICS Interlock Fechado: passou do limite de 2500
-- Agasalho adidas Climacool Sereno Cut Três Listras Masculino: passou do limite de 2500
-- Calça Legging Nike One Feminina: passou do limite de 2500
-- Calça Legging Feminina Nike Dri-fit One HR Tight Useam: passou do limite de 2500
-- Calça Legging Dri-FIT Nike Pro Feminina: passou do limite de 2500
-- Calça Legging Feminina Nike Dri-Fit One HR 7/8 Tight Sport: passou do limite de 2500
-- Calça Legging adidas Train Essentials Big Logo Full-Length - Feminina: passou do limite de 2500
-- Calça adidas Legging 7/8 Techfit Feminina: passou do limite de 2500
-- Calça Legging Feminina adidas Leo Pack: passou do limite de 2500
-- Top Nike Pro Sem Bojo Adulto: passou do limite de 2500
 - Top Fitness com Bojo Nike Média Sustentação Swoosh Sport: passou do limite de 2500
 - Camiseta Regata Golden State Wariors Nike Masculina Dri-Fit Jsy: passou do limite de 2500
-- Camiseta Regata do Cleveland Cavaliers Nike Masculina Dri-Fit Swgmn: passou do limite de 2500
-- Camiseta Masculina Nike Manga Curta Dri-fit Tee Oly INS: passou do limite de 2500
-- Camiseta Feminina adidas Manga Curta Run It: passou do limite de 2500
-- Camiseta Feminina adidas Own The Run: passou do limite de 2500
-- Camiseta Masculina adidas Manga Curta Fortore 23: passou do limite de 2500
-- Camiseta Masculina adidas Manga Curta Freelift Pro: passou do limite de 2500
-- Camiseta Masculina adidas Manga Curta Treino Básica: passou do limite de 2500
-- Camiseta Masculina Under Armour Manga Curta Sportstyle Left Chest: passou do limite de 2500
 - Camiseta Masculina Under Armour Tech Vent BRZ: passou do limite de 2500
-- Camisa Puma Teamrise - Masculina: passou do limite de 2500
-- Camiseta Feminina Puma Essentials Small Cat Logo: passou do limite de 2500
-- Camiseta do Neymar Jr Puma Manga Curta Teamliga Jersey - Junior: passou do limite de 2500
-- Camiseta Básica Masculina Puma Logo Pequena: passou do limite de 2500
-- Camiseta Feminina Puma Manga Curta ESS Tee Logo: passou do limite de 2500
-- Camiseta Básica Puma Logo Pequena - Masculina: passou do limite de 2500
-- Short Estampado Essentials Workout adidas Feminino: passou do limite de 2500
-- Calção Masculino adidas Squadra 25: passou do limite de 2500
 - Bermuda Essential 10 Olympikus Feminina P Preto: passou do limite de 2500
-- Bermuda Comfy Olympikus Masculina GG Preto: passou do limite de 2500
 - Bermuda Masculina Olympikus Corre 2: passou do limite de 2500
-- Camiseta Fila Manga Curta Basic Feminina: passou do limite de 2500
-- Camiseta Feminina Fila Manga Curta White F-Box: passou do limite de 2500
-- Camiseta Masculina Fila Manga Curta Tennis Line II: passou do limite de 2500
-- Top Fila Tennis Basic Adulto: passou do limite de 2500
-- Camiseta Masculina Fila Manga Curta Letter Outline: passou do limite de 2500
-- Camiseta Regata Feminina Fila Basic Regular Outline: passou do limite de 2500
-- Jaqueta Masculina Tiro adidas: passou do limite de 2500
-- Blusão Feminino adidas Own The Run: passou do limite de 2500
 - Blusão adidas adi365 Masculino: passou do limite de 2500
-- Agasalho Masculino Tiro Essentials adidas: passou do limite de 2500
-- Blusão adidas Com capuz New Z.N.E. Full-Zip - Masculina: passou do limite de 2500
 - Tênis Puma Smash Ace V2 BDP - Feminino: passou do limite de 2500
-- Tênis adidas Advantage - Feminino: passou do limite de 2500
-- Tênis Puma Carina Lux L BDP - Feminino: passou do limite de 2500
-- Tênis adidas Grand Court Base 2.0 - Feminino: passou do limite de 2500
-- Tênis Fila Original Fitness Tennis Club II Feminino: passou do limite de 2500
-- TENIS FILA TENIS FILA LUGANO 70 MASCULI - Masculino - Tennis: passou do limite de 2500
-- Tênis Nike Court Vision Lo - Masculino: passou do limite de 2500
-- Tênis Puma Caven 2.0 BDP - Masculino: passou do limite de 2500
-- Tênis Rainha York - Masculino: passou do limite de 2500
-- Tênis Nike Court Vision Mid - Masculino: passou do limite de 2500
-- Tênis adidas Grand Court 2 0 - Júnior: passou do limite de 2500
-- Tênis Puma Club II Era Unissex: passou do limite de 2500
-- Tênis Unissex Puma Trinity: passou do limite de 2500
-- Tênis Unissex Puma Shuffle: passou do limite de 2500
-- Tênis Fila FX Court 70 Vintage Feminino: passou do limite de 2500
-- Tênis Fila Corda Br Masculino: passou do limite de 2500
-- Tênis Fila Daily Feminino: passou do limite de 2500
 - Tênis New Balance 373 Lace - Júnior: passou do limite de 2500
 - Tênis New Balance ML501 - Masculino: passou do limite de 2500
-- Tênis Unissex New Balance 480 Low: passou do limite de 2500
-- Tênis New Balance 574 Windbreaker - Feminino: passou do limite de 2500
-- Tênis Vans WM Filmore HI - Feminino: passou do limite de 2500
-- Tênis Vans Caldrone Feminino: passou do limite de 2500
-- Tênis Vans MN Ward Canvas - Masculino: passou do limite de 2500
-- Tênis Vans Ryland Masculino: passou do limite de 2500
-- Tênis Vans Caldrone - Masculino: passou do limite de 2500
-- Tênis Vans Brooklyn Ls Feminino: passou do limite de 2500
-- Tênis Converse All Star Chuck Taylor CT0448 - Unissex: passou do limite de 2500
-- Tênis Converse All Star Chuck Taylor Unissex: passou do limite de 2500
-- Tênis Converse All Star CT AS Core OX CT0001 - Unissex: passou do limite de 2500
-- Tênis Unissex Converse All Star Chuck Taylor Malden: passou do limite de 2500
-- Tênis Cano Alto Converse All Star Chuck Taylor CT0419 - Unissex: passou do limite de 2500
-- Tênis Converse All Star Chuck Taylor CT0420 - Unissex: passou do limite de 2500
-- Tênis Converse All Star Premium BB Evo - Adulto: passou do limite de 2500
 - Chinelo Nike Victori - Slide - Masculino: passou do limite de 2500
-- Chinelo Nike Air Max Cirro Slide Adulto: passou do limite de 2500
-- Chinelo Slide Puma Leadcat 20 Adulto: passou do limite de 2500
-- Chinelo Slide Rider Soft Plus: passou do limite de 2500
-- Chinelo Slide Nike Jordan Franchise Adulto: passou do limite de 2500
 - Chinelo Unissex Nike Kawa BGP: passou do limite de 2500
 - Chinelo Nike Calm Slide 20 Masculino: passou do limite de 2500
-- Chinelo adidas Adilette Aqua - Unissex: passou do limite de 2500
-- Boné Los Angeles Lakers NBA Aba Curva New Era 920 Special Strapback - Adulto: passou do limite de 2500
-- Boné Aba Curva Puma Snapback Trucker Cap Adulto: passou do limite de 2500
 - Boné NFL Aba Curva New Era Snapback 940 Trucker AF White Adulto: passou do limite de 2500
 - Boné Aba Curva do Palmeiras Supercap Tinturado com Aplicação Snapback Adulto: passou do limite de 2500
 - Boné do Los Angeles Lakers Aba Curva New Era NBA Strapback 920 Action Sunset Adulto: passou do limite de 2500
 - Boné do Santos Aba Curva Supercap Strapback Adulto: passou do limite de 2500
 - Boné Mizuno Logo U Preto: passou do limite de 2500
-- Boné Unissex MLB Los Angeles Angels Nike Dri-FIT True Round Aba Reta: passou do limite de 2500
-- Boné Aba Flexível Nike Strapback Dri-Fit Fly Cap U Cb - Adulto: passou do limite de 2500
-- Boné Aba Curva adidas Strapback Essentials Logo Adulto: passou do limite de 2500
-- Boné New York Yankees MLB New Era Soft Aba Curva: passou do limite de 2500
-- Boné Unissex Fila Rio Open Sport Aba Curva: passou do limite de 2500
-- Boné Adulto adidas 3S Baseball TR ESS Aba Curva: passou do limite de 2500
-- Boné Aba Curva New Balance Strapback Panel Linear Adulto: passou do limite de 2500
-- Mochila Nord 55 Litros: passou do limite de 2500
-- Mochila Mizuno Master - 21 Litros: passou do limite de 2500
 - Capa para Mochila Nautika M: passou do limite de 2500
-- Mochila Nike Brasilia Mesh Bkpk 90 - 26 Litros: passou do limite de 2500
 - Mini Mochila Nike Futura 365 - 6 Litros: passou do limite de 2500
-- Mochila do Palmeiras Esportiva: passou do limite de 2500
-- Mochila Farm Rio Xodo: passou do limite de 2500
 - Bolsa Nike Futura 365 Crossbody - Adulto: passou do limite de 2500
-- Mochila Nike Sportswear Futura Mini Backpack Palentino 6 Litros: passou do limite de 2500
-- Mochila Nike Aura 24 Litros: passou do limite de 2500
-- Mochila Nike Elemental 20 Litros: passou do limite de 2500
-- Gym Sack Nike Heritage - 13 Litros: passou do limite de 2500
-- Mini Mochila Nike Brasilia JDI BKPK - 11 Litros: passou do limite de 2500
-- Mochila Nike Commute Crossbody Unissex: passou do limite de 2500
-- Gym Sack Nike Brasilia 9.0: passou do limite de 2500
-- Bola de Vôlei Kempa Team Sport Séries: passou do limite de 2500
-- Minibola de Basquete Spalding Barcelona: passou do limite de 2500
 - Tênis Nike Zoom Freak 5 - Masculino: passou do limite de 2500
-- Tênis Nike Jordan Space Hunter - Masculino: passou do limite de 2500
-- Tênis Nike Jordan Max Aura 6 Masculino: passou do limite de 2500
-- Tênis Nike Air Zoom G. T. Cut Academy Masculino: passou do limite de 2500
 - Tênis Nike Giannis Immortality 4 Masculino: passou do limite de 2500
-- Tênis Under Armour Buzzer 2 Masculino: passou do limite de 2500
-- Tênis Puma Court Pro Marble Masculino: passou do limite de 2500
-- Tênis ASICS Sky Lite FF 3 - Feminino - Tennis: passou do limite de 2500
 - Tênis Feminino Mizuno Wave Lightning Z8: passou do limite de 2500
 - Tênis de Vôlei Mizuno Cyclone Speed 4 43 Preto: passou do limite de 2500
+- Chuteira Futsal Masculina Locker Ecoknit Penalty: passou do limite de 2500
+- caneleira do Real Madrid tamanho M: passou do limite de 2500
+- Luva Goleiro Campo Treino Adulto Cor Azul Tamanho P: passou do limite de 2500
+- Luva Goleiro N1goalkeeper Profissional Roll-Negativo Preto Tam 11: passou do limite de 2500
+- Viseira Para Corrida Hupi Run Roxo Liso Roxo Unico Liso: passou do limite de 2500
+- Raquete Beach Tennis Fibra Carbon Profissional Preta + Bolsa: passou do limite de 2500
+- Raquete Beach Tennis Fiber Glass Penalty Profissional: passou do limite de 2500
+- Raqueteira Heroes Thunder Atlas Cream Gold: passou do limite de 2500
+- Top Coat Dailus Top Glass Finalizador Efeito Gel Cor Silver top: passou do limite de 2500
+- Top Coat Dailus Top Glass Finalizador Efeito Gel Cor Gold top: passou do limite de 2500
+- Corda Pular Pro Ajustável - Treino Funcional Crossfit Speed Cor Amarelo: passou do limite de 2500
+- Manguito Compressão Zeiq Rosa Neon Tamanho P para Atletas e Esportes: passou do limite de 2500
+- Tapete Capacho Chinelo Par Chinelo Verde E Vermelho Cor Preto Desenho do tecido C256: passou do limite de 2500
+- Chuteira Society Adulto Nike Phantom GX II Academy: passou do limite de 2500
+- Chuteira Society Adulto Joma Maxima: passou do limite de 2500
+- Chuteira Society Adulto adidas Deportivo III: passou do limite de 2500
+- Chuteira Society Adulto Umbro Fifty VI League: passou do limite de 2500
+- Chuteira Futsal Adulto Puma Ultra Play: passou do limite de 2500
+- Chuteira Futsal Adulto Umbro Class: passou do limite de 2500
+- Chuteira Futsal Adulto Nike Mercurial Vapor 16 Club: passou do limite de 2500
+- Chuteira Futsal Adulto Nike Tiempo Legend 10 Academy: passou do limite de 2500
+- Chuteira Futsal Adulto Puma Future 7 Play IT: passou do limite de 2500
+- Chuteira Futsal Adulto Puma Attacanto: passou do limite de 2500
+- Chuteira Futsal Adulto adidas Predator Club: passou do limite de 2500
+- Chuteira de Campo Adulto adidas Deportivo II: passou do limite de 2500
+- Chuteira de Campo Adulto Umbro Acid II: passou do limite de 2500
+- Chuteira de Campo Adulto Umbro Raptor RB: passou do limite de 2500
+- Chuteira de Campo Adulto Puma Attacanto: passou do limite de 2500
+- Chuteira de Campo Adulto Puma Future 8 Play: passou do limite de 2500
+- Chuteira Society Adulto Nike Vapor 16 Club V: passou do limite de 2500
+- Chuteira Society Adulto Nike Mercurial Vapor 16 Club: passou do limite de 2500
+- Chuteira Society Adulto adidas Predator 25 Essentials: passou do limite de 2500
+- Chuteira Society Adulto adidas F50 Club Messi: passou do limite de 2500
+- Chuteira Society Adulto Umbro Class Neo: passou do limite de 2500
+- Chuteira Society Adulto Umbro Adamant Master Class Edição DLM Dia de los Muertos: passou do limite de 2500
+- Chuteira Society Adulto Mizuno Morelia Classic: passou do limite de 2500
+- Chuteira Society Adulto Mizuno Morelia Elite II AS Pro TF: passou do limite de 2500
+- Chuteira Futsal Adulto Nike Phantom 6 Club: passou do limite de 2500
+- Chuteira Futsal Adulto Nike Tiempo Legend Touch of Gold R10 Edição Comemorativa: passou do limite de 2500
+- Chuteira Futsal Adulto Nike Tiempo Reactgato: passou do limite de 2500
+- Chuteira Futsal Adulto Nike Zoom Vapor 16 Academy Vini Jr: passou do limite de 2500
+- Chuteira Futsal Infantl Nike Zoom Vapor 16 Club Vini JR: passou do limite de 2500
+- Chuteira Futsal Adulto Nike Tiempo Streetgato Se: passou do limite de 2500
+- Chuteira Futsal Adulto adidas F50 Club: passou do limite de 2500
+- Chuteira Futsal Adulto adidas Quadra: passou do limite de 2500
+- Chuteira Futsal Adulto Umbro Pro 5 Bump: passou do limite de 2500
+- Chuteira Futsal Adulto Umbro Pro 5 Stable: passou do limite de 2500
+- Chuteira Futsal Umbro Pro 5 Bump Club - Adulto: passou do limite de 2500
+- Chuteira Futsal Adulto Joma Top Flex: passou do limite de 2500
+- Chuteira Futsal Adulto Joma Maxima: passou do limite de 2500
+- Chuteira de Campo Nike Vapor 16 Club - Adulto: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Zoom Vapor 16 Academy: passou do limite de 2500
+- Chuteira de Campo Adulto Nike The Premier III: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Tiempo Legend 10 Club: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Air Zoom Mercurial Superfly 10 Academy Kylian Mbappé: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Mercurial Zoom Vapor 16 Pro Kylian Mbappé: passou do limite de 2500
+- Chuteira de Campo Adulto adidas Predator Club Sock: passou do limite de 2500
+- Chuteira de Campo Adulto adidas Predator Club: passou do limite de 2500
+- Chuteira de Campo Adulto adidas F50 League: passou do limite de 2500
+- Chuteira de Campo Adulto adidas F50 Elite: passou do limite de 2500
+- Chuteira de Campo Adulto adidas Adulto Predator Elite TE: passou do limite de 2500
+- Chuteira de Campo Adulto adidas Predator League: passou do limite de 2500
+- Chuteira de Campo Adulto Puma Future 9 Play: passou do limite de 2500
+- Chuteira de Campo Adulto Mizuno Morelia Classic MD: passou do limite de 2500
+- Chuteira de Campo Adulto Mizuno Regent MD: passou do limite de 2500
+- Chuteira de Campo Adulto Umbro Speciali Classic: passou do limite de 2500
+- Chuteira de Campo Adulto Umbro Adamant Master Class Pro Edição DLM Dia de los Muertos: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Phantom 6 Low Elite: passou do limite de 2500
+- Chuteira de Campo Adulto Nike Phantom 6 Academy: passou do limite de 2500
+- Chuteira de Campo Adulto adidas Kaká Predator Elite: passou do limite de 2500
+- Chuteira de Campo Adulto adidas Predator Pro: passou do limite de 2500
+- Bola de Futebol de Campo Puma Big Cat 4: passou do limite de 2500
+- Bola de Futebol de Campo adidas Adiversal: passou do limite de 2500
+- Bola de Futebol de Campo adidas Starlancer: passou do limite de 2500
+- Bola de Futebol de Campo Nike Pitch Team SP 21: passou do limite de 2500
+- Bola de Futebol de Campo Nike Mercurial FADE SP21: passou do limite de 2500
+- Bola Futebol de Campo Puma Neymar Jr: passou do limite de 2500
+- Bola de Futebol de Campo Uhlsport Match R2 Brasileirão 24: passou do limite de 2500
+- Bola Society Nike CBF Strike: passou do limite de 2500
+- Bola de Futsal Umbro V Cup: passou do limite de 2500
+- Bola de Futsal Umbro Primal: passou do limite de 2500
+- Bola de Futebol Society Puma Cumbre Conmenbol Libertadores: passou do limite de 2500
+- Bola Society Penalty Líder XXV: passou do limite de 2500
+- Bola de Futebol Nike Pitch: passou do limite de 2500
+- Bola de Futebol de Campo adidas Clubs WC Pro: passou do limite de 2500
+- Conjunto de Mini Bolas Históricas adidas Trionda Copa do Mundo FIFA 2026 (Edição Especial): passou do limite de 2500
+- Bola adidas UEFA Euro24 Pro: passou do limite de 2500
+- Bola De Futebol De Campo Penalty Bravo XXV: passou do limite de 2500
+- Bola de Futebol de Campo Penalty Asa Branca R2 XXV: passou do limite de 2500
+- Camiseta Barcelona Masculina Class: passou do limite de 2500
+- Camiseta Barcelona Masculina Embossed: passou do limite de 2500
+- Camiseta do Flamengo Braziline Masculino Nineteen: passou do limite de 2500
+- Camiseta do Green Bay Packers NFL Masculina Player Love NF008: passou do limite de 2500
+- Camiseta do Real Madrid Balboa Masculina Algodão: passou do limite de 2500
+- Camisa do Palmeiras I 25 Puma Feminina Torcedora: passou do limite de 2500
+- Camisa Polo do Palmeiras II 25 Puma Feminina Torcedora: passou do limite de 2500
+- Camisa do Figueirense I 25 Volt Feminina Torcedor: passou do limite de 2500
+- Camisa do Sport Club do Recife I 25 Umbro Feminina Torcedor: passou do limite de 2500
+- Camisa do América-MG I 25/26 Torcedor Volt Feminina: passou do limite de 2500
+- Calção Masculino Umbro Twr Striker: passou do limite de 2500
+- Calção Puma Liga Core Male - Masculina: passou do limite de 2500
+- Calção Masculino adidas Fortore 23: passou do limite de 2500
+- Calção do Palmeiras Masculino 1914 II: passou do limite de 2500
+- Calção Seleção do Brasil CBF Dry Masculino: passou do limite de 2500
+- Calção do Palmeiras II 25 Puma Masculino: passou do limite de 2500
+- Calça Masculina Nike Fleece Park20 KP: passou do limite de 2500
+- Meião Nike Classic II Cushioned Kneed High OTC Team - Adulto: passou do limite de 2500
+- Meião da Seleção do Brasil CBF Nike Next Gen Vapor Strike Pro Adulto: passou do limite de 2500
+- Meião de Futebol do Botafogo Rikam Tamanho 34 ao 37: passou do limite de 2500
+- Meia de Futebol Adams Performance Adulto: passou do limite de 2500
+- Caneleira de Futebol Nike Mercurial Lite FA22 - Adulto: passou do limite de 2500
+- Caneleiras de Futebol adidas Messi Match Júnior: passou do limite de 2500
+- Luvas de Goleiro adidas Tiro Club - Adulto: passou do limite de 2500
+- Tênis Olympikus Adrena - Feminino: passou do limite de 2500
+- Tênis Nike Revolution 6 - Feminino: passou do limite de 2500
+- Tênis adidas Supernova Stride W - Feminino: passou do limite de 2500
+- Tênis Fila Racer Comet - Feminino: passou do limite de 2500
+- Tênis Nike Downshifter 12 - Feminino: passou do limite de 2500
+- Tênis Nike W Zoomx Vaporfly Next% 2 - Feminino: passou do limite de 2500
+- Tênis ASICS Gel-Contend 8 - Masculino: passou do limite de 2500
+- Tênis Nike Revolution 6 NN SE - Masculino: passou do limite de 2500
+- Tênis Mizuno Wave Rebellion Flash - Masculino: passou do limite de 2500
+- Tênis Mizuno Wave Rebellion - Masculino: passou do limite de 2500
+- Tênis Puma Flyer Flex BDP - Masculino: passou do limite de 2500
+- Tênis adidas Duramo Rc U - Masculino: passou do limite de 2500
+- Tênis Olympikus Reverso 2 - Masculino: passou do limite de 2500
+- Tênis Nike Quest 5 - Masculino: passou do limite de 2500
+- Tênis Masculino Nike Vomero 17: passou do limite de 2500
+- Tênis Nike Downshifter 13 - Masculino: passou do limite de 2500
+- Tênis Nike Zoom Fly 5 - Feminino: passou do limite de 2500
+- Tênis Nike Zoomx Vaporfly Next% 3 - Masculino: passou do limite de 2500
+- Tênis Nike Air Winflo 11 Masculino: passou do limite de 2500
+- Tênis Nike ZoomX Vaporfly Next% 3 - Feminino: passou do limite de 2500
+- Tênis Nike Vomero 17 - Feminino: passou do limite de 2500
+- Tênis adidas Response Masculino: passou do limite de 2500
+- Tênis adidas Duramo SL - Feminino: passou do limite de 2500
+- Tênis adidas Runfalcon 5 Masculino: passou do limite de 2500
+- Tênis adidas Ultraboost 5 Masculino: passou do limite de 2500
+- Tênis adidas Duramo Speed Masculino: passou do limite de 2500
+- Tênis ASICS GEL-Pulse 16 SE Feminino: passou do limite de 2500
+- Tênis Masculino ASICS Gel-Pulse 15 SE: passou do limite de 2500
+- Tênis Masculino ASICS Gel-Nagoya 7: passou do limite de 2500
+- Tênis ASICS Gel-Nagoya 7 Feminino: passou do limite de 2500
+- Tênis ASICS Gel-Contend 9 Feminino: passou do limite de 2500
+- Tênis ASICS Gel-Nimbus 26 Feminino: passou do limite de 2500
+- Tênis ASICS Magic Speed 4 Masculino: passou do limite de 2500
+- Tênis Mizuno Wave Tornamic 4 Masculino: passou do limite de 2500
+- Tênis Mizuno Neo Zen Masculino: passou do limite de 2500
+- Tênis Mizuno Cool Ride 3 Masculino: passou do limite de 2500
+- Tênis Mizuno Neo Zen Feminino: passou do limite de 2500
+- Tênis Mizuno Enigma 2 Masculino: passou do limite de 2500
+- Tênis de Corrida Mizuno Wave Creation 25 SE 35 Preto: passou do limite de 2500
+- Tênis de Corrida Mizuno Wave SKY 9 43 Cinza: passou do limite de 2500
+- Tênis Olympikus Intuit Feminino: passou do limite de 2500
+- Tênis Unissex Olympikus Corre 4: passou do limite de 2500
+- Tênis Olympikus Challenger 5 Masculino: passou do limite de 2500
+- Tênis Fila Racer Nairóbi Feminino: passou do limite de 2500
+- Tênis Feminino Fila Progress Lite: passou do limite de 2500
+- Tênis Fila Float Flux Feminino: passou do limite de 2500
+- Tênis Fila Improve Masculino: passou do limite de 2500
+- Tênis Fila Maxximus Masculino: passou do limite de 2500
+- Tênis New Balance Fresh Foam X 1080 V14 Masculino: passou do limite de 2500
+- Tênis New Balance 370v1 Unissex: passou do limite de 2500
+- Tênis Puma Skyrocket Lite Masculino: passou do limite de 2500
+- Tênis Puma Deviate Nitro 2 Psyrush Feminino: passou do limite de 2500
+- Tênis Puma Pounce Lite Feminino: passou do limite de 2500
+- Tênis Puma ForeverRun NITRO™ 2 Masculino: passou do limite de 2500
+- Tênis Puma Aviator Light Pro BDP - Feminino: passou do limite de 2500
+- Tênis Masculino Puma Scend Pro 2: passou do limite de 2500
+- Tênis Masculino Hoka Clifton 9: passou do limite de 2500
+- Tênis Feminino Hoka Clifton 9: passou do limite de 2500
+- Tênis Masculino Hoka Rincon 4: passou do limite de 2500
+- Tênis Feminino Brooks Ghost Max 2: passou do limite de 2500
+- Tênis Feminino Brooks Glycerin Max: passou do limite de 2500
+- Tênis Masculino Brooks Adrenaline GTS 24: passou do limite de 2500
+- Tênis Feminino Brooks Hyperion 2: passou do limite de 2500
+- Tênis Masculino Brooks Hyperion 2: passou do limite de 2500
+- Tênis ASICS Gel-Kamo Go - Feminino: passou do limite de 2500
+- Tênis ASICS Gel-Takumi - Masculino: passou do limite de 2500
+- Tênis ASICS Gel-Outsider Masculino: passou do limite de 2500
+- Tênis Mizuno Wave Neo Vista Feminino: passou do limite de 2500
+- Tênis Mizuno Wave Legend 4 Masculino: passou do limite de 2500
+- Tênis Mizuno Wave Dynasty 7 Masculino: passou do limite de 2500
+- Tênis Feminino Mizuno Wave Creation 26: passou do limite de 2500
+- Tênis Masculino Mizuno Wave Skyway: passou do limite de 2500
+- Tênis Mizuno Wave Prophecy 14 S Masculino: passou do limite de 2500
+- Tênis Mizuno Wave Prophecy LS 44 Azul: passou do limite de 2500
+- Tênis Olympikus Corre Grafeno 3 44 Roxo: passou do limite de 2500
+- Tênis Olympikus Corre Supra 2 44 Branco: passou do limite de 2500
+- Tênis Olympikus Corre Turbo 45 Branco: passou do limite de 2500
+- Tênis Olympikus Corre Supra 2 44 Verde: passou do limite de 2500
+- Tênis Olympikus Bruma Feminino: passou do limite de 2500
+- Tênis Masculino Olympikus Pride 4: passou do limite de 2500
+- Tênis Olympikus Pride 4 Feminino: passou do limite de 2500
+- Tênis Unissex Olympikus Corre Supra 2: passou do limite de 2500
+- Tênis adidas Ultraboost 5 Feminino: passou do limite de 2500
+- Tênis Feminino adidas Ultraboost 5x: passou do limite de 2500
+- Tênis Nike Revolution 7 Feminino: passou do limite de 2500
+- Tênis Nike Air Winflo 11 Feminino: passou do limite de 2500
+- Tênis ASICS Magic Speed 4 Feminino: passou do limite de 2500
+- Tênis Nike Air Zoom Alphafly Next % 3 Feminino: passou do limite de 2500
+- Tênis Nike Revolution 7 Masculino: passou do limite de 2500
+- Tênis Nike Journey Run Masculino: passou do limite de 2500
+- Tênis adidas Supernova Rise Masculino: passou do limite de 2500
+- Tênis Nike Journey Run PRM Masculino: passou do limite de 2500
+- Tênis On Running Clourdsurfer Trail Feminino: passou do limite de 2500
+- Short com Bolso Selado e Refletivo Feminino Oxer Duplo: passou do limite de 2500
+- Short Feminino Nike Dri-Fit 2N1 Swift: passou do limite de 2500
+- Short Feminino On Running 5 Running: passou do limite de 2500
+- Short Feminino On Running Performance Tights: passou do limite de 2500
+- Bermuda Feminina New Balance Sleek 6: passou do limite de 2500
+- Camiseta Feminina Vestem Manga Curta Boulder Dry Fit: passou do limite de 2500
+- Camiseta Vestem Dry Fit Delfino Feminina: passou do limite de 2500
+- Camiseta Vestem Dry Fit Cosmic Feminina: passou do limite de 2500
+- Jaqueta Corta-Vento On Running com Capuz Weather - Feminina: passou do limite de 2500
+- Jaqueta Corta-Vento Feminina On Running com Capuz Core Jacket: passou do limite de 2500
+- Jaqueta Corta-Vento Feminina On Running Weather Jacket: passou do limite de 2500
+- Jaqueta Corta-Vento Feminina On Running Weather Lumos: passou do limite de 2500
+- Calça Legging Feminina Oxer New Zig Média Compressão Cós Alto: passou do limite de 2500
+- Calça Legging Feminina Farm Recorte Voô Doce Média Compressão Cintura Média: passou do limite de 2500
+- Calça Legging Feminina Farm Folhagem Banana Média Compressão Cós Médio: passou do limite de 2500
+- Short Masculino ASICS 5 Recorte Respirável Lase: passou do limite de 2500
+- Short Nike Df Kpchg Stride 5BF Shrt Masculino: passou do limite de 2500
+- Shorts adidas Adizero Hekid - Masculino: passou do limite de 2500
+- Shorts Dri-FIT Nike Fly Stride - Masculino: passou do limite de 2500
+- Shorts adidas Adi365 Masculino: passou do limite de 2500
+- Shorts de Corrida Mizuno Running 5 Masculino: passou do limite de 2500
+- Bermuda ASICS Bolso Atoalhado - Masculina: passou do limite de 2500
+- Calção do Atlético Mineiro I 25 adidas Masculino: passou do limite de 2500
+- Camiseta de Compressão Under Armour Manga Curta Heatgear - Masculina: passou do limite de 2500
+- Camiseta Masculina Oxer Manga Curta Crepe Estampada: passou do limite de 2500
+- Camiseta Masculina Oxer Manga Longa Vivo: passou do limite de 2500
+- Camiseta Masculina Mizuno Manga Curta Nirvana New: passou do limite de 2500
+- Camiseta ASICS Manga Curta Fugi - Masculina: passou do limite de 2500
+- Camiseta Masculina adidas Manga Curta Own The Run 3 Listras: passou do limite de 2500
+- Camiseta Regata Masculina New Balance Sport Essentials: passou do limite de 2500
+- Jaqueta Corta-Vento Masculina On Running com Capuz Weather: passou do limite de 2500
+- Jaqueta Corta-Vento Masculina On Running Weather: passou do limite de 2500
+- Jaqueta Corta-Vento Masculina On Weather Jacket: passou do limite de 2500
+- Jaqueta Corta-Vento Masculina Oxer com Capuz Packable Tecido Plano Corrida: passou do limite de 2500
+- Jaqueta Masculina Oxer Recortes Bolso com Zíper: passou do limite de 2500
+- Jaqueta Corta-Vento Masculina Olympikus Corre: passou do limite de 2500
+- Jaqueta Corta-Vento Masculina Mizuno com Capuz High: passou do limite de 2500
+- Camiseta Regata Masculina Fuji Antiodor: passou do limite de 2500
+- Camiseta Regata Masculina On Running Performance Tank: passou do limite de 2500
+- Camiseta Regata Masculina Oxer Flat Respirabilidade: passou do limite de 2500
+- Camiseta Regata ADI365 B M adidas Masculina: passou do limite de 2500
+- Camiseta Regata adidas Adizero A SGL - Masculina: passou do limite de 2500
+- Meia Para Corrida Rally Crew 21k Cano Alto Tamanho 34-38 ASICS Adulto: passou do limite de 2500
+- Meia Para Corrida Rally Crew 5k Cano Alto Tamanho 39-44 ASICS Adulto: passou do limite de 2500
+- Kit de Meias De Corrida Sapatilha Nike Multplier com 2 Pares - 39 a 43 - Adulto: passou do limite de 2500
+- Meia Para Corrida Rally Crew 5k Cano Alto Tamanho 34-38 ASICS Adulto: passou do limite de 2500
+- Relógio Monitor Cardíaco Garmin GPS Instinct 2 Solar - Adulto: passou do limite de 2500
+- Pochete Oxer Puffer: passou do limite de 2500
+- Pochete Porta Numeral Yopp Unissex: passou do limite de 2500
+- Braçadeira Porta-Celular Oxer H61: passou do limite de 2500
+- Viseira Puma Running Visor - Adulto: passou do limite de 2500
+- Viseira Ua Womens Blitzi: passou do limite de 2500
+- Viseira adidas Running Adulto: passou do limite de 2500
+- Viseira adidas Originals Visor Climacool Adulto: passou do limite de 2500
+- Boné Under Armour Aba Curva Play Up Wrapback - Adulto: passou do limite de 2500
+- Boné Aba Curva Nike Strapback Dri-Fit ADV Rise Cap SF Adulto: passou do limite de 2500
+- Boné ASICS Aba Reta Strapback Run Cap - Adulto: passou do limite de 2500
+- Boné Adulto Puma Running III Aba Curva: passou do limite de 2500
+- Boné Under Armour Aba Curva Mens Blitzing - Adulto: passou do limite de 2500
+- Boné Adulto adidas Treino Climacool Aba Curva: passou do limite de 2500
+- Squeeze de Alumínio Nord - 750ml: passou do limite de 2500
+- Tênis Nike Zoom Court PRO HC - Masculino - Tennis: passou do limite de 2500
+- Raquete de Beach Tennis adidas RX 3.1 H38: passou do limite de 2500
+- Tênis Fila Float Verve Clay - Masculino - Tennis: passou do limite de 2500
+- Tênis Joma Point - Feminino - Tennis: passou do limite de 2500
+- Corda para Raquete de Tênis Wilson Sensation 17 - 12,2m: passou do limite de 2500
+- Tênis Fila Original Fitness Tennis Club II Masculino: passou do limite de 2500
+- Tênis Fila Winner Clay - Masculino - Tennis: passou do limite de 2500
+- Raquete de Tênis Wilson Pro Staff 97 V14 - Avançado - Adulto: passou do limite de 2500
+- Raquete de Tênis Wilson Blade 26 V9 - Avançado - Adulto: passou do limite de 2500
+- Raquete de Tênis Wilson Clash 100 V3 - Avançado - Adulto: passou do limite de 2500
+- Tênis Wilson Slice 30 - Masculino - Tennis: passou do limite de 2500
+- Raquete de Tênis Wilson Clash 100 V3 0 3: passou do limite de 2500
+- Raquete de Tênis Babolat Pure Aero 98 L2 - Avançado - Adulto: passou do limite de 2500
+- Raquete de Tênis Babolat Pure Strike 100 Gen4 - Avançado - Adulto: passou do limite de 2500
+- Raquete Babolat Strike 100 L2 - Avançado - Adulto: passou do limite de 2500
+- Raquete Babolat Strike 100 L4 Avançado - Adulto: passou do limite de 2500
+- Raquete de Tênis Head IG Challenge Team Mint - Intermediário - Adulto: passou do limite de 2500
+- Raquete de Beach Tennis Joma Sevilla + Capa Protetora - Adulto: passou do limite de 2500
+- Sapatilha para Beach Tennis Wilson Club Beach Shoe: passou do limite de 2500
+- Kit Beach Tennis Adams: passou do limite de 2500
+- Raquete de Beach Tennis Penalty Carbon 3K Silver XXII: passou do limite de 2500
+- Raquete de Beach Tennis Shark Ultra - Adulto: passou do limite de 2500
+- Bolas de Beach Tennis Atrio Unique - 3 Unidades: passou do limite de 2500
+- Raquete de Beach Tennis Shark Tour 2023: passou do limite de 2500
+- Tênis Asics Gel-Dedicate 8 Padel - Masculino - Tennis: passou do limite de 2500
+- Raqueteira adidas Control 3.0 para Padel e Beach: passou do limite de 2500
+- Tênis Asics Gel-Resolution X Padel - Masculino - Tennis: passou do limite de 2500
+- Raqueteira Fila Pomezia - 27,6 Litros: passou do limite de 2500
+- Overgrip Wilson Ultra Wrap - 3 Unidades: passou do limite de 2500
+- Calça Legging Feminina Fila Performa Fit: passou do limite de 2500
+- Calça Legging Feminina Plus Size Nike Sportswear Essential: passou do limite de 2500
+- Calça Legging Feminina Oxer Sem Costura: passou do limite de 2500
+- Calça Legging Feminina Fila Line: passou do limite de 2500
+- Calça Legging Feminina Vestem Fuso Anastasia: passou do limite de 2500
+- Calça Legging Feminina Nike Dri-fit MR 7/8 Tight: passou do limite de 2500
+- Calça Legging Feminina Fila Train Elastic IIII: passou do limite de 2500
+- Calça Legging Oxer Campeão Slim - Feminina: passou do limite de 2500
+- Calça Legging Feminina Vestem Fusô Myst: passou do limite de 2500
+- Calça Legging Feminina Nike Pro Dri-Fit Sculpt High Rise Tight: passou do limite de 2500
+- Calça adidas Legging 7/8 Techfit Feminina: passou do limite de 2500
+- Calça ASICS Legging Estampa Kumadori Recortes Feminina: passou do limite de 2500
+- Top Fitness sem Bojo Oxer Baixa Sustentação Alças Cotton - Adulto: passou do limite de 2500
+- Top Fitness com Bojo Removível Mizuno Média Sustentação Run Easy 4 - Adulto: passou do limite de 2500
+- Top Fitness sem Bojo Oxer Baixa Sustentação New Zig II - Adulto: passou do limite de 2500
+- Top Fitness sem Bojo Fila Baixa Sustentação Line Movement Adulto: passou do limite de 2500
+- Top Fitness com Bojo Removível Vestem Média Sustentação Artemis Adulto: passou do limite de 2500
+- Blusa Cropped Feminina Fit Dance Manga Curta: passou do limite de 2500
+- Blusa Cropped Adidas 3 Stripes Feminina: passou do limite de 2500
+- Blusa Cropped Feminina adidas Big Logo: passou do limite de 2500
+- Camiseta Regata Farm Cropped Banana Inverno Tela Feminina: passou do limite de 2500
+- Blusa Cropped Regata Feminina adidas Essentials: passou do limite de 2500
+- Blusão Cropped Nike Sportswear Phoenix Fleece Oversized Feminino: passou do limite de 2500
+- Blusão Asics Cropped com Capuz Fleece Feminino: passou do limite de 2500
+- Camiseta Regata Feminina Nike Dri-Fit Victory Tank: passou do limite de 2500
+- Camiseta Regata Feminina Oxer Alça Cruzada: passou do limite de 2500
+- Camiseta Regata Feminina Oxer Alça Fina Floral Maxi II: passou do limite de 2500
+- Camiseta Regata Feminina ASICS Recortes Poliamida UV: passou do limite de 2500
+- Camiseta Regata Feminina ASICS Estilo Nadador Shibori: passou do limite de 2500
+- Camiseta Regata Feminina Vestem Moment: passou do limite de 2500
+- Camiseta Regata Feminina Fila Future Sports Flow: passou do limite de 2500
+- Camiseta Vestem Feminina Manga Curta Lima: passou do limite de 2500
+- Camiseta Cava Tradicional Oxer Manga Curta Decote V Sportive - Feminina: passou do limite de 2500
+- Camiseta Manga Longa Feminina Oxer Crepinho Jogging: passou do limite de 2500
+- Camiseta Mizuno Manga Curta Soul Fit - Feminina: passou do limite de 2500
+- Short Nike Feminino NSW Club FLC MR: passou do limite de 2500
+- Short Feminino Oxer Básico: passou do limite de 2500
+- Short Puma Feminino Train Favorite 3" Tight: passou do limite de 2500
+- Short Feminino Vestem Diana: passou do limite de 2500
+- Short Feminino Fila Basic Train Double: passou do limite de 2500
+- Short-Saia ASICS Adulto: passou do limite de 2500
+- Short Saia Feminino ASICS UV: passou do limite de 2500
+- Conjunto Inverno Mizuno Root II - Feminino: passou do limite de 2500
+- Camiseta Masculina adidas Logo Gráfica: passou do limite de 2500
+- Camiseta Masculina adidas Manga Curta Essentials Logo: passou do limite de 2500
+- Camiseta Masculina Oxer Manga Curta Tunin: passou do limite de 2500
+- Camiseta Regata Masculina Oxer Mescla: passou do limite de 2500
+- Camiseta Cava Tradicional Oxer Manga Curta Básica Dry Tunin - Masculina: passou do limite de 2500
+- Camiseta Masculina Under Armour Manga Curta Training Overlay BR: passou do limite de 2500
+- Camiseta do Paris Saint-Germain Dry Fit Balboa Masculina: passou do limite de 2500
+- Camiseta do Manchester City Balboa Dry Fit Masculina: passou do limite de 2500
+- Camiseta Nike Manga Curta Dry-FIT Advance - Masculina: passou do limite de 2500
+- Camiseta Regata Masculina Oxer Basic Light: passou do limite de 2500
+- Camiseta Regata Masculina Mizuno Energy 2.0: passou do limite de 2500
+- Camiseta Nike Gym Culture Masculina.: passou do limite de 2500
+- Camiseta Regata Masculina Oxer Mescla Basic: passou do limite de 2500
+- Camiseta Masculina Oxer Manga Curta Compressão: passou do limite de 2500
+- Camiseta Masculina Nord Manga Longa Segunda Pele Skin: passou do limite de 2500
+- Camiseta Masculina Nike Manga Longa Dri-Fit Rlgd: passou do limite de 2500
+- Camiseta Masculina adidas Manga Longa Techfit: passou do limite de 2500
+- Camiseta Masculina Mizuno Manga Longa Energy 2.0: passou do limite de 2500
+- Camiseta Manga longa Mizuno Energy 2.0 Masculina: passou do limite de 2500
+- Bermuda Malha Masculina Oxer London Evolution: passou do limite de 2500
+- Bermuda Asics 7 Recortada Masculina: passou do limite de 2500
+- Bermuda Masculina Champion Life Nylon Zorn: passou do limite de 2500
+- Bermuda Térmica Umbro Twr Diamond New - Masculina: passou do limite de 2500
+- Bermuda Masculina Nike Dri-Fit Unlimited 7In 2 em 1: passou do limite de 2500
+- Bermuda Masculina Mizuno Energy 7: passou do limite de 2500
+- Shorts adidas Treino Masculino: passou do limite de 2500
+- Calça Legging Feminina adidas Treino Básica: passou do limite de 2500
+- Bermuda ASICS Basic - Feminina: passou do limite de 2500
+- Bermuda Feminina Oxer Cós Baixo Média Compressão Aerobic: passou do limite de 2500
+- Bermuda Nike LFC Sportswear Heritage JG - Feminina: passou do limite de 2500
+- Bermuda Feminina Oxer Zig Cós Alto: passou do limite de 2500
+- Bermuda Feminina ASICS Shibori Recortes: passou do limite de 2500
+- Shorts Nike Pro 365 - Feminino: passou do limite de 2500
+- Calça Legging Feminina Sem Costura Oxer: passou do limite de 2500
+- Top Fitness sem Bojo Fila Baixa Sustentação Life Adulto: passou do limite de 2500
+- Top Fitness sem Bojo adidas Média Sustentação Treino Básico Adulto: passou do limite de 2500
+- Top Fitness com Bojo Removível adidas Alta Sustentação Fast Adulto: passou do limite de 2500
+- Top Fitness com Bojo Removível Vestem Média Sustentação Luciana Adulto: passou do limite de 2500
+- Top Fitness com Bojo On Running Alta Sustentação Performance Flex Bra Adulto: passou do limite de 2500
+- Kit de Meias Puma Esportiva Sapatilha com 3 Pares 34 a 39 - Feminina: passou do limite de 2500
+- Tênis adidas Supernova Lightflow Feminino: passou do limite de 2500
+- Tênis Olympikus Vértice Feminino 41 Rosa: passou do limite de 2500
+- Tênis Olympikus Safira Feminino 41 Azul: passou do limite de 2500
+- Tênis Olympikus Safira Feminino 41 Preto: passou do limite de 2500
+- Tênis Olympikus Citrus 2 Feminino 41 Cinza: passou do limite de 2500
+- Tênis Olympikus Jogging 101 SE Feminino: passou do limite de 2500
+- Tênis Mizuno Virtue Feminino: passou do limite de 2500
+- Macaquinho de Natação Oxer Taiti New Adulto: passou do limite de 2500
+- Maiô Adulto Speedo New Cross III Energised: passou do limite de 2500
+- Macaquinho de Natação Oxer Feminino Misty: passou do limite de 2500
+- Maiô adidas Logo com Costas em C Adulto: passou do limite de 2500
+- Bermuda Lacoste Esportiva Masculina: passou do limite de 2500
+- Tênis Puma Wired Run Slip-On Wns BDP - Feminino: passou do limite de 2500
+- Tênis Everlast Forceknit 5 Feminino: passou do limite de 2500
+- Tênis On Running The Roger Advantage 2 Feminino: passou do limite de 2500
+- Tênis On Running The Roger Clubhouse MI Feminino: passou do limite de 2500
+- Tênis Nike Air Zoom Bella 7 Feminino: passou do limite de 2500
+- Tênis Nike Metcon 9 Premium Feminino: passou do limite de 2500
+- Tênis Feminino Oxer Speed 2: passou do limite de 2500
+- Tênis Reserva SKR - Masculino: passou do limite de 2500
+- Sapatilha de Ciclismo Nike SuperRep Cycle 2 Next Nature - Masculina: passou do limite de 2500
+- Tênis Rainha Tower - Masculino: passou do limite de 2500
+- Tênis Nike Metcon 9 Masculino: passou do limite de 2500
+- Tênis Lacoste Baseshot Masculino: passou do limite de 2500
+- Tênis Reebok Nanofle X4 Masculino: passou do limite de 2500
+- Mochila adidas Backpack Protour - Adulto: passou do limite de 2500
+- Bolsa Nike Stash Tote Bag Aop Packable - 13 Litros: passou do limite de 2500
+- Mochila FIla Esseziale - 16 Litros: passou do limite de 2500
+- Bolsa Nike Brasilia XS Duff 95 - 25 Litros: passou do limite de 2500
+- Pochete Nike Heritage Waist Pack - 3 Litros: passou do limite de 2500
+- Mochila adidas 3 Listras 11 Litros: passou do limite de 2500
+- Mala Puma Core Base Large Shopper: passou do limite de 2500
+- Gym Sac Nike Brasilia Drawstring 9.5 - 18 Litros: passou do limite de 2500
+- Bolsa Nike Sportswear Tote RPM: passou do limite de 2500
+- Garrafa Térmica Stanley Aerolight Fast Flow 1,1L: passou do limite de 2500
+- Garrafa Térmica Stanley Quick Flip 710ml: passou do limite de 2500
+- Munhequeira de Neoprene Oxer Ajustável com Polegar 50: passou do limite de 2500
+- Meia Oxer Invisível Pilates Atoalhada Antiderrapante Tamanho 40 - 42: passou do limite de 2500
+- Kit 3 Pares de Meias Atoalhadas Cano Médio Tamanho 34 - 38 Casual Oxer Adulto: passou do limite de 2500
+- Corda de Pular de PVC Vollo VP1075 - 2,75 metros: passou do limite de 2500
+- Roda Abdominal Oxer Duplo Reforçado: passou do limite de 2500
+- Roda Abdominal Dupla Acte Sports T145: passou do limite de 2500
+- Bola de Pilates Suiça Vollo Gym Ball - 75cm: passou do limite de 2500
+- Óculos de Natação Speedo Horizon Plus MR - Adulto: passou do limite de 2500
+- Kit de Natação Swim SLC com Touca + Óculos + Protetor de Ouvido: passou do limite de 2500
+- Óculos de Natação Arena Cruiser Soft - Adulto: passou do limite de 2500
+- Óculos de Natação Arena Spider Júnior: passou do limite de 2500
+- Óculos de Natação Arena Bubble 3 Júnior: passou do limite de 2500
+- Óculos de Natação Arena Drive 3 - Adulto: passou do limite de 2500
+- Óculos de Natação Adulto Arena Air Soft: passou do limite de 2500
+- Touca de Natação Speedo Ladies Cap - Adulto: passou do limite de 2500
+- Touca de Natação Adulto para Cabelos Volumosos DaMinhaCor: passou do limite de 2500
+- Maiô Júnior Oxer Medley com Touca: passou do limite de 2500
+- Creatina Black Skull Turbo - 300g: passou do limite de 2500
+- Joelheira Mercur Esporte: passou do limite de 2500
+- Tornozeleira de Neoprene Longa Oxer 46 - Adulto: passou do limite de 2500
+- Munhequeira Fila Player G 4x4 com 2 Unidades - Adulto: passou do limite de 2500
+- Munhequeira Nike Swoosh Double Wristband Unissex Ac2287-100: passou do limite de 2500
+- Munhequeira Spalding Double Adulto: passou do limite de 2500
+- Munhequeira adidas Tennis Adulto: passou do limite de 2500
+- Munhequeiras adidas Originals Tennis Adulto: passou do limite de 2500
+- Blusa de Moletom Feminina Oxer Gola Careca Fleece: passou do limite de 2500
+- Blusa de Moletom Feminina Oxer com Capuz Canguru: passou do limite de 2500
+- Jaqueta de Moletom Feminina Oxer com Capuz Bex Selado: passou do limite de 2500
+- Blusa de Moletom Feminina adidas Future Icon: passou do limite de 2500
+- Blusa de Moletom adidas Gola Careca Stadium Feminina: passou do limite de 2500
+- Calça Jogger Feminina Oxer Moletom: passou do limite de 2500
+- Calça Jogger Dri-FIT Soft 24.7 Nike Feminina: passou do limite de 2500
+- Calça Jogger Feminina Oxer Plush: passou do limite de 2500
+- Calça Feminina Oxer Jogger Plush com Bolso: passou do limite de 2500
+- Calça Jogger Feminina Oxer Malha Premium: passou do limite de 2500
+- Jaqueta Feminina Nord com Capuz Impermeável Selada: passou do limite de 2500
+- Jaqueta Feminina Nord com Capuz Removível 3 em 1: passou do limite de 2500
+- Blusa Cropped Feminina ASICS Manga Longa Cava Tradicional: passou do limite de 2500
+- Jaqueta Oxer com Capuz Plush Cap Bex - Feminina: passou do limite de 2500
+- Blusa de Moletom Masculina adidas Big Logo: passou do limite de 2500
+- Blusa de Moletom Masculina adidas com Capuz Future Icon: passou do limite de 2500
+- Jaqueta Masculina Moletom Plano Oxer: passou do limite de 2500
+- Calça de Moletom Masculina NBA Chicago Bulls N682A: passou do limite de 2500
+- Blusa de Moletom Oxer Careca Bolso Externo Masculina: passou do limite de 2500
+- Calça Jogger Nike Sportswear Tech Fleece Masculina: passou do limite de 2500
+- Conjunto de Agasalho Masculino ASICS Interlock Bolso Fusionado: passou do limite de 2500
+- Agasalho Masculino Umbro Basic Perform: passou do limite de 2500
+- Conjunto de Agasalho Masculino ASICS Interlock Fechado: passou do limite de 2500
+- Camiseta do Barcelona Masculina Oversize: passou do limite de 2500
+- Calça Legging Feminina adidas Farm: passou do limite de 2500
+- Calça Legging adidas Hyperglam Feminina: passou do limite de 2500
+- Calça Legging Feminina adidas Solid Lam: passou do limite de 2500
+- Camiseta Nike Manga Curta Nikecourt Dri-Fit Victory Top - Masculina: passou do limite de 2500
+- Camiseta Masculina Nike Manga Curta Academy 23 Top: passou do limite de 2500
+- Top Nike Dri-fit Pro Crop Tank All Over Print Adulto: passou do limite de 2500
+- Top Nike Pro Sem Bojo Adulto: passou do limite de 2500
+- Camiseta Regata Los Angeles Clippers Nike Dri-Fit MNK SWGMN JSY: passou do limite de 2500
+- Camiseta Nike Manga Curta Dri-Fit One SS STD - Feminina: passou do limite de 2500
+- Camiseta Masculina adidas Manga Curta Fortore 23: passou do limite de 2500
+- Camiseta adidas Manga Curta Team 22 - Masculina: passou do limite de 2500
+- Camiseta Feminina adidas Manga Curta Own The Run Base: passou do limite de 2500
+- Camiseta Masculina adidas Manga Curta Essentials 3 Listras: passou do limite de 2500
+- Camiseta Masculina adidas Manga Curta Treino Básica: passou do limite de 2500
+- Camiseta Masculina Under Armour Manga Curta Camo Boxed: passou do limite de 2500
+- Camiseta Masculina Under Armour Manga Curta Sportstyle Left Chest: passou do limite de 2500
+- Camiseta Under Armour Tech Fade Masculina: passou do limite de 2500
+- Camiseta Puma Feminina Manga Curta Essentials Logo Tee: passou do limite de 2500
+- Camisa Puma Jersey Active - Masculina: passou do limite de 2500
+- Camiseta Masculina Puma Manga Curta ESS Tee Logo: passou do limite de 2500
+- Camiseta Feminina Puma Manga Curta ESS Tee Logo: passou do limite de 2500
+- Short-Saia Nike Court Dri-FIT Advantage Adulto: passou do limite de 2500
+- Calção do Corinthians 25 Nike Masculino: passou do limite de 2500
+- Short-Saia adidas Club Tennis Climacool Graphic Adulto: passou do limite de 2500
+- Short adidas Estampado Essentials Três Listras Feminino: passou do limite de 2500
+- Short 2 Em 1 adidas Own The Run Spray Dye Feminina: passou do limite de 2500
+- Bermuda Essential 10 Olympikus Feminina P Azul: passou do limite de 2500
+- Bermuda Feminina Olympikus Corre com Bolso: passou do limite de 2500
+- Bermuda Masculina Olympikus Corre 7: passou do limite de 2500
+- Camiseta Comfy Tape Olympikus Masculina Plus Size G1 Bege: passou do limite de 2500
+- Camiseta Comfy Tape Olympikus Masculina Plus Size G2 Bege: passou do limite de 2500
+- Camiseta Comfy Tape Olympikus Feminina P Bege: passou do limite de 2500
+- Camiseta Regata Masculina Olympikus Corre: passou do limite de 2500
+- Regata Masculina Olympikus Corre Foco Corrida: passou do limite de 2500
+- Camiseta Regata Olympikus Corre Foco Feminina: passou do limite de 2500
+- Camiseta Regata Feminina Fila Basic: passou do limite de 2500
+- Camiseta Fila Manga Curta Basic Feminina: passou do limite de 2500
+- Camiseta Regata Fila Tennis Basic - Feminina: passou do limite de 2500
+- Camiseta Masculina Fila Manga Curta Regular Classic: passou do limite de 2500
+- Camiseta Masculina Fila Manga Curta Tennis Line II: passou do limite de 2500
+- Jaqueta Masculina Squadra 25 adidas: passou do limite de 2500
+- Blusão Feminino adidas Own The Run: passou do limite de 2500
+- Jaqueta adidas Tech Apparel Masculina: passou do limite de 2500
+- Jaqueta adidas Bomber Woven 3 Listras Feminina: passou do limite de 2500
+- Jaqueta adidas ADI365 HK CRW Feminina: passou do limite de 2500
+- Blusão de Moletom Nike Sportswear Club Crew FT - Masculino: passou do limite de 2500
+- Tênis adidas Court Platform Leo - Feminino: passou do limite de 2500
+- Tênis Nike Court Vision Alta LTR - Feminino: passou do limite de 2500
+- Tênis adidas QT Racer 3.0 - Feminino: passou do limite de 2500
+- Tênis Champion XG Dash - Feminino: passou do limite de 2500
+- Tênis Nike Air Max Sc - Feminino: passou do limite de 2500
+- Tênis Puma Carina Bold BDP - Feminino: passou do limite de 2500
+- Tênis adidas Advantage - Feminino: passou do limite de 2500
+- Tênis Rainha VL 2500 - Feminino: passou do limite de 2500
+- Tênis Fila Acer - Masculino - Tennis: passou do limite de 2500
+- Tênis Champion Rally Pro - Masculino: passou do limite de 2500
+- Tênis Rainha Mont Car III - Masculino: passou do limite de 2500
+- Tênis Rainha York - Masculino: passou do limite de 2500
+- Tênis adidas Grand Court 2 0 - Júnior: passou do limite de 2500
+- Tênis Puma Smash V3 BDP - Unissex: passou do limite de 2500
+- Tênis Fila Classic Court Adapter - Feminino: passou do limite de 2500
+- Tênis Fila Tormo Feminino: passou do limite de 2500
+- Tênis Fila Acd Classic - Feminino: passou do limite de 2500
+- Tênis New Balance BB80 Unissex: passou do limite de 2500
+- Tênis New Balance 55 Unissex: passou do limite de 2500
+- Tênis New Balance 410V8 Feminino: passou do limite de 2500
+- Tênis New Balance 574 Windbreaker - Feminino: passou do limite de 2500
+- Tênis Vans Range Exp - Masculino: passou do limite de 2500
+- Tênis Vans Masculino Filmore: passou do limite de 2500
+- Tênis Vans Doheny - Masculino: passou do limite de 2500
+- Tênis Vans Ryland Masculino: passou do limite de 2500
+- Tênis Vans Brooklyn Masculino: passou do limite de 2500
+- Tênis Vans Old Skool Stackform: passou do limite de 2500
+- Tênis Converse All Star Chuck Taylor CT0448 - Unissex: passou do limite de 2500
+- Tênis Cano Alto Converse All Star Chuck Taylor - Adulto: passou do limite de 2500
+- Tênis Converse All Star Chuck Taylor CT0420 - Unissex: passou do limite de 2500
+- Tênis Cano Alto Converse All Star Chuck Taylor CT0419 - Unissex: passou do limite de 2500
+- Tênis Cano Alto Converse All Star Premium Pro Leather - Adulto: passou do limite de 2500
+- Tênis Converse All Star Premium Pro Leather X2 OX - Adulto: passou do limite de 2500
+- Chinelo Nike Victori One - Slide - Feminino: passou do limite de 2500
+- Chinelo Nike Jordan Post Slide: passou do limite de 2500
+- Chinelo Rider Chicago Bulls NBA Jam II Slide Adulto + Meia Cano Alto: passou do limite de 2500
+- Chinelo Nike Air Max Cirro Slide Adulto: passou do limite de 2500
+- Chinelo Slide Unissex adidas Adilette Aqua: passou do limite de 2500
+- Chinelo Slide Unissex adidas Adissage 360REC: passou do limite de 2500
+- Chinelo Slide Feminino Nike Jordan Post: passou do limite de 2500
+- Sandália Nike Adulto Vista: passou do limite de 2500
+- Chinelo Slide Nike Calm Essential: passou do limite de 2500
+- Chinelo Nike Offcourt - Slide - Masculino: passou do limite de 2500
+- Chinelo Slide Nike Offcourt Adjust - Adulto: passou do limite de 2500
+- Chinelo Nike One Shower - Slide - Feminino: passou do limite de 2500
+- Chinelo adidas Adilette Aqua - Unissex: passou do limite de 2500
+- Chinelo adidas Znscape: passou do limite de 2500
+- Boné Boston Celtics NBA Aba Curva New Era 920 Sport Special Strapback - Adulto: passou do limite de 2500
+- Boné New York Yankees MLB Aba Curva New Era 940 Strapback Destroyed - Adulto: passou do limite de 2500
+- Boné Aba Curva Puma Strapback Ess Cap III - Adulto: passou do limite de 2500
+- Boné Puma Aba Curva Strapback Sportswear Cap: passou do limite de 2500
+- Boné Aba Curva Los Angeles Dodgers New Era MLB Strapback 920 ST PERM LRY - Adulto: passou do limite de 2500
+- Boné Adulto Nike Club N.O Aba Curva: passou do limite de 2500
+- Boné Unissex MLB Detroit Tigers Nike Dri-FIT Club Aba Curva: passou do limite de 2500
+- Boné Unissex MLB Chicago Cubs Nike Club Un Aba Curva: passou do limite de 2500
+- Boné Aba Curva Nike Club Swoosh Strapback Adulto: passou do limite de 2500
+- Boné NFL Aba Curva New Era Snapback 940 Trucker AGD Adulto: passou do limite de 2500
+- Boné Aba Curva Puma Metal Cat - Strapback - Adulto: passou do limite de 2500
+- Boné do Barcelona Aba Curva Supercap Snapback Adulto: passou do limite de 2500
+- Boné Adulto Puma Essential NO 1 Logo Patch Aba Curva: passou do limite de 2500
+- Mochila Olympikus Cabo de Aço U Cinza: passou do limite de 2500
+- Mochila Olympikus Prime U Azul: passou do limite de 2500
+- Mochila Olympikus Basic New U Preto: passou do limite de 2500
+- Mochila Olympikus Puffer: passou do limite de 2500
+- Mochila Olympikus Essential U Verde: passou do limite de 2500
+- Mochila Olympikus Shammy 2.0 U Verde: passou do limite de 2500
+- Mochila Shammy Estampada Olympikus U Cinza: passou do limite de 2500
+- Mochila Oxer Básica com Bolso Seguro: passou do limite de 2500
+- Pochete Nike Heritage Wstpckcandy Store - 3 Litros: passou do limite de 2500
+- Bolsa Nike Stash Tote Bag 13 Litros: passou do limite de 2500
+- Mochila adidas Clássica Linear Day: passou do limite de 2500
+- Mochila Mizuno Master - 21 Litros: passou do limite de 2500
+- Gym Sack Nike Nk Academy Sp21 - 18 Litros: passou do limite de 2500
+- Mochila Nike Heritage com Multi Compartimentos - 25 Litros: passou do limite de 2500
+- Mochila Nike Brasilia 24L Com Multi Compartimentos: passou do limite de 2500
+- Bola de Vôlei Wilson Pro Tour: passou do limite de 2500
+- Bola de Basquete CBB: passou do limite de 2500
+- Bola de Basquete Spalding Precision Tf1000 Fiba: passou do limite de 2500
+- Bola de Basquete Nike Everyday Playground 8P: passou do limite de 2500
+- Bola de Basquete Spalding React Tf250 Fiba: passou do limite de 2500
+- Bola de Basquete Nike Jordan Playground 20 8P: passou do limite de 2500
+- Bola de Basquete Nike Playground 2.0 8P Lebron James: passou do limite de 2500
+- Bola Basquete Nba Wilson Team: passou do limite de 2500
+- Bola de Basquete Spalding MVP: passou do limite de 2500
+- Bola de Basquete Wilson MVP Brown 7: passou do limite de 2500
+- Tênis Nike Lebron XXI - Masculino: passou do limite de 2500
+- Tênis Nike Sabrina 1 Ion Feminino: passou do limite de 2500
+- Tênis Masculino Nike Jordan Zion 3: passou do limite de 2500
+- Tênis Nike Air Zoom G. T. Cut Academy Masculino: passou do limite de 2500
+- Tênis Asics Gel-Rocket 11 Masculino: passou do limite de 2500
+- Tênis Masculino Olympikus Qu4dra BR1: passou do limite de 2500
+- Tênis ASICS Sky Lite FF 3 - Feminino - Tennis: passou do limite de 2500
+- Bola Futebol Penalty Campo Bravo Esportiva Grama Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol Campo Penalty Storm Xxi Bco/verm: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Heroes Armor Cor Rosa-claro: equilíbrio: a maioria do site precisa ser promoção
+- Bola Beach Tennis Leflex Profissional Stage 2 Feltro Acrílico: equilíbrio: a maioria do site precisa ser promoção
 - Bola Tênis de Praia Beach Tennis Zeiq Verde-Laranja Unidade: equilíbrio: a maioria do site precisa ser promoção
 - Bola Tênis Premium Tecnifibre X Verde Para Todas Quadras 3 Latas: equilíbrio: a maioria do site precisa ser promoção
 - Kit 6 Tubos Bola Tênis Profissional Tecnifibre X-One 18 Unidades: equilíbrio: a maioria do site precisa ser promoção
 - Bola Tênis Wilson US Open Regular Duty - Pack com 6 Tubos: equilíbrio: a maioria do site precisa ser promoção
 - Bola Tênis de Mesa DHS Cellfree-Dual 40MM+ 10 Bolas Laranja ABS: equilíbrio: a maioria do site precisa ser promoção
 - Tubo de bola Wilson Padel - Premier Padel X3 cor amarela: equilíbrio: a maioria do site precisa ser promoção
-- Bola de Padel Spin Extra c/ 3 Bolas: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Padel Prince Pack com 3 Tubos: equilíbrio: a maioria do site precisa ser promoção
 - Bola De Padel Spin Extra Pack Com 03 Tubos: equilíbrio: a maioria do site precisa ser promoção
 - Overgrip Dropshot - Unidade: equilíbrio: a maioria do site precisa ser promoção
 - Overgrip Head Prestige Pro: equilíbrio: a maioria do site precisa ser promoção
+- Mini Band Poker Media 600x50x0.6mm Azul: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Dualt Slick Evolution M2 Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
+- Meião Futebol Masculino Meia Esportiva Futsal Jogador 28ao43 Azul P: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol Campo Topper Drible Pro: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol E.v.a 06 Unidades Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol Cheia Campo Tamanho Capotão - Laranja: equilíbrio: a maioria do site precisa ser promoção
@@ -1539,7 +1629,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Futsal Diadora Colorin Park Cor Verde: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futsal Kappa Blasty 100 Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futsal Penalty Rx 200 Xxi Cor Amarelo: equilíbrio: a maioria do site precisa ser promoção
-- Bola Society Diadora - Coloring Park Azul-vermelho: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Diadora Colorin Park Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Penalty Se7e Ultra Fusion Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Topper Slick + Bomba De Ar: equilíbrio: a maioria do site precisa ser promoção
@@ -1551,6 +1640,8 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Futebol De Campo Lider Xxi Ed. Brasil Na Copa - Penalty Branco: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol De Campo Storm Duotec X Penalty Cor Branco/Amarelo/Azul: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol Salão Futsal Penalty Rx 500 XVVI: equilíbrio: a maioria do site precisa ser promoção
+- Meião Futebol Umbro Premier Adulto 38-44 Cor Branco: equilíbrio: a maioria do site precisa ser promoção
+- Meião Futebol Futsal Umbro Twr Game Cores Cor Verde: equilíbrio: a maioria do site precisa ser promoção
 - Boné Olympikus Transpasse Treino Corrida Caminhada Cor Branco Tamanho Un: equilíbrio: a maioria do site precisa ser promoção
 - Viseira Speedo Boomerang, Preta, Unissex para Corrida e Esportes: equilíbrio: a maioria do site precisa ser promoção
 - Boné De Corrida Dry Fit Runnistico - Sportbr Laranja Un: equilíbrio: a maioria do site precisa ser promoção
@@ -1558,11 +1649,17 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Boné Sportbr Azul Com Fechamento Ajustável Para Corrida: equilíbrio: a maioria do site precisa ser promoção
 - Caixa Meia Esquadria Medidor + Serrote Japonês Wolfcraft: equilíbrio: a maioria do site precisa ser promoção
 - Boné Unissex De Corrida Ultraleve Kiprun Preta Unico: equilíbrio: a maioria do site precisa ser promoção
-- Garrafa Squeeze Mq - Meu Lado Doce: equilíbrio: a maioria do site precisa ser promoção
+- Garrafa Squeeze Mq Profissões - Advogado - 600ml: equilíbrio: a maioria do site precisa ser promoção
+- Garrafa Squeeze Mq Dev - Python: equilíbrio: a maioria do site precisa ser promoção
+- Garrafa Squeeze Mq6 - Divertida Paciência: equilíbrio: a maioria do site precisa ser promoção
+- Boné Para Corrida Hupi Run Azul/rosa Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
 - Boné Anth Co Performance Airtech para Corrida Preto: equilíbrio: a maioria do site precisa ser promoção
 - Relógio Garmin Forerunner 965 Com Gps 47mm Branco: equilíbrio: a maioria do site precisa ser promoção
+- Relógio GPS Amazfit Gtr Mini Smartwatch de 1,28", cor preta, malha, cor preta: equilíbrio: a maioria do site precisa ser promoção
 - Relógio Garmin Epix Pro Gen2 51mm Safira Cinza Carbono Dlc: equilíbrio: a maioria do site precisa ser promoção
 - Relógio Garmin Venu 4 Ardósia Pulseira Silicone Preta 45mm: equilíbrio: a maioria do site precisa ser promoção
+- Meia Esportiva Futebol Ultragrip Prosocks Cor Branco Tamanho 33/37: equilíbrio: a maioria do site precisa ser promoção
+- Kit 3 Pares Meia Esportiva Cano Médio Penalty X T 33-38 Cor Branco Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
 - Kit 3 Pares Meia Esportiva Penalty Cano Invisível X T 39-44 Cor Cinza Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
 - Meia Esportiva Antiderrapante Preto para Futebol e Futsal Tamanho 38-44: equilíbrio: a maioria do site precisa ser promoção
 - Meia Esportiva Penalty Cano Baixo Kit 3 Pares X T 39 Ao 44 Cor Branco Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
@@ -1599,7 +1696,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Garrafa Squeeze De Plastico Transcolor 600ml: equilíbrio: a maioria do site precisa ser promoção
 - Bola De Beach Tennis Hupi Pro Cor Amarela: equilíbrio: a maioria do site precisa ser promoção
 - Mochila Raqueteira Head Tour Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Pingente de Raquete Beach Tennis em Ouro 18k Amarelo: equilíbrio: a maioria do site precisa ser promoção
 - Raqueteira Wilson 6PK TEAM marinho: equilíbrio: a maioria do site precisa ser promoção
 - Bola Beach Tennis Profissional Kit 3 Tenis De Praia Feltro: equilíbrio: a maioria do site precisa ser promoção
 - Bola Beach Tennis Joog Itf Stage 2 (3 Unidades) Cor Amarelo E Laranja: equilíbrio: a maioria do site precisa ser promoção
@@ -1611,12 +1707,9 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Colar Raquete Beach Tennis Folheado Em Ouro 18k Dourado: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Compass Gaia 3k: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Xplay Royal + Capa: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Beach Tennis Shark Tornado Amarelo/vermelho: equilíbrio: a maioria do site precisa ser promoção
 - Capa Quicksand Para Raquete Beach Tennis Colorida Poliéster: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Compass Flow 3k: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Topgrip Star Carbono Verde Brasil: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Nox Varadero 2022 Cor Preto: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Shark Tour Modelo 2022: equilíbrio: a maioria do site precisa ser promoção
-- Grip adidas Raquete Beach Tennis, Padel Cor Branco: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Carbono 3k Camewin Edição Especial Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Bola Beach Tennis Profissional Bolinha Tênis Praia Quickshot: equilíbrio: a maioria do site precisa ser promoção
 - Kit 10 Bolinhas Bola Beach Tennis Mormaii Profissional Nova: equilíbrio: a maioria do site precisa ser promoção
@@ -1641,23 +1734,24 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Munhequeira Elástica Longa Para Lpo Muvin - Musculação Preto/cinza: equilíbrio: a maioria do site precisa ser promoção
 - Luva Com Munhequeira Academia Musculação Crossfit Bike Tamanho M: equilíbrio: a maioria do site precisa ser promoção
 - Munhequeira Elástica Curta Para Lpo Muvin - Musculação Preto/cinza P: equilíbrio: a maioria do site precisa ser promoção
+- Óculos Natação Mormaii Endurance Cor Amarelo: equilíbrio: a maioria do site precisa ser promoção
+- Óculos Natação Speedo Syber Flow Revo Azul: equilíbrio: a maioria do site precisa ser promoção
+- Óculos Natação Espelhado Leader Winner Cor Dourado: equilíbrio: a maioria do site precisa ser promoção
 - Kit Par Halter 2 Kg + Par Halter 3 Kg Pesos Emborrachados Azul, Vermelho E Preto: equilíbrio: a maioria do site precisa ser promoção
 - Halter Sextavado Pintado 26kg: equilíbrio: a maioria do site precisa ser promoção
-- Conjunto Roupa Fitness Paris SOMAMI: equilíbrio: a maioria do site precisa ser promoção
 - Mochila Academia DropMaxi Para Notebook Lite Preta 15L Antirroubo: equilíbrio: a maioria do site precisa ser promoção
 - Mochila Academia Sestini Golden State Warriors Azul 17 L Poliéster: equilíbrio: a maioria do site precisa ser promoção
-- Tala Straps Com Munhequeira: equilíbrio: a maioria do site precisa ser promoção
 - Kit 2 Munhequeira Compressão Ajustável Academia E Crossfit Preto Único: equilíbrio: a maioria do site precisa ser promoção
 - Luva Padrão Abvaq +munhequeira- Profissional Para Vaquejada: equilíbrio: a maioria do site precisa ser promoção
 - Halter Injetado Preto 06 Kg: equilíbrio: a maioria do site precisa ser promoção
 - Halter Injetado Preto 05 Kg: equilíbrio: a maioria do site precisa ser promoção
 - Halter Redondo Emborrachado 10kg Preto: equilíbrio: a maioria do site precisa ser promoção
 - Halter Barra Rosca 40cm Maciça: equilíbrio: a maioria do site precisa ser promoção
-- Halter Emborrachado 1 Kg - Cinza: equilíbrio: a maioria do site precisa ser promoção
 - Caneleira Peso Enforce Fitness 3 Pares 2kg 4kg 6kg Preto: equilíbrio: a maioria do site precisa ser promoção
 - Par Caneleira Peso Para Treino Kit 1kg (2 Un De 0,5kg): equilíbrio: a maioria do site precisa ser promoção
 - Caneleira De Peso Hidrolight 1,5kg: equilíbrio: a maioria do site precisa ser promoção
 - Caneleira de Peso - 4kg Muvin: equilíbrio: a maioria do site precisa ser promoção
+- Óculos Natação Praia Ultra Fast Antiembaçante: equilíbrio: a maioria do site precisa ser promoção
 - Óculos Natação Tyr Stealth-x Cor Trasnparente: equilíbrio: a maioria do site precisa ser promoção
 - Oculos Natação Gyaros Prime 13060 Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 - Oculos Natação Zoggs Spectra Fumê Cinza Preto: equilíbrio: a maioria do site precisa ser promoção
@@ -1667,6 +1761,8 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Óculos Natação Aqua Sphere Seal Kid Branco: equilíbrio: a maioria do site precisa ser promoção
 - Oculos Natação Dokos Prime 13059 Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Óculos Natação Speedo Mariner Cor Preto/ Citronela: equilíbrio: a maioria do site precisa ser promoção
+- Munhequeira Artengo Preto Tamanho XXL: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa Térmica | Lancheira Térmica | Marmita Térmica Preto: equilíbrio: a maioria do site precisa ser promoção
 - Munhequeira Tennis Grande - Branco adidas Ht3911: equilíbrio: a maioria do site precisa ser promoção
 - Kit Bolsa Térmica Gel 250g RMC + Capa Protetora: equilíbrio: a maioria do site precisa ser promoção
 - Munhequeira Blw - Cenoura: equilíbrio: a maioria do site precisa ser promoção
@@ -1678,6 +1774,8 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Munhequeira Para Tendinite Estabilizador De Pulso Ortopédica: equilíbrio: a maioria do site precisa ser promoção
 - Munhequeira Ajustável Neosoft Preto Tamanho Único Preto: equilíbrio: a maioria do site precisa ser promoção
 - Munhequeira Ortopédica De Compressão Ajustável Verde M: equilíbrio: a maioria do site precisa ser promoção
+- Cinta Lombar Lomba Care Actimove Bsn Tamanho M: equilíbrio: a maioria do site precisa ser promoção
+- Cinta Lombar Ergonômica Reforçada Coluna Postura Abdominal Xgg: equilíbrio: a maioria do site precisa ser promoção
 - Cinta Lombar Aradesc Flexível Ortopédica Tamanho P Preta: equilíbrio: a maioria do site precisa ser promoção
 - Cinta Lombar Ergonômica Mazola Ajustável com Suspensório, Tamanho P: equilíbrio: a maioria do site precisa ser promoção
 - Cinta Lombar EPI Dingli Proteção Postural Ajustável Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
@@ -1707,27 +1805,33 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Assento Sanitário Scala Bone Para Louça Ideal St. Bone: equilíbrio: a maioria do site precisa ser promoção
 - Boné K&N Unisex, Boné Trucker: equilíbrio: a maioria do site precisa ser promoção
 - Bola Basquete Marvel Capitão América Tam3 Roppe Capitão América: equilíbrio: a maioria do site precisa ser promoção
+- Bola Basquete Spalding Rookie Gear Jr. Tamanho 5 - Mirim: equilíbrio: a maioria do site precisa ser promoção
 - 4 Bola Basquete 300g Qualidade Basketball Brinquedo Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Bola Basquete Wilson Nba Team Alliance - Tam 7 Cor Verde: equilíbrio: a maioria do site precisa ser promoção
 - Bola Basquete Wilson Ncaa Replica 28.5 - Tam 6 Cor PINK: equilíbrio: a maioria do site precisa ser promoção
 - Bola Basquete Oficial Play Off Tamanho 7 Laranja Luke Sports: equilíbrio: a maioria do site precisa ser promoção
 - Bola Basquete Penalty Playoff Adulto + Bomba De Ar Cor Preto: equilíbrio: a maioria do site precisa ser promoção
-- Berloque Prata 925 Bola Basquete Design Elegante Prateado: equilíbrio: a maioria do site precisa ser promoção
 - Bola Basquete Mini Nba Team Retro Milwaukee Bucks #3 Wilson: equilíbrio: a maioria do site precisa ser promoção
 - Bola Basquete Penalty 5.8 Crossover X - Lar/pto Un Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Halter Injetado Preto 08 Kg: equilíbrio: a maioria do site precisa ser promoção
 - Bola Basquete Playoff Ix Laranja Penalty: equilíbrio: a maioria do site precisa ser promoção
+- Meiao Futebol Cano Longo Acima Joelho Confortável Adulto Cor Verde: equilíbrio: a maioria do site precisa ser promoção
+- Meião Futebol Topper Boleiro Cor Branco-Preto Tamanho 39-44: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futsal Topper Slick Colorful - - Cor Roxo: equilíbrio: a maioria do site precisa ser promoção
 - Meião Futebol Stadium Ultra Resistente Verde 39-44: equilíbrio: a maioria do site precisa ser promoção
 - Meião Futebol 3/4 Cano Médio Meia Poliesportivo Kanxa Preto: equilíbrio: a maioria do site precisa ser promoção
-- Meia Esportiva De Futebol Antiderrapante Treino Meias Vermelho: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa Lateral Disney Bolsa Para Colorir - Azul Stitch: equilíbrio: a maioria do site precisa ser promoção
+- Boné Preto Kiprun V2 Unissex Corrida Liso Kiprun: equilíbrio: a maioria do site precisa ser promoção
+- Relógio Garmin Forerunner 165 Music Amoled Preto () Pulseira Granada/ Roxo: equilíbrio: a maioria do site precisa ser promoção
 - Relógio Garmin Fênix 8 Amoled Sapphire Titanium 51mm Black Cinza-escuro: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Padel Ad Astra Taurus Carbono 12K para Adultos: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Padel Nox Vk10 Ventus Control 12k 2026 Aranzazu Osor Azul-claro: equilíbrio: a maioria do site precisa ser promoção
 - Overgrip Head Extreme Track Vermelho: equilíbrio: a maioria do site precisa ser promoção
+- Overgrip Ta Confort Artengo Cor Preto: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Padel Nox La10 Quantum 12k 2025 Leo Augsburguer Preto: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Padel Bullpadel Neuron 02 Cloud 2026: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Padel Nox At10 Genius 18k Alum Agustín Tapia Luxury Prateado: equilíbrio: a maioria do site precisa ser promoção
-- Raquete de Tênis Babolat Pure Drive: equilíbrio: a maioria do site precisa ser promoção
+- Raquete Padel Xmasters Xpadel Dark And Silver - Double X: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Drop Shot Renegade Control 3k 2025 Cor 318 Gramas 25.7 Balance: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Carbono 3k Drop Shot Explorer 3.0 2022: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Padel Bullpadel Hack 04 Hybrid 2026 18k: equilíbrio: a maioria do site precisa ser promoção
@@ -1747,6 +1851,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Tênis de Mesa Pongori ITTF Competição 4 Unidades Branca: equilíbrio: a maioria do site precisa ser promoção
 - Bola Tênis De Mesa Vollo Training 3 Estrelas - 6 Unidades Cor Branco: equilíbrio: a maioria do site precisa ser promoção
 - Boton Bola De Tênis Prateado: equilíbrio: a maioria do site precisa ser promoção
+- Bola De Beach Tenis Premium Profissional - Mormaii: equilíbrio: a maioria do site precisa ser promoção
 - Bola De Tênis Dunlop Stage 1 Verde: equilíbrio: a maioria do site precisa ser promoção
 - Overgrip Zeiq Power Zeiq Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Overgrip Tecnifibre Pro Contact Branco - 0.6mm: equilíbrio: a maioria do site precisa ser promoção
@@ -1759,7 +1864,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Kit 2 Anilha 3Kg (Par) Emborrachado Musculação Academia Treino Peso Anilha Halter Fitness : equilíbrio: a maioria do site precisa ser promoção
 - Elástico Extensor Multifuncional com Pedal KDBD, Aparelho para Treino em Casa: equilíbrio: a maioria do site precisa ser promoção
 - Elástico Extensor Intensidade Média 120cm: equilíbrio: a maioria do site precisa ser promoção
-- Touca Natação Piscina Mergulho Não Molha Cabelo Cor Branco: equilíbrio: a maioria do site precisa ser promoção
 - Meia Esportiva Futebol Ultragrip Internacional Prosocks Cor Vermelho Tamanho 38/44: equilíbrio: a maioria do site precisa ser promoção
 - Meia Esportiva De Futebol Antiderrapante Treino Meias: equilíbrio: a maioria do site precisa ser promoção
 - Conjunto Agasalho Masculino Umbro Color Pipe Cor Marinho Tamanho G: equilíbrio: a maioria do site precisa ser promoção
@@ -1770,6 +1874,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Garrafa térmica de aço inoxidável, garrafa térmica azul de parede dupla de 1000 ml: equilíbrio: a maioria do site precisa ser promoção
 - Garrafa Térmica De Inox Para Café E Chá Clássica - 1l Garrafa Térmica: equilíbrio: a maioria do site precisa ser promoção
 - Faixa Cabelo Turbante Azul Touca Redinha Branca Cozinha: equilíbrio: a maioria do site precisa ser promoção
+- Faixa Cabelo Turbante Nó Retro Ano 60 Afro Anita Vintage Cor Branca: equilíbrio: a maioria do site precisa ser promoção
 - Elástico Extensor Cross Tube Treino Força Alta Resistência MBFit: equilíbrio: a maioria do site precisa ser promoção
 - Kit 11 Und Elástico Extensor Treino Funcional Academia Casa Preto: equilíbrio: a maioria do site precisa ser promoção
 - Elastico Extensor Multiuso Colors 1,5mx9mm: equilíbrio: a maioria do site precisa ser promoção
@@ -1780,9 +1885,21 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Elástico Extensor Oito de Tensão Leve com Alças para Treino Liftness: equilíbrio: a maioria do site precisa ser promoção
 - Elástico Extensor Média Resistência Treino Força Resistencia Online: equilíbrio: a maioria do site precisa ser promoção
 - Elastico Extensor Exercicio Academia Casa Fitness Pilates: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Contador Fitness Ajustavel Treino Cardio Saude: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Com Regulagem Emagrecer Fitness Academia Treino: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Liveup Treino Funcional Cross Speed Rope Cor Rosa: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Profissional Flexível Giratória MBFit Ajustável 2,7m Vermelha: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Feo Imports Com Contador Digital Crossfit Ajustável Azul: equilíbrio: a maioria do site precisa ser promoção
+- 10un Corda Pular Woder Speed Rope Cross Funcional Cor Preto: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Contador Crossfit Funcional Yoga Pilates Aerobic Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Com Rolamento E Contador Giros Analógico Liveup: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Profissional Rolamento Speed Rope Com Pesos 400g: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Speed Rope Profissional Rolamento Treino Em Casa Preto: equilíbrio: a maioria do site precisa ser promoção
 - Touca Natação Ntk Unissex Bestway Glide Cor Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Touca Natação Standard Muvin Silicone Resistente Treinamento Cor Vermelho: equilíbrio: a maioria do site precisa ser promoção
 - Touca Natação Látex Impermeável Unisex Hidroginástica Cor Azul Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
+- Bcaa 500 G Em Pó 100% Puro Sabor BCAA 2:1:1: equilíbrio: a maioria do site precisa ser promoção
+- Bcaa 5:1:1 - 2x Potes De 250g - Kit Bcaa Em Pó - Pro Healthy Sabor Melancia: equilíbrio: a maioria do site precisa ser promoção
 - Bcaa 120 Cápsulas - Alquimia: equilíbrio: a maioria do site precisa ser promoção
 - Cotoveleira Tática Invictus Protec Verde: equilíbrio: a maioria do site precisa ser promoção
 - Cotoveleira Curta Tamanho P: equilíbrio: a maioria do site precisa ser promoção
@@ -1794,7 +1911,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Tornozeleira Premium Speedo Unissex P Preto: equilíbrio: a maioria do site precisa ser promoção
 - Tornozeleira Bilateral Basic Hidrolight Tamanho Gg: equilíbrio: a maioria do site precisa ser promoção
 - Tornozeleira Hidrolight Estabilizadora para Esportes, Preta: equilíbrio: a maioria do site precisa ser promoção
-- Cotoveleira Ortopédica Epicondilite Compressão Ajustável: equilíbrio: a maioria do site precisa ser promoção
 - Cotoveleira Curta Tamanho Gg: equilíbrio: a maioria do site precisa ser promoção
 - Produto Ergonomico Cotoveleira Tamanho P: equilíbrio: a maioria do site precisa ser promoção
 - Cotoveleira Skate S9 Adulto Spoart: equilíbrio: a maioria do site precisa ser promoção
@@ -1812,8 +1928,8 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Futebol De Campo Penalty Matis Termotec Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 - Smartwatch Blackview R50 Bezel Grey Smartwatch esportivo: equilíbrio: a maioria do site precisa ser promoção
 - Bola De Padel Head Pro Tubo Com 3 Unidades: equilíbrio: a maioria do site precisa ser promoção
-- Raquete Beach Tennis Heroes Rebel 2026 C/capa Nfc: equilíbrio: a maioria do site precisa ser promoção
 - Jogo de bola de velcro com raquetes para crianças: equilíbrio: a maioria do site precisa ser promoção
+- Bola De Padel Rosa Hiperlight Tubo Com 03 Bolas Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Heroes Show 26 Carbono 3 K - Sophia Chow: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Tênis Mesa Yashima Clássica Learning Borracha 2mm: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Tênis Mesa Yashima Clássica 02 Estrelas Aprovada ITTF: equilíbrio: a maioria do site precisa ser promoção
@@ -1821,14 +1937,16 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Head Padel Pro Kit 3tubos 9 Bolas Verde Amarelo: equilíbrio: a maioria do site precisa ser promoção
 - Bola De Padel Babolat Court - Pack Com 6 Tubos: equilíbrio: a maioria do site precisa ser promoção
 - Toalha Para Academia Fitness Appel Home Cor Prata: equilíbrio: a maioria do site precisa ser promoção
+- Toalha De Academia E Mão 33x50 Buettner Palmeiras Verde: equilíbrio: a maioria do site precisa ser promoção
 - Toalha Fitness Algodão Preto Domyos Pequena Absorvente Academia: equilíbrio: a maioria do site precisa ser promoção
-- Faixa Mini Band Liveup Sports Média Verde: equilíbrio: a maioria do site precisa ser promoção
+- Mala Treino Bolsa Academia Fitness Multiuso Everbags Preto: equilíbrio: a maioria do site precisa ser promoção
 - Cinto Trenó Líder Fit Preto Fita de Polipropileno para Crossfit: equilíbrio: a maioria do site precisa ser promoção
 - Bolsa Academia Viagem Maternidade Expansível Impermeável 30L Moderna: equilíbrio: a maioria do site precisa ser promoção
 - Conjunto Kukiê Bata E Calça Legging Canelado Verde Inverno Tamanho 08: equilíbrio: a maioria do site precisa ser promoção
 - Conjunto Blusa E Legging Estampada Ursos Meninas - Milon Cor Creme Tamanho 4: equilíbrio: a maioria do site precisa ser promoção
 - Bolsa Esportiva Feminina Dobrável Academia Viagem - Ideiaz Cor Branco: equilíbrio: a maioria do site precisa ser promoção
 - Bolsa de cintura esportiva, Bolsa esportiva com cinto elástico, laranja: equilíbrio: a maioria do site precisa ser promoção
+- Sacola Viagem Bolsa Academia Fitness Feminina Média Mala Bordô Lisa: equilíbrio: a maioria do site precisa ser promoção
 - Bolsa Academia Turma Da Mônica Cilíndrica 24x41 Cm: equilíbrio: a maioria do site precisa ser promoção
 - Bolsa Academia Feminina Pink Fitness Treino A Prova D'água Cor Azul-claro Desenho Do Tecid: equilíbrio: a maioria do site precisa ser promoção
 - Kit Bolsa Academia Unissex Média + Necessaire Grande Moderna Preto Lisa: equilíbrio: a maioria do site precisa ser promoção
@@ -1847,12 +1965,10 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Toalha De Academia E Mão 33x50 Buettner Inter Branco: equilíbrio: a maioria do site precisa ser promoção
 - Toalha de Rosto Academia Atlântica Azul-Marinho Algodão 80x30cm: equilíbrio: a maioria do site precisa ser promoção
 - Toalha Rosto Microfibra Refrescante Seca Rapido Fit Academia Azul Lisa: equilíbrio: a maioria do site precisa ser promoção
-- Mini Band - Faixa Elástica - Intensidade Leve: equilíbrio: a maioria do site precisa ser promoção
-- Exercitador Elástico Mini Band Médio - Arktus: equilíbrio: a maioria do site precisa ser promoção
-- Exercitador Elástico Mini Band Leve - Arktus: equilíbrio: a maioria do site precisa ser promoção
 - Mini Band Elástica Prottector Tensão Leve Azul: equilíbrio: a maioria do site precisa ser promoção
 - Exercitador Elástico Mini Band Extraforte - Arktus: equilíbrio: a maioria do site precisa ser promoção
 - Exercitador Elástico Mini Band Forte - Arktus: equilíbrio: a maioria do site precisa ser promoção
+- Roda Abdominal Everlast Cor Preto: equilíbrio: a maioria do site precisa ser promoção
 - Roda Abdominal T14 Acte Sports Preto: equilíbrio: a maioria do site precisa ser promoção
 - Roda Abdominal MBFit com Cabo Antiderrapante e 1 Roda: equilíbrio: a maioria do site precisa ser promoção
 - Whey Protein Fisionutri Chocolate - 900g: equilíbrio: a maioria do site precisa ser promoção
@@ -1863,6 +1979,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Whey Protein Adaptogen Tasty Whey Baunilha 900g Pó: equilíbrio: a maioria do site precisa ser promoção
 - Whey Protein Isolado -1kg Baunilha: equilíbrio: a maioria do site precisa ser promoção
 - Tornozeleira Ortopédica Estabilizador Tensor Ajustável Dor Cor Preto: equilíbrio: a maioria do site precisa ser promoção
+- Manguito Voleibol Muvin Compressão Antebraço Branco Tamanho G/GG: equilíbrio: a maioria do site precisa ser promoção
 - Par Tornozeleira Ortopédica Ajustável C/ Suporte Articulação: equilíbrio: a maioria do site precisa ser promoção
 - Bolsa Boccati Ice Bag Para 3 Garrafas E Gelo Vinho Champanhe Transparente: equilíbrio: a maioria do site precisa ser promoção
 - Tornozeleira Ortopédica Salvapé Softcast Air Nv Cor Branco Esquerda: equilíbrio: a maioria do site precisa ser promoção
@@ -1877,12 +1994,12 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bolsa Cooler 11 Litros Balde De Gelo Ice Bag Praia Cor Amarelo: equilíbrio: a maioria do site precisa ser promoção
 - Manguito Performance Mercur | Compressão Bilateral | Uv50 P Preto: equilíbrio: a maioria do site precisa ser promoção
 - Manguito Braçadeira De Compressão Com Efeito Climático P Bege: equilíbrio: a maioria do site precisa ser promoção
-- Manguito Manga Longa Branco Uv50+ Compressão Brk Térmico G Branco: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Massagem Cravo Carci Macia, Laranja 8cm: equilíbrio: a maioria do site precisa ser promoção
 - Bola De Massagem Sal Rosa Do Himalaia Terapêutica Premium: equilíbrio: a maioria do site precisa ser promoção
 - Bola Bolinha Lisa Massagem Fisioterapia Sorriso 6cm Cor Amarela: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Massagem Supermedy Mini Massage Ball Silicone Sortido: equilíbrio: a maioria do site precisa ser promoção
 - Bola De Massagem - 7cm Verde Citrico U: equilíbrio: a maioria do site precisa ser promoção
+- Bola Vôlei Vinil Durável Resistente Furos Voleibol: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei DRB Soft Touch Pro 3.0 Tamanho 5 Vôlei Praia Piscina: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei De Praia Mikasa Bv552c-wybr Amarelo: equilíbrio: a maioria do site precisa ser promoção
 - Boné Aba Curva Strapback Resina Emoji Calado Branco: equilíbrio: a maioria do site precisa ser promoção
@@ -1891,7 +2008,6 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Boné Aba Curva Liso Branco Ajustável de Poliéster: equilíbrio: a maioria do site precisa ser promoção
 - Boné Aba Curva Masculino Ajustável Esportivo Casual Verde Un: equilíbrio: a maioria do site precisa ser promoção
 - Boné Aba Curva Azul Branco Rapala Estampado Fecho Ajustável: equilíbrio: a maioria do site precisa ser promoção
-- Bola Volei Diadora Coloring Park - Cor Verde: equilíbrio: a maioria do site precisa ser promoção
 - Bola Volei De Praia Penalty Xxi: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei De Praia Pró Beach Penalty: equilíbrio: a maioria do site precisa ser promoção
 - Kit Bola Vôlei Veloster Orenji 06 Unidades Orenji: equilíbrio: a maioria do site precisa ser promoção
@@ -1909,6 +2025,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Futebol Campo Star Numero 5 Amarelo: equilíbrio: a maioria do site precisa ser promoção
 - Viseira Para Corrida Hupi Flores Verde Único Lisa: equilíbrio: a maioria do site precisa ser promoção
 - Overgrip Fita Cabo Raquete Tenis Wilson Ultra Wrap - 1 Unid Branco: equilíbrio: a maioria do site precisa ser promoção
+- Tira Silicone Óculos Natação Medinas Cor Transparente: equilíbrio: a maioria do site precisa ser promoção
 - Mochila Academia Leader Preto Poliéster Zíper À Prova D'Água 56x43cm: equilíbrio: a maioria do site precisa ser promoção
 - Albumina Proteína Uêvo Naturovos 1kg Pó Zero Lactose Baunilha: equilíbrio: a maioria do site precisa ser promoção
 - Munhequeira Head Grande Cor Preto: equilíbrio: a maioria do site precisa ser promoção
@@ -1917,40 +2034,41 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Cinta Lombar Degomaster Ergonômica Para Postura Ajustável M: equilíbrio: a maioria do site precisa ser promoção
 - Viseira De Corrida Competitor - Tyr Cor Branco Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
 - Halter Bola Emborrachado 5kg: equilíbrio: a maioria do site precisa ser promoção
-- Óculos Natação Arena Cobra Swipe Cor Vermelho: equilíbrio: a maioria do site precisa ser promoção
+- Oculos Natação Leader Swell Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 - Halter Bola Emborrachado 8kg: equilíbrio: a maioria do site precisa ser promoção
 - Halter Injetado Preto 10 Kg: equilíbrio: a maioria do site precisa ser promoção
 - Multivitamínico Mulher 60 Cápsulas: equilíbrio: a maioria do site precisa ser promoção
-- Kit 3 Pares Meia Esportiva Cano Médio Penalty X T 33-38 Cor Sortido Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa Térmica Gel Mercur 200g Pequena Quente Fria Compressa: equilíbrio: a maioria do site precisa ser promoção
 - Garrafa Térmica Uniterm Florença 650ml Chá Café Leite Cor Garrafa Termica Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Strap Fita 100% Algodão Reforçado Profissional Musculação Cor Preto: equilíbrio: a maioria do site precisa ser promoção
+- Corda Pular Aço Crossfit 3m Rolamento Profissional Speed Violeta: equilíbrio: a maioria do site precisa ser promoção
+- BCAA Dna Alimentos Cápsulas Sem Sabor: equilíbrio: a maioria do site precisa ser promoção
 - Cotoveleira Penalty Indoor: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Drop Shot Explorer 6.0 Bt 2025 + Cinza: equilíbrio: a maioria do site precisa ser promoção
-- Sacola Viagem Bolsa Academia Fitness Feminina Média Mala Rosa Lisa: equilíbrio: a maioria do site precisa ser promoção
 - Whey Protein 3w 900g Whey Nutra Growth Baunilha: equilíbrio: a maioria do site precisa ser promoção
 - Whey Protein FTW Delicious Whey Chocolate Sachê 30g: equilíbrio: a maioria do site precisa ser promoção
 - Whey Protein 3w 900g Whey Nutra Growth: equilíbrio: a maioria do site precisa ser promoção
+- Bolsa Gelo Compressa Térmica Gel Quente Fria Mercur 2 Unid: equilíbrio: a maioria do site precisa ser promoção
 - Relógio Garmin Fenix 7 Pro Solar Cinza C/ Pulseira Preta: equilíbrio: a maioria do site precisa ser promoção
 - Elástico Extensor Barcelona de 1.8m Com Gancho: equilíbrio: a maioria do site precisa ser promoção
 - Bolsa Mochila Academia Corrida Futebol Sem gênero: equilíbrio: a maioria do site precisa ser promoção
 - Relógio Garmin Forerunner 55 Monitor Cardíaco e Gps Mesh Branco: equilíbrio: a maioria do site precisa ser promoção
 - Toalha De Academia Karsten Pallas 30x90 Cm - 30272 Cinza: equilíbrio: a maioria do site precisa ser promoção
+- Whey Protein Double Protein Baunilha de FTW 900g: equilíbrio: a maioria do site precisa ser promoção
 - Whey Protein Concentrado Gold Whey Adaptogen 900g Chocolate: equilíbrio: a maioria do site precisa ser promoção
 - Boné Aba Curva Regulável Strapback Emoji Triste Azul-claro: equilíbrio: a maioria do site precisa ser promoção
 - Conjunto Agasalho Atlético Mineiro Galo Masculino Cor Preto/Dourado Tamanho GG: equilíbrio: a maioria do site precisa ser promoção
 - Boné Aba Curva Crown Laranja Masculino com Fechamento Ajustável: equilíbrio: a maioria do site precisa ser promoção
 - Bola Volei 6.0 Pró Penalty Profissional Mais Ilador Com: equilíbrio: a maioria do site precisa ser promoção
-- Bola Vôlei Elite/sky ELB2821 Praia e Quadra PVC Costurada: equilíbrio: a maioria do site precisa ser promoção
 - Bola Volei Praia Dm Sports Colorida Macia Costurada Em Pvc: equilíbrio: a maioria do site precisa ser promoção
-- Boné Corrida Trilha Salomon Shakeout Respiravel Térmico Cor Lilás Desenho Do Tecido Liso T: equilíbrio: a maioria do site precisa ser promoção
 - Relógio Garmin Forerunner 165 Amoled Branco Desenho Da Pulseira Mesh: equilíbrio: a maioria do site precisa ser promoção
 - Relógio Garmin Forerunner 965 Black 010-02809-00 Preto: equilíbrio: a maioria do site precisa ser promoção
-- Overgrip Head Xtreme Soft Individual Limão: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol Campo Topper Slick Ii: equilíbrio: a maioria do site precisa ser promoção
 - Growth Supplements Garrafa Squeeze shaker 600 ml unidad: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Xfloat - Fiberglass Verde Iniciante Verde: equilíbrio: a maioria do site precisa ser promoção
 - Raqueteira Babolat Rh12 Pure Drive Azul: equilíbrio: a maioria do site precisa ser promoção
 - Rolo De Massagem Liberação Miofascial Athletic Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
+- Chinelo Slide Stitch Disney Tamanho: equilíbrio: a maioria do site precisa ser promoção
 - Bola Basquete Wilson Mvp #7: equilíbrio: a maioria do site precisa ser promoção
 - Meia Esportiva Selene Masculina para Treino, Tamanho 39 a 43, Preto: equilíbrio: a maioria do site precisa ser promoção
 - Relogio Garmin Forerunner 170 Music Preto: equilíbrio: a maioria do site precisa ser promoção
@@ -1965,9 +2083,9 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Cinta Lombar Ergonômica Belt C900 com Suspensório Tamanho G: equilíbrio: a maioria do site precisa ser promoção
 - Chinelo Épico Slide Dia a Dia: equilíbrio: a maioria do site precisa ser promoção
 - Suporte Tornozelo Neoprene - Tornozeleira: equilíbrio: a maioria do site precisa ser promoção
-- Luva Goleiro Poker Versatile Profissional Cor Preto Tamanho 10: equilíbrio: a maioria do site precisa ser promoção
+- Luva Goleiro Poker Versatile Profissional Cor Preto Tamanho 9: equilíbrio: a maioria do site precisa ser promoção
+- Cinto Cinturão Rogue 5 Cross Lpo Powerlifting Musculação Tamanho Gg: equilíbrio: a maioria do site precisa ser promoção
 - Mini Band Leve Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Whey 100% Pure Baunilha 907g Integralmédica Whey Protein: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei Mormaii Beach Sports Vb500 Praia Homologada Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 - Raqueteira Varlion Ambassador 2023 Cor Bordô: equilíbrio: a maioria do site precisa ser promoção
 - Coqueteleira Pro (800ml) Dux: equilíbrio: a maioria do site precisa ser promoção
@@ -1976,33 +2094,37 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Pochete Corrida Celular Treino Exercícios Slim Impermeável Cor Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Pressurizador bola tenis/Pressurizador de bolas Recipiente Conserva Pressão Protege Bolas : equilíbrio: a maioria do site precisa ser promoção
 - Touca Natação Silicone B-Pop Adulto Preto Impermeável Universal: equilíbrio: a maioria do site precisa ser promoção
+- Conjunto De Agasalho Esportivo Penalty Pipe Masculino Tamanho Gg Confortável Para Treino E: equilíbrio: a maioria do site precisa ser promoção
 - Elástico Extensor Amarelo PPA Care com Alças: equilíbrio: a maioria do site precisa ser promoção
 - Kit Com 5 Overgrip adidas Branco: equilíbrio: a maioria do site precisa ser promoção
 - Tornozeleira Com Reforço P Mercur Preto: equilíbrio: a maioria do site precisa ser promoção
 - Kit 2 Halter 5Kg (Par) e 2 Halter 10Kg Emborrachado Musculação Academia Ferro Fundido: equilíbrio: a maioria do site precisa ser promoção
 - Caneleira Peso Kit 6kg (2 Un 3kg): equilíbrio: a maioria do site precisa ser promoção
+- Kit Rolo Liberação Miofascial Foam Roller E Bola de Massagem Yangfit: equilíbrio: a maioria do site precisa ser promoção
 - Cinta Lombar Performance Mercur Preta Ortopédica Com Hastes G: equilíbrio: a maioria do site precisa ser promoção
 - Kit Bola Tenis C 6 Unidades Tecnifibre Court Performance: equilíbrio: a maioria do site precisa ser promoção
+- Anilha 5kg Emborrachada Musculação Academia Treino Peso Anilha Halter Fitness Exercícios F: equilíbrio: a maioria do site precisa ser promoção
 - Boné Hupi Run Colors, Preto Para Corrida: equilíbrio: a maioria do site precisa ser promoção
 - Overgrip Wilson Pro Overgrip Pack com 60 Unidades Sortidas para Tênis: equilíbrio: a maioria do site precisa ser promoção
 - Conjunto Agasalho França Vinho Masculino G para Futebol Balboa: equilíbrio: a maioria do site precisa ser promoção
+- Tornozeleira Elástica De Compressão Ortopédica Ajustável: equilíbrio: a maioria do site precisa ser promoção
 - Caneleira de 8 kg Para Treino e Musculação FERDUOR: equilíbrio: a maioria do site precisa ser promoção
 - Coqueteleira Inox 750ml: equilíbrio: a maioria do site precisa ser promoção
 - Wey Protein - Whey Proten - Way Protein - Whey Protein Sabor Baunilha: equilíbrio: a maioria do site precisa ser promoção
 - Raquete Beach Tennis Heroes Starlight Carbono 3k Premium Pro Cor 2025: equilíbrio: a maioria do site precisa ser promoção
 - Cinto Cinturão Musculação Academia Lpo Lombar Odin Fit Tamanho Gg: equilíbrio: a maioria do site precisa ser promoção
-- Roda Abdominal - Funcional - Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Relógio Garmin Epix 2 de titânio e safira branca 47 mm: equilíbrio: a maioria do site precisa ser promoção
 - Cotoveleira Neoprene 06451 Cor Preto Tamanho G: equilíbrio: a maioria do site precisa ser promoção
 - Bola Pilates Yoga de 65 cm com Bomba para Ginástica Azul: equilíbrio: a maioria do site precisa ser promoção
+- Tapete Yoga Pilates Fitness Ginastica 1,70m X 60cm Preto: equilíbrio: a maioria do site precisa ser promoção
 - Bola Pilates Yoga Fisioterapia Ginastica Bomba 75cm S 300kg: equilíbrio: a maioria do site precisa ser promoção
 - Bola Pilates Yoga Donut Com Bomba Fisioterapia 45cm Liveup Cor Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Kit02 Suporte Bola Pilates Suiça + Parafuso E Buchas Reforça Cor Branco: equilíbrio: a maioria do site precisa ser promoção
-- Tênis New Balance 411v3 - adulto: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol Grama Society Penalty 8 X Termotec Cor Preto: equilíbrio: a maioria do site precisa ser promoção
-- Whey Protein Hyper Whey 900g Coco - Profit Laboratórios: equilíbrio: a maioria do site precisa ser promoção
+- Bone Aba Curva Fechado Essence Vermelho Unic: equilíbrio: a maioria do site precisa ser promoção
 - Kit 3 Pares Meia Esportiva Futsal Cano Médio Antiderrapante Cor Branco Tamanho 36-44: equilíbrio: a maioria do site precisa ser promoção
 - Bcaa 600g Trends Nutrition: equilíbrio: a maioria do site precisa ser promoção
+- BCAA Sabor Morango 100g XPro Nutrition: equilíbrio: a maioria do site precisa ser promoção
 - Touca Natação Nabaiji Silicone Tamanho Único Adulto Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Coqueteleira - 700ml Rosa - On: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Massagem Miofascial Lacrosse Pro 65mm Aikau Azul: equilíbrio: a maioria do site precisa ser promoção
@@ -2011,7 +2133,9 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Manguito Hupi Smart Com Compressão 1 Par Branco Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
 - Manguito de Compressão Free Force para Braço Laranja-Claro M: equilíbrio: a maioria do site precisa ser promoção
 - Overgrip Head Xtreme Soft Individual Branco: equilíbrio: a maioria do site precisa ser promoção
+- Meia Esportiva De Futebol Antiderrapante Treino Meias Vermelho: equilíbrio: a maioria do site precisa ser promoção
 - Meia Esportiva Penalty Movimento Individual T 39-44 Penalty Cor Preto Tamanho ÚNICO: equilíbrio: a maioria do site precisa ser promoção
+- Kit Garrafa Térmica Smart com Medidor de Temperatura LED e Relógio Digital: equilíbrio: a maioria do site precisa ser promoção
 - Cotoveleira Compressão Estabilizador Ortopédica Ajustável Unico Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Meião Futebol Delfia Indy Cor Marinho Tamanho Único: equilíbrio: a maioria do site precisa ser promoção
 - Bola Pilates 55cm Com Bomba Yoga Fitness Alongamento Azul: equilíbrio: a maioria do site precisa ser promoção
@@ -2020,29 +2144,34 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Beach Soccer Futebol Areia Praia Prime Futvolei Magussy: equilíbrio: a maioria do site precisa ser promoção
 - Pochete Corrida Olympikus Impermeável Para Celular Unissex Cor Preto: equilíbrio: a maioria do site precisa ser promoção
 - Touca Natação Lycra Unissex Proteção Uv Fpu 50: equilíbrio: a maioria do site precisa ser promoção
+- Touca Natação Silicone Speedo Flat Swin Cap Branco: equilíbrio: a maioria do site precisa ser promoção
 - Cotoveleira Neoprene Preto Gg - Uso Ortopédico: equilíbrio: a maioria do site precisa ser promoção
 - Bola Vôlei Dualt Vp2000 Mirim Treino E Recreação Azul/amarelo: equilíbrio: a maioria do site precisa ser promoção
+- Bola Futebol Puma Big Cat: equilíbrio: a maioria do site precisa ser promoção
 - Bola Pilates Pequena 25cm Yoga Pilates Fisioterapia Ioga Pvc Cor Vermelho: equilíbrio: a maioria do site precisa ser promoção
 - Rolo Bastão Massageador Manual Corporal Liberação Miofascial: equilíbrio: a maioria do site precisa ser promoção
+- Roda Abdominal Pro Everlast Preto: equilíbrio: a maioria do site precisa ser promoção
 - Conjunto De Blusão Com Legging Trick Nick Bege: equilíbrio: a maioria do site precisa ser promoção
 - Cinto Cinturão Gel Cross Lpo Lifting Musculação Prottector Cor Preto Tamanho P: equilíbrio: a maioria do site precisa ser promoção
 - Toalha Rosto Microfibra Refrescante Seca Rapido Academia Rosa: equilíbrio: a maioria do site precisa ser promoção
+- Fita Kinesio Bandagem Elástica Adesiva - Auxílio Muscular: equilíbrio: a maioria do site precisa ser promoção
 - Bola Suiça Pilates Massagem 75cm Hidrolight: equilíbrio: a maioria do site precisa ser promoção
-- Toalha De Academia Algodão Absorvente Fitness Teka Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futsal Dualt Recreativa Cor Azul: equilíbrio: a maioria do site precisa ser promoção
 - Strap Musculação Oito Muvin - 8 - Par - Aderência - Proteção Cor Cinza: equilíbrio: a maioria do site precisa ser promoção
-- Toalha de Academia Domyos Algodão Pequena Cinza 90x50cm: equilíbrio: a maioria do site precisa ser promoção
+- Touca Natação Piscina Mergulho Não Molha Cabelo Cor Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Kit 3 Peças Mini Band Elástico Hip Band Pro Hidrolight: equilíbrio: a maioria do site precisa ser promoção
 - Joelheira elástica, compressão, suporte ortopédico da patela, joelheira, compressão esport: equilíbrio: a maioria do site precisa ser promoção
-- Touca Natação Speedo Fastshark Profissional Ap. Fina 528840 Cor Preto: equilíbrio: a maioria do site precisa ser promoção
+- Fita Kinesio Sport Bandagem Rígida Fisioterapia Cor Preto: equilíbrio: a maioria do site precisa ser promoção
+- Pular corda Pular corda, pular corda com: equilíbrio: a maioria do site precisa ser promoção
+- Chinelo Masculino Go Consistent Skechers: equilíbrio: a maioria do site precisa ser promoção
 - 10 Balões Bola Futebol 22 Polegadas 56cm Decoração Bola Futebol: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futebol Campo Difai High Frequency Branco: equilíbrio: a maioria do site precisa ser promoção
 - Relogio Garmin Forerunner 165 Amoled Branco Bisel Preto: equilíbrio: a maioria do site precisa ser promoção
 - Garrafa Squeeze Lyor Verde 2l: equilíbrio: a maioria do site precisa ser promoção
+- Halter 24Kg Musculação Academia Treino Peso Anilha Halter Fitness Exercícios Físicos Espor: equilíbrio: a maioria do site precisa ser promoção
 - 02x Munhequeiras Pulso Toalha Preta Unissex Academia Vermelho Único: equilíbrio: a maioria do site precisa ser promoção
 - Coqueteleira Cobbler 500ml - Inox: equilíbrio: a maioria do site precisa ser promoção
 - Strap Fort Garras Starflex Preto Musculação Gancho Ajustável EVA: equilíbrio: a maioria do site precisa ser promoção
-- Munhequeira Inni Game Large Preta para Academia: equilíbrio: a maioria do site precisa ser promoção
 - Caneleira Peso 4kg Multifuncional Fisioterapia Lesão Dor Fit Preto: equilíbrio: a maioria do site precisa ser promoção
 - Cinta Lombar Lumbamed Basic Prata Feminino Medi Tamanho Iv: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Mizuno Morelia II Pro AS 41 Branco: equilíbrio: a maioria do site precisa ser promoção
@@ -2054,6 +2183,7 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Chuteira Society Mizuno Regent Club AS 44 Branco: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Mizuno Regent Club AS 44 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Mizuno Regent AS Junior 36 Azul: equilíbrio: a maioria do site precisa ser promoção
+- Chuteira Futsal Mizuno Alpha Club IN 44 Branco: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Futsal Mizuno Alpha Club IN 44 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Futsal Mizuno Regent Club IN 44 Azul: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Futsal Mizuno Regent Club IN 44 Branco: equilíbrio: a maioria do site precisa ser promoção
@@ -2068,13 +2198,11 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Chuteira de Campo Mizuno Alpha Club MD 44 Branco: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Mizuno Alpha Club MD 44 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Mizuno Morelia Classic MD 44 Branco: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Society Adulto Nike Phantom 6 Low Acad NU3: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Society Adulto Nike Tiempo Legend 10 Club: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira de Society Adulto adidas Predator Essentials: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Society Adulto adidas Kaká Predator League: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Society Adulto Puma Future 9 Play: equilíbrio: a maioria do site precisa ser promoção
+- Chuteira Society Adulto adidas F50 Club: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Adulto Puma Future 9 Match BDP: equilíbrio: a maioria do site precisa ser promoção
+- Chuteira Society Adulto Puma Ultra 7 Play: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Adulto Penalty Matis Y3: equilíbrio: a maioria do site precisa ser promoção
+- Chuteira Society Adulto Mizuno Morelia Club AS: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Mizuno Regent AS Junior 36 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Mizuno Alpha Club AS: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Mizuno Morelia II Pro AS 42 Preto: equilíbrio: a maioria do site precisa ser promoção
@@ -2083,23 +2211,15 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Chuteira Society Mizuno Morelia II Pro 39 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Mizuno Morelia Club AS 44 Branco: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Society Mizuno Morelia Club AS 44 Preto: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Futsal Adulto Nike Phantom II Academy: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Futsal Adulto Nike Phantom 6 Club: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Futsal Adulto adidas Artilheira Predator: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Futsal Adulto adidas F50 Club: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Futsal Adulto Umbro Pro 5 Stable Shark: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Futsal Umbro Pro 5 Bump Club - Adulto: equilíbrio: a maioria do site precisa ser promoção
+- Chuteira Futsal Adulto adidas Predator 25 Essentials: equilíbrio: a maioria do site precisa ser promoção
+- Chuteira Futsal Adulto Umbro Class Neo Fiery: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Futsal Adulto Penalty Evolution Club Locker Y-1: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Futsal Adulto Penalty Max Evolution Locker Y-1: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Futsal Adulto Penalty Bravo Y30: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Futsal Adulto Penalty Storm Y-3: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Futsal Adulto Joma Top Flex: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira Futsal Adulto Joma Liga 5: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira de Campo Adulto Nike Tiempo Ligera Pro: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira de Campo Adulto adidas Predator Elite Jude Bellingham: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira de Campo Adulto adidas Predator Essentials 26.5: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Adulto adidas Predator Essentials: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira de Campo Adulto Mizuno Morelia Classic MD: equilíbrio: a maioria do site precisa ser promoção
+- Chuteira de Campo Adulto Puma Ultra 6 Play: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Adulto Mizuno Morelia II Japan MD: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Mizuno Alpha III Japan - Unissex: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Mizuno Morelia II Japan MD 44 Azul: equilíbrio: a maioria do site precisa ser promoção
@@ -2112,16 +2232,12 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Chuteira de Campo Mizuno Morelia II Pro 44 Branco: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Adulto Umbro Attak Eternal: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Adulto Umbro Class Neo: equilíbrio: a maioria do site precisa ser promoção
+- Chuteira de Campo Adulto Umbro Class Footballer: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Adulto Umbro Adamant Master Class Pro: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Adulto Umbro Adamant Top Speed: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira de Campo Adulto Umbro Heatmap: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Adulto Umbro Invictus: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira de Campo Adulto Umbro Techno II: equilíbrio: a maioria do site precisa ser promoção
 - Chuteira de Campo Adulto Nike Phantom 6 Club: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira de Campo Adulto Nike Phantom 360 Elite: equilíbrio: a maioria do site precisa ser promoção
-- Chuteira Society Adulto Nike Erling Haaland Phantom 6 Academy: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futsal Nike Maestro: equilíbrio: a maioria do site precisa ser promoção
-- Bola de Futebol adidas Copa do Mundo da FIFA 26™ Trionda Club: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Penalty 8 X: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futsal Penalty Rx 500 XXIII: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futsal Adams: equilíbrio: a maioria do site precisa ser promoção
@@ -2133,30 +2249,25 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Bola Futsal Penalty 8 Edição Especial: equilíbrio: a maioria do site precisa ser promoção
 - Bola Futsal Umbro Neo Swerve: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Adams: equilíbrio: a maioria do site precisa ser promoção
-- Bola Society Penalty Líder XXV: equilíbrio: a maioria do site precisa ser promoção
+- Bola Society Penalty Lider XXVI: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Puma Libertadores: equilíbrio: a maioria do site precisa ser promoção
-- Bola Society Penalty 8 XXV: equilíbrio: a maioria do site precisa ser promoção
 - Bola Society Penalty Edição Especial 8: equilíbrio: a maioria do site precisa ser promoção
-- Bola de Futebol Society uhlsport Aerotrack: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol Nike Academy: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol de Campo Nike Academy T90 Metallic: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol de Campo Nike Phantom FA25: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol Nike Pitch Team: equilíbrio: a maioria do site precisa ser promoção
 - Bola Nike CBF Academy SP26: equilíbrio: a maioria do site precisa ser promoção
-- Bola de Futebol adidas UCL Club League Stage: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol adidas Trionda Oficial da Copa do Mundo FIFA 2026 – League com Caixa: equilíbrio: a maioria do site precisa ser promoção
 - Bola adidas UEFA Champions League Final Club: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol de Campo adidas UCL CLB: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Treino adidas UEFA Champions League: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol adidas UEFA Champions League: equilíbrio: a maioria do site precisa ser promoção
-- Minibola adidas UCL Champions League: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol adidas Copa do Mundo da FIFA 26™ Trionda League: equilíbrio: a maioria do site precisa ser promoção
 - Bola De Futebol de Campo Penalty Brasil 70 R1 XXIII: equilíbrio: a maioria do site precisa ser promoção
-- Bola De Futebol De Campo Penalty Bravo XXV: equilíbrio: a maioria do site precisa ser promoção
-- Bola de Futevôlei Penalty Altinha XXI: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol de Campo Penalty MAG11A R3 XXVI: equilíbrio: a maioria do site precisa ser promoção
 - Minibola Penalty MAG11A T50 XXVI: equilíbrio: a maioria do site precisa ser promoção
 - Bola de Futebol de Campo Penalty 8 Edição Especial: equilíbrio: a maioria do site precisa ser promoção
+- Meião Puma Liga Socks Core - Adulto: equilíbrio: a maioria do site precisa ser promoção
 - Meião de Futebol Mizuno Morelia 35-38 Azul: equilíbrio: a maioria do site precisa ser promoção
 - Meião de Futebol Mizuno Morelia 39-42 Branco: equilíbrio: a maioria do site precisa ser promoção
 - Meião de Futebol Mizuno Morelia 43-45 Preto: equilíbrio: a maioria do site precisa ser promoção
@@ -2172,11 +2283,11 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Caneleira Oxer Peso 1 kg 1 Par: equilíbrio: a maioria do site precisa ser promoção
 - Caneleira Oxer Peso 2 kg 1 Par: equilíbrio: a maioria do site precisa ser promoção
 - Caneleira Oxer Peso 3 kg 1 Par: equilíbrio: a maioria do site precisa ser promoção
-- Luvas de Goleiro Adams Júnior: equilíbrio: a maioria do site precisa ser promoção
 - Luvas de Goleiro UHLsport Powerline Starter Soft Adulto: equilíbrio: a maioria do site precisa ser promoção
 - Luvas de Goleiro Poker Futsal Training Neo: equilíbrio: a maioria do site precisa ser promoção
 - Luvas de Goleiro Umbro Neo Club Adulto: equilíbrio: a maioria do site precisa ser promoção
-- Tênis adidas Supernova Stride W - Feminino: equilíbrio: a maioria do site precisa ser promoção
+- Tênis Fila Kr6 Frame Feminino: equilíbrio: a maioria do site precisa ser promoção
+- Tênis Mizuno Wave Prophecy 8 - Feminino: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Feminino Mizuno Wave Prorunner 25 34 Azul: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Feminino Mizuno Wave Sky 6 38 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Feminino Mizuno Wave Rider 28 39 Verde: equilíbrio: a maioria do site precisa ser promoção
@@ -2192,26 +2303,24 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 - Tênis de Corrida Masculino Mizuno Wave Rebellion Sonic 43 Branco: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Masculino Mizuno Wave Neo Ultra 44 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Masculino Mizuno Wave Neo Wind 39 Preto: equilíbrio: a maioria do site precisa ser promoção
+- Tênis de Corrida Mizuno Enigma 2 34 Rosa: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Mizuno Atlantis 2 44 Azul: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Mizuno Atlantis 2 40 Cinza: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Mizuno Atlantis 2 40 Rosa: equilíbrio: a maioria do site precisa ser promoção
-- Tênis de Corrida Mizuno Wave SKY 9 44 Cinza: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Mizuno Neo Aura Knit 44 Azul: equilíbrio: a maioria do site precisa ser promoção
-- Tênis de Corrida Mizuno Neo Aura Knit 44 Bege: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Mizuno Wave Prophecy 14-S 38 Preto: equilíbrio: a maioria do site precisa ser promoção
+- Tênis Under Armour Charged Quicker 2 Masculino: equilíbrio: a maioria do site precisa ser promoção
 - Tênis Mizuno Wave Rider 10 Vainl Archive 44 Marrom: equilíbrio: a maioria do site precisa ser promoção
 - Tênis Mizuno Wave Prophecy Morelia Neo 44 Prata: equilíbrio: a maioria do site precisa ser promoção
+- Tênis Mizuno Wave Prophecy 15 44 Azul: equilíbrio: a maioria do site precisa ser promoção
 - Tênis de Corrida Mizuno Wave Inspire 22 40 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Tênis Mizuno Wave Prophecy 15 SE 44 Preto: equilíbrio: a maioria do site precisa ser promoção
 - Tênis Mizuno Wave Prophecy LS Vrunk 44 Azul: equilíbrio: a maioria do site precisa ser promoção
 - Tênis Olympikus Corre Grafeno 2 40 Laranja: equilíbrio: a maioria do site precisa ser promoção
 - Tênis Corre 3 Maratona Poa Olympikus 34 Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Olympikus Corre Trilha 2 44 Azul: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Olympikus Corre Trilha 2 34 Laranja: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Olympikus Corre Trilha 2 34 Preto: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Olympikus Corre Max: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Olympikus Corre Max 41 Cinza: equilíbrio: a maioria do site precisa ser promoção
-- Tênis Olympikus Corre Max 40 Verde: equilíbrio: a maioria do site precisa ser promoção
+- Tênis Masculino adidas Ultraboost 5x: equilíbrio: a maioria do site precisa ser promoção
+- Tênis Masculino adidas Ultraboost Strung 5: equilíbrio: a maioria do site precisa ser promoção
+- Tênis Masculino On Running Cloudvista 3 M: equilíbrio: a maioria do site precisa ser promoção
+- Shorts de Corrida Mizuno Hing 2 x1 Feminino P Preto: equilíbrio: a maioria do site precisa ser promoção
 - Short de Corrida Mizuno New Runner Feminino: equilíbrio: a maioria do site precisa ser promoção
 - Shorts de Corrida Mizuno High 2 X 1 Feminino P Azul: equilíbrio: a maioria do site precisa ser promoção
 - Short de Corrida Mizuno Active 2 em 1 Feminino GG Azul: equilíbrio: a maioria do site precisa ser promoção
@@ -2223,27 +2332,19 @@ Lojas ligadas: Mercado Livre, Awin (Nike, adidas, Centauro...).
 
 ## Rejeitadas (por motivo principal)
 
-- 248× desconto suspeito
-- 13× reputação do vendedor baixa
+- 255× desconto suspeito
+- 11× reputação do vendedor baixa
 
 ## Avisos
 
-- Awin: a lista de feeds tem 954 feed(s): Needs No Label (Not Joined), Super Genius Society (Not Joined), Doulton (Not Joined), Foreverlyfe (Not Joined), GreatBeanBags.com (Not Joined), Back to the Office (Not Joined), isletan (Not Joined), Atenai London Affiliation Marketing (Not Joined), ZONLIHOME (US) (Not Joined), LUXDRAPE (Not Joined), Fila UK (Not Joined), kemoway (Not Joined), Glamory (Not Joined), MakeID (Not Joined), Marketing program (Not Joined), NeuroScent (Not Joined), buybeautykorea (Not Joined), Belord (Not Joined), Game Over (Not Joined), Gardenista (Not Joined), No.98 Beauty (Not Joined), UUNA TEK Affliate Program (Not Joined), Finitex (Not Joined), ZazzMode (Not Joined), The Brush & Broom (Not Joined), shopify (Not Joined), Raw Beauty Lab (Not Joined), So Divine (Not Joined), Bad Shirt Club (Not Joined), Fitness Options (Not Joined), Celebre Store (Not Joined), garden sanctuary. (Not Joined), Afewvibe LTD (Not Joined), HongKong Caesar lmport &amp; Export Co., Limited (Not Joined), StepMotech (Not Joined), goettgen.de - Das grosse Schmuck und Uhrenportal (Not Joined), HCK REFRIGERATOR HI-TECH COMPANY LIMITED (Not Joined), OLAOLA (Not Joined), Beyond Memories (Not Joined), Yeamon Beauty (Not Joined), Earkings NL (Not Joined), Cheap Furniture Warehouse (Not Joined), Cerqular (Not Joined), Elenker (Not Joined), NorthSky Supply (Not Joined), Yeloly (Not Joined), Edify (Not Joined), Will & Bear (Not Joined), Vatrer (Not Joined), Thesupermade Inc (Not Joined), Craft Buddy Shop (Not Joined), Twist (Not Joined), Ahipos Horses (Not Joined), Blooh (Not Joined), Lir Pharmacy (Not Joined), Max Recovery Clothing (Not Joined), Wellshave (Not Joined), Living with Luxury (Not Joined), SELDOM SEEN STYLES (Not Joined), PartyPro NL (Not Joined), Pixie Dixie (Not Joined), VSGO (Not Joined), ASMAX (Not Joined), UPPER Brand | Best Diaper Bag (Not Joined), MASON New York Jewelry (Not Joined), Mason & Madison Co. Jewelry - US (Not Joined), Biobees (Not Joined), TouchBeauty (Not Joined), Juntos Affiliates (Not Joined), Azomalli Tea (Not Joined), JOLTBOLT (Not Joined), Everdry official affiliate (Not Joined), Red Run (Not Joined), Scottish Fine Soaps UK (Not Joined), LOTFLY - lotflycare.com (Not Joined), Pro Espresso (Not Joined), Fazari (Not Joined), Coziwow (Not Joined), AEKE PR (Not Joined), WOSPORTS (Not Joined), Bella Maison USA Affiliate Program (Not Joined), Pawp Culture (Not Joined), Mint Outdoor (Not Joined), dowinx (Not Joined), Giftomory (Not Joined), ATOTO (Not Joined), Hula Daddy Kona Coffee (Not Joined), Watch Enclave Affiliate Programme (Not Joined), InStock UK (Not Joined), FLOWSTEAM (Not Joined), The Foam People (Not Joined), Fra' Mani (Not Joined), SONNI Affiliate Program (Not Joined), Lets Buy Books (Not Joined), TRONTTI TECHNOLOGY CO. LIMITED (Not Joined), Boxed2me (Not Joined), ShadowGPS (Not Joined), SUNJOY EU (Not Joined), SUNJOY UK (Not Joined), ROCKBROS (Not Joined), AKKO UK (Not Joined), Mojo Fun (Not Joined), Extreme Comfort (Not Joined), The Sleep People (Not Joined), Starlight Beds (Not Joined), Sitpack (Not Joined), Layermor (Not Joined), Mirlux Spiegels Affiliate (Not Joined), Artless Forever (Not Joined), Opulensi Perfumes Lattafa Sapil Anfar (Not Joined), hugmoom curtains (Not Joined), COLAMY (Not Joined), Magicshine (Not Joined), PawFurEver (Not Joined), Curo Skin (Not Joined), Andyanand US (Not Joined), Sinocare (Not Joined), Geepas Partner Program (Not Joined), yesshop (Not Joined), Breck and Grier (Not Joined), MOJAWA, LLC (Not Joined), INGNOK (Not Joined), LuxeCosy DE (Not Joined), Thrivous (Not Joined), Ready Steady Bed (Not Joined), The Vintage Realm (Not Joined), Joyrealtoys (Not Joined), LifeVibe (Not Joined), Kingbull Bike (Not Joined), L'Uomo e La Donna IT (Not Joined), Brookwood Med (Not Joined), Paw Up (Not Joined), Bigfoot Kick (Not Joined), Alorair the dry air (Not Joined), Poster Master US (Not Joined), Harfi (Not Joined), Cyseekin (Not Joined), Lectron (Not Joined), Wasserstein (Not Joined), All Oils (Not Joined), Super Area Rugs (Not Joined), OKUN (Not Joined), Traverseon (Not Joined), Monsterpub Sex Toy (Not Joined), Viaduct Clothing (Not Joined), Wilt-Affiliates (Not Joined), Juicy Couture UK (Not Joined), WAU (Not Joined), Finediam (Not Joined), Casa Moro DE (Not Joined), More Than Matcha (Not Joined), Tastee (Not Joined), RitFitness (Not Joined), PlanetFoot (Not Joined), Truthbrush (Not Joined), Simpletics (Not Joined), AfricanNetSponge (Not Joined), iYofe (Not Joined), StarSleep (Not Joined), euhomy (Not Joined), intlbuys (Not Joined), HeimGlueck (Not Joined), Companion Candles (Not Joined), Myvella - at Home Beauty spa (Not Joined), FansJerseyHub (Not Joined), Manuka Valley (Not Joined), Kerzen Pfeilstetter (Not Joined), Bartuke (Not Joined), Auter (Not Joined), Wallshoppe (Not Joined), Argendon Crawlspace & commercial dehumidifier (Not Joined), Eydology (Not Joined), Active Silver (Not Joined), Godestar (Not Joined), Cocinare Limited (Not Joined), FLOWERFIX (Not Joined), Cottsbury (Not Joined), Mosaic Weighted Blankets (Not Joined), mamaraya (Not Joined), Fan Ink (Not Joined), SPIEZ (Not Joined), DATOUBOSS (Not Joined), Bodycross (FR) (Not Joined), Fun Fact Co. (Not Joined), Blitec DE (Not Joined), Deme by Gabriella (Not Joined), ZONVEER (Not Joined), Blade Infiniti Affiliate Program (Not Joined), Hamxi (Not Joined), HOMO NATURALS (Not Joined), Makerfire (Not Joined), sitre (Not Joined), Capricorn Baby (Not Joined), https://www.soloredlight.com/ (Not Joined), Parfivo (Not Joined), Ma Lin (Not Joined), Wonder Hoodie Inc (Not Joined), Spacelift Creators (Not Joined), balarugs (Not Joined), MONÉ UK Affiliate Programme (Not Joined), Noirgaze Affiliate (Not Joined), EXG Pro (Not Joined), wanayou (Not Joined), Steam & Oak (Not Joined), Dermlane Affiliate (US) (Not Joined), SnoreLessNow (Not Joined), Natures Way DE (Not Joined), SafeFort (UK) (Not Joined), Ophelia Eternity Jewelry (Not Joined), Ashaki (Not Joined), Gemone Diamonds Official Affiliate Program (Not Joined), Vixxar Skincare (Not Joined), Dima Eyewear (US) (Not Joined), Orebella (Not Joined), metfine (Not Joined), Moskera (Not Joined), MontAmour (Not Joined), Medella Springs (Not Joined), SIRUI Optical GmbH (Not Joined), Affiliates - Spoiled Brat (Not Joined), Shopping Ads: Google & Bing (Not Joined), EntoZoo (Not Joined), Some Slight Clothing (Not Joined), OneStreet (Not Joined), WheelXL.com (Not Joined), Susan Caplan (Not Joined), monvane (Not Joined), Thierry Lasry (Not Joined), Tu Mando Circle (Not Joined), Bonheur de lune (Not Joined), Five Star Direct (Not Joined), Angel Barocco (Not Joined), myCord | Bracelet Lab (Not Joined), Huizbirn - Holzdeko von René Riebenbauer (Not Joined), Tietie Bike (Not Joined), Sparklar (Not Joined), Perfumeria Comas FR (Not Joined), Natkina (Not Joined), Elevinix Lab Promotion (Not Joined), LOOMY Home (Not Joined), aotos (Not Joined), Miles Jewellery (Not Joined), Atlas Knife Co (US) (Not Joined), Serika (Not Joined), Imarku (Not Joined), BeyPan Store (Not Joined), Rafarada (Not Joined), Ancestral&Natural skincare (PT) (Not Joined), Ying Mart (Not Joined), Christmas Mystery (Not Joined), Peremis Partners (Not Joined), Escobar Cigars (Not Joined), King & Country (Not Joined), Sonjas Apotek (Not Joined), Wilder Botanics (Not Joined), Tat Aura (Not Joined), NORVEXA ADVISORY LTD (Not Joined), POPY TRADE DE (Not Joined), Eusphera (Not Joined), eFans Direct (Not Joined), LightsLux (Not Joined), Giantmart.com Affiliate Program (Not Joined), MALOA (Not Joined), Monarch Market (Not Joined), Homespace Direct (Not Joined), Decorbites Decor and furniture (Not Joined), Purr and Mutt (Not Joined), Lumiere Hair (Not Joined), Bell's Reines (Not Joined), Zilch (Not Joined), CozySpiritStudio INTL (Not Joined), THEGATHER (Not Joined), Strapsicle (Not Joined), Mr Farts (Not Joined), Everyday Hair (US) (Not Joined), Beauti Outlet (Not Joined), Deluvia Skincare and Cosmetics (Not Joined), Artree Design (Not Joined), Bluebells Flora Florist (Not Joined), METZ (Not Joined), BELTBUY (Not Joined), Grundig Auto (Not Joined), Jax CPA Campaign (Not Joined), Optimum Nutrition UK (Not Joined), CrazyDeelz (Not Joined), Tactical X Gear (Not Joined), TulipArt (Not Joined), The Gerry Anderson Store (Not Joined), Luregod (DE) (Not Joined), OOSSXX (Not Joined), Cotidié (Not Joined), Handbags Infinity Fashion (Not Joined), Pro-Camera (Not Joined), balmyou.naturkosmetik DE (Not Joined), Carraro BR (Not Joined), Wilna Kitchen (Not Joined), intimatify affiliate program (Not Joined), CurvelleBody (Not Joined), Home On Center (Not Joined), Pudgy Penguins (Not Joined), Parasite Cancer Connection (US) (Not Joined), Grove Flower & Toys Affiliate (Not Joined), Mizawe (Not Joined), Aloe Vera Luxury – Affiliate Launch Program (Not Joined), The Norevain (Not Joined), SecretKnit (US) (Not Joined), femme (Not Joined), Grozavu (Not Joined), Greenera (UK) (Not Joined), EMOKO BIKE (Not Joined), WATCH & WATCH (Not Joined), World Businesses for Sale (Not Joined), Mibro (Not Joined), BioGaia (Not Joined), MonsterPiercing -Quality Piercing Jewellery (Not Joined), T1L FURTHER NOTICE (Not Joined), Laud Sleep (Not Joined), SheSpot Sexual Wellness (Not Joined), Brass Eye (Not Joined), Stattics (Not Joined), PERLETTI - OMBRELLI PER PASSIONE IT (Not Joined), Yose Power DE (Not Joined), Lumy Health (Not Joined), ERGONOVA (Not Joined), Smugglers Crate (Not Joined), Geek Crate (Not Joined), Dean Morris Cards (Not Joined), Mowrator DE (Not Joined), SneakerMood (Not Joined), Skingineered Cosmetics (Not Joined), Poedagar (FR) (Not Joined), Olea True (Not Joined), Pixel Corner FR (Not Joined), Mibro FR (Not Joined), DRBO Greenenergy (DE) (Not Joined), ScarletDarkness (US) (Not Joined), ABCCANOPY Affiliate Program (Not Joined), Retouch Global (Not Joined), Shopozze (Not Joined), soillar autoparts (Not Joined), RvDesigner Fashion (Not Joined), Elah Ring (Not Joined), ELYSEE 1960 (Not Joined), Appzelio shop (Not Joined), Ella Skye (Not Joined), Haurangi (Not Joined), Advance7 (Not Joined), Wolf Sleep (Not Joined), The Candy Source (Not Joined), diykitnest (Not Joined), BB-Essentials.nl (Not Joined), Lightsin UK (Not Joined), InterRose (Not Joined), Bunches.co.uk (Not Joined), Tooled Up (Not Joined), Cadbury Gifts Direct (Not Joined), TV Cables (Not Joined), Sport and Leisure UK (Not Joined), Theatre Tickets Direct (Not Joined), Chargrilled (Not Joined), Simply LED (Not Joined), Lights 4 Living (Not Joined), Fiszki PL (Not Joined), AliExpress PL (Not Joined), Legimi PL (Not Joined), Tirendo UK (Not Joined), Plusshop SE (Not Joined), Profichemie.com DE (Not Joined), getgoods DE (Not Joined), Modellbau-Universe - die Adresse für Modellbau (Not Joined), Monbento.com (Not Joined), Nike BR (active), Olympikus BR (active), Centauro BR (active), Fut Fanatics BR (active), CBD Armour (Not Joined), Botanycl (Not Joined), babista.ch (Not Joined), Weneve PL (Not Joined), HIVITAL (Not Joined), Muscle Research Legal Anabolics (Not Joined), Flowers & Plants Co. (Not Joined), Converse PL (Not Joined), DAX PL (Not Joined), InterGard tuinartikelen NL (Not Joined), Matten Welt DE (Not Joined), Yellowtipi PL (Not Joined), Ecosusi Fashion (US) (Not Joined), Fußmatten-Welt DE (Not Joined), CHIKO (US) (Not Joined), Sportdirect.ca (Canada) (Not Joined), Workout For Less (Not Joined), BlackboxMeats (US) (Not Joined), BlazeVideo DE (Not Joined), Nature's Skin And Body Food (US) (Not Joined), Doctor Blooms (Not Joined), Webbs Motorcycles (Not Joined), Plusshop IE (Not Joined), Bare Kind Bamboo Socks (Not Joined), 8wines DACH (Not Joined), Diamondsmile DE (Not Joined), Eonon (US) (Not Joined), Petcube (US) (Not Joined), Bazta SE (Not Joined), Boogie Bounce Fitness Rebounders (Not Joined), Bazta BE (Not Joined), Bazta NL (Not Joined), Legal Muscle Anabolics (Not Joined), Earthly Co. (Not Joined), Pets Calm Down (Not Joined), Medicross-Labs DE (Not Joined), Workliving NL (Not Joined), Cut Plastic Sheeting (Not Joined), Rowabi (Not Joined), Santoro Milan (Not Joined), SODEAL CH (Not Joined), Kokoso Baby (Not Joined), Custom Splashbacks (Not Joined), Mizuno BR (active), Revolution Soft (Not Joined), FineBuy - Möbel zum Wohlfühlen DE (Not Joined), aZengear (Not Joined), Cocktail Crates (Not Joined), Vegairoa (Not Joined), Bellerei Hundezubehör DE (Not Joined), logo-matten DE (Not Joined), APE BORN Fitness (Not Joined), Gemax DE (Not Joined), isinwheel.ES (Not Joined), La Drogueria de Percon (Not Joined), Vivtone hearing (Not Joined), BlazeVideo FR (Not Joined), Dunford, Inc. (Not Joined), My Mini Maker (Not Joined), AKKO IT (Not Joined), AKKO FR (Not Joined), Plusshop UK (Not Joined), Brandsaver NL (Not Joined), Brandsaver BE (Not Joined), Venustein DE (Not Joined), Caterboss (Not Joined), Just Pleasure (Not Joined), Dream Interiors (Not Joined), Kadax PL (Not Joined), Apex S1 affiliates (Not Joined), Shower Blocks (Not Joined), Aperturee (Not Joined), Gains Nutrition (Not Joined), AlphaBiolabs US (Not Joined), T.LUXY (Not Joined), New Marine IT (Not Joined), Nothingprojector (Not Joined), SOLO-Kleinmotoren DE (Not Joined), Svensson (Not Joined), Mvolo (Not Joined), Petlibro UK Affiliate Program (Not Joined), DAME (Not Joined), SA Aligners (Not Joined), TrophyCentral (Not Joined), SuperBox (Not Joined), Happy Days Factory Flowers (Not Joined), Star Wurst Grillschürzen DE (Not Joined), 4kidsonly (Not Joined), Ceragem DE (Not Joined), Sanitair Online NL (Not Joined), THE MAGPIE DE (Not Joined), MOH (Not Joined), Brian James (Not Joined), ISOQAR Academy (Not Joined), Amazgifts DE (Not Joined), www.diecastmodelswholesale.com (Not Joined), Flowers Fast.com-Send Flowers Same Day Delivery (Not Joined), Everywhere Chair LLC (Not Joined), Wondershare Global Limited (Not Joined), PandaHall (Not Joined), uCloudlink America Ltd. (Not Joined), Shenzhen Shibao Jewelry Co., Ltd. (Not Joined), Food valley SRL (Not Joined), Ottocast (Not Joined), Shenzhen Mintion technology co., ltd (Not Joined), Dragonhawk (Not Joined), DGW-NL (Not Joined), Skirting King UK (Not Joined), SKINWORK (Not Joined), Goedkoopste-Kantoorartikelen NL (Not Joined), Alberto Nardoni Affiliate Program US (Not Joined), Emensuits Affiliate Program US (Not Joined), Silver Cloud Beauty (Not Joined), Netzwerkartikel.de (Not Joined), io Gut Health (Not Joined), 4x4 Predator (Not Joined), Japspeed UK (Not Joined), 1st Class Cigar Humidors (Not Joined), 8wines UK (Not Joined), Alianças Imperiais BR (Not Joined), Unipolar DE (Not Joined), MyBeauty.Boutique (Not Joined), Dowinx (EU) (Not Joined), Clovis Calçados BR (Not Joined), Besselink Licht (Not Joined), LENA Nail Polish (Not Joined), VETEXPERT Tiergesundheit AT (Not Joined), Legale Lover BR (Not Joined), Printerval (Not Joined), Kuishi (Not Joined), Milk Bar Babystore (Not Joined), Bern Helmets (UK) (Not Joined), Modmo (Not Joined), Nasopia ES (Not Joined), BBBGEM (Not Joined), Enable Accessible Haircare Products (Not Joined), Monsgeek EU (Not Joined), Macian (Not Joined), Clubfarma IT (Not Joined), The Yoga Friends DE (Not Joined), MIMMTI (Not Joined), Moderne Raamdecoratie Groep (Not Joined), Luxe Mattress Affiliation (Not Joined), Ecotalk (Not Joined), 9PHX RACING (Not Joined), Marco Cerullo (Not Joined), Bouclème (Not Joined), Fri som en fågel (Not Joined), LUMIPIA (Not Joined), ANITA & ZAHA (Not Joined), Kaytea (Not Joined), eSIMania.com - Buy eSIM for International Travel (Not Joined), Plusshop FI (Not Joined), Mustard Seed (Not Joined), Outdoor Queen DE (Not Joined), Bazta IE (Not Joined), Bazta UK (Not Joined), Santean Bracelets (Not Joined), Watches Of USA (Not Joined), Database Mart (Not Joined), Guenda (Not Joined), Embossed Graphics (Not Joined), Clone of Perfume (Not Joined), Fashiontamers US (Not Joined), Qumi (Not Joined), Xiaomi RO (Not Joined), elvishredlight (Not Joined), Lauri Esporte (active), Kunstige-stearinlys (Not Joined), Bazta FI (Not Joined), Illadelph Spirits (Not Joined), Proimage B.V. (NL) (Not Joined), Deluxehomeartshop SE (Not Joined), SK-LED (Not Joined), Ahipos Horses DE (Not Joined), Deluxehomeartshop FR (Not Joined), Deluxehomeartshop NL (Not Joined), Deluxehomeartshop DE (Not Joined), DoctorQuality (Not Joined), Omara Jewelry (Not Joined), Watch Enclave (Not Joined), iBstone (Not Joined), Afiliados Galícia Educação (Not Joined), TurboTech Co. (Not Joined), GamingKit (Not Joined), COLORDIAMONDS LED MASK (Not Joined), AML Travel and Tours (Not Joined), ALZOO (Not Joined), Superior Play Systems (Not Joined), bdr-beauty DE (Not Joined), licencjapro.pl (Not Joined), Body Body (Not Joined), Social Stories Club (UK) (Not Joined), Al Jazeera Perfumes EU (Not Joined), knitfirst (Not Joined), EfuiHarlley (Not Joined), PCHUB.UK (Not Joined), Exypna (Not Joined), Luxefashion Clothing (Not Joined), Celsius Herbs (Not Joined), DailyDiet.Online Subscription (Not Joined), EngageBay CRM (Not Joined), Medical CGI Central Partner Program (Not Joined), Aussui Affiliate Programme (UK) (Not Joined), Bauernladenhelene (Not Joined), Plugins-for-Wordpress (Not Joined), Elixir Garden Supplies (Not Joined), braingood (Not Joined), Omara Jewelry (ES) (Not Joined), Regina Andrew Detroit (Not Joined), MONÉ UK (Not Joined), Fang Accessories (Not Joined), Bazta DK (Not Joined), Bazta IT (Not Joined), Al Jazeera Perfumes UK (Not Joined), Plusshop IT (Not Joined), Sokken-Online (Not Joined), SIRUI Optical GmbH (DE) (Not Joined), Bennimarceau.com (Not Joined), parfumbella (Not Joined), Dr. Alan Bauman (US) (Not Joined), LIKA (Not Joined), Huizbirn - Holzdeko von René Riebenbauer (DE) (Not Joined), Kidzincolor (Not Joined), GRABO (Not Joined), SPORTPARTNERS.IT (Not Joined), MoreThisWay (Not Joined), Herbs by Sonja (Not Joined), Aquatics Shop (UK) (Not Joined), Cufflinks Gift Hub (UK) (Not Joined), Baccus (UK) (Not Joined), MATMAY (Not Joined), Kaufbei.de Partnerprogramm AWIN (Not Joined), Chaussettes-en-ligne.fr/ (FR) (Not Joined), Strumpor-online.se/ (Not Joined), Socken-online.de (Not Joined), Booking Radar (Not Joined), intimatify affiliate program (US) (Not Joined), Pirate Weasel (Not Joined), ANCHOR & CREW (Not Joined), Plan B Rentals (Not Joined), Nutriseed (Not Joined), Turnaa eSIM (Not Joined), Magic Gram (Not Joined), Scento Germany (Not Joined), OGStreetwear Affiliate Program (Not Joined), eSIM For U (Not Joined), PaintMySoul (Not Joined), BRND COLLECTION (Not Joined), Al Jazeera Perfumes USAffiliate Program (Not Joined), Dogevera (Not Joined), RapidCore Bio (US) (Not Joined), adel.de (Not Joined), Herbs by Sonja DE (Not Joined).
-- Awin: feed de Nike BR lido (atualizado em 2026-11-20 15:16:33): 5013 produtos de esporte, 3123 em estoque com desconto de 15%+.
-- Awin: feed de Nike BR lido (atualizado em 2026-11-20 16:04:40): 5013 produtos de esporte, 0 em estoque com desconto de 15%+.
-- Awin: feed de Olympikus BR lido (atualizado em 2026-11-20 15:16:51): 6569 produtos de esporte, 0 em estoque com desconto de 15%+.
-- Awin: feed de Centauro BR lido (atualizado em 2026-11-20 16:19:05): 37162 produtos de esporte, 0 em estoque com desconto de 15%+.
+- Awin: a lista de feeds tem 955 feed(s): Needs No Label (Not Joined), Super Genius Society (Not Joined), Doulton (Not Joined), Foreverlyfe (Not Joined), GreatBeanBags.com (Not Joined), Back to the Office (Not Joined), isletan (Not Joined), Atenai London Affiliation Marketing (Not Joined), ZONLIHOME (US) (Not Joined), LUXDRAPE (Not Joined), Fila UK (Not Joined), kemoway (Not Joined), Glamory (Not Joined), MakeID (Not Joined), Marketing program (Not Joined), NeuroScent (Not Joined), buybeautykorea (Not Joined), Belord (Not Joined), Game Over (Not Joined), Gardenista (Not Joined), No.98 Beauty (Not Joined), UUNA TEK Affliate Program (Not Joined), Finitex (Not Joined), ZazzMode (Not Joined), The Brush & Broom (Not Joined), shopify (Not Joined), Raw Beauty Lab (Not Joined), So Divine (Not Joined), Bad Shirt Club (Not Joined), Fitness Options (Not Joined), Celebre Store (Not Joined), garden sanctuary. (Not Joined), Afewvibe LTD (Not Joined), HongKong Caesar lmport &amp; Export Co., Limited (Not Joined), StepMotech (Not Joined), goettgen.de - Das grosse Schmuck und Uhrenportal (Not Joined), HCK REFRIGERATOR HI-TECH COMPANY LIMITED (Not Joined), OLAOLA (Not Joined), Beyond Memories (Not Joined), Yeamon Beauty (Not Joined), Earkings NL (Not Joined), Cheap Furniture Warehouse (Not Joined), Cerqular (Not Joined), Elenker (Not Joined), NorthSky Supply (Not Joined), Yeloly (Not Joined), Edify (Not Joined), Will & Bear (Not Joined), Vatrer (Not Joined), Thesupermade Inc (Not Joined), Craft Buddy Shop (Not Joined), Twist (Not Joined), Ahipos Horses (Not Joined), Blooh (Not Joined), Lir Pharmacy (Not Joined), Max Recovery Clothing (Not Joined), Wellshave (Not Joined), Living with Luxury (Not Joined), SELDOM SEEN STYLES (Not Joined), PartyPro NL (Not Joined), Pixie Dixie (Not Joined), VSGO (Not Joined), ASMAX (Not Joined), UPPER Brand | Best Diaper Bag (Not Joined), MASON New York Jewelry (Not Joined), Mason & Madison Co. Jewelry - US (Not Joined), Biobees (Not Joined), TouchBeauty (Not Joined), Juntos Affiliates (Not Joined), Azomalli Tea (Not Joined), JOLTBOLT (Not Joined), Everdry official affiliate (Not Joined), Red Run (Not Joined), Scottish Fine Soaps UK (Not Joined), LOTFLY - lotflycare.com (Not Joined), Pro Espresso (Not Joined), Fazari (Not Joined), Coziwow (Not Joined), AEKE PR (Not Joined), WOSPORTS (Not Joined), Bella Maison USA Affiliate Program (Not Joined), Pawp Culture (Not Joined), Mint Outdoor (Not Joined), dowinx (Not Joined), Giftomory (Not Joined), ATOTO (Not Joined), Hula Daddy Kona Coffee (Not Joined), Watch Enclave Affiliate Programme (Not Joined), InStock UK (Not Joined), FLOWSTEAM (Not Joined), The Foam People (Not Joined), Fra' Mani (Not Joined), SONNI Affiliate Program (Not Joined), Lets Buy Books (Not Joined), TRONTTI TECHNOLOGY CO. LIMITED (Not Joined), Boxed2me (Not Joined), ShadowGPS (Not Joined), SUNJOY EU (Not Joined), SUNJOY UK (Not Joined), ROCKBROS (Not Joined), AKKO UK (Not Joined), Mojo Fun (Not Joined), Extreme Comfort (Not Joined), The Sleep People (Not Joined), Starlight Beds (Not Joined), Sitpack (Not Joined), Layermor (Not Joined), Mirlux Spiegels Affiliate (Not Joined), Artless Forever (Not Joined), Opulensi Perfumes Lattafa Sapil Anfar (Not Joined), hugmoom curtains (Not Joined), COLAMY (Not Joined), Magicshine (Not Joined), PawFurEver (Not Joined), Curo Skin (Not Joined), Andyanand US (Not Joined), Sinocare (Not Joined), Geepas Partner Program (Not Joined), yesshop (Not Joined), Breck and Grier (Not Joined), MOJAWA, LLC (Not Joined), INGNOK (Not Joined), LuxeCosy DE (Not Joined), Thrivous (Not Joined), Ready Steady Bed (Not Joined), The Vintage Realm (Not Joined), Joyrealtoys (Not Joined), LifeVibe (Not Joined), Kingbull Bike (Not Joined), L'Uomo e La Donna IT (Not Joined), Brookwood Med (Not Joined), Paw Up (Not Joined), Bigfoot Kick (Not Joined), Alorair the dry air (Not Joined), Poster Master US (Not Joined), Harfi (Not Joined), Cyseekin (Not Joined), Lectron (Not Joined), Wasserstein (Not Joined), All Oils (Not Joined), Super Area Rugs (Not Joined), OKUN (Not Joined), Traverseon (Not Joined), Monsterpub Sex Toy (Not Joined), Viaduct Clothing (Not Joined), Wilt-Affiliates (Not Joined), Juicy Couture UK (Not Joined), WAU (Not Joined), Finediam (Not Joined), Casa Moro DE (Not Joined), More Than Matcha (Not Joined), Tastee (Not Joined), RitFitness (Not Joined), PlanetFoot (Not Joined), Truthbrush (Not Joined), Simpletics (Not Joined), AfricanNetSponge (Not Joined), iYofe (Not Joined), StarSleep (Not Joined), euhomy (Not Joined), intlbuys (Not Joined), HeimGlueck (Not Joined), Companion Candles (Not Joined), Myvella - at Home Beauty spa (Not Joined), FansJerseyHub (Not Joined), Manuka Valley (Not Joined), Kerzen Pfeilstetter (Not Joined), Bartuke (Not Joined), Auter (Not Joined), Wallshoppe (Not Joined), Argendon Crawlspace & commercial dehumidifier (Not Joined), Eydology (Not Joined), Active Silver (Not Joined), Godestar (Not Joined), Cocinare Limited (Not Joined), FLOWERFIX (Not Joined), Cottsbury (Not Joined), Mosaic Weighted Blankets (Not Joined), mamaraya (Not Joined), Fan Ink (Not Joined), SPIEZ (Not Joined), DATOUBOSS (Not Joined), Bodycross (FR) (Not Joined), Fun Fact Co. (Not Joined), Blitec DE (Not Joined), Deme by Gabriella (Not Joined), ZONVEER (Not Joined), Blade Infiniti Affiliate Program (Not Joined), Hamxi (Not Joined), HOMO NATURALS (Not Joined), Makerfire (Not Joined), sitre (Not Joined), Capricorn Baby (Not Joined), https://www.soloredlight.com/ (Not Joined), Parfivo (Not Joined), Ma Lin (Not Joined), Wonder Hoodie Inc (Not Joined), Spacelift Creators (Not Joined), balarugs (Not Joined), MONÉ UK Affiliate Programme (Not Joined), Noirgaze Affiliate (Not Joined), EXG Pro (Not Joined), wanayou (Not Joined), Steam & Oak (Not Joined), Dermlane Affiliate (US) (Not Joined), SnoreLessNow (Not Joined), Natures Way DE (Not Joined), SafeFort (UK) (Not Joined), Ophelia Eternity Jewelry (Not Joined), Ashaki (Not Joined), Gemone Diamonds Official Affiliate Program (Not Joined), Vixxar Skincare (Not Joined), Dima Eyewear (US) (Not Joined), Orebella (Not Joined), metfine (Not Joined), Moskera (Not Joined), MontAmour (Not Joined), Medella Springs (Not Joined), SIRUI Optical GmbH (Not Joined), Affiliates - Spoiled Brat (Not Joined), Shopping Ads: Google & Bing (Not Joined), EntoZoo (Not Joined), Some Slight Clothing (Not Joined), OneStreet (Not Joined), WheelXL.com (Not Joined), Susan Caplan (Not Joined), monvane (Not Joined), Thierry Lasry (Not Joined), Tu Mando Circle (Not Joined), Bonheur de lune (Not Joined), Five Star Direct (Not Joined), Angel Barocco (Not Joined), myCord | Bracelet Lab (Not Joined), Huizbirn - Holzdeko von René Riebenbauer (Not Joined), Tietie Bike (Not Joined), Sparklar (Not Joined), Perfumeria Comas FR (Not Joined), Natkina (Not Joined), Elevinix Lab Promotion (Not Joined), LOOMY Home (Not Joined), aotos (Not Joined), Miles Jewellery (Not Joined), Atlas Knife Co (US) (Not Joined), Serika (Not Joined), Imarku (Not Joined), BeyPan Store (Not Joined), Rafarada (Not Joined), Ancestral&Natural skincare (PT) (Not Joined), Ying Mart (Not Joined), Christmas Mystery (Not Joined), Peremis Partners (Not Joined), Escobar Cigars (Not Joined), King & Country (Not Joined), Sonjas Apotek (Not Joined), Wilder Botanics (Not Joined), Tat Aura (Not Joined), NORVEXA ADVISORY LTD (Not Joined), POPY TRADE DE (Not Joined), Eusphera (Not Joined), eFans Direct (Not Joined), LightsLux (Not Joined), Giantmart.com Affiliate Program (Not Joined), MALOA (Not Joined), Monarch Market (Not Joined), Homespace Direct (Not Joined), Decorbites Decor and furniture (Not Joined), Purr and Mutt (Not Joined), Lumiere Hair (Not Joined), Bell's Reines (Not Joined), Zilch (Not Joined), CozySpiritStudio INTL (Not Joined), THEGATHER (Not Joined), Strapsicle (Not Joined), Mr Farts (Not Joined), Everyday Hair (US) (Not Joined), Beauti Outlet (Not Joined), Deluvia Skincare and Cosmetics (Not Joined), Artree Design (Not Joined), Bluebells Flora Florist (Not Joined), METZ (Not Joined), BELTBUY (Not Joined), Grundig Auto (Not Joined), Jax CPA Campaign (Not Joined), Optimum Nutrition UK (Not Joined), CrazyDeelz (Not Joined), Tactical X Gear (Not Joined), TulipArt (Not Joined), The Gerry Anderson Store (Not Joined), Luregod (DE) (Not Joined), OOSSXX (Not Joined), Cotidié (Not Joined), Handbags Infinity Fashion (Not Joined), Pro-Camera (Not Joined), balmyou.naturkosmetik DE (Not Joined), Carraro BR (Not Joined), Wilna Kitchen (Not Joined), intimatify affiliate program (Not Joined), CurvelleBody (Not Joined), Home On Center (Not Joined), Pudgy Penguins (Not Joined), Parasite Cancer Connection (US) (Not Joined), Grove Flower & Toys Affiliate (Not Joined), Mizawe (Not Joined), Aloe Vera Luxury – Affiliate Launch Program (Not Joined), The Norevain (Not Joined), SecretKnit (US) (Not Joined), femme (Not Joined), Grozavu (Not Joined), Greenera (UK) (Not Joined), EMOKO BIKE (Not Joined), WATCH & WATCH (Not Joined), World Businesses for Sale (Not Joined), Mibro (Not Joined), BioGaia (Not Joined), MonsterPiercing -Quality Piercing Jewellery (Not Joined), T1L FURTHER NOTICE (Not Joined), Laud Sleep (Not Joined), SheSpot Sexual Wellness (Not Joined), Brass Eye (Not Joined), Stattics (Not Joined), PERLETTI - OMBRELLI PER PASSIONE IT (Not Joined), Yose Power DE (Not Joined), Lumy Health (Not Joined), ERGONOVA (Not Joined), Smugglers Crate (Not Joined), Geek Crate (Not Joined), Dean Morris Cards (Not Joined), Mowrator DE (Not Joined), SneakerMood (Not Joined), Skingineered Cosmetics (Not Joined), Poedagar (FR) (Not Joined), Olea True (Not Joined), Pixel Corner FR (Not Joined), Mibro FR (Not Joined), DRBO Greenenergy (DE) (Not Joined), ScarletDarkness (US) (Not Joined), ABCCANOPY Affiliate Program (Not Joined), Retouch Global (Not Joined), Shopozze (Not Joined), soillar autoparts (Not Joined), RvDesigner Fashion (Not Joined), Elah Ring (Not Joined), ELYSEE 1960 (Not Joined), Appzelio shop (Not Joined), Ella Skye (Not Joined), Haurangi (Not Joined), Advance7 (Not Joined), Wolf Sleep (Not Joined), The Candy Source (Not Joined), diykitnest (Not Joined), BB-Essentials.nl (Not Joined), Lightsin UK (Not Joined), REVO (Not Joined), InterRose (Not Joined), Bunches.co.uk (Not Joined), Tooled Up (Not Joined), Cadbury Gifts Direct (Not Joined), TV Cables (Not Joined), Sport and Leisure UK (Not Joined), Theatre Tickets Direct (Not Joined), Chargrilled (Not Joined), Simply LED (Not Joined), Lights 4 Living (Not Joined), Fiszki PL (Not Joined), AliExpress PL (Not Joined), Legimi PL (Not Joined), Tirendo UK (Not Joined), Plusshop SE (Not Joined), Profichemie.com DE (Not Joined), getgoods DE (Not Joined), Modellbau-Universe - die Adresse für Modellbau (Not Joined), Monbento.com (Not Joined), Nike BR (active), Olympikus BR (active), Centauro BR (active), Fut Fanatics BR (active), CBD Armour (Not Joined), Botanycl (Not Joined), babista.ch (Not Joined), Weneve PL (Not Joined), HIVITAL (Not Joined), Muscle Research Legal Anabolics (Not Joined), Flowers & Plants Co. (Not Joined), Converse PL (Not Joined), DAX PL (Not Joined), InterGard tuinartikelen NL (Not Joined), Matten Welt DE (Not Joined), Yellowtipi PL (Not Joined), Ecosusi Fashion (US) (Not Joined), Fußmatten-Welt DE (Not Joined), CHIKO (US) (Not Joined), Sportdirect.ca (Canada) (Not Joined), Workout For Less (Not Joined), BlackboxMeats (US) (Not Joined), BlazeVideo DE (Not Joined), Nature's Skin And Body Food (US) (Not Joined), Doctor Blooms (Not Joined), Webbs Motorcycles (Not Joined), Plusshop IE (Not Joined), Bare Kind Bamboo Socks (Not Joined), 8wines DACH (Not Joined), Diamondsmile DE (Not Joined), Eonon (US) (Not Joined), Petcube (US) (Not Joined), Bazta SE (Not Joined), Boogie Bounce Fitness Rebounders (Not Joined), Bazta BE (Not Joined), Bazta NL (Not Joined), Legal Muscle Anabolics (Not Joined), Earthly Co. (Not Joined), Pets Calm Down (Not Joined), Medicross-Labs DE (Not Joined), Workliving NL (Not Joined), Cut Plastic Sheeting (Not Joined), Rowabi (Not Joined), Santoro Milan (Not Joined), SODEAL CH (Not Joined), Kokoso Baby (Not Joined), Custom Splashbacks (Not Joined), Mizuno BR (active), Revolution Soft (Not Joined), FineBuy - Möbel zum Wohlfühlen DE (Not Joined), aZengear (Not Joined), Cocktail Crates (Not Joined), Vegairoa (Not Joined), Bellerei Hundezubehör DE (Not Joined), logo-matten DE (Not Joined), APE BORN Fitness (Not Joined), Gemax DE (Not Joined), isinwheel.ES (Not Joined), La Drogueria de Percon (Not Joined), Vivtone hearing (Not Joined), BlazeVideo FR (Not Joined), Dunford, Inc. (Not Joined), My Mini Maker (Not Joined), AKKO IT (Not Joined), AKKO FR (Not Joined), Plusshop UK (Not Joined), Brandsaver NL (Not Joined), Brandsaver BE (Not Joined), Venustein DE (Not Joined), Caterboss (Not Joined), Just Pleasure (Not Joined), Dream Interiors (Not Joined), Kadax PL (Not Joined), Apex S1 affiliates (Not Joined), Shower Blocks (Not Joined), Aperturee (Not Joined), Gains Nutrition (Not Joined), AlphaBiolabs US (Not Joined), T.LUXY (Not Joined), New Marine IT (Not Joined), Nothingprojector (Not Joined), SOLO-Kleinmotoren DE (Not Joined), Svensson (Not Joined), Mvolo (Not Joined), Petlibro UK Affiliate Program (Not Joined), DAME (Not Joined), SA Aligners (Not Joined), TrophyCentral (Not Joined), SuperBox (Not Joined), Happy Days Factory Flowers (Not Joined), Star Wurst Grillschürzen DE (Not Joined), 4kidsonly (Not Joined), Ceragem DE (Not Joined), Sanitair Online NL (Not Joined), THE MAGPIE DE (Not Joined), MOH (Not Joined), Brian James (Not Joined), ISOQAR Academy (Not Joined), Amazgifts DE (Not Joined), www.diecastmodelswholesale.com (Not Joined), Flowers Fast.com-Send Flowers Same Day Delivery (Not Joined), Everywhere Chair LLC (Not Joined), Wondershare Global Limited (Not Joined), PandaHall (Not Joined), uCloudlink America Ltd. (Not Joined), Shenzhen Shibao Jewelry Co., Ltd. (Not Joined), Food valley SRL (Not Joined), Ottocast (Not Joined), Shenzhen Mintion technology co., ltd (Not Joined), Dragonhawk (Not Joined), DGW-NL (Not Joined), Skirting King UK (Not Joined), SKINWORK (Not Joined), Goedkoopste-Kantoorartikelen NL (Not Joined), Alberto Nardoni Affiliate Program US (Not Joined), Emensuits Affiliate Program US (Not Joined), Silver Cloud Beauty (Not Joined), Netzwerkartikel.de (Not Joined), io Gut Health (Not Joined), 4x4 Predator (Not Joined), Japspeed UK (Not Joined), 1st Class Cigar Humidors (Not Joined), 8wines UK (Not Joined), Alianças Imperiais BR (Not Joined), Unipolar DE (Not Joined), MyBeauty.Boutique (Not Joined), Dowinx (EU) (Not Joined), Clovis Calçados BR (Not Joined), Besselink Licht (Not Joined), LENA Nail Polish (Not Joined), VETEXPERT Tiergesundheit AT (Not Joined), Legale Lover BR (Not Joined), Printerval (Not Joined), Kuishi (Not Joined), Milk Bar Babystore (Not Joined), Bern Helmets (UK) (Not Joined), Modmo (Not Joined), Nasopia ES (Not Joined), BBBGEM (Not Joined), Enable Accessible Haircare Products (Not Joined), Monsgeek EU (Not Joined), Macian (Not Joined), Clubfarma IT (Not Joined), The Yoga Friends DE (Not Joined), MIMMTI (Not Joined), Moderne Raamdecoratie Groep (Not Joined), Luxe Mattress Affiliation (Not Joined), Ecotalk (Not Joined), 9PHX RACING (Not Joined), Marco Cerullo (Not Joined), Bouclème (Not Joined), Fri som en fågel (Not Joined), LUMIPIA (Not Joined), ANITA & ZAHA (Not Joined), Kaytea (Not Joined), eSIMania.com - Buy eSIM for International Travel (Not Joined), Plusshop FI (Not Joined), Mustard Seed (Not Joined), Outdoor Queen DE (Not Joined), Bazta IE (Not Joined), Bazta UK (Not Joined), Santean Bracelets (Not Joined), Watches Of USA (Not Joined), Database Mart (Not Joined), Guenda (Not Joined), Embossed Graphics (Not Joined), Clone of Perfume (Not Joined), Fashiontamers US (Not Joined), Qumi (Not Joined), Xiaomi RO (Not Joined), elvishredlight (Not Joined), Lauri Esporte (active), Kunstige-stearinlys (Not Joined), Bazta FI (Not Joined), Illadelph Spirits (Not Joined), Proimage B.V. (NL) (Not Joined), Deluxehomeartshop SE (Not Joined), SK-LED (Not Joined), Ahipos Horses DE (Not Joined), Deluxehomeartshop FR (Not Joined), Deluxehomeartshop NL (Not Joined), Deluxehomeartshop DE (Not Joined), DoctorQuality (Not Joined), Omara Jewelry (Not Joined), Watch Enclave (Not Joined), iBstone (Not Joined), Afiliados Galícia Educação (Not Joined), TurboTech Co. (Not Joined), GamingKit (Not Joined), COLORDIAMONDS LED MASK (Not Joined), AML Travel and Tours (Not Joined), ALZOO (Not Joined), Superior Play Systems (Not Joined), bdr-beauty DE (Not Joined), licencjapro.pl (Not Joined), Body Body (Not Joined), Social Stories Club (UK) (Not Joined), Al Jazeera Perfumes EU (Not Joined), knitfirst (Not Joined), EfuiHarlley (Not Joined), PCHUB.UK (Not Joined), Exypna (Not Joined), Luxefashion Clothing (Not Joined), Celsius Herbs (Not Joined), DailyDiet.Online Subscription (Not Joined), EngageBay CRM (Not Joined), Medical CGI Central Partner Program (Not Joined), Aussui Affiliate Programme (UK) (Not Joined), Bauernladenhelene (Not Joined), Plugins-for-Wordpress (Not Joined), Elixir Garden Supplies (Not Joined), braingood (Not Joined), Omara Jewelry (ES) (Not Joined), Regina Andrew Detroit (Not Joined), MONÉ UK (Not Joined), Fang Accessories (Not Joined), Bazta DK (Not Joined), Bazta IT (Not Joined), Al Jazeera Perfumes UK (Not Joined), Plusshop IT (Not Joined), Sokken-Online (Not Joined), SIRUI Optical GmbH (DE) (Not Joined), Bennimarceau.com (Not Joined), parfumbella (Not Joined), Dr. Alan Bauman (US) (Not Joined), LIKA (Not Joined), Huizbirn - Holzdeko von René Riebenbauer (DE) (Not Joined), Kidzincolor (Not Joined), GRABO (Not Joined), SPORTPARTNERS.IT (Not Joined), MoreThisWay (Not Joined), Herbs by Sonja (Not Joined), Aquatics Shop (UK) (Not Joined), Cufflinks Gift Hub (UK) (Not Joined), Baccus (UK) (Not Joined), MATMAY (Not Joined), Kaufbei.de Partnerprogramm AWIN (Not Joined), Chaussettes-en-ligne.fr/ (FR) (Not Joined), Strumpor-online.se/ (Not Joined), Socken-online.de (Not Joined), Booking Radar (Not Joined), intimatify affiliate program (US) (Not Joined), Pirate Weasel (Not Joined), ANCHOR & CREW (Not Joined), Plan B Rentals (Not Joined), Nutriseed (Not Joined), Turnaa eSIM (Not Joined), Magic Gram (Not Joined), Scento Germany (Not Joined), OGStreetwear Affiliate Program (Not Joined), eSIM For U (Not Joined), PaintMySoul (Not Joined), BRND COLLECTION (Not Joined), Al Jazeera Perfumes USAffiliate Program (Not Joined), Dogevera (Not Joined), RapidCore Bio (US) (Not Joined), adel.de (Not Joined), Herbs by Sonja DE (Not Joined).
+- Awin: feed de Nike BR lido (atualizado em 2026-11-21 15:16:33): 4937 produtos de esporte, 3071 em estoque com desconto de 15%+.
+- Awin: feed de Nike BR lido (atualizado em 2026-11-21 16:03:57): 4937 produtos de esporte, 0 em estoque com desconto de 15%+.
+- Awin: feed de Olympikus BR lido (atualizado em 2026-11-21 15:03:38): 6548 produtos de esporte, 0 em estoque com desconto de 15%+.
+- Awin: feed de Centauro BR lido (atualizado em 2026-11-21 16:16:58): 38787 produtos de esporte, 0 em estoque com desconto de 15%+.
 - Awin: o catálogo de Fut Fanatics BR não é atualizado desde 2026-05-15 14:00:44; fica fora do site até a loja atualizar (preço velho não pode).
-- Awin: feed de Mizuno BR lido (atualizado em 2026-11-20 16:04:43): 9914 produtos de esporte, 0 em estoque com desconto de 15%+.
-- Awin: feed de Lauri Esporte lido (atualizado em 2026-11-20 14:22:46): 2484 produtos de esporte, 196 em estoque com desconto de 15%+.
-- Mercado Livre, busca "cropped fitness": 429 em https://api.mercadolibre.com/products/search: {"status":429,"message":"local_rate_limited"}
-
-- Mercado Livre, busca "corda de pular": 429 em https://api.mercadolibre.com/products/search: {"status":429,"message":"local_rate_limited"}
-
-- Mercado Livre, busca "bandagem boxe": 429 em https://api.mercadolibre.com/products/search: {"message":"local_rate_limited","status":429}
-
-- Mercado Livre, busca "tênis de vôlei": 429 em https://api.mercadolibre.com/products/search: {"message":"local_rate_limited","status":429}
-
+- Awin: feed de Mizuno BR lido (atualizado em 2026-11-21 16:02:28): 9888 produtos de esporte, 0 em estoque com desconto de 15%+.
+- Awin: feed de Lauri Esporte lido (atualizado em 2026-11-21 14:08:21): 2473 produtos de esporte, 193 em estoque com desconto de 15%+.
 
 ## Limitações conhecidas
 
